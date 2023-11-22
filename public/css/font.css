@@ -1,0 +1,26 @@
+@font-face {
+    font-family: 'Mulish-ExtraBold';
+    src: url("/Fonts/Mulish-ExtraBold.ttf");
+}
+
+@font-face {
+    font-family: 'Cabin-Medium';
+    src: url("/Fonts/Cabin-Medium.ttf");
+}
+
+@font-face {
+    font-family: 'iCielBegum';
+    src: url("/Fonts/iCielBegum.otf");
+}
+
+.mulish-extrabold {
+    font-family: 'Mulish-ExtraBold', sans-serif;
+}
+
+.cabin-medium {
+    font-family: 'Cabin-Medium', sans-serif;
+}
+
+.icielbegum {
+    font-family: 'iCielBegum', sans-serif;
+}
