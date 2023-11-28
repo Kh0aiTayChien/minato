@@ -1,0 +1,24 @@
+.sec7-v-hp-pc {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("/images/homepage/sec7-v/Group 98.png");
+}
+
+.header-sec7-v-hp {
+    padding-top: 15%;
+    color: white;
+    font-size: 30px;
+}
+
+.header2-sec7-v-hp {
+    color: #D8AB67;
+    font-size: 50px;
+}
+.btn-sec7-v-hp {
+    width: 15vw;
+    height: 5vh;
+    background-color: #D8AB67;
+}
