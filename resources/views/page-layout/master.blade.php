@@ -32,11 +32,10 @@
     <link href="{{asset('/css/header.css')}}" rel="stylesheet">
     <link href="{{asset('/css/footer.css')}}" rel="stylesheet">
     <link href="{{asset('/css/font.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/homepage/section-1.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/homepage/section-2.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/homepage/section-3.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/homepage/section4.css')}}" rel="stylesheet">
-    <link href="{{asset('/css/homepage/section5.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/homepage/sec2.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/homepage/sec3.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/homepage/sec7-v.css')}}" rel="stylesheet">
+
     <style>
         body {
             overflow-x: hidden;
@@ -47,6 +46,6 @@
 <body>
 @include('page-layout/header')
 @yield('section')
-@include('page-layout/footer')
+{{--@include('page-layout/footer')--}}
 </body>
 </html>
