@@ -1,0 +1,58 @@
+.sec2-HP-pc {
+    background-image: url("/images/homepage/sec2/Group 101.png");
+    background-size: contain;
+    padding-bottom: 5%;
+}
+
+.row-test {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-sec2-hp-1 {
+    transform: translateX(14%);
+}
+
+.img-sec2-hp-2 {
+    transform: translateX(-14%);
+}
+
+.header-first-line-hp {
+    color: white;
+    font-size: 20px;
+}
+
+.header-second-line-hp {
+    color: #D8AB67;
+    font-size: 40px;
+    line-height: 35px;
+}
+
+.text-hp {
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
+
+.co-header-css {
+    margin-left: 12%;
+}
+
+.first-text-hp {
+    margin-left: 15%;
+}
+
+.header-content2-sec2-hp {
+    text-align: right;
+    justify-content: right;
+}
+
+.text1-content2-sec2-hp {
+    margin-top: 10%;
+}
+
+.btn-content2-sec2-hp {
+    text-align: right;
+}
