@@ -1,5 +1,5 @@
 .section-1{
-    height: 88.5vh;
+
     overflow: hidden;
 }
 .img-slide {
@@ -23,9 +23,9 @@
     width: 80%;
 }
 .carousel-indicators [data-bs-target]{
-    background-color: #fff; /* Màu nền trắng cho dot không active */
-    border: 2px solid #F5CE00; /* Viền vàng cho dot không active */
-    color: white; /* Màu chữ vàng cho dot không active */
+    background-color: transparent; /* Màu nền trắng cho dot không active */
+    border: 2px solid #fff; /* Viền trắng cho dot không active */
+    color: white; /* Màu chữ trắng cho dot không active */
     padding: 3px;
     width: 2px; /* Đường kính của dot */
     height: 2px; /* Đường kính của dot */
@@ -33,7 +33,7 @@
     cursor: pointer;
 }
 .carousel-indicators .active{
-    background-color: #F5CE00; /* Màu nền vàng cho dot active */
-    border-color: #F5CE00; /* Viền vàng cho dot active */
+    background-color: #fff; /* Màu nền trắng cho dot active */
+    border-color: #fff; /* Viền trắng cho dot active */
     color: transparent; /* Màu chữ trắng cho dot active */
 }

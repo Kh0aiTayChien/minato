@@ -1,56 +1,5 @@
-@font-face {
-    font-family: 'Mulish-ExtraBold';
-    src: url("/Fonts/Mulish-ExtraBold.ttf");
-}
-
-@font-face {
-    font-family: 'Mulish-Medium';
-    src: url("/Fonts/Mulish-Medium.ttf");
-}
-
-@font-face {
-    font-family: 'Mulish-Black';
-    src: url("/Fonts/Mulish-Black.ttf");
-}
-
-@font-face {
-    font-family: 'Mulish-SemiBold';
-    src: url("/Fonts/Mulish-SemiBold.ttf");
-}
-
-.mulish-semibold {
-    font-family: 'Mulish-SemiBold';
-}
-
-.mulish-medium {
-    font-family: 'Mulish-Medium';
-}
-
-.mulish-extrabold {
-    font-family: 'Mulish-ExtraBold';
-}
-
-.mulish-black {
-    font-family: 'Mulish-Black';
-}
-
-.section-2 {
-    background: url("/images/homepage/section-2/background.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    padding-top: 5%;
-}
-
 .longer-btn {
     width: 200px;
-}
-
-.blue-bg {
-    background-color: #105181;
-}
-
-.yellow-bg {
-    background-color: #F5CE00;
 }
 
 .rounded-custom-23 {
@@ -65,20 +14,7 @@
     border-radius: 9px 9px 0 0 !important;
 }
 
-.font-size-custom {
-    font-size: 1rem;
-    font-family: Mitr-Medium, sans-serif;
-}
 
-.height-text-card {
-    height: 2rem;
-    color: #105181;
-}
-
-.carousel-courses {
-    width: 70%;
-    margin: 0px auto;
-}
 
 .carousel-knowledge {
     width: 70%;
@@ -150,7 +86,7 @@
     right: 10px;
 }
 
-.courses .slick-dots {
+ .slick-dots {
     display: flex;
     justify-content: start;
     list-style: none;
@@ -199,22 +135,7 @@
 }
 
 
-.slick-dots button {
-    background-color: #fff; /* Màu nền trắng cho dot không active */
-    border: 2px solid #F5CE00; /* Viền vàng cho dot không active */
-    color: transparent; /* Màu chữ xanh cho dot không active */
-    padding: 5px;
-    width: 12px; /* Đường kính của dot */
-    height: 12px; /* Đường kính của dot */
-    border-radius: 50%; /* Hình dạng tròn cho dot */
-    cursor: pointer;
-}
 
-.slick-dots .slick-active button {
-    background-color: #F5CE00; /* Màu nền vàng cho dot active */
-    border-color: #F5CE00; /* Viền vàng cho dot active */
-    color: transparent; /* Màu chữ trắng cho dot active */
-}
 
 .btn-long {
     width: 200px;

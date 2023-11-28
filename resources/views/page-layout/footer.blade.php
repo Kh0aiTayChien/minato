@@ -1,55 +1,183 @@
-<div class="footer ">
-    <div class=" about text-white ">
-        <div class="content row me-1">
-            <div class="col-lg-6 col-md-12 -gx-0">
-                <img class="header-logo img-fluid pt-3" src="{{asset('images/footer/LOGO.png')}}" alt="LOGO" style="">
-                <div class="mt-4">
-                    <div class="">
-                        <img class=header-logo src="{{asset('images/footer/phone.png')}}" alt="phone">
-                        <span class="ms-4">
-                            038 875 9889
-                        </span>
+<div class="footer">
+    <div class="container-fluid custom-padding">
+        <div class="title" style="width: 90%">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <div class="mulish-extrabold text-white" style="font-size: 21px">THE MINATO RESIDENCE</div>
+                    <div class="icielbegum yellow-light-color mt-3" style="font-size: 51px">ĐĂNG KÍ NHẬN TƯ VẤN</div>
+                </div>
+                <div class="col-md-6 d-none d-md-block">
+                    <div class="d-flex justify-content-end justify-content-end">
+                        <img src="{{asset('images/footer/minato-white-logo.png')}}" alt="">
                     </div>
-                    <div class="mt-2">
-                        <img class=header-logo src="{{asset('images/footer/mail.png')}}" alt="mail">
-                        <span class="ms-4">
-                            ninotoeic.cshv@gmail.com
-                        </span>
-                    </div>
-                    <div class="mt-2">
-                        <img class=header-logo src="{{asset('images/footer/web.png')}}" alt="web">
-                        <span class="ms-4">
-                            www.fb.com/thayninonhinho
-                        </span>
-                    </div>
-                    <div class="mt-2">
-                        <img class=header-logo src="{{asset('images/footer/place.png')}}" alt="place">
-                        <span class="ms-4">
-                            71 Chùa Láng, Đống Đa, HN (CS1)
-                        </span>
+                </div>
+                <div class="col-xs-12 d-md-none">
+                    <div class="d-flex justify-content-end justify-content-center">
+                        <img src="{{asset('images/footer/minato-white-logo.png')}}" alt="">
                     </div>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-12 mt-5">
-                <div class="title mt-5">GIỚI THIỆU</div>
-                <div class="mt-2">Về Nino’s Classes</div>
-                <div class="mt-2">Về Thầy Nino</div>
-                <div class="title mt-5">CÁC KHÓA HỌC</div>
-                <div class="mt-2">Khóa học Toeic 2 Kỹ năng (Listening & Reading)</div>
-                <div class="mt-2">Khóa học Pre Toeic</div>
-                <div class="mt-2">Khóa học Easy Flight</div>
-                <div class="mt-2">Khóa học Super Nino</div>
-                <div class="mt-2">Khóa ôn đề miễn phí</div>
-                <div class="mt-2">Khóa học Toeic 2 Kỹ năng (Speaking & Writing)</div>
-                <div class="mt-2">Khóa học Sol Pro</div>
-                <div class="title mt-2">CHIA SẺ KIẾN THỨC</div>
-                <div class="title mt-2">LIÊN HỆ</div>
+        </div>
+        <form method="POST" class="" action="">
+            <div class="row">
+                <div class="col-md-6 col-xs-12">
+                    <div class="form-group contact-form  mt-3">
+                        <label for="contact_name" class="mulish-extrabold text-white" style="font-size: 13px">HỌ VÀ
+                            TÊN</label>
+                        <br>
+                        <input type="text" name="contact_name" id="contact_name" class="mt-3">
+                    </div>
+                    <div class="form-group contact-form mt-3">
+                        <label for="contact_phone" class=" mulish-extrabold text-white" style="font-size: 13px">SỐ ĐIỆN
+                            THOẠI</label>
+                        <br>
+                        <input type="text" name="contact_phone" id="contact_phone" class="mt-3">
+                    </div>
+                    <div class="form-group contact-form mt-3">
+                        <label for="contact_email" class="mulish-extrabold text-white"
+                               style="font-size: 13px">EMAIL</label>
+                        <br>
+                        <input type="text" name="contact_email" id="contact_email" class="mt-3">
+                    </div>
+                </div>
+                <div class="col-md-6 col-xs-12">
+                    <div class="form-group" style="">
+                        <label for="contact_content" class="mulish-extrabold text-white mt-3" style="font-size: 13px">
+                            YÊU CẦU CHI TIẾT
+                        </label>
+                        <br>
+                        <textarea type="text" name="contact_content" id="contact_content" class="text-area">
+                        </textarea>
+                        <br>
+                        <div class="mt-5" style="width: 80%">
+                            <div class="" style="float: right">
+                                <button onclick="" style="padding: 0; border: none; background: none;">
+                                    <img src="{{asset('images/button/dangki.png')}}" alt="Đăng ký" style="" class="img-fluid">
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+
+        <hr class="my-line mt-5">
+
+        <div class="about mt-5">
+            <div class="row">
+                <div class="col-md-2 col-xs-12 d-none d-md-block">
+                    <div class="d-flex justify-content-end justify-content-end">
+                        <img src="{{asset('images/footer/minato-yellow.png')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-2 col-xs-12 d-md-none">
+                    <div class="d-flex justify-content-end justify-content-center">
+                        <img src="{{asset('images/footer/minato-yellow.png')}}" alt="" class="img-fluid">
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12 mt-5">
+                    <div class="d-flex justify-content-center align-content-center">
+                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px">THÔNG TIN DỰ ÁN</div>
+                    </div>
+
+                    <div class="d-flex justify-content-center align-content-center mt-5">
+                        <div class="cabin-medium text-white" style="font-size: 16px">
+                            <div class="investor">
+                                <p>Chủ đầu tư: Công ty TNHH Minato Việt Nam</p>
+                                <p>(Đầu tư bởi Fujita & Takara Leben)</p>
+                            </div>
+
+                            <div class="contractor">
+                                <p>Nhà thầu xây dựng: Công ty TNHH Fujita Việt Nam</p>
+                                <p>(thuộc Fujita Corporation Nhật Bản)</p>
+                            </div>
+
+                            <div class="operation">
+                                <p>Quản lý vận hành: Leben Community Việt Nam</p>
+                            </div>
+
+                            <div class="address">
+                                <p>Địa chỉ dự án: Lô B (CT1 và CT2) quần thể Dự án Khu đô thị Ven sông Lạch Tray, </p>
+                                <p>phường Vĩnh Niệm, quận Lê Chân, Thành phố Hải Phòng, Việt Nam</p>
+                            </div>
+
+                            <div class="scale">
+                                <p>Quy mô: 2 Tòa nhà với 26 tầng nổi, 1 hầm tầng hầm</p>
+                            </div>
+
+                            <div class="contact">
+                                <p>E-mail: minato.info@waterfrontcity.vn</p>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-5 col-xs-12 mt-5">
+                    <div class="d-flex justify-content-center align-content-center" style="width: 80%">
+                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px">VĂN PHÒNG BÁN HÀNG</div>
+                    </div>
+                    <div class="d-flex justify-content-center align-content-center mt-5"  style="width: 80%">
+                        <div class="cabin-medium text-white" style="font-size: 16px">
+                            <div class="additional-info">
+                                <p>Địa chỉ: Showroom The Minato Residence, Đường số 3, Dự án Waterfront City, Phường Vĩnh Niệm, Quận Lê Chân, Thành phố Hải Phòng, Việt Nam</p>
+                                <p>Hotline: 1800 577783</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <div class="copyright d-flex justify-content-start align-items-center">
-        <div class="content text-center">
-            Bản quyền 2021 © Nino’s Classes. Đã đăng ký bản quyền.
+    <div class="about yellow-light-bg text-dark mulish-extrabold" style="font-size: 13px">
+        <div class="content py-2">
+            Bản quyền 2021 © The Minato Residence. Đã đăng ký bản quyền.
         </div>
     </div>
 </div>
+
+<style>
+    .yellow-light-bg{
+        background-color: #EFD483;
+    }
+    .yellow-light-color{
+        color: #EFD483;
+    }
+    .my-line {
+        border-top: 2px solid #fff;
+        width: 90%
+    }
+
+    .custom-padding {
+        padding: 5% 5% 5% 8%;
+    }
+
+    .contact-form input {
+        font-size: 14px;
+        line-height: 1rem;
+        letter-spacing: 0.57px;
+        color: #FFFFFF;
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        padding: 0;
+        outline: none;
+        background: transparent;
+        border-radius: 0;
+        width: 80%;
+    }
+
+    .text-area {
+        font-size: 14px;
+        line-height: 1rem;
+        height: 8rem;
+        letter-spacing: 0.57px;
+        color: #FFFFFF;
+        border: none;
+        border-bottom: 2px solid rgba(255, 255, 255, 0.2);
+        padding: 0;
+        outline: none;
+        background: transparent;
+        border-radius: 0;
+        width: 80%;
+    }
+</style>

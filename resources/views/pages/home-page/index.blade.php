@@ -1,4 +1,11 @@
 @extends('page-layout.master')
 @section('section')
-
+    @include('pages.home-page.section-1')
+    @include('pages.home-page.section-5')
+    @include('pages.home-page.section-6')
+    @include('pages.home-page.section-7')
+    @include('pages.home-page.section-map')
+    @include('pages.home-page.section-tintuc-sukien')
+    @include('pages.home-page.section-tintuc')
+    @include('pages.home-page.section-thuvien')
 @stop
