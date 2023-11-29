@@ -35,7 +35,7 @@
     <div class=" tabs mb-3 pb-3">
         <div class="row tab tab1  mt-5 gy-4 gx-0 active" style="">
             <div class="section-tab d-flex justify-content-center align-items-center">
-                <div id="section-tab1-carousel" class="carousel slide w-100" data-bs-ride="carousel">
+                <div id="section-tab1-carousel" class="carousel slide w-100" data-bs-ride="carousel" data-bs-interval="false">
                     <div class="carousel-indicators">
                         <button type="button" data-bs-target="#section-tab1-carousel" data-bs-slide-to="0" class="active" aria-label="Slide 1"></button>
                         <button type="button" data-bs-target="#section-tab1-carousel" data-bs-slide-to="1" class="" aria-label="Slide 2" aria-current="true"></button>
@@ -43,13 +43,13 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{asset('images/homepage/section-6/1phongngu.png')}}" class="img-slide" alt="img-slide">
+                            <img src="{{asset('images/homepage/section-6/1phongngu.png')}}" class="img-slide w-100" alt="img-slide">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{asset('images/homepage/section-6/1phongngu.png')}}" class="img-slide" alt="img-slide">
+                            <img src="{{asset('images/homepage/section-6/1phongngu.png')}}" class="img-slide w-100" alt="img-slide">
                         </div>
                         <div class="carousel-item">
-                            <img src="{{asset('images/homepage/section-6/1phongngu.png')}}" class="img-slide" alt="img-slide">
+                            <img src="{{asset('images/homepage/section-6/1phongngu.png')}}" class="img-slide w-100" alt="img-slide">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#section-tab1-carousel" data-bs-slide="prev">
