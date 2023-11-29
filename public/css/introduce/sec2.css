@@ -1,0 +1,36 @@
+.sec2-intro-pc {
+    background-image: url("/images/introduce/sec2/Group 110.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center -10px;
+}
+
+.container-sec2-intro-pc {
+    transform: translateX(-7%);
+}
+
+.container-sec2-2-intro-pc {
+    margin-top: 5%;
+}
+
+.header1-sec2-intro-pc {
+    color: white;
+    font-size: 20px;
+}
+
+.header2-sec2-intro-pc {
+    color: #D8AB67;
+    font-size: 40px;
+}
+
+.right-text-sec2-intro-pc {
+    color: white;
+    text-align: justify;
+}
+.left-text-sec2-intro-pc {
+    color: #D8AB67;
+    text-transform: uppercase;
+    text-align: left;
+    vertical-align: unset;
+
+}

@@ -11,6 +11,13 @@
     align-items: center;
 }
 
+.row-test-1 {
+    display: flex;
+    flex-wrap: wrap;
+    /*justify-content: center;*/
+    /*align-items: center;*/
+}
+
 .img-sec2-hp-1 {
     transform: translateX(14%);
 }
