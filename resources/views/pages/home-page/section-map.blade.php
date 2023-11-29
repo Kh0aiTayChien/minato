@@ -74,7 +74,7 @@
                           data-maphilight='{"fillColor":"b3cbca","fillOpacity":0.8}'
                     >
                     <area target="" class="B-8" title="B-8" href="" coords="405,302,546,402" shape="rect"
-                          data-maphilight='{"fillColor":"b98e94","fillOpacity":0.8}'
+                          data-maphilight='{"fillColor":"afd9b1","fillOpacity":0.8}'
                     >
                     <area target="" class="B-1" title="B-1" href="" coords="544,303,904,403" shape="rect"
                           data-maphilight='{"fillColor":"e1b3ac","fillOpacity":0.8}'
@@ -94,38 +94,52 @@
                           data-maphilight='{"fillColor":"d6edf4","fillOpacity":0.8}'
                     >
             </div>
-            <style>
-                /* CSS để định dạng và làm ẩn các overlay */
+            <div class="overlay d-block d-none">
+                <div class="d-flex justify-content-center align-items-center vh-100">
+                    <div class="w-75 position-relative">
+                        <img src="{{asset('images/map/A1.jpg')}}" alt="" id="A-1" class="img-fluid flat-image ">
+                        <img src="{{asset('images/map/A2.jpg')}}" alt="" id="A-2" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/A3.jpg')}}" alt="" id="A-3" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B1.jpg')}}" alt="" id="B-1" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B2-1.jpg')}}" alt="" id="B2-1" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B2-2.jpg')}}" alt="" id="B2-2" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B2-3.jpg')}}" alt="" id="B2-3" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B-3.jpg')}}" alt="" id="B-3" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B-4.jpg')}}" alt="" id="B-4" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B-5.jpg')}}" alt="" id="B-5" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B-6.jpg')}}" alt="" id="B-6" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B-7.jpg')}}" alt="" id="B-7" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B-8.jpg')}}" alt="" id="B-8" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/B-9.jpg')}}" alt="" id="B-9" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/C1.jpg')}}" alt="" id="C-1" class="img-fluid flat-image d-none">
+                        <img src="{{asset('images/map/C-2.jpg')}}" alt="" id="C-2" class="img-fluid flat-image d-none">
 
+                        <div class="close_icon">X</div>
+                    </div>
+                </div>
+                <script>
+                    $(document).ready(function() {
+                        $('area').click(function(e) {
+                            e.preventDefault()
+                            let classToDisplay = $(this).attr('class'); // Lấy class của <area> được click
 
-                .overlay {
-                    position: absolute;
-                    background-color: rgba(0, 255, 0, 0.5); /* Màu overlay */
-                    display: none; /* Ẩn ban đầu */
-                    /* Định dạng khác cho overlay tại đây */
-                }
-            </style>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js" integrity="sha512-sXgF3JImNbesKnmCuR5AE5WPQo6Z8xJMYRvDknGyc0eTWL62pqgEG4Auk9d0VnstzyhRNzPak8AyemFJq7a6/Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-            <script>
-                $(document).ready(function () {
-                    $('map').imageMapResize();
-                    // Kích hoạt plugin maphilight cho hình ảnh có sử dụng map
-                    $('img[usemap]').maphilight({
-                        stroke: false,
+                            $('.flat-image').addClass('d-none'); // Ẩn tất cả các <img> có class img-fluid
+                            $('.overlay').removeClass('d-none');
+                            $('#' + classToDisplay).removeClass('d-none'); // Hiển thị <img> tương ứng với class của <area> được click
+                        });
+
+                        $('.close_icon').click(function() {
+                            $('.flat-image').addClass('d-none'); // Ẩn tất cả các <img> có class img-fluid khi click vào close_icon
+                            $('.overlay').addClass('d-none');
+                        });
                     });
 
-                    // Hiển thị overlay khi hover vào area
-                    $('area').on('mouseover', function () {
-                        var areaClass = $(this).attr('class');
-                        $('.' + areaClass).show();
-                    }).on('mouseleave', function () {
-                        var areaClass = $(this).attr('class');
-                        $('.' + areaClass).hide();
-                    });
-                });
-            </script>
+                </script>
+            </div>
+
+
         </div>
+
         <div class="row tab tab2  mt-5 gy-4 gx-0 " style="">
 
         </div>
@@ -171,6 +185,53 @@
 
             $('.tab').removeClass('active');
             $('.' + target).addClass('active');
+        });
+    });
+</script>
+<style>
+    .overlay {
+        position: fixed;
+        top: -50px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        background-color: rgba(23, 34, 40, 0.9);
+        z-index: 1040;
+        display: none;
+    }
+    .close_icon{
+        position: absolute;
+        top: 0;
+        right: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        color: #000;
+        background: #ffffff;
+    }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/maphilight/1.4.0/jquery.maphilight.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/image-map-resizer/1.0.10/js/imageMapResizer.min.js"
+        integrity="sha512-sXgF3JImNbesKnmCuR5AE5WPQo6Z8xJMYRvDknGyc0eTWL62pqgEG4Auk9d0VnstzyhRNzPak8AyemFJq7a6/Q=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script>
+    $(document).ready(function () {
+        $('map').imageMapResize();
+        // Kích hoạt plugin maphilight cho hình ảnh có sử dụng map
+        $('img[usemap]').maphilight({
+            stroke: false,
+        });
+
+        // Hiển thị overlay khi hover vào area
+        $('area').on('mouseover', function () {
+            var areaClass = $(this).attr('class');
+            $('.' + areaClass).show();
+        }).on('mouseleave', function () {
+            var areaClass = $(this).attr('class');
+            $('.' + areaClass).hide();
         });
     });
 </script>
