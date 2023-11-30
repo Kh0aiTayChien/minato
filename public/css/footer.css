@@ -7,20 +7,16 @@
     src: url("/Fonts/Mulish-Black.ttf");
 }
 .footer {
-    height: 67.57vh;
-    font-family: 'Mulish-ExtraBold';
+    /*height: 88.5vh;*/
     bottom: 0;
     left: 0;
     width: 100%;
-}
-
-.footer .about {
-    background-color: #105181;
-    padding-bottom: 3rem;
+    background-image: url("/images/footer/background-footer.png");
+    background-size: cover;
 }
 
 .footer .about .content {
-    margin-left: 10vw;
+    margin-left: 8%;
 }
 
 @media only screen and (max-width: 600px) {
@@ -30,7 +26,7 @@
 }
 
 .footer .about .content .title{
-    font-family: 'Mulish-Black';
+
 }
 
 .footer .copyright {
