@@ -1,0 +1,27 @@
+.sec2-loction-pc {
+    background-image: url("/images/location/sec2/Group 105 (2).png");
+    background-size: 100% 100%;
+    background-position: center -10px;
+    padding-top: 3%;
+}
+
+.header1-sec2-location-pc {
+    font-size: 25px;
+    color: white;
+}
+
+.header2-sec2-location-pc {
+    font-size: 40px;
+    color: white;
+}
+
+.text-sec2-location-pc {
+    font-size: 15px;
+    text-align: justify;
+    color: white;
+}
+
+.img-sec2-location-pc {
+    padding-top: 2%;
+}
+
