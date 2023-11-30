@@ -2,6 +2,8 @@
     background-image: url("/images/homepage/sec2/Group 101.png");
     background-size: contain;
     padding-bottom: 5%;
+    padding-top: 3%;
+    background-position: center -7px;
 }
 
 .row-test {

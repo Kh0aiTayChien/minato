@@ -32,6 +32,6 @@ class IndexController extends Controller
 
         $courses = Product::all();
 
-        return view('pages/location/index', ['news' => $news, 'images' => $images, 'courses' => $courses]);
+        return view('pages/home-page/index', ['news' => $news, 'images' => $images, 'courses' => $courses]);
     }
 }
