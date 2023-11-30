@@ -1,0 +1,17 @@
+.sec3-location-pc {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/images/location/sec3/nền-17 3 (1).png");
+    padding-top: 3%;
+}
+
+.header1-sec3-location-pc {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.header2-sec3-location-pc {
+    text-transform: uppercase;
+    font-size: 40px;
+}

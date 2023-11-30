@@ -37,6 +37,10 @@
     <link href="{{asset('/css/homepage/sec7-v.css')}}" rel="stylesheet">
     <link href="{{asset('/css/introduce/sec1.css')}}" rel="stylesheet">
     <link href="{{asset('/css/introduce/sec2.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/introduce/sec3.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/introduce/sec4.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/location/sec2.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/location/sec3.css')}}" rel="stylesheet">
 
     <style>
         body {
