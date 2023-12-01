@@ -1,0 +1,52 @@
+.sec2-product-pc {
+    background-image: url("/images/product/sec2/Group 103 (2).png");
+    background-size: 100% 105%;
+    background-repeat: no-repeat;
+    padding-top: 3%;
+    background-position: center -7px;
+}
+
+.img-sec2-product-pc {
+    padding-left: 50px;
+}
+
+.mainheader1-sec2-product-pc {
+    padding-left: 5%;
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.mainheader2-sec2-product-pc {
+    padding-left: 5%;
+    font-size: 40px;
+    padding-bottom: 3%;
+}
+
+.header-sec2-product-pc {
+    text-transform: uppercase;
+    font-size: 25px;
+    padding-top: 5%;
+}
+
+.container-sec2-product-pc {
+    margin-top: 2%;
+}
+
+.content-sec2-product-pc {
+    padding-left: 5%;
+    padding-bottom: 5%;
+}
+
+.header2-sec2-product-pc {
+    font-size: 40px;
+    text-transform: uppercase;
+}
+
+.img2-sec2-product-pc {
+    padding-left: 3%;
+}
+
+.text-sec2-product-pc {
+    text-align: justify;
+    font-size: 15px;
+}

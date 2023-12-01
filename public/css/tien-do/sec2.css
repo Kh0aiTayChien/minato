@@ -1,0 +1,18 @@
+.sec2-tien-do-pc {
+    display: block;
+    text-align: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("/images/tien-do/Group 107 (1).png");
+    background-size: 100% 170%;
+    background-position: center -7px;
+}
+
+.header1-sec2-tien-do {
+    font-size: 25px;
+}
+
+.header2-sec2-tien-do {
+    font-size: 40px;
+}
