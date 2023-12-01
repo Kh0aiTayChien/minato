@@ -42,6 +42,10 @@
     <link href="{{asset('/css/introduce/sec4.css')}}" rel="stylesheet">
     <link href="{{asset('/css/location/sec2.css')}}" rel="stylesheet">
     <link href="{{asset('/css/location/sec3.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/product-v/sec2.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/product-v/sec3.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/contact-v/sec2.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/tien-do/sec2.css')}}" rel="stylesheet">
 
     <style>
         body {
