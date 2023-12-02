@@ -1,15 +1,30 @@
 <div class="section-5 pt-4 pb-4 custom-padding">
-    <div class="d-flex align-content-center justify-content-center pt-4">
+    <div class="d-flex align-content-center justify-content-center pt-4 px-3">
         <div class="row">
-            <div class="col-xs-12 col-md-6">
-                <div class="mulish-extrabold text-white mb-5" style="font-size: 21px"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="icielbegum yellow-light-color" style="font-size: 51px"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color" style="font-size: 51px"> Hướng đa tầng tiện ích chuẩn Nhật
-                </div>
+            <div class="col-xs-12 col-md-7 ">
+                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 3px"> HỆ THỐNG TIỆN ÍCH</div>
+                <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 16px; letter-spacing: 3px"> HỆ THỐNG TIỆN ÍCH</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 51px"> SỐNG GIỮA THIÊN NHIÊN</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 51px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
+                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN</div>
+                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
             </div>
-            <div class="col-xs-12 col-md-6 text-white">
-                <div class=" ms-5 ps-5 me-5 pe-5 d-flex align-content-start justify-content-end" style="width: 100%; text-align: justify">
-                    <div class="mulish-extrabold " style="font-size: 21px"> The Minato Residence mang đến một thành phố
+            <div class="col-xs-12 col-md-5 text-white">
+                <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                    <div class="cabin-medium " style="font-size: 16px"> The Minato Residence mang đến một thành phố
+                        xanh,
+
+                        hiện đại, và đẳng cấp, nơi cư dân thỏa sức
+                        trải
+                        nghiệm các
+
+                        tiện ích đẳng cấp chuẩn Nhật và môi trường
+                        thân
+                        thiện
+                    </div>
+                </div>
+                <div class=" d-md-flex align-content-start justify-content-end d-md-none" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                    <div class="cabin-medium " style="font-size: 13px"> The Minato Residence mang đến một thành phố
                         xanh,
 
                         hiện đại, và đẳng cấp, nơi cư dân thỏa sức
@@ -36,17 +51,17 @@
         </button>
 
         <div class="carousel-courses">
-            <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style="margin-right: 0.5%">
-            <img src="{{asset('images/homepage/section-5/37.png')}}" alt="" style="margin-right: 0.5%">
-            <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.5%">
-            <img src="{{asset('images/homepage/section-5/39.png')}}" alt="" style="margin-right: 0.5%">
-            <img src="{{asset('images/homepage/section-5/40.png')}}" alt="" style="margin-right: 0.5%">
-            <img src="{{asset('images/homepage/section-5/41.png')}}" alt="" style="margin-right: 0.5%">
-            <img src="{{asset('images/homepage/section-5/42.png')}}" alt="" style="margin-right: 0.5%">
-            <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.5%">
+            <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style="margin-right: 0.2%">
+            <img src="{{asset('images/homepage/section-5/37.png')}}" alt="" style="margin-right: 0.2%">
+            <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.2%">
+            <img src="{{asset('images/homepage/section-5/39.png')}}" alt="" style="margin-right: 0.2%">
+            <img src="{{asset('images/homepage/section-5/40.png')}}" alt="" style="margin-right: 0.2%">
+            <img src="{{asset('images/homepage/section-5/41.png')}}" alt="" style="margin-right: 0.2%">
+            <img src="{{asset('images/homepage/section-5/42.png')}}" alt="" style="margin-right: 0.2%">
+            <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.2%">
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center">
+    <div class="d-flex align-content-center justify-content-center pb-5">
         <button onclick="" style="padding: 0; border: none; background: none;">
             <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">
         </button>
@@ -58,7 +73,7 @@
             $('.carousel-courses').slick({
                 infinite: true,
                 speed: 900,
-                slidesToShow: 2,
+                slidesToShow: 1,
                 slidesToScroll: 1,
                 dots: true,
                 prevArrow: $('.custom-prev-arrow-course'),
@@ -75,7 +90,7 @@
                     {
                         breakpoint: 600,
                         settings: {
-                            slidesToShow: 2,
+                            slidesToShow: 1,
                             slidesToScroll: 1
                         }
                     },
@@ -100,6 +115,13 @@
 
 </div>
 <style>
+    .slick-dots {
+        display: flex;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        margin-top: 1rem;
+    }
     .carousel-indicators [data-bs-target]{
         background-color: transparent; /* Màu nền trắng cho dot không active */
         border: 2px solid #fff; /* Viền trắng cho dot không active */
@@ -150,21 +172,25 @@
     }
 
     .slick-dots button {
-        background-color: #fff; /* Màu nền trắng cho dot không active */
-        border: 2px solid #fff; /* Viền trắng cho dot không active */
+        background-color: transparent; /* Màu nền trắng cho dot không active */
+        border: 1px solid #fff; /* Viền trắng cho dot không active */
         color: transparent; /* Màu chữ xanh cho dot không active */
         padding: 5px;
-        width: 12px; /* Đường kính của dot */
-        height: 12px; /* Đường kính của dot */
+        width: 6px; /* Đường kính của dot */
+        height: 6px; /* Đường kính của dot */
         border-radius: 50%; /* Hình dạng tròn cho dot */
         cursor: pointer;
-        margin-right: 5px;
+        margin-right: 7px;
     }
 
     .slick-dots .slick-active button {
-        background-color: transparent; /* Màu nền trắng cho dot active */
+        background-color: #fff; /* Màu nền trắng cho dot active */
         border-color: #fff; /* Viền trắng cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
+    }
+    .slick-slide:not(.slick-active) {
+        opacity: 0.5; /* Điều chỉnh độ mờ tùy ý */
+        transition: opacity 0.3s ease; /* Thêm transition để làm mịn hiệu ứng */
     }
 
 </style>

@@ -2,39 +2,35 @@
     <div class="container-fluid custom-padding">
         <div class="title" style="width: 90%">
             <div class="row">
-                <div class="col-md-6 col-xs-12">
-                    <div class="mulish-extrabold text-white" style="font-size: 21px">THE MINATO RESIDENCE</div>
+                <div class="col-md-8 col-xs-12">
+                    <div class="mulish-extrabold text-white" style="font-size: 21px; letter-spacing: 3px">THE MINATO RESIDENCE</div>
                     <div class="icielbegum yellow-light-color mt-3" style="font-size: 51px">ĐĂNG KÍ NHẬN TƯ VẤN</div>
                 </div>
-                <div class="col-md-6 d-none d-md-block">
+                <div class="col-md-4 d-none d-md-block">
                     <div class="d-flex justify-content-end justify-content-end">
                         <img src="{{asset('images/footer/minato-white-logo.png')}}" alt="">
                     </div>
                 </div>
-                <div class="col-xs-12 d-md-none">
-                    <div class="d-flex justify-content-end justify-content-center">
-                        <img src="{{asset('images/footer/minato-white-logo.png')}}" alt="">
-                    </div>
-                </div>
+
             </div>
         </div>
-        <form method="POST" class="" action="">
+        <form method="POST" class="" action="" style="letter-spacing: 2px">
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <div class="form-group contact-form  mt-3">
-                        <label for="contact_name" class="mulish-extrabold text-white" style="font-size: 13px">HỌ VÀ
+                        <label for="contact_name" class="cabin-medium text-white" style="font-size: 13px">HỌ VÀ
                             TÊN</label>
                         <br>
                         <input type="text" name="contact_name" id="contact_name" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
-                        <label for="contact_phone" class=" mulish-extrabold text-white" style="font-size: 13px">SỐ ĐIỆN
+                        <label for="contact_phone" class=" cabin-medium text-white" style="font-size: 13px">SỐ ĐIỆN
                             THOẠI</label>
                         <br>
                         <input type="text" name="contact_phone" id="contact_phone" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
-                        <label for="contact_email" class="mulish-extrabold text-white"
+                        <label for="contact_email" class="cabin-medium text-white"
                                style="font-size: 13px">EMAIL</label>
                         <br>
                         <input type="text" name="contact_email" id="contact_email" class="mt-3">
@@ -42,7 +38,7 @@
                 </div>
                 <div class="col-md-6 col-xs-12">
                     <div class="form-group" style="">
-                        <label for="contact_content" class="mulish-extrabold text-white mt-3" style="font-size: 13px">
+                        <label for="contact_content" class="cabin-medium text-white mt-3" style="font-size: 13px">
                             YÊU CẦU CHI TIẾT
                         </label>
                         <br>
@@ -76,12 +72,12 @@
                     </div>
                 </div>
                 <div class="col-md-5 col-xs-12 mt-5">
-                    <div class="d-flex justify-content-center align-content-center">
-                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px">THÔNG TIN DỰ ÁN</div>
+                    <div class="">
+                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px; letter-spacing: 3px">THÔNG TIN DỰ ÁN</div>
                     </div>
 
                     <div class="d-flex justify-content-center align-content-center mt-5">
-                        <div class="cabin-medium text-white" style="font-size: 16px">
+                        <div class="cabin-medium text-white" style="font-size: 16px; letter-spacing: 1px">
                             <div class="investor">
                                 <p>Chủ đầu tư: Công ty TNHH Minato Việt Nam</p>
                                 <p>(Đầu tư bởi Fujita & Takara Leben)</p>
@@ -113,11 +109,11 @@
                     </div>
                 </div>
                 <div class="col-md-5 col-xs-12 mt-5">
-                    <div class="d-flex justify-content-center align-content-center" style="width: 80%">
-                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px">VĂN PHÒNG BÁN HÀNG</div>
+                    <div class="" style="width: 80%">
+                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px; letter-spacing: 3px">VĂN PHÒNG BÁN HÀNG</div>
                     </div>
                     <div class="d-flex justify-content-center align-content-center mt-5"  style="width: 80%">
-                        <div class="cabin-medium text-white" style="font-size: 16px">
+                        <div class="cabin-medium text-white" style="font-size: 16px; letter-spacing: 1px">
                             <div class="additional-info">
                                 <p>Địa chỉ: Showroom The Minato Residence, Đường số 3, Dự án Waterfront City, Phường Vĩnh Niệm, Quận Lê Chân, Thành phố Hải Phòng, Việt Nam</p>
                                 <p>Hotline: 1800 577783</p>
@@ -129,9 +125,9 @@
             </div>
         </div>
     </div>
-    <div class="about yellow-light-bg text-dark mulish-extrabold" style="font-size: 13px">
+    <div class="about yellow-light-bg text-dark cabin-medium" style="font-size: 13px">
         <div class="content py-2">
-            Bản quyền 2021 © The Minato Residence. Đã đăng ký bản quyền.
+            Bản quyền 2023 © The Minato Residence. Đã đăng ký bản quyền.
         </div>
     </div>
 </div>

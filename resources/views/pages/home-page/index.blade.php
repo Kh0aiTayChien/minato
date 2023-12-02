@@ -7,9 +7,4 @@
     @include('pages.home-page.section-6')
     @include('pages.home-page.section-7')
     @include('pages.home-page.sec7-v')
-    @include('pages.home-page.section-map')
-    @include('pages.home-page.section-tintuc-sukien')
-    @include('pages.home-page.section-tintuc')
-    @include('pages.home-page.section-thuvien')
-
 @stop

@@ -44,28 +44,28 @@
         <div class="row tab tab1  mt-5 gy-4 gx-0 active" style="">
             <div class="mt-1" style="">
                 <div class="row px-5 mx-5 gx-3 gy-2">
-                    <div class="col-md-1  d-flex justify-content-center align-content-center ">
+                    <div class="col-lg-3  d-flex justify-content-center align-content-center ">
                         <button class="tab-m1-button btn btn-block shadow-effect
                                  text-white  mulish-extrabold button-shake active"
                                 data-target="tab11" style="width: 100%">
                             <div class=" font-size-custom" style="">TẤT CẢ</div>
                         </button>
                     </div>
-                    <div class="col-md-1 d-flex justify-content-center align-content-center">
+                    <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block  shadow-effect
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab22" style="width: 100%">
                             <div class=" ">TỔNG THỂ</div>
                         </button>
                     </div>
-                    <div class="col-md-1 d-flex justify-content-center align-content-center">
+                    <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block  shadow-effect
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab33" style="width: 100%">
                             <div class="">TIỆN ÍCH</div>
                         </button>
                     </div>
-                    <div class="col-md-1 d-flex justify-content-center align-content-center">
+                    <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block  shadow-effect
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab44" style="width: 100%">
@@ -75,23 +75,42 @@
                 </div>
             </div>
             <div class="row tab tab11  active" style="">
-                <div class="" style="padding:3%">
-                    <div class="d-flex align-content-center justify-content-center">
-                        <img src="{{asset('images/thuvien/tatca/C1.png')}}" alt="" class="img-fluid me-2">
-                        <img src="{{asset('images/thuvien/tatca/C2.png')}}" alt="" class="img-fluid me-2">
-                        <img src="{{asset('images/thuvien/tatca/C7.png')}}" alt="" class="img-fluid me-2">
+                <div class="w-100" style="padding: 10%">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C1.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C2.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C7.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
                     </div>
-                    <div class="d-flex align-content-center justify-content-center mt-2">
-                        <img src="{{asset('images/thuvien/tatca/C8.png')}}" alt="" class="img-fluid me-2">
-                        <img src="{{asset('images/thuvien/tatca/C9.png')}}" alt="" class="img-fluid me-2">
-                        <img src="{{asset('images/thuvien/tatca/C12.png')}}" alt="" class="img-fluid me-2">
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C8.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C9.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C12.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
                     </div>
-                    <div class="d-flex align-content-center justify-content-center mt-2">
-                        <img src="{{asset('images/thuvien/tatca/C13.png')}}" alt="" class="img-fluid me-2">
-                        <img src="{{asset('images/thuvien/tatca/C14.png')}}" alt="" class="img-fluid me-2">
-                        <img src="{{asset('images/thuvien/tatca/D10.png')}}" alt="" class="img-fluid me-2">
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C13.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/C14.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tatca/D10.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
                     </div>
                 </div>
+
             </div>
             <div class="row tab tab22  mt-5 gy-4 gx-0 " style="">
 

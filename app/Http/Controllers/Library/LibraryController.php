@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Http\Controllers\HomePage;
+namespace App\Http\Controllers\Library;
 
 use App\Http\Controllers\Controller;
 use App\Models\Article;
@@ -13,7 +13,7 @@ use Illuminate\Support\Facades\Cookie;
 use Illuminate\Support\Str;
 use App\Models\Category;
 
-class IndexController extends Controller
+class LibraryController extends Controller
 {
     public function index(Request $request)
     {
@@ -27,6 +27,6 @@ class IndexController extends Controller
             ->get();
 
 
-        return view('pages/home-page/index', ['news' => $news]);
+        return view('pages/library/index', ['news' => $news]);
     }
 }
