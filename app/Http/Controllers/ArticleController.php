@@ -34,7 +34,7 @@ class ArticleController extends Controller
 
     public function create()
     {
-        $categories = Category::where('type', 0)->get();
+        $categories = Category::where('type', 1)->get();
         return view('admin/article/create', ['categories' => $categories]);
     }
 
@@ -80,7 +80,7 @@ class ArticleController extends Controller
     public function edit($id)
     {
         $article = Article::findOrFail($id);
-        $categories = Category::where('type',0)->get();
+        $categories = Category::where('type',1)->get();
         return view('admin/article/edit', ['article' => $article, 'categories' => $categories]);
     }
 

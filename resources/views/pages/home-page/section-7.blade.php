@@ -1,7 +1,7 @@
 <div class="section-7">
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4" style="font-size: 51px">
-        TIN TỨC
+        TIN TỨC KHÁC
     </div>
 
     <div class="slick-carousel position-relative">
@@ -13,19 +13,19 @@
         </button>
 
         <div class="carousel-sec-9">
-{{--            @foreach($news as $article)--}}
+            @foreach($articles as $article)
                 <div class="d-flex justify-content-center">
-{{--                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">--}}
-                        <a href="" style="text-decoration: unset; color: unset">
+                    <a href="{{route('news.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
+{{--                        <a href="" style="text-decoration: unset; color: unset">--}}
                         <div class="card shadow-effect me-1 bg-transparent-black"
                              style="width:30rem; height: 100% ">
-{{--                            <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"--}}
-                            <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"
+                            <img class="card-img-top img-fluid" style="height: 15rem; object-fit: cover" src="{{$article->image}}"
+{{--                            <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"--}}
                                  alt="Card image">
                             <div class="card-body">
 {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
 {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                                <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>Biểu tượng kiến trúc của thành phố Cảng Hải Phòng chính thức cất nóc</strong></p>
+                                <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
 
                                 <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
                                     <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
@@ -35,133 +35,7 @@
                         </div>
                     </a>
                 </div>
-            <div class="d-flex justify-content-center">
-                {{--                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">--}}
-                <a href="" style="text-decoration: unset; color: unset">
-                    <div class="card shadow-effect me-1 bg-transparent-black"
-                         style="width:30rem; height: 100% ">
-                        {{--                            <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"--}}
-                        <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"
-                             alt="Card image">
-                        <div class="card-body">
-                            {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
-                            {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                            <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>Biểu tượng kiến trúc của thành phố Cảng Hải Phòng chính thức cất nóc</strong></p>
-
-                            <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
-                                    CHI TIẾT</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="d-flex justify-content-center">
-                {{--                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">--}}
-                <a href="" style="text-decoration: unset; color: unset">
-                    <div class="card shadow-effect me-1 bg-transparent-black"
-                         style="width:30rem; height: 100% ">
-                        {{--                            <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"--}}
-                        <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"
-                             alt="Card image">
-                        <div class="card-body">
-                            {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
-                            {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                            <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>Biểu tượng kiến trúc của thành phố Cảng Hải Phòng chính thức cất nóc</strong></p>
-
-                            <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
-                                    CHI TIẾT</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="d-flex justify-content-center">
-                {{--                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">--}}
-                <a href="" style="text-decoration: unset; color: unset">
-                    <div class="card shadow-effect me-1 bg-transparent-black"
-                         style="width:30rem; height: 100% ">
-                        {{--                            <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"--}}
-                        <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"
-                             alt="Card image">
-                        <div class="card-body">
-                            {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
-                            {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                            <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>Biểu tượng kiến trúc của thành phố Cảng Hải Phòng chính thức cất nóc</strong></p>
-
-                            <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
-                                    CHI TIẾT</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="d-flex justify-content-center">
-                {{--                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">--}}
-                <a href="" style="text-decoration: unset; color: unset">
-                    <div class="card shadow-effect me-1 bg-transparent-black"
-                         style="width:30rem; height: 100% ">
-                        {{--                            <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"--}}
-                        <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"
-                             alt="Card image">
-                        <div class="card-body">
-                            {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
-                            {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                            <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>Biểu tượng kiến trúc của thành phố Cảng Hải Phòng chính thức cất nóc</strong></p>
-
-                            <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
-                                    CHI TIẾT</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="d-flex justify-content-center">
-                {{--                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">--}}
-                <a href="" style="text-decoration: unset; color: unset">
-                    <div class="card shadow-effect me-1 bg-transparent-black"
-                         style="width:30rem; height: 100% ">
-                        {{--                            <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"--}}
-                        <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"
-                             alt="Card image">
-                        <div class="card-body">
-                            {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
-                            {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                            <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>Biểu tượng kiến trúc của thành phố Cảng Hải Phòng chính thức cất nóc</strong></p>
-
-                            <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
-                                    CHI TIẾT</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-            <div class="d-flex justify-content-center">
-                {{--                    <a href="{{route('tin-tuc.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">--}}
-                <a href="" style="text-decoration: unset; color: unset">
-                    <div class="card shadow-effect me-1 bg-transparent-black"
-                         style="width:30rem; height: 100% ">
-                        {{--                            <img class="card-img-top border-up border-up height-img-card" src="{{$article->image}}"--}}
-                        <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"
-                             alt="Card image">
-                        <div class="card-body">
-                            {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
-                            {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                            <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>Biểu tượng kiến trúc của thành phố Cảng Hải Phòng chính thức cất nóc</strong></p>
-
-                            <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
-                                    CHI TIẾT</a>
-                            </div>
-                        </div>
-                    </div>
-                </a>
-            </div>
-{{--            @endforeach--}}
+            @endforeach
 
         </div>
     </div>
@@ -244,11 +118,11 @@
     }
 
     .custom-prev-arrow-9 {
-        left: 100px;
+        left: 10px;
     }
 
     .custom-next-arrow-9 {
-        right: 100px;
+        right: 10px;
     }
 
     .slick-dots {
