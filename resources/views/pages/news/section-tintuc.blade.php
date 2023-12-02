@@ -151,4 +151,7 @@
         background-size: cover;
         padding: 5% 0 5% 0;
     }
+    .bg-transparent-black {
+        background-color: rgba(0, 0, 0, 0.27); /* Độ trong suốt: 0.5 (từ 0 đến 1) */
+    }
 </style>

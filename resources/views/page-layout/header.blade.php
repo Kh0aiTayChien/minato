@@ -109,7 +109,7 @@
 {{--    });--}}
 {{--</script>--}}
 
-<div class="headerpc fixed-top" id="myHeader">
+<div class="headerpc fixed-top mulish-extrabold" id="myHeader ">
     <div class="background-image"></div>
     <div class="col-xxl-12 col-md-12 row-test headermenu">
         <ul class="col-xxl-4 col-md-4 menuleft">
@@ -131,7 +131,7 @@
             </li>
         </ul>
         <div class="col-xxl-3 col-md-3 logominmin">
-            <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}"
+            <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style="scale: 75%"
                                           class="logo-test col-xxl-11 col-md-11"></a>
         </div>
         <ul class="col-xxl-4 col-md-4 menuright">

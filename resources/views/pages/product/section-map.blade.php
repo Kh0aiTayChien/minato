@@ -96,7 +96,7 @@
             </div>
             <div class="overlay d-block d-none">
                 <div class="d-flex justify-content-center align-items-center vh-100">
-                    <div class="w-75 position-relative">
+                    <div class=" position-relative" style="">
                         <img src="{{asset('images/map/A1.jpg')}}" alt="" id="A-1" class="img-fluid flat-image ">
                         <img src="{{asset('images/map/A2.jpg')}}" alt="" id="A-2" class="img-fluid flat-image d-none">
                         <img src="{{asset('images/map/A3.jpg')}}" alt="" id="A-3" class="img-fluid flat-image d-none">
@@ -114,7 +114,7 @@
                         <img src="{{asset('images/map/C1.jpg')}}" alt="" id="C-1" class="img-fluid flat-image d-none">
                         <img src="{{asset('images/map/C-2.jpg')}}" alt="" id="C-2" class="img-fluid flat-image d-none">
 
-                        <div class="close_icon">X</div>
+                        <div class="close_icon mulish-extrabold">X</div>
                     </div>
                 </div>
                 <script>
