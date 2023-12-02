@@ -18,60 +18,24 @@
                         aria-label="Slide 3" aria-current="true"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{asset('images/tintuc-kienthuc/bg-1.png')}}" class="img-slide position-relative "
-                         alt="img-slide">
-                    <div class="position-absolute custom-top start-50 ">
-                        <h3 class="cabin-medium" style="font-size: 35px; color: #133351; letter-spacing: 1px" >Biểu tượng kiến trúc của thành
-                            phố Cảng Hải Phòng chính thức cất nóc</h3>
-                        <div class="cabin-medium pt-4 pe-4" style="font-size: 18px; color: #43496B">
-                            Mang đúng tinh thần Zen tái hiện trong không gian sống, các căn hộ tại
-                            The Minato Residence được thiết kế tinh tế, tối giản và thấm đượm hơi
-                            thở Nhật Bản trong từng đường nét. Phong cách thiết kế nội thất tại
-                            The Minato Residence không mang vẻ lộng lẫy hay xa hoa...
-                        </div>
-                        <div class="d-flex align-content-center justify-content-start mt-4 cabin-medium"
-                             style="padding-top: 10%; color: #D93D32">
-                            <a href=""> XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="carousel-item ">
-                    <img src="{{asset('images/tintuc-kienthuc/bg-1.png')}}" class="img-slide position-relative "
-                         alt="img-slide">
-                    <div class="position-absolute custom-top start-50 ">
-                        <h3 class="cabin-medium" style="font-size: 35px; color: #133351; letter-spacing: 1px" >Biểu tượng kiến trúc của thành
-                            phố Cảng Hải Phòng chính thức cất nóc</h3>
-                        <div class="cabin-medium pt-4 pe-4" style="font-size: 18px; color: #43496B">
-                            Mang đúng tinh thần Zen tái hiện trong không gian sống, các căn hộ tại
-                            The Minato Residence được thiết kế tinh tế, tối giản và thấm đượm hơi
-                            thở Nhật Bản trong từng đường nét. Phong cách thiết kế nội thất tại
-                            The Minato Residence không mang vẻ lộng lẫy hay xa hoa...
-                        </div>
-                        <div class="d-flex align-content-center justify-content-start mt-4 cabin-medium"
-                             style="padding-top: 10%; color: #D93D32">
-                            <a href=""> XEM CHI TIẾT</a>
+
+                @foreach($three_articles as $key => $article)
+                    <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
+                        <img src="{{asset('images/tintuc-kienthuc/bg-1.png')}}" class="img-slide position-relative "
+                             alt="img-slide">
+                        <div class="position-absolute custom-top start-50 ">
+                            <h3 class="cabin-medium"
+                                style="font-size: 35px; color: #133351; letter-spacing: 1px">{{\Illuminate\Support\Str::limit($article->title,60)}}</h3>
+                            <div class="cabin-medium pt-4 pe-4" style="font-size: 18px; color: #43496B">
+                                {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 350)) }}
+                            </div>
+                            <div class="d-flex align-content-center justify-content-start mt-4 cabin-medium"
+                                 style="padding-top: 10%; color: #D93D32">
+                                <a href="{{route('news.show',['slug' => $article->slug])}}"> XEM CHI TIẾT</a>
+                            </div>
                         </div>
                     </div>
-                </div>
-                <div class="carousel-item ">
-                    <img src="{{asset('images/tintuc-kienthuc/bg-1.png')}}" class="img-slide position-relative "
-                         alt="img-slide">
-                    <div class="position-absolute custom-top start-50 ">
-                        <h3 class="cabin-medium" style="font-size: 35px; color: #133351; letter-spacing: 1px" >Biểu tượng kiến trúc của thành
-                            phố Cảng Hải Phòng chính thức cất nóc</h3>
-                        <div class="cabin-medium pt-4 pe-4" style="font-size: 18px; color: #43496B">
-                            Mang đúng tinh thần Zen tái hiện trong không gian sống, các căn hộ tại
-                            The Minato Residence được thiết kế tinh tế, tối giản và thấm đượm hơi
-                            thở Nhật Bản trong từng đường nét. Phong cách thiết kế nội thất tại
-                            The Minato Residence không mang vẻ lộng lẫy hay xa hoa...
-                        </div>
-                        <div class="d-flex align-content-center justify-content-start mt-4 cabin-medium"
-                             style="padding-top: 10%; color: #D93D32">
-                            <a href=""> XEM CHI TIẾT</a>
-                        </div>
-                    </div>
-                </div>
+                @endforeach
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#section-tintuc-sukien"
                     data-bs-slide="prev">

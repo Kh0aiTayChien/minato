@@ -11,8 +11,9 @@ class CategoryNewSeeder extends Seeder
     {
         $data = [
             [
-                'title' => 'chia sẻ kiến thức',
-                'slug' => 'chia-se-kien-thuc',
+                'title' => 'tin tức',
+                'slug' => 'tin tuc',
+                'type' => 1,
                 'created_at' => now(),
                 'updated_at' => now(),
             ],
