@@ -98,8 +98,8 @@ ul li a {
 }
 
 ul li a p {
-    font-family: 'Mitr-Medium', sans-serif;
-    font-size: 13px;
+   letter-spacing: 2px;
+    font-size: 14px;
 }
 
 ul li a:hover {

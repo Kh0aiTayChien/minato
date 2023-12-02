@@ -46,7 +46,7 @@
     <link href="{{asset('/css/product-v/sec3.css')}}" rel="stylesheet">
     <link href="{{asset('/css/contact-v/sec2.css')}}" rel="stylesheet">
     <link href="{{asset('/css/tien-do/sec2.css')}}" rel="stylesheet">
-
+    {!! SEO::generate() !!}
     <style>
         body {
             overflow-x: hidden;
