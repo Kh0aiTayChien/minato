@@ -1,0 +1,30 @@
+.sec3-product-pc {
+    background-image: url("/images/product/sec3/Group 105 (3).png");
+    background-size: 100% 100%;
+}
+
+.content-sec3-product-pc {
+    padding-left: 5%;
+    padding-top: 8%;
+}
+
+.header1-sec3-product-pc {
+    text-transform: uppercase;
+    font-size: 20px;
+    color: white;
+}
+
+.header2-sec3-product-pc {
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #D8AB67;
+}
+
+.text-sec3-product-pc {
+    color: white;
+    font-size: 15px;
+}
+
+.img-sec3-product-pc {
+    padding-top: 13%;
+}

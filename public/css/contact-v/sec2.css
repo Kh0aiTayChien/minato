@@ -1,0 +1,41 @@
+.sec2-contact-pc {
+    background-image: url("/images/contact-v/Group 106 (1).png");
+    background-size: 100% 105%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-position: center -7px;
+}
+
+.content-sec2-contact-pc {
+    padding-left: 3%;
+}
+
+.header1-sec2-contact-pc {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.header2-sec2-contact-pc {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+.header3-sec2-contact-pc {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.header4-sec2-contact-pc {
+    text-transform: uppercase;
+    color: red;
+    font-size: 35px;
+}
+
+.header3-sec2-contact-pc {
+    text-transform: uppercase;
+}
+
+.text-sec2-contact-pc {
+    text-align: justify;
+    font-size: 15px;
+}
