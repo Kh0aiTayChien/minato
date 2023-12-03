@@ -1,6 +1,10 @@
 <div class="section-7">
 
-    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4" style="font-size: 51px">
+    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex" style="font-size: 51px">
+        TIN TỨC KHÁC
+    </div>
+
+    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-md-none" style="font-size: 32px">
         TIN TỨC KHÁC
     </div>
 
