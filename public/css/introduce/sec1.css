@@ -4,7 +4,14 @@
     height: 83vh;
     background-size: cover;
     background-repeat: no-repeat;
-    /*margin-top: 17vh;*/
+    margin-top: 12vh;
 }
 
-.
+.sec1-intro-mb {
+    background-image: url("/images/introduce/sec1/Rectangle 171.png");
+    width: 100vw;
+    height: 83vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /*margin-top: 12vh;*/
+}

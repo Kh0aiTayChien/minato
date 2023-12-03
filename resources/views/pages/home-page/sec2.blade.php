@@ -8,7 +8,7 @@
                 Bản, The Minato
                 Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
                 lọc những tinh hoa từ xứ Phù Tang, The Minato Residence mang đến sự cân bằng trọn vẹn giữa nhịp sống
-                hiện đại, tiện nghi và những khoảnh khắc “sống chậm” chan hòa cùng thiên nhiên.</p>
+                hiện đại, tiện nghi và những khoảnh khắc “sống an” chan hòa cùng thiên nhiên.</p>
             <a href="#" class="double-border first-text-hp px-5 py-2 mulish-extrabold">
                 TÌM HIỂU THÊM
             </a>
@@ -57,7 +57,7 @@
         Bản, The Minato
         Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
         lọc những tinh hoa từ xứ Phù Tang, The Minato Residence mang đến sự cân bằng trọn vẹn giữa nhịp sống
-        hiện đại, tiện nghi và những khoảnh khắc “sống chậm” chan hòa cùng thiên nhiên.</p>
+        hiện đại, tiện nghi và những khoảnh khắc “sống an” chan hòa cùng thiên nhiên.</p>
     <img src="{{asset('images/homepage/sec2/image 6.png')}}" class="col-11 img-sec2-hp-mb">
     <p class="text-hp-mb cabin-medium">Nằm tại lõi trung tâm mới của thành phố Hải Phòng, The Minato Residence là tâm điểm giao thoa
         với hệ tiện ích ngoại khu đạt chuẩn quốc tế đáp ứng mọi nhu cầu từ ăn uống, vui chơi, giải trí đến mua sắm, giáo
