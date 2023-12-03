@@ -1,12 +1,18 @@
 <div class="section-map pt-5 pb-5">
-    <div class=" d-flex justify-content-center align-items-center icielbegum " style="font-size: 51px; color: #141C46">
+    <div class=" d-none d-md-flex justify-content-center align-items-center icielbegum " style="font-size: 51px; color: #141C46">
         MẶT BẰNG TẦNG
     </div>
-    <div class=" d-flex justify-content-center align-items-center icielbegum" style="font-size: 51px; color: #BA322E">
+    <div class=" d-flex d-md-none justify-content-center align-items-center icielbegum " style="font-size: 32px; color: #141C46">
+        MẶT BẰNG TẦNG
+    </div>
+    <div class=" d-none d-md-flex justify-content-center align-items-center icielbegum" style="font-size: 51px; color: #BA322E">
+        The Minato Residence
+    </div>
+    <div class=" d-flex d-md-none justify-content-center align-items-center icielbegum" style="font-size: 32px; color: #BA322E">
         The Minato Residence
     </div>
     <div class="mt-4 mb-4" style="">
-        <div class="row px-5 mx-5 mb-5 gx-3 gy-2">
+        <div class="row  mx-5 mb-5 gx-3 gy-2">
             <div class="col-md-4 col-xs-0"></div>
             <div class="col-md-2  d-flex justify-content-center align-content-center ">
                 <button class="tab-button btn btn-block shadow-effect blue-border-bottom
@@ -154,10 +160,10 @@
 <style>
     .tab-button.active {
         background-color: #133351;
+        color: white !important;
     }
-
-    .tabs .tab {
-        display: none;
+    .tab-button {
+        color: #133351 !important;
     }
 
     .tabs .tab.active {

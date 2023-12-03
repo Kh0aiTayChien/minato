@@ -1,11 +1,15 @@
 <div class="tintuc">
-    <div class=" d-flex justify-content-center align-items-center icielbegum yellow-light-color mb-5"
+    <div class=" d-none d-md-flex justify-content-center align-items-center icielbegum yellow-light-color mb-5"
          style="font-size: 51px; ">
         TIN TỨC KHÁC
     </div>
-    <div class="row gy-5 gx-1 mt-2">
+    <div class=" d-flex d-md-none justify-content-center align-items-center icielbegum yellow-light-color "
+         style="font-size: 32px; ">
+        TIN TỨC KHÁC
+    </div>
+    <div class="row gy-5 gx-1 mt-2 px-3">
         @foreach($articles as $article)
-            <div class="col-4">
+            <div class="col-lg-4 col-xs-12">
                 <div class="d-flex justify-content-center">
                     <a href="{{route('news.show',['slug' => $article->slug])}}"
                        style="text-decoration: unset; color: unset">
