@@ -8,30 +8,30 @@
     </div>
 
     <div class="mt-4 mb-4" style="">
-        <div class="row px-5 mx-5 mb-5 gx-3 gy-2">
+        <div class="row  mx-5 mb-5 gx-3 gy-2">
             <div class="col-md-3 d-flex justify-content-center align-content-center">
-                <button class="tab-button btn btn-block shadow-effect blue-border-bottom
+                <button class="tab-button btn btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake active"
                         data-target="tab1" style="width: 100%">
                     <div class=" font-size-custom">HÌNH ẢNH</div>
                 </button>
             </div>
             <div class="col-md-3 d-flex justify-content-center align-content-center">
-                <button class="tab-button btn  btn-block  shadow-effect blue-border-bottom
+                <button class="tab-button btn  btn-block   blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab2" style="width: 100%">
                     <div class="  font-size-custom">VIDEO</div>
                 </button>
             </div>
             <div class="col-md-3 d-flex justify-content-center align-content-center">
-                <button class="tab-button btn  btn-block  shadow-effect blue-border-bottom
+                <button class="tab-button btn  btn-block   blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab3" style="width: 100%">
                     <div class=" font-size-custom">BROCHURE</div>
                 </button>
             </div>
             <div class="col-md-3 d-flex justify-content-center align-content-center">
-                <button class="tab-button btn  btn-block  shadow-effect blue-border-bottom
+                <button class="tab-button btn  btn-block   blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab3" style="width: 100%">
                     <div class=" font-size-custom">FLYER</div>
@@ -45,28 +45,28 @@
             <div class="mt-1" style="">
                 <div class="row px-5 mx-5 gx-3 gy-2">
                     <div class="col-lg-3  d-flex justify-content-center align-content-center ">
-                        <button class="tab-m1-button btn btn-block shadow-effect
+                        <button class="tab-m1-button btn btn-block
                                  text-white  mulish-extrabold button-shake active"
                                 data-target="tab11" style="width: 100%">
                             <div class=" font-size-custom" style="">TẤT CẢ</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
-                        <button class="tab-m1-button btn  btn-block  shadow-effect
+                        <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab22" style="width: 100%">
                             <div class=" ">TỔNG THỂ</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
-                        <button class="tab-m1-button btn  btn-block  shadow-effect
+                        <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab33" style="width: 100%">
                             <div class="">TIỆN ÍCH</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
-                        <button class="tab-m1-button btn  btn-block  shadow-effect
+                        <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab44" style="width: 100%">
                             <div class="">NỘI THẤT</div>

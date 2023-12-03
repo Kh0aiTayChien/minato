@@ -1,4 +1,4 @@
-<div class="tintuc-sukien">
+<div class="tintuc-sukien d-none d-md-block">
     <div class=" d-flex justify-content-center align-items-center mulish-extrabold text-white"
          style="font-size: 21px; ">
         THE MINATO RESIDENCE

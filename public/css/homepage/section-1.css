@@ -1,6 +1,11 @@
 .section-1{
     margin-top: 17vh;
 }
+@media only screen and (max-width: 600px) {
+    .section-1{
+        margin-top: 0;
+    }
+}
 .img-slide {
     object-fit: cover;
     width: 100%;

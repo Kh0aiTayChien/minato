@@ -1,12 +1,18 @@
 <div class="section-6 pt-5 pb-5">
-    <div class=" d-flex justify-content-center align-items-center icielbegum " style="font-size: 51px; color: #141C46">
+    <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex" style="font-size: 51px; color: #141C46">
         CĂN HỘ CAO CẤP CHUẨN NHẬT
     </div>
-    <div class=" d-flex justify-content-center align-items-center icielbegum" style="font-size: 51px; color: #BA322E">
+    <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none" style="font-size: 32px; color: #141C46">
+        CĂN HỘ CAO CẤP CHUẨN NHẬT
+    </div>
+    <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex" style="font-size: 51px; color: #BA322E">
+        Lần đầu tiên xuất hiện tại Hải Phòng
+    </div>
+    <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none" style="font-size: 32px; color: #BA322E">
         Lần đầu tiên xuất hiện tại Hải Phòng
     </div>
     <div class="mt-4 mb-4" style="">
-        <div class="row px-5 mx-5 mb-5 gx-3 gy-2">
+        <div class="row px-5  mb-5 gx-3 gy-2">
             <div class="col-md-3 col-xs-0"></div>
             <div class="col-md-2  d-flex justify-content-center align-content-center ">
                 <button class="tab-button btn btn-block shadow-effect blue-border-bottom
@@ -99,15 +105,22 @@
         </div>
     </div>
 
+
     <div class="d-flex align-content-center justify-content-center">
-        <button onclick="" style="padding: 0; border: none; background: none;">
-            <img src="{{asset('images/button/xemthemsanpham.png')}}" alt="Xem thêm sản phẩm" style="" class="img-fluid">
-        </button>
+        <div class="d-flex align-content-center justify-content-center" style="width: 65%">
+            <button onclick="" style="padding: 0; border: none; background: none;">
+                <img src="{{asset('images/button/xemthemsanpham.png')}}" alt="Xem thêm sản phẩm" style="" class="img-fluid">
+            </button>
+        </div>
     </div>
 </div>
     <style>
         .tab-button.active {
             background-color: #133351;
+            color: white !important;
+        }
+        .tab-button {
+            color: #133351 !important;
         }
 
         .tabs .tab {
