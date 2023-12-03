@@ -22,47 +22,54 @@
 .header1-sec2-contact-pc {
     text-transform: uppercase;
     font-size: 25px;
+    color: #43496B;
 }
 
 .header2-sec2-contact-pc {
     text-transform: uppercase;
     font-size: 40px;
+    color: #141C46;
 }
 
 .header3-sec2-contact-pc {
     text-transform: uppercase;
     font-size: 25px;
+    color: #133351;
 }
 
 .header4-sec2-contact-pc {
     text-transform: uppercase;
-    color: red;
+    color: #D93D32;
     font-size: 35px;
 }
 
 .text-sec2-contact-pc {
     text-align: justify;
     font-size: 15px;
+    color: #133351;
 }
 
 .header1-sec2-contact-mb {
     text-transform: uppercase;
     font-size: 18px;
+    color: #43496B;
 }
 
 .header2-sec2-contact-mb {
     text-transform: uppercase;
     font-size: 25px;
+    color: #141C46;
 }
 
 .header3-sec2-contact-mb {
     text-transform: uppercase;
     font-size: 18px;
+    color: #141C46;
 }
 
 .header4-sec2-contact-mb {
     text-transform: uppercase;
-    color: red;
+    color: #D93D32;
     font-size: 20px;
 }
 
@@ -71,4 +78,5 @@
     font-size: 15px;
     width: 90vw;
     margin-left: 5%;
+    color: #133351;
 }

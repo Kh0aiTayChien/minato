@@ -16,6 +16,7 @@
 }
 
 .header1-sec3-intro-pc {
+    text-transform: uppercase;
     text-align: right;
     justify-content: right;
     font-size: 25px;
@@ -25,12 +26,15 @@
     font-size: 40px;
     text-align: right;
     justify-content: right;
+    color: #11293F;
 }
 
 .header3-sec3-intro-pc {
     text-align: right;
     justify-content: right;
     font-size: 40px;
+    color: #BA322E;
+    margin-top: -3%;
 }
 
 .sec3-intro-mb {

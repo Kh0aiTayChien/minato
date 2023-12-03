@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Mulish-ExtraBold';
-    src: url("/Fonts/Mulish-ExtraBold.ttf");
+    src: url("/Fonts/Mulish-Medium.ttf");
 }
 
 @font-face {
@@ -15,6 +15,8 @@
 
 .mulish-extrabold {
     font-family: 'Mulish-ExtraBold', sans-serif;
+    font-weight: 800;
+    letter-spacing: 0.2rem;
 }
 
 .cabin-medium {

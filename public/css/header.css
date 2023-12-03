@@ -57,7 +57,7 @@
     top: 0;
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 75%;
     background-image: url("/images/header/川から見上Background Standee 1(DaikoHL_VIEW1_100419) (1) 3.png");
     /*background-size: 102vw auto;*/
     background-size: 100% 100%;
@@ -166,7 +166,7 @@ ul.iconmb {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 55%;
+    width: 38%;
     margin-top: 15px;
     /*transform: translateX(30%);*/
 }
