@@ -6,6 +6,15 @@
     background-position: center -7px;
 }
 
+.sec2-contact-mb {
+    justify-content: center;
+    text-align: center;
+    background-image: url("/images/contact-v/Group 106 (1).png");
+    background-size: 100% 105%;
+    padding: 5% 0;
+    background-position: center -7px;
+}
+
 .content-sec2-contact-pc {
     padding-left: 3%;
 }
@@ -31,11 +40,35 @@
     font-size: 35px;
 }
 
-.header3-sec2-contact-pc {
-    text-transform: uppercase;
-}
-
 .text-sec2-contact-pc {
     text-align: justify;
     font-size: 15px;
+}
+
+.header1-sec2-contact-mb {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.header2-sec2-contact-mb {
+    text-transform: uppercase;
+    font-size: 25px;
+}
+
+.header3-sec2-contact-mb {
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+.header4-sec2-contact-mb {
+    text-transform: uppercase;
+    color: red;
+    font-size: 20px;
+}
+
+.text-sec2-contact-mb {
+    text-align: justify;
+    font-size: 15px;
+    width: 90vw;
+    margin-left: 5%;
 }

@@ -2,7 +2,18 @@
     background-image: url("/images/location/sec2/Group 105 (2).png");
     background-size: 100% 100%;
     background-position: center -10px;
-    padding-top: 3%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+.sec2-loction-mb {
+    justify-content: center;
+    text-align: center;
+    background-image: url("/images/location/sec2/Group 105 (2).png");
+    background-size: 100% 110%;
+    background-position: center -7px;
+    padding-top: 5%;
+    padding-bottom: ;
 }
 
 .header1-sec2-location-pc {
@@ -25,3 +36,24 @@
     padding-top: 2%;
 }
 
+.header1-sec2-location-mb {
+    font-size: 18px;
+    color: white;
+}
+
+.header2-sec2-location-mb {
+    font-size: 25px;
+    color: white;
+}
+
+.text-sec2-location-mb {
+    font-size: 15px;
+    color: white;
+    width: 90vw;
+    margin-left: 5%;
+    text-align: justify;
+}
+
+.img-sec2-location-mb {
+    padding-bottom: 5%;
+}

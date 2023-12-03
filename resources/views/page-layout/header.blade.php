@@ -65,14 +65,18 @@
 </div>
 <div class="menu-dropdown d-none">
     <div class="mobile-menu">
-        <div class="text-center"><a href="http://google.com" class="text-menu-mb"> TRANG CHỦ</a></div>
-        <div class="text-center mt-4">GIỚI THIỆU</div>
-        <div class="text-center mt-4">VỀ THẦY NINO</div>
-        <div class="text-center mt-4">CÁC KHÓA HỌC</div>
-        <div class="text-center mt-4">KIẾN THỨC</div>
-        <div class="text-center mt-4">
-            <button class="btn-contact px-5 py-1">LIÊN HỆ</button>
-        </div>
+        <div class="text-center"><a href="/" class="text-menu-mb">TRANG CHỦ</a></div>
+        <div class="text-center mt-3"><a href="/gioi-thieu" class="text-menu-mb">GIỚI THIỆU</a></div>
+        <div class="text-center mt-3"><a href="/vi-tri" class="text-menu-mb">VỊ TRÍ</a> </div>
+        <div class="text-center mt-3"><a href="/san-pham" class="text-menu-mb">SẢN PHẨM</a> </div>
+        <div class="text-center mt-3"><a href="/tien-ich" class="text-menu-mb">TIỆN ÍCH</a> </div>
+        <div class="text-center mt-3"><a href="/tin-tuc" class="text-menu-mb">TIN TỨC</a> </div>
+        <div class="text-center mt-3"><a href="/tien-do" class="text-menu-mb">TIẾN ĐỘ</a> </div>
+        <div class="text-center mt-3"><a href="/thu-vien" class="text-menu-mb">THƯ VIỆN</a> </div>
+        <div class="text-center mt-3"><a href="/lien-he" class="text-menu-mb">LIÊN HỆ</a> </div>
+{{--        <div class="text-center mt-2">--}}
+{{--            <button class="btn-contact px-5 py-1">LIÊN HỆ</button>--}}
+{{--        </div>--}}
     </div>
 
 </div>
@@ -80,7 +84,7 @@
     .mobile-menu {
         font-size: 27px;
         height: 100vh;
-        padding-top: 10rem;
+        padding-top: 7rem;
         color: white;
         font-family: 'Mulish-Black';
     }

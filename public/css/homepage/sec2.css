@@ -50,7 +50,20 @@
 }
 
 .first-text-hp {
-    margin-left: 15%;
+    margin-left: 15%;!important;
+}
+
+.double-border {
+    border: 2px solid ; /* Border đầu tiên */
+    outline: 2px solid #EFD483; /* Border thứ hai (outline) */
+    background-color: #EFD483;
+    color: inherit;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.double-border:hover {
+    color: #1c294e;
 }
 
 .header-content2-sec2-hp {
@@ -64,4 +77,41 @@
 
 .btn-content2-sec2-hp {
     text-align: right;
+}
+
+.sec2-hp-mb {
+    justify-content: center;
+    text-align: center;
+    /*padding-top: 5%;*/
+    padding-bottom: 5%;
+    background-image: url("/images/homepage/sec2/Group 101.png");
+    background-size: auto;
+    background-position: center -10px;
+}
+
+.text-hp-mb {
+    width: 90vw;
+    margin-left: 5%;
+    text-align: justify;
+    color: white;
+}
+
+.img-sec2-hp-mb {
+    padding-bottom: 5%;
+}
+
+.line-height-cap {
+    line-height: 15px;
+}
+
+.header-first-line-hp-mb {
+    color: white;
+    font-size: 18px;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+.header-second-line-hp-mb {
+    color: #D8AB67;
+    font-size: 25px;
 }

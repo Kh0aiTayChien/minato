@@ -17,3 +17,22 @@
     padding-left: 2.5%;
     padding-right: 5%;
 }
+
+.img-sec3-hp-mb {
+    margin-left: 9%;
+}
+
+.left-sec3-mb {
+    padding-right: 3%;
+}
+
+.right-sec3-mb {
+    padding-left: 3%;
+}
+
+.sec3-hp-mb {
+    padding-top: 5%;
+    padding-bottom: 80%;
+    background-image: url("/images/homepage/sec3/Group 102.png");
+    background-size: cover;
+}

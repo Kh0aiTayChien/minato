@@ -40,6 +40,7 @@
     <link href="{{asset('/css/introduce/sec2.css')}}" rel="stylesheet">
     <link href="{{asset('/css/introduce/sec3.css')}}" rel="stylesheet">
     <link href="{{asset('/css/introduce/sec4.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/introduce/sec5.css')}}" rel="stylesheet">
     <link href="{{asset('/css/location/sec2.css')}}" rel="stylesheet">
     <link href="{{asset('/css/location/sec3.css')}}" rel="stylesheet">
     <link href="{{asset('/css/product-v/sec2.css')}}" rel="stylesheet">
