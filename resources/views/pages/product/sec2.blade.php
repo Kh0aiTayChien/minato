@@ -16,15 +16,16 @@
     <div class="row-test container-sec2-product-pc">
         <div class="col-lg-7  col-xs-12 " style="letter-spacing: 1px;  padding-left: 1%; padding-bottom: 5%;">
             <p class="header2-sec2-product-pc icielbegum" style="font-size: 51px; color: #BA322E">TRIẾT LÝ ZEN</p>
-            <p class="col-xs-12 text-sec2-product-pc mulish-extrabold pe-2" style="size: 16px">Mang đúng tinh thần Zen tái hiện trong không gian sống, các căn hộ tại The Minato Residence được
+            <p class="col-xs-12 text-sec2-product-pc cabin-medium pe-2" style="size: 16px">Mang đúng tinh thần Zen tái hiện trong không gian sống, các căn hộ tại The Minato Residence được
                 thiết kế tinh tế, tối giản và thấm đượm hơi thở Nhật Bản trong từng đường nét. Phong cách thiết kế nội
                 thất tại The Minato Residence không mang vẻ lộng lẫy hay xa hoa, thay vào đó sẽ tạo điểm nhấn thông qua
                 sự trang nhã của màu sắc và chất liệu thô mộc ấm áp, hòa quyện với bức tranh thiên nhiên hùng vĩ của núi
                 Phú Sĩ vẽ trên tường ngăn, cửa trượt Shoji </p>
-            <p class="col-xs-12 text-sec2-product-pc mulish-extrabold pe-2" style="size: 16px">Mọi không gian sống đều được chau chuốt tỉ mỉ bởi các kiến trúc sư Nhật Bản tài ba, các không
+            <p class="col-xs-12 text-sec2-product-pc cabin-medium pe-2" style="size: 16px">Mọi không gian sống đều được chau chuốt tỉ mỉ bởi các kiến trúc sư Nhật Bản tài ba, các không
                 gian được sử dụng triệt để, đa công năng nhưng không tạo ra sự chật chội. Hệ thống cửa kính lớn giúp căn
                 phòng tràn ngập ánh nắng tự nhiên và có tầm view hướng ra công viên Sakura xanh mát và sông Lạch Tray
                 thơ mộng.</p>
+            <p class="col-xs-12 text-sec21-product-pc cabin-medium pe-2" style="size: 16px">*Hình căn hộ mẫu tham khảo, nội thất không bao gồm khi bàn giao</p>
         </div>
         <img src="{{asset('images/product/sec2/Group 102 (1).png')}}" class="col-lg-4 col-xs-12 img-fluid ps-5 pe-5 pb-5">
     </div>

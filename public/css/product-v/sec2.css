@@ -48,4 +48,12 @@
 .text-sec2-product-pc {
     text-align: justify;
     font-size: 15px;
+    color: #43496B;
+}
+
+.text-sec21-product-pc {
+    text-align: justify;
+    font-size: 14px;
+    font-style: italic;
+    color: #43496B;
 }

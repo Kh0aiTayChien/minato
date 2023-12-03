@@ -136,7 +136,7 @@
             </li>
         </ul>
         <div class="col-xxl-3 col-md-3 logominmin">
-            <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style="scale: 75%"
+            <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style=""
                                           class="logo-test col-xxl-11 col-md-11"></a>
         </div>
         <ul class="col-xxl-4 col-md-4 menuright">

@@ -29,6 +29,7 @@
 }
 
 .header-first-line-hp {
+    text-transform: uppercase;
     color: white;
     font-size: 20px;
 }
@@ -67,6 +68,7 @@
 }
 
 .header-content2-sec2-hp {
+    text-transform: uppercase;
     text-align: right;
     justify-content: right;
 }
@@ -83,7 +85,7 @@
     justify-content: center;
     text-align: center;
     /*padding-top: 5%;*/
-    padding-bottom: 5%;
+    padding-bottom: 7%;
     background-image: url("/images/homepage/sec2/Group 101.png");
     background-size: auto;
     background-position: center -10px;

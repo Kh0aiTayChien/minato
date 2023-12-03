@@ -15,15 +15,26 @@
 .header2-sec4-intro-pc {
     text-transform: uppercase;
     font-size: 40px;
+    color: #141C46;
+}
+
+.header21-sec4-intro-pc {
+    text-transform: uppercase;
+    font-size: 50px;
+    color: #43496B;
 }
 
 .header3-sec4-intro-pc {
     font-size: 40px;
+    margin-top: -1.5%;
+    color: #BA322E;
 }
 
 .text-sec4-intro-pc {
     justify-content: center;
     text-align: justify;
+    color: #43496B;
+    font-size: 15px;
 }
 
 .sec4-intro-mb {
@@ -42,11 +53,19 @@
 }
 
 .header2-sec4-intro-mb {
-    width: 90vww;
+    width: 90vw;
+    margin-left: 5%;
     text-transform: uppercase;
     font-size: 25px;
     margin-top: -3%;
     color: #133351;
+}
+
+.header21-sec4-intro-mb {
+    /*width: 90vw;*/
+    text-transform: uppercase;
+    font-size: 25px;
+    color: #43496B;
 }
 
 .header3-sec4-intro-mb {

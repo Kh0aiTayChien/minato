@@ -25,6 +25,7 @@
 .header1-sec5-intro {
     font-size: 40px;
     color: #141C46;
+    margin-bottom: -1%;
 }
 
 .header2-sec5-intro {
@@ -35,6 +36,7 @@
 .text-sec5-intro {
     font-size: 15px;
     text-align: justify;
+    color: #43496B;
 }
 
 .text-sec5-intro-mb {
@@ -42,6 +44,7 @@
     text-align: justify;
     width: 90vw;
     margin-left: 5%;
+    color: #43496B;
 }
 
 .header1-sec5-intro-mb {

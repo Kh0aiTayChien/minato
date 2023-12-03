@@ -1,11 +1,11 @@
 <div class="row-test sec2-loction-pc d-none d-sm-flex">
     <div class="col-4">
-        <p class="header1-sec2-location-pc">
+        <p class="header1-sec2-location-pc mulish-extrabold">
             VỊ TRÍ TÂM MẠCH
         </p>
-        <p class="header2-sec2-location-pc"> PHỒN HOA NƠI ĐẤT CẢNG</p>
+        <p class="header2-sec2-location-pc icielbegum"> PHỒN HOA NƠI ĐẤT CẢNG</p>
     </div>
-    <div class="col-3 text-sec2-location-pc">
+    <div class="col-3 text-sec2-location-pc cabin-medium">
         <p class="">Tọa lạc tại vị trí đắc địa trung tâm của TP. Hải Phòng, ngã tư Bùi Viện - Võ Nguyên Giáp, là tâm
             điểm kết nối dẫn tới các công trình trọng yếu, các khu công nghiệp, điểm văn hóa phục vụ nhu cầu sinh hoạt
             của cư dân.</p>
@@ -14,10 +14,10 @@
 </div>
 
 <div class="sec2-loction-mb d-block d-sm-none">
-    <p class="header1-sec2-location-mb">
+    <p class="header1-sec2-location-mb mulish-extrabold">
         VỊ TRÍ TÂM MẠCH
     </p>
-    <p class="header2-sec2-location-mb"> PHỒN HOA NƠI ĐẤT CẢNG</p>
+    <p class="header2-sec2-location-mb icielbegum"> PHỒN HOA NƠI ĐẤT CẢNG</p>
     <p class="text-sec2-location-mb">Tọa lạc tại vị trí đắc địa trung tâm của TP. Hải Phòng, ngã tư Bùi Viện - Võ Nguyên Giáp, là tâm
         điểm kết nối dẫn tới các công trình trọng yếu, các khu công nghiệp, điểm văn hóa phục vụ nhu cầu sinh hoạt
         của cư dân.</p>
