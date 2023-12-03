@@ -22,3 +22,23 @@
     height: 5vh;
     background-color: #D8AB67;
 }
+
+.sec7-v-hp-mb {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    width: 100vw;
+    height: 45vh;
+    background-image: url("/images/homepage/sec7-v/Group 98.png");
+}
+
+.header-sec7-v-hp-mb {
+    padding-top: 15%;
+    color: white;
+    font-size: 18px;
+}
+
+.header2-sec7-v-hp-mb {
+    color: #D8AB67;
+    font-size: 28px;
+}

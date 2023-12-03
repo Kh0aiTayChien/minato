@@ -1,4 +1,4 @@
-<div class="sec3-product-pc">
+<div class="sec3-product-pc d-none d-sm-block">
     <div class="row-test-1">
         <img src="{{asset('images/product/sec3/MAC_6647 1.png')}}" class="col-6">
         <div class=" col-6 content-sec3-product-pc">
@@ -17,4 +17,18 @@
             </div>
         </div>
     </div>
+</div>
+
+<div class="sec3-product-mb d-block d-sm-none">
+    <p class="header1-sec2-product-mb">HỆ THỐNG AN NINH ĐA LỚP</p>
+    <p class="header2-sec2-product-mb">ĐẢM BẢO AN TOÀN 24/7
+    </p>
+    <ul class="text-sec3-product-mb">
+        <li>Lễ tân giám sát tại sảnh căn hộ</li>
+        <li>Đội ngũ quản lý an ninh chuyên nghiệp, được đào tạo bài bản</li>
+        <li>Hệ thống thẻ từ thang máy, căn hộ.</li>
+        <li>Hệ thống camera an ninh được lắp đặt trải khắp tòa nhà</li>
+        <li>Thiết kế nội khu thông minh, hạn chế tối đa những điều bất cập, không lành mạnh.</li>
+    </ul>
+    <img src="{{asset('images/product/sec3/Group 104 (1).png')}}" class="col-11 img-sec3-product-mb">
 </div>

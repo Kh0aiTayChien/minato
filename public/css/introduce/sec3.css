@@ -32,3 +32,36 @@
     justify-content: right;
     font-size: 40px;
 }
+
+.sec3-intro-mb {
+    background-image: url("/images/introduce/sec3/Group 103 (1).png");
+    background-position: -600px -50px;
+    display: block;
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.text-sec3-intro-mb {
+    width: 90vw;
+    margin-left: 5%;
+    text-align: justify;
+    color: black;
+}
+
+.header-first-line-intro-mb {
+    color: #133351;
+    font-size: 18px;
+    padding-top: 5%;
+    text-transform: uppercase;
+}
+
+.header-second-line-intro-mb {
+    color: #133351;
+    font-size: 25px;
+}
+
+.header-third-line-intro-mb {
+    color: #BA322E;
+    font-size: 25px;
+}

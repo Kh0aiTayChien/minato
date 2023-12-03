@@ -26,3 +26,33 @@
     text-align: justify;
 }
 
+.sec4-intro-mb {
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 350%;
+    background-image: url("/images/introduce/sec4/Group 105 (1).png");
+    background-size: cover;
+
+}
+
+.header1-sec4-intro-mb {
+    font-size: 18px;
+    color: #133351;
+}
+
+.header2-sec4-intro-mb {
+    width: 90vww;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin-top: -3%;
+    color: #133351;
+}
+
+.header3-sec4-intro-mb {
+    font-size: 25px;
+    margin-left: 5%;
+    width: 90vw;
+    margin-top: -3%;
+    color: #BA322E;
+}

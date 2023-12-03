@@ -1,4 +1,4 @@
-<div class="sec3-intro-pc">
+<div class="sec3-intro-pc d-none d-sm-block">
     <div class="row-test all-header-sec3-intro-pc">
         <div class="col-6"></div>
         <div class="col-5">
@@ -18,4 +18,16 @@
             trong nhà và ngoài trời,...</p>
     </div>
 
+</div>
+
+<div class="sec3-intro-mb d-block d-sm-none">
+    <p class="header-first-line-intro-mb line-height-cap">Cảm hứng dự án</p>
+    <p class="header-second-line-intro-mb line-height-cap">BẢN GIAO HÒA HƯƠNG SẮC</p>
+    <p class="header-third-line-intro-mb line-height-cap">ĐẬM CHẤT MIỀN PHÙ TANG</p>
+    <p class="text-sec3-intro-mb">Lấy cảm hứng từ thành phố Cảng phồn hoa của xứ sở hoa anh đào, The Minato Residence đã tạo nên
+        một không gian độc đáo, kết hợp nét kiến trúc đặc trưng, cảnh quan thiên nhiên an tĩnh và sự sôi động đầy sức
+        sống. Tại đây, sự 'tĩnh' được thể hiện qua khu vườn Sakura tuyệt đẹp bên trong nội khu, với những chi tiết đặc
+        trưng đến từ xứ sở mặt trời mọc. Ngoài ra, hơi thở sôi động của cuộc sống tại đây được thể hiện qua việc quy
+        hoạch một hệ thống tiện ích nội khu đẳng cấp, bao gồm bể bơi ngoài trời, phòng gym, khu vực kidzone trong nhà và
+        ngoài trời,...</p>
 </div>

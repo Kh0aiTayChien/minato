@@ -3,6 +3,14 @@
     background-size: 100% 100%;
 }
 
+.sec3-product-mb {
+    justify-content: center;
+    text-align: center;
+    background-image: url("/images/product/sec3/Group 105 (3).png");
+    background-size: 100% 100%;
+    padding: 5% 0 ;
+}
+
 .content-sec3-product-pc {
     padding-left: 5%;
     padding-top: 8%;
@@ -25,6 +33,25 @@
     font-size: 15px;
 }
 
+.text-sec3-product-mb {
+    color: white;
+    font-size: 15px;
+    text-align: justify;
+    width: 90vw;
+
+}
+
 .img-sec3-product-pc {
     padding-top: 13%;
+}
+
+.header1-sec2-product-mb {
+    font-size: 18px;
+    color:white;
+}
+
+.header2-sec2-product-mb {
+    font-size: 25px;
+    color: #D8AB67;
+    margin-top: -4%;
 }

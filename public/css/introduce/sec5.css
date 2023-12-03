@@ -1,0 +1,57 @@
+.sec5-intro {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("/images/introduce/sec5/Group 102 (2).png");
+    background-size: cover;
+}
+
+.sec5-intro-mb {
+    justify-content: center;
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    background-image: url("/images/introduce/sec5/Group 102 (2).png");
+    background-size: cover;
+}
+
+.content-sec5-intro {
+    margin-top: 3%;
+}
+
+.img-sec5-intro {
+    transform: translateX(7%);
+}
+
+.header1-sec5-intro {
+    font-size: 40px;
+    color: #141C46;
+}
+
+.header2-sec5-intro {
+    font-size: 40px;
+    color: #BA322E;
+}
+
+.text-sec5-intro {
+    font-size: 15px;
+    text-align: justify;
+}
+
+.text-sec5-intro-mb {
+    font-size: 15px;
+    text-align: justify;
+    width: 90vw;
+    margin-left: 5%;
+}
+
+.header1-sec5-intro-mb {
+    font-size: 25px;
+    color: #141C46;
+}
+
+.header2-sec5-intro-mb {
+    font-size: 25px;
+    color: #BA322E;
+    margin-top: -4%;
+}
+

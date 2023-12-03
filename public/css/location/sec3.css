@@ -6,12 +6,22 @@
     padding-top: 3%;
 }
 
-.header1-sec3-location-pc {
-    text-transform: uppercase;
-    font-size: 40px;
+.sec3-location-mb {
+    display: block;
+    justify-content: center;
+    text-align: center;
+    background-image: url("/images/location/sec3/nền-17 3 (1).png");
+    padding-top: 3%;
 }
 
-.header2-sec3-location-pc {
+.header1-sec3-location-mb {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 25px;
+    color: #141C46;
+}
+
+.header2-sec3-location-mb {
+    font-size: 25px;
+    color: #BA322E;
+    margin-top: -4%;
 }
