@@ -85,7 +85,7 @@
             <div class="sidebar-brand-icon rotate-n-15">
 
             </div>
-            <div class="sidebar-brand-text mx-3">NINO TOEIC <sup><i class="fas fa-laugh-wink"></i></sup></div>
+            <div class="sidebar-brand-text mx-3">MINATO <sup><i class="fas fa-laugh-wink"></i></sup></div>
         </a>
 
         <!-- Divider -->
@@ -97,27 +97,6 @@
                 <i class="fas fa-fw fa-tachometer-alt"></i>
                 <span>{{ __('Trang Tổng Quan') }}</span></a>
         </li>
-
-        @php
-
-            $images = [
-               ['name' => 'Ảnh mới', 'route' => route('images.create')],
-               ['name' => 'Danh sách ảnh', 'route' => route('images.index')],
-           ];
-
-           $categories = [
-               ['name' => 'Bài viết mới', 'route' => 'articles.create'],
-               ['name' => 'Danh sách bài viết', 'route' => 'articles.index{index}'],
-           ];
-
-           $libraries = [
-               ['name' => 'Quản lý file', 'route' => route('admin.media.index')],
-           ];
-
-           $trash = [
-               ['name' => 'Danh sách bài viết', 'route' => route('articles.index',['conditionView' => 'trash'])],
-           ];
-        @endphp
 
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#articles" role="button" aria-expanded="false"
@@ -140,49 +119,29 @@
                 </ul>
             </div>
         </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#products" role="button" aria-expanded="false"
-               aria-controls="products">
-                <i class="fa fa-shopping-bag"></i>
-                <span>Khóa học</span>
-            </a>
-            <div class="collapse" id="products">
-                <ul class="nav flex-column">
-                    <li class="nav-item {{ Nav::isRoute('products.create') }}">
-                        <a class="nav-link" href="{{ route('products.create') }}">
-                            <span>Khóa học mới</span>
-                        </a>
-                    </li>
-                    <li class="nav-item {{ Nav::isRoute('products.index') }}">
-                        <a class="nav-link" href="{{ route('products.index') }}">
-                            <span>Danh sách khóa học</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </li>
-        <li class="nav-item">
-            <a class="nav-link" data-toggle="collapse" href="#images" role="button" aria-expanded="false"
-               aria-controls="images">
-                <i class="fa fa-image"></i>
-                <span>Ảnh</span>
-            </a>
-            <div class="collapse" id="images">
-                <ul class="nav flex-column">
-                    <li class="nav-item {{ Nav::isRoute('images.create') }}">
-                        <a class="nav-link" href="{{ route('images.create') }}">
-                            <span>Thêm ảnh mới</span>
-                        </a>
-                    </li>
-                    <li class="nav-item {{ Nav::isRoute('images.index') }}">
-                        <a class="nav-link" href="{{ route('images.index') }}">
-                            <span>Danh sách ảnh</span>
-                        </a>
-                    </li>
 
-                </ul>
-            </div>
-        </li>
+{{--        <li class="nav-item">--}}
+{{--            <a class="nav-link" data-toggle="collapse" href="#images" role="button" aria-expanded="false"--}}
+{{--               aria-controls="images">--}}
+{{--                <i class="fa fa-image"></i>--}}
+{{--                <span>Ảnh</span>--}}
+{{--            </a>--}}
+{{--            <div class="collapse" id="images">--}}
+{{--                <ul class="nav flex-column">--}}
+{{--                    <li class="nav-item {{ Nav::isRoute('images.create') }}">--}}
+{{--                        <a class="nav-link" href="{{ route('images.create') }}">--}}
+{{--                            <span>Thêm ảnh mới</span>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
+{{--                    <li class="nav-item {{ Nav::isRoute('images.index') }}">--}}
+{{--                        <a class="nav-link" href="{{ route('images.index') }}">--}}
+{{--                            <span>Danh sách ảnh</span>--}}
+{{--                        </a>--}}
+{{--                    </li>--}}
+
+{{--                </ul>--}}
+{{--            </div>--}}
+{{--        </li>--}}
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#libraries" role="button" aria-expanded="false"
                aria-controls="libraries">
