@@ -119,7 +119,7 @@
     <div class="col-xxl-12 col-md-12 row-test headermenu">
         <ul class="col-xxl-4 col-md-4 menuleft">
             <li class="col-xxl-3 col-md-3">
-                <a href="#" id="trang-chu-link">
+                <a href="{{asset('/')}}" id="trang-chu-link">
                     <p>TRANG CHỦ</p>
                 </a>
             </li>
@@ -129,10 +129,10 @@
                 </a>
             </li>
             <li class="col-xxl-3 col-md-3">
-                <a href="#" id="san-pham-link"><p>VỊ TRÍ</p></a>
+                <a href="{{asset('vi-tri')}}" id="san-pham-link"><p>VỊ TRÍ</p></a>
             </li>
             <li class="col-xxl-3 col-md-3">
-                <a href="#" id="san-pham-link"><p>SẢN PHẨM</p></a>
+                <a href="{{asset('san-pham')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
             </li>
         </ul>
         <div class="col-xxl-3 col-md-3 logominmin">
@@ -141,19 +141,19 @@
         </div>
         <ul class="col-xxl-4 col-md-4 menuright">
             <li class="col-xxl-3 col-md-2">
-                <a href="#" id="dai-ly-link"><p>TIỆN ÍCH</p></a>
+                <a href="{{asset('tien-ich')}}" id="dai-ly-link"><p>TIỆN ÍCH</p></a>
             </li>
             <li class="col-xxl-3 col-md-2">
-                <a href="#" id="tin-tuc-link"><p>TIẾN ĐỘ</p></a>
+                <a href="{{asset('tien-do')}}" id="tin-tuc-link"><p>TIẾN ĐỘ</p></a>
             </li>
             <li class="col-xxl-2 col-md-2">
-                <a href="#" id="kien-thuc-link"><p>TIN TỨC</p></a>
+                <a href="{{asset('tin-tuc')}}" id="kien-thuc-link"><p>TIN TỨC</p></a>
             </li>
             <li class="col-xxl-2 col-md-2">
-                <a href="#" id="lien-he-link"><p>THƯ VIỆN</p></a>
+                <a href="{{asset('thu-vien')}}" id="lien-he-link"><p>THƯ VIỆN</p></a>
             </li>
             <li class="col-xxl-2 col-md-2">
-                <a href="#" id="lien-he-link"><p>LIÊN HỆ</p></a>
+                <a href="{{asset('lien-he')}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
     </div>
