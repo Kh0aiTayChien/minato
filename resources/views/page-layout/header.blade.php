@@ -140,10 +140,10 @@
                                           class="logo-test col-xxl-11 col-md-11"></a>
         </div>
         <ul class="col-xxl-4 col-md-4 menuright">
-            <li class="col-xxl-3 col-md-2">
+            <li class="col-xxl-2 col-md-2">
                 <a href="{{asset('tien-ich')}}" id="dai-ly-link"><p>TIỆN ÍCH</p></a>
             </li>
-            <li class="col-xxl-3 col-md-2">
+            <li class="col-xxl-2 col-md-2">
                 <a href="{{asset('tien-do')}}" id="tin-tuc-link"><p>TIẾN ĐỘ</p></a>
             </li>
             <li class="col-xxl-2 col-md-2">
