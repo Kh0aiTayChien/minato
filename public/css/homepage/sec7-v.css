@@ -11,6 +11,7 @@
     padding-top: 15%;
     color: white;
     font-size: 30px;
+    letter-spacing: 0.35rem;
 }
 
 .header2-sec7-v-hp {
@@ -36,6 +37,7 @@
     padding-top: 15%;
     color: white;
     font-size: 18px;
+    letter-spacing: 0.35rem;
 }
 
 .header2-sec7-v-hp-mb {
@@ -44,5 +46,5 @@
 }
 
 .btn-sec2-hp-mb {
-    font-size: 15px;
+    font-size: 12px;
 }

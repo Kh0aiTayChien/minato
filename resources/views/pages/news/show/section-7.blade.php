@@ -25,7 +25,7 @@
                             <div class="card-body">
 {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
 {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                                <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
+                                <p class="height-text-card cabin-medium text-white" style="font-size: 15px; letter-spacing: 2px"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
 
                                 <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
                                     <a href="" class="yellow-light-color" style="text-decoration: unset">XEM

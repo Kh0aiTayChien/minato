@@ -1,6 +1,6 @@
 <div class="thuvien">
     <div class=" d-flex justify-content-center align-items-center mulish-extrabold mb-3"
-         style="font-size: 21px; color: #43496B; letter-spacing: 3px">
+         style="font-size: 21px; color: #43496B; letter-spacing: 0.35rem;">
         THE MINATO RESIDENCE
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum" style="font-size: 51px; color: #141C46">

@@ -14,7 +14,7 @@
 </div>
 
 <div class="sec2-loction-mb d-block d-sm-none">
-    <p class="header1-sec2-location-mb mulish-extrabold">
+    <p class="header1-sec2-location-mb mulish-extrabold" style="letter-spacing: 0.35rem">
         VỊ TRÍ TÂM MẠCH
     </p>
     <p class="header2-sec2-location-mb icielbegum"> PHỒN HOA NƠI ĐẤT CẢNG</p>

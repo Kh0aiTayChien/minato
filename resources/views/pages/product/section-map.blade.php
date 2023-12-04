@@ -15,14 +15,14 @@
         <div class="row  mx-5 mb-5 gx-3 gy-2">
             <div class="col-md-4 col-xs-0"></div>
             <div class="col-md-2  d-flex justify-content-center align-content-center ">
-                <button class="tab-button btn btn-block shadow-effect blue-border-bottom
+                <button class="tab-button btn btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake active"
                         data-target="tab1" style="width: 100%">
                     <div class=" font-size-custom">TÒA CT1</div>
                 </button>
             </div>
             <div class="col-md-2 d-flex justify-content-center align-content-center">
-                <button class="tab-button btn  btn-block  shadow-effect blue-border-bottom
+                <button class="tab-button btn  btn-block   blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab2" style="width: 100%">
                     <div class=" font-size-custom">TÒA CT2</div>
@@ -152,7 +152,7 @@
     </div>
 
     <div class="d-flex align-content-center justify-content-center">
-        <button onclick="" style="padding: 0; border: none; background: none;">
+        <button onclick="" style="padding: 0; border: none; background: none;" class="w-75">
             <img src="{{asset('images/button/xemthemsanpham.png')}}" alt="Xem thêm sản phẩm" style="" class="img-fluid">
         </button>
     </div>
