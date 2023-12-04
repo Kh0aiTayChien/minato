@@ -187,7 +187,7 @@
                 </div>
             </div>
         </div>
-        <div class="row tab tab3  mt-5 gy-4 gx-0 " style="">
+        <div class="row tab tab3 px-5 mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
                 <a href="{{asset('images/thuvien/brochure/BROCHURE.pdf')}}">
                     <img src="{{asset('images/thuvien/brochure/bro1.png')}}" alt="" class="img-fluid">
@@ -197,9 +197,11 @@
 
             </div>
         </div>
-        <div class="row tab tab4  mt-5 gy-4 gx-0 " style="">
+        <div class="row tab tab4 px-5 mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
-                <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid">
+                <a href="{{asset('images/thuvien/flyer/Residence.pdf')}}">
+                    <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid">
+                </a>
             </div>
             <div class="col-md-6 col-xs-12">
 
