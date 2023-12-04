@@ -4,12 +4,12 @@
         width="600" height="600" style="border:0;" allowfullscreen="" loading="lazy"
         referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="col-3 content-sec2-contact-pc">
-        <p class="header1-sec2-contact-pc mulish-extrabold">The Minato Residence</p>
+        <p class="header1-sec2-contact-pc mulish-extrabold space-21">The Minato Residence</p>
         <p class="header2-sec2-contact-pc icielbegum">liên hệ</p>
         <p class="header3-sec2-contact-pc mulish-extrabold">HOTLINE</p>
         <p class="header4-sec2-contact-pc cabin-medium">1800 577783</p>
         <p class="header3-sec2-contact-pc mulish-extrabold">VĂN PHÒNG BÁN HÀNG</p>
-        <p class="text-sec2-contact-pc cabin-medium">Showroom The Minato Residence, Đường số 3, Dự án Waterfront City,
+        <p class="text-sec2-contact-pc cabin-medium space-15">Showroom The Minato Residence, Đường số 3, Dự án Waterfront City,
             Phường Vĩnh
             Niệm, Quận Lê Chân, Thành phố Hải Phòng, Việt Nam</p>
     </div>

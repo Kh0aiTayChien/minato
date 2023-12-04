@@ -31,7 +31,7 @@
 .header-first-line-hp {
     text-transform: uppercase;
     color: white;
-    font-size: 20px;
+    font-size: 21px;
 }
 
 .header-second-line-hp {
@@ -53,6 +53,7 @@
 .first-text-hp {
     margin-left: 15%;!important;
     margin-bottom: 10%;
+    letter-spacing: 0.045rem;
 }
 
 .double-border {

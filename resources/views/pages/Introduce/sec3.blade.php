@@ -1,14 +1,14 @@
 <div class="sec3-intro-pc d-none d-sm-block">
     <div class="row-test all-header-sec3-intro-pc">
         <div class="col-11">
-            <p class="header1-sec3-intro-pc mulish-extrabold">Cảm hứng dự án</p>
-            <p class="header2-sec3-intro-pc icielbegum">BẢN GIAO HÒA HƯƠNG SẮC</p>
-            <p class="header3-sec3-intro-pc icielbegum">ĐẬM CHẤT MIỀN PHÙ TANG</p>
+            <p class="header1-sec3-intro-pc mulish-extrabold space-21">Cảm hứng dự án</p>
+            <p class="header2-sec3-intro-pc icielbegum space-51">BẢN GIAO HÒA HƯƠNG SẮC</p>
+            <p class="header3-sec3-intro-pc icielbegum space-51">ĐẬM CHẤT MIỀN PHÙ TANG</p>
         </div>
     </div>
     <div class="row-test">
         <div class="col-6"></div>
-        <p class="col-5 text-sec3-intro-pc cabin-medium">Lấy cảm hứng từ thành phố Cảng phồn hoa của xứ sở hoa anh đào,
+        <p class="col-5 text-sec3-intro-pc cabin-medium space-15">Lấy cảm hứng từ thành phố Cảng phồn hoa của xứ sở hoa anh đào,
             The Minato Residence đã tạo nên
             một
             không gian độc đáo, kết hợp nét kiến trúc đặc trưng, cảnh quan thiên nhiên an tĩnh và sự sôi động đầy sức

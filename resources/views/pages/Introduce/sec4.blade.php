@@ -1,9 +1,9 @@
 <div class="sec4-intro-pc d-none d-sm-block">
-    <p class="header1-sec4-intro-pc mulish-extrabold">BẢO CHỨNG CHO SỰ UY TÍN</p>
-    <p class="header2-sec4-intro-pc icielbegum">sự kết hợp đỉnh cao đầu tiên tại việt nam</p>
-    <p class="header3-sec4-intro-pc icielbegum">Từ hai ông lớn Bất động sản xứ sở Hoa Anh Đào</p>
-    <p class="header21-sec4-intro-pc icielbegum">Fujita & Takara Leben</p>
-    <div class="row-test">
+    <p class="header1-sec4-intro-pc mulish-extrabold space-21">BẢO CHỨNG CHO SỰ UY TÍN</p>
+    <p class="header2-sec4-intro-pc icielbegum space-51">sự kết hợp đỉnh cao đầu tiên tại việt nam</p>
+    <p class="header3-sec4-intro-pc icielbegum space-51">Từ hai ông lớn Bất động sản xứ sở Hoa Anh Đào</p>
+    <p class="header21-sec4-intro-pc icielbegum space-51">Fujita & Takara Leben</p>
+    <div class="row-test space-15">
     <p class="text-sec4-intro-pc  col-9 cabin-medium">Dự án The Minato Residence là dự án khu đô thị đầu tiên tại Thành phố Hải Phòng được đầu tư hoàn toàn
         bởi hai “ông lớn” trong ngành bất động sản tại Nhật Bản là Fujita và Takara Leben.</p>
     <p class="col-9 text-sec4-intro-pc cabin-medium">Tập đoàn xây dựng Fujita Nhật Bản, có lịch sử lâu đời từ năm 1910, đã trải qua hơn một thế kỷ phát triển
