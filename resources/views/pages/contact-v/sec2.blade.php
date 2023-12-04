@@ -1,7 +1,7 @@
 <div class="row-test sec2-contact-pc d-none d-sm-flex">
     <img src="{{asset('images/contact-v/image 8.png')}}" class="col-7">
     <div class="col-3 content-sec2-contact-pc">
-        <p class="header1-sec2-contact-pc mulish-extrabold">The Minato Residence</p>
+        <p class="header1-sec2-contact-pc mulish-extrabold" style="letter-spacing: 0.35rem">The Minato Residence</p>
         <p class="header2-sec2-contact-pc icielbegum">liên hệ</p>
         <p class="header3-sec2-contact-pc mulish-extrabold">HOTLINE</p>
         <p class="header4-sec2-contact-pc cabin-medium">1800 577783</p>

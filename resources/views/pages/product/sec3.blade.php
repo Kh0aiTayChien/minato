@@ -2,7 +2,7 @@
     <div class="row-test-1">
         <img src="{{asset('images/product/sec3/grv94yfk.jpeg')}}" class="col-6 img-fluid">
         <div class=" col-6 content-sec3-product-pc">
-            <p class="header1-sec3-product-pc mulish-extrabold">hệ thống an ninh đa lớp</p>
+            <p class="header1-sec3-product-pc mulish-extrabold" style="letter-spacing: 0.35rem">hệ thống an ninh đa lớp</p>
             <p class="header2-sec3-product-pc icielbegum">ĐẢM BẢO <br>
                 AN TOÀN 24/7</p>
             <ul class="text-sec3-product-pc">
