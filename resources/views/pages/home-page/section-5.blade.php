@@ -4,8 +4,8 @@
             <div class="col-xs-12 col-md-7 ">
                 <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 3px"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 16px; letter-spacing: 3px"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 51px"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 51px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA THIÊN NHIÊN</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hướng đa tầng tiện ích chuẩn Nhật</div>
                 <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN</div>
                 <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
             </div>
@@ -63,7 +63,9 @@
     </div>
     <div class="d-flex align-content-center justify-content-center pb-5">
         <button onclick="" style="padding: 0; border: none; background: none;">
-            <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">
+            <a href="{{route('utility.index')}}">
+                <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">
+            </a>
         </button>
     </div>
 
