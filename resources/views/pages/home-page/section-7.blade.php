@@ -1,10 +1,12 @@
 <div class="section-7">
 
-    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex" style="font-size: 51px">
+    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex"
+         style="font-size: 51px">
         TIN TỨC KHÁC
     </div>
 
-    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-md-none" style="font-size: 32px">
+    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-md-none"
+         style="font-size: 32px">
         TIN TỨC KHÁC
     </div>
 
@@ -19,20 +21,26 @@
         <div class="carousel-sec-9">
             @foreach($articles as $article)
                 <div class="d-flex justify-content-center">
-                    <a href="{{route('news.show',['slug' => $article->slug])}}" style="text-decoration: unset; color: unset">
-{{--                        <a href="" style="text-decoration: unset; color: unset">--}}
+                    <a href="{{route('news.show',['slug' => $article->slug])}}"
+                       style="text-decoration: unset; color: unset">
+                        {{--                        <a href="" style="text-decoration: unset; color: unset">--}}
                         <div class="card shadow-effect me-1 bg-transparent-black"
                              style="width:30rem; height: 100% ">
-                            <img class="card-img-top img-fluid" style="height: 15rem; object-fit: cover" src="{{$article->image}}"
-{{--                            <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"--}}
+                            <img class="card-img-top img-fluid" style="height: 15rem; object-fit: cover"
+                                 src="{{$article->image}}"
+                                 {{--                            <img class="card-img-top  img-fluid" src="{{asset('images/homepage/section-7/eg.png')}}"--}}
                                  alt="Card image">
                             <div class="card-body">
-{{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
-{{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
-                                <p class="height-text-card cabin-medium text-white" style="font-size: 16px; letter-spacing: 2px"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
+                                {{--                                <p class="height-text-card green-text font-size-custom"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>--}}
+                                {{--                                <p class="card-text " style="height: 6rem">{{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 70)) }}</p>--}}
+                                <p class="height-text-card cabin-medium text-white"
+                                   style="font-size: 16px; letter-spacing: 2px">
+                                    <strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
 
-                                <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                    <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
+                                <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4"
+                                     style="font-size: 13px">
+                                    <a href="{{route('news.show',['slug' => $article->slug])}}"
+                                       class="yellow-light-color" style="text-decoration: unset">XEM
                                         CHI TIẾT</a>
                                 </div>
                             </div>
@@ -46,7 +54,10 @@
     <div class="d-flex align-content-center justify-content-center">
         <div class="d-flex align-content-center justify-content-center" style="width: 65%">
             <button onclick="" style="padding: 0; border: none; background: none;">
-                <img src="{{asset('images/button/xemthemtintuc.png')}}" alt="Xem thêm tin tức" style="" class="img-fluid">
+                <a href="{{route('news.index')}}">
+                    <img src="{{asset('images/button/xemthemtintuc.png')}}" alt="Xem thêm tin tức" style=""
+                         class="img-fluid">
+                </a>
             </button>
         </div>
     </div>
@@ -62,6 +73,7 @@
     .section-7 {
         /*height: 100vh;*/
     }
+
     .bg-transparent-black {
         background-color: rgba(0, 0, 0, 0.27); /* Độ trong suốt: 0.5 (từ 0 đến 1) */
     }
@@ -71,9 +83,11 @@
         object-fit: cover;
         width: 404px;
     }
-    .height-text-card{
+
+    .height-text-card {
         height: 4rem;
     }
+
     .carousel-sec-9 {
         width: 100%;
         margin: 0px auto;
@@ -82,12 +96,15 @@
     .section-9.slick-slide {
         margin: 10px;
     }
+
     .img-sec9-test {
         width: 30vw;
     }
+
     .img-sec9-test-mb {
         width: 90vw;
     }
+
     .section-9.slick-slide img {
         width: 90%;
     }
@@ -161,6 +178,7 @@
     .btn-long {
         width: 150px;
     }
+
     .header-sec9-mb-1 {
         font-size: 22px;
         font-family: Montserrat-Regular, sans-serif;
@@ -168,16 +186,19 @@
         line-height: 0px;
         padding-top: 30px;
     }
+
     .header-sec9-mb-2 {
         font-size: 27px;
         font-family: Montserrat-SemiBold, sans-serif;
         color: #59843d;
     }
+
     @media screen and (max-width: 1200px) {
         .img-sec9-test {
             width: 40vw;
         }
     }
+
     @media only screen and (max-width: 800px) {
         .img-sec9 {
             /*scale: 70%;*/
@@ -202,9 +223,11 @@
         .space_sec9 {
             display: none;
         }
-        .height-text-card{
+
+        .height-text-card {
             height: 3.5rem;
         }
+
         .height-img-card {
             object-fit: cover;
             width: 404px;

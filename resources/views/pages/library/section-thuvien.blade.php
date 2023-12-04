@@ -33,7 +33,7 @@
             <div class="col-md-3 d-flex justify-content-center align-content-center">
                 <button class="tab-button btn  btn-block   blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
-                        data-target="tab3" style="width: 100%">
+                        data-target="tab4" style="width: 100%">
                     <div class=" font-size-custom">FLYER</div>
                 </button>
             </div>
@@ -78,13 +78,13 @@
                 <div class="w-100" style="padding: 10%">
                     <div class="row">
                         <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C1.png')}}" alt="" class="img-fluid mb-2">
+                            <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
                         </div>
                         <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C2.png')}}" alt="" class="img-fluid mb-2">
+                            <img src="{{asset('images/thuvien/tien-ich/C2.png')}}" alt="" class="img-fluid mb-2">
                         </div>
                         <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C7.png')}}" alt="" class="img-fluid mb-2">
+                            <img src="{{asset('images/thuvien/tien-ich/C7.png')}}" alt="" class="img-fluid mb-2">
                         </div>
                     </div>
                     <div class="row mt-2">
@@ -111,28 +111,99 @@
                     </div>
                 </div>
 
+
             </div>
             <div class="row tab tab22  mt-5 gy-4 gx-0 " style="">
-
+                <div class="w-100" style="padding: 10%">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tong-the/C7.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tong-the/C8.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tong-the/C9.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tong-the/D10.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="row tab tab33  mt-5 gy-4 gx-0 " style="">
-
+                <div class="w-100" style="padding: 10%">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C2.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C7.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C8.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C9.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C12.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                    </div>
+                    <div class="row mt-2">
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C13.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/C14.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                        <div class="col-md-4">
+                            <img src="{{asset('images/thuvien/tien-ich/D11.png')}}" alt="" class="img-fluid mb-2">
+                        </div>
+                    </div>
+                </div>
             </div>
+
             <div class="row tab tab44  mt-5 gy-4 gx-0 " style="">
 
             </div>
 
         </div>
 
-
         <div class="row tab tab2  mt-5 gy-4 gx-0 " style="">
-
+            <div class="row px-5">
+                <div class="col-md-6 col-xs-12">
+                    <img src="{{asset('images/thuvien/video/video1.png')}}" alt="" class="img-fluid">
+                </div>
+                <div class="col-md-6 col-xs-12">
+                </div>
+            </div>
         </div>
         <div class="row tab tab3  mt-5 gy-4 gx-0 " style="">
+            <div class="col-md-6 col-xs-12">
+                <a href="{{asset('images/thuvien/brochure/BROCHURE.pdf')}}">
+                    <img src="{{asset('images/thuvien/brochure/bro1.png')}}" alt="" class="img-fluid">
+                </a>
+            </div>
+            <div class="col-md-6 col-xs-12">
 
+            </div>
         </div>
         <div class="row tab tab4  mt-5 gy-4 gx-0 " style="">
+            <div class="col-md-6 col-xs-12">
+                <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid">
+            </div>
+            <div class="col-md-6 col-xs-12">
 
+            </div>
         </div>
     </div>
 

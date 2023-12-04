@@ -2,7 +2,7 @@
     <div class="row-test all-header-sec3-intro-pc">
         <div class="col-6"></div>
         <div class="col-5">
-            <p class="header1-sec3-intro-pc mulish-extrabold">Cảm hứng dự án</p>
+            <p class="header1-sec3-intro-pc mulish-extrabold" style="">Cảm hứng dự án</p>
             <p class="header2-sec3-intro-pc icielbegum">BẢN GIAO HÒA HƯƠNG SẮC</p>
             <p class="header3-sec3-intro-pc icielbegum">ĐẬM CHẤT MIỀN PHÙ TANG</p>
         </div>

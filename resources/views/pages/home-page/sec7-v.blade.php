@@ -6,7 +6,7 @@
     <p class="col-12 header2-sec7-v-hp  icielbegum">
         THE MINATO RESIDENCE
     </p><br>
-    <a href="#" class="double-border px-4 py-2  btn-sec2-hp-pc mulish-extrabold">
+    <a href="https://marcom3d.com/minato/" class="double-border px-4 py-2  btn-sec2-hp-pc mulish-extrabold">
         TRẢI NGHIỆM VR 360
     </a>
 </div>
@@ -19,7 +19,7 @@
     <p class="col-12 header2-sec7-v-hp-mb icielbegum">
         THE MINATO RESIDENCE
     </p><br>
-    <a href="#" class="double-border px-4 py-2 mulish-extrabold btn-sec2-hp-mb">
+    <a href="https://marcom3d.com/minato/" class="double-border px-4 py-2 mulish-extrabold btn-sec2-hp-mb">
         TRẢI NGHIỆM VR 360
     </a>
 </div>

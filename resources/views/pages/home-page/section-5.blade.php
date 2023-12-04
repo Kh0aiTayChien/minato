@@ -63,7 +63,9 @@
     </div>
     <div class="d-flex align-content-center justify-content-center pb-5">
         <button onclick="" style="padding: 0; border: none; background: none;">
-            <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">
+            <a href="{{route('utility.index')}}">
+                <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">
+            </a>
         </button>
     </div>
 

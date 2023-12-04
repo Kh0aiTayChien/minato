@@ -9,7 +9,7 @@
                 Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
                 lọc những tinh hoa từ xứ Phù Tang, The Minato Residence mang đến sự cân bằng trọn vẹn giữa nhịp sống
                 hiện đại, tiện nghi và những khoảnh khắc “sống an” chan hòa cùng thiên nhiên.</p>
-            <a href="#" class="double-border first-text-hp px-5 py-2 mulish-extrabold">
+            <a href="{{route('introduce.index')}}" class="double-border first-text-hp px-5 py-2 mulish-extrabold">
                 TÌM HIỂU THÊM
             </a>
         </div>
@@ -33,7 +33,7 @@
                 với hệ tiện ích ngoại khu đạt chuẩn quốc tế đáp ứng mọi nhu cầu từ ăn uống, vui chơi, giải trí đến mua
                 sắm, giáo dục, y tế chỉ trong vài bước chân.</p>
             <div class="btn-content2-sec2-hp">
-                <a href="#" class="btn-content2-sec2-hp double-border px-5 py-2 mulish-extrabold">TÌM HIỂU THÊM</a>
+                <a href="{{route('location.index')}}" class="btn-content2-sec2-hp double-border px-5 py-2 mulish-extrabold">TÌM HIỂU THÊM</a>
             </div>
         </div>
     </div>
@@ -62,7 +62,7 @@
     <p class="text-hp-mb cabin-medium">Nằm tại lõi trung tâm mới của thành phố Hải Phòng, The Minato Residence là tâm điểm giao thoa
         với hệ tiện ích ngoại khu đạt chuẩn quốc tế đáp ứng mọi nhu cầu từ ăn uống, vui chơi, giải trí đến mua sắm, giáo
         dục, y tế chỉ trong vài bước chân. </p>
-    <a href="#" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold">
+    <a href="{{route('location.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold">
         TÌM HIỂU THÊM
     </a>
 </div>

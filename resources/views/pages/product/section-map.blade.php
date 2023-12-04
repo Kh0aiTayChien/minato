@@ -25,7 +25,7 @@
                 <button class="tab-button btn  btn-block  shadow-effect blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab2" style="width: 100%">
-                    <div class=" font-size-custom">TÒA CT1</div>
+                    <div class=" font-size-custom">TÒA CT2</div>
                 </button>
             </div>
         </div>
@@ -142,12 +142,12 @@
 
                 </script>
             </div>
-
-
         </div>
 
         <div class="row tab tab2  mt-5 gy-4 gx-0 " style="">
-
+            <div class="d-flex justify-content-center align-content-center">
+                <img src="{{asset('images/product/section-4/ct2.png')}}" alt="map" style="" class="img-fluid w-75">
+            </div>
         </div>
     </div>
 
@@ -164,6 +164,10 @@
     }
     .tab-button {
         color: #133351 !important;
+    }
+
+    .tabs .tab {
+        display: none;
     }
 
     .tabs .tab.active {

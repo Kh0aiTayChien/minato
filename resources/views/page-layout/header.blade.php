@@ -114,10 +114,10 @@
     });
 </script>
 
-<div class="headerpc fixed-top mulish-extrabold d-none d-sm-block" id="myHeader ">
-    <div class="background-image"></div>
+<div class="headerpc fixed-top cabin-medium d-none d-sm-block" id="myHeader " style="font-size: 10px">
+    <div class="background-image" style="opacity: 1;"></div>
     <div class="col-xxl-12 col-md-12 row-test headermenu">
-        <ul class="col-xxl-4 col-md-4 menuleft">
+        <ul class="col-xxl-4 col-md-5 menuleft" style="transform: translateY(14px)">
             <li class="col-xxl-3 col-md-3">
                 <a href="{{asset('/')}}" id="trang-chu-link">
                     <p>TRANG CHỦ</p>
@@ -125,7 +125,7 @@
             </li>
             <li class="col-xxl-3 col-md-3">
                 <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
-                    <p>GIỚI THIỆU</p>
+                    <p> GIỚI THIỆU</p>
                 </a>
             </li>
             <li class="col-xxl-3 col-md-3">
@@ -135,24 +135,23 @@
                 <a href="{{asset('san-pham')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
             </li>
         </ul>
-        <div class="col-xxl-3 col-md-3 logominmin">
-            <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style=""
-                                          class="logo-test col-xxl-11 col-md-11"></a>
+        <div class="col-xxl-3 col-md-2 logominmin">
+            <a href="{{asset('/')}}"><img src="https://theminatoresidence.vn/images/header/Minato Logo gradient -01 1.png" style="" class="logo-test col-xxl-11 col-md-11"></a>
         </div>
-        <ul class="col-xxl-4 col-md-4 menuright">
-            <li class="col-xxl-2 col-md-2">
+        <ul class="col-xxl-4 col-md-5 menuright" style="transform: translateY(4.7px)">
+            <li class="col-xxl-3 col-md-3" style="transform: translateX(-12px)">
                 <a href="{{asset('tien-ich')}}" id="dai-ly-link"><p>TIỆN ÍCH</p></a>
             </li>
-            <li class="col-xxl-2 col-md-2">
+            <li class="col-xxl-2 col-md-2" style="transform: translateX(-10px)">
                 <a href="{{asset('tien-do')}}" id="tin-tuc-link"><p>TIẾN ĐỘ</p></a>
             </li>
             <li class="col-xxl-2 col-md-2">
                 <a href="{{asset('tin-tuc')}}" id="kien-thuc-link"><p>TIN TỨC</p></a>
             </li>
-            <li class="col-xxl-2 col-md-2">
+            <li class="col-xxl-2 col-md-3">
                 <a href="{{asset('thu-vien')}}" id="lien-he-link"><p>THƯ VIỆN</p></a>
             </li>
-            <li class="col-xxl-2 col-md-2">
+            <li class="col-xxl-2 col-md-2" style="transform: translateX(-5px)">
                 <a href="{{asset('lien-he')}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
