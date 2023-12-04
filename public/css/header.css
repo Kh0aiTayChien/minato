@@ -146,8 +146,8 @@ ul.iconmb {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
-    margin-top: 23px;
+    justify-content: right;
+    margin: 40px 0 0;
     /*transform: translateX(20%);*/
 }
 
@@ -166,8 +166,8 @@ ul.iconmb {
     display: flex;
     text-align: center;
     justify-content: center;
-    width: 38%;
-    margin-top: 15px;
+    width: 58%;
+    margin-top: 12px;
     /*transform: translateX(30%);*/
 }
 
@@ -177,8 +177,8 @@ ul.iconmb {
     display: flex;
     flex-wrap: wrap;
     text-align: center;
-    justify-content: center;
-    margin: 23px 0 0;
+    justify-content: left;
+    margin: 40px 0 0;
     padding: 0;
     /*transform: translateX(-10%);*/
 }
@@ -189,7 +189,15 @@ ul.iconmb {
 
 .text-menu-mb {
     text-decoration: none;
-    color: white;
+    color: #ECCE79;
+}
+
+.header-link-left {
+    padding-right: 9% ;
+}
+
+.header-link-right {
+    padding-left: 5%;
 }
 
 /*@media screen and (max-width: 1400px) {*/

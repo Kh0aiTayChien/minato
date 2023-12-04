@@ -3,7 +3,7 @@
     background-size: 100% 105%;
     padding-bottom: 5%;
     padding-top: 3%;
-    background-position: center -7px;
+    background-position: center -10px;
 }
 
 .row-test {
@@ -31,8 +31,7 @@
 .header-first-line-hp {
     text-transform: uppercase;
     color: white;
-    font-size: 20px;
-    letter-spacing: 0.35rem;;
+    font-size: 21px;
 }
 
 .header-second-line-hp {
@@ -53,6 +52,8 @@
 
 .first-text-hp {
     margin-left: 15%;!important;
+    margin-bottom: 10%;
+    letter-spacing: 0.045rem;
 }
 
 .double-border {
@@ -79,6 +80,7 @@
 }
 
 .btn-content2-sec2-hp {
+    margin-top: 10%;
     text-align: right;
 }
 

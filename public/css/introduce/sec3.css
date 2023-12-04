@@ -2,17 +2,20 @@
     background-image: url("/images/introduce/sec3/Group 103 (1).png");
     background-repeat: no-repeat;
     padding-bottom: 40%;
-    background-position: center;
-    background-size: 100% 100%;
+    background-position: center -10px;
+    background-size: 100% 105%;
 }
 
 .text-sec3-intro-pc {
     text-align: justify;
     color: #133351;
+    padding-right: 3%;
+    padding-left: 1.5%;
 }
 
 .all-header-sec3-intro-pc {
     padding-top: 10%;
+    padding-right: 3%;
 }
 
 .header1-sec3-intro-pc {
@@ -36,7 +39,7 @@
     justify-content: right;
     font-size: 2.66vw;
     color: #BA322E;
-    margin-top: -3%;
+    margin-top: -1.5%;
 }
 
 .sec3-intro-mb {
