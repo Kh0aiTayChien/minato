@@ -1,6 +1,6 @@
 .sec2-intro-pc {
     background-image: url("/images/introduce/sec2/Group 110.png");
-    background-size: cover;
+    background-size: 100% 105%;
     background-repeat: no-repeat;
     background-position: center -10px;
 }
@@ -15,7 +15,6 @@
 
 .header1-sec2-intro-pc {
     color: white;
-    font-size: 20px;
 }
 
 .header2-sec2-intro-pc {

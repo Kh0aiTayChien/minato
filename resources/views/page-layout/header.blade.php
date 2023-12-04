@@ -18,22 +18,22 @@
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
             <linearGradient id="9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1" x1="12.066" x2="34.891" y1=".066" y2="22.891"
                             gradientUnits="userSpaceOnUse">
-                <stop offset=".237" stop-color="#3bc9f3"></stop>
-                <stop offset=".85" stop-color="#1591d8"></stop>
+                <stop offset=".237" stop-color="#ECCE79"></stop>
+                <stop offset=".85" stop-color="#ECCE79"></stop>
             </linearGradient>
             <path fill="url(#9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1)"
                   d="M43,15H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,14.1,44.1,15,43,15z"></path>
             <linearGradient id="9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2" x1="12.066" x2="34.891" y1="12.066" y2="34.891"
                             gradientUnits="userSpaceOnUse">
-                <stop offset=".237" stop-color="#3bc9f3"></stop>
-                <stop offset=".85" stop-color="#1591d8"></stop>
+                <stop offset=".237" stop-color="#ECCE79"></stop>
+                <stop offset=".85" stop-color="#ECCE79"></stop>
             </linearGradient>
             <path fill="url(#9iHXMuvV7brSX7hFt~tsnb_Rdp3AydLFY2A_gr2)"
                   d="M43,27H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,26.1,44.1,27,43,27z"></path>
             <linearGradient id="9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3" x1="12.066" x2="34.891" y1="24.066" y2="46.891"
                             gradientUnits="userSpaceOnUse">
-                <stop offset=".237" stop-color="#3bc9f3"></stop>
-                <stop offset=".85" stop-color="#1591d8"></stop>
+                <stop offset=".237" stop-color="#ECCE79"></stop>
+                <stop offset=".85" stop-color="#ECCE79"></stop>
             </linearGradient>
             <path fill="url(#9iHXMuvV7brSX7hFt~tsnc_Rdp3AydLFY2A_gr3)"
                   d="M43,39H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,38.1,44.1,39,43,39z"></path>
@@ -90,7 +90,7 @@
     }
 
     .menu-dropdown {
-        background: #0c85d0;
+        background: #1b4b72;
         position: fixed;
         top: 0;
         left: 0;
@@ -117,42 +117,42 @@
 <div class="headerpc fixed-top mulish-extrabold d-none d-sm-block" id="myHeader ">
     <div class="background-image"></div>
     <div class="col-xxl-12 col-md-12 row-test headermenu">
-        <ul class="col-xxl-4 col-md-4 menuleft">
-            <li class="col-xxl-3 col-md-3">
+        <ul class="col-md-5 menuleft">
+            <li class="header-link-left">
                 <a href="{{asset('/')}}" id="trang-chu-link">
                     <p>TRANG CHỦ</p>
                 </a>
             </li>
-            <li class="col-xxl-3 col-md-3">
+            <li class="header-link-left">
                 <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
                     <p>GIỚI THIỆU</p>
                 </a>
             </li>
-            <li class="col-xxl-3 col-md-3">
-                <a href="{{asset('vi-tri')}}" id="san-pham-link"><p>VỊ TRÍ</p></a>
+            <li class="header-link-left">
+                <a href="{{asset('vi-tri')}}" id="vi-tri-link"><p>VỊ TRÍ</p></a>
             </li>
-            <li class="col-xxl-3 col-md-3">
+            <li class="">
                 <a href="{{asset('san-pham')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
             </li>
         </ul>
-        <div class="col-xxl-3 col-md-3 logominmin">
+        <div class="col-md-2 logominmin">
             <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style=""
                                           class="logo-test col-xxl-11 col-md-11"></a>
         </div>
-        <ul class="col-xxl-4 col-md-4 menuright">
-            <li class="col-xxl-2 col-md-2">
-                <a href="{{asset('tien-ich')}}" id="dai-ly-link"><p>TIỆN ÍCH</p></a>
+        <ul class="col-md-5 menuright">
+            <li class="">
+                <a href="{{asset('tien-ich')}}" id="tien-ich-link"><p>TIỆN ÍCH</p></a>
             </li>
-            <li class="col-xxl-2 col-md-2">
-                <a href="{{asset('tien-do')}}" id="tin-tuc-link"><p>TIẾN ĐỘ</p></a>
+            <li class="header-link-right">
+                <a href="{{asset('tien-do')}}" id="tien-do-link"><p>TIẾN ĐỘ</p></a>
             </li>
-            <li class="col-xxl-2 col-md-2">
-                <a href="{{asset('tin-tuc')}}" id="kien-thuc-link"><p>TIN TỨC</p></a>
+            <li class="header-link-right">
+                <a href="{{asset('tin-tuc')}}" id="tin-tuc-link"><p>TIN TỨC</p></a>
             </li>
-            <li class="col-xxl-2 col-md-2">
-                <a href="{{asset('thu-vien')}}" id="lien-he-link"><p>THƯ VIỆN</p></a>
+            <li class="header-link-right">
+                <a href="{{asset('thu-vien')}}" id="thu-vien-link"><p>THƯ VIỆN</p></a>
             </li>
-            <li class="col-xxl-2 col-md-2">
+            <li class="header-link-right">
                 <a href="{{asset('lien-he')}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
             </li>
         </ul>
@@ -167,5 +167,73 @@
         var opacity = 1 - (scrollTop / $(window).height()); // Tính toán độ mờ dựa trên vị trí cuộn
 
         background.css('opacity', Math.max(opacity, 0.7)); // Giới hạn opacity tối thiểu là 0.7
+    });
+    document.addEventListener('DOMContentLoaded', function () {
+// Lấy URL hiện tại
+        var currentUrl = window.location.href;
+
+// Lấy các thẻ <p> và các liên kết tương ứng
+        var gioiThieuLink = document.getElementById('gioi-thieu-link');
+        var sanPhamLink = document.getElementById('san-pham-link');
+        var viTriLink = document.getElementById('vi-tri-link');
+        var tinTucLink = document.getElementById('tin-tuc-link');
+        var tienIchLink = document.getElementById('tien-ich-link');
+        var lienHeLink = document.getElementById('lien-he-link');
+        var trangChuLink = document.getElementById('trang-chu-link');
+        var tienDoLink = document.getElementById('tien-do-link');
+        var thuVienLink = document.getElementById('thu-vien-link');
+        var routeName = "{{ asset('/') }}";
+
+        if (currentUrl.indexOf(routeName) !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            trangChuLink.style.color = "#ECCE79";
+        }
+        if (currentUrl.indexOf("nga-minmin") !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            trangChuLink.style.color = "#404041";
+        }
+// Kiểm tra nếu đang ở link 'gioi-thieu'
+        if (currentUrl.indexOf("gioi-thieu") !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            gioiThieuLink.style.color = "#ECCE79";
+            trangChuLink.style.color = "#FFF";
+        }
+
+// Kiểm tra nếu đang ở link 'san-pham'
+        if (currentUrl.indexOf("san-pham") !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            sanPhamLink.style.color = "#ECCE79";
+            trangChuLink.style.color = "#FFF";
+        }
+        if (currentUrl.indexOf("vi-tri") !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            viTriLink.style.color = "#ECCE79";
+            trangChuLink.style.color = "#FFF";
+        }
+        if (currentUrl.indexOf("tin-tuc") !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            tinTucLink.style.color = "#ECCE79";
+            trangChuLink.style.color = "#FFF";
+        }
+        if (currentUrl.indexOf("tien-ich") !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            tienIchLink.style.color = "#ECCE79";
+            trangChuLink.style.color = "#FFF";
+        }
+        if (currentUrl.indexOf("lien-he") !== -1) {
+// Đặt màu sắc cho các thẻ tương ứng
+            lienHeLink.style.color = "#ECCE79";
+            trangChuLink.style.color = "#FFF";
+        }
+        if (currentUrl.indexOf("tien-do") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            tienDoLink.style.color = "#ECCE79"; // Đặt màu sắc về mặc định (có thể để trống để nó quay về CSS mặc định)
+            trangChuLink.style.color = "#FFF";
+        }
+        if (currentUrl.indexOf("thu-vien") !== -1) {
+            // Đặt màu sắc cho các thẻ tương ứng
+            thuVienLink.style.color = "#ECCE79"; // Đặt màu sắc về mặc định (có thể để trống để nó quay về CSS mặc định)
+            trangChuLink.style.color = "#FFF";
+        }
     });
 </script>

@@ -2,17 +2,19 @@
     background-image: url("/images/introduce/sec3/Group 103 (1).png");
     background-repeat: no-repeat;
     padding-bottom: 40%;
-    background-position: center;
-    background-size: 100% 100%;
+    background-position: center -10px;
+    background-size: 100% 105%;
 }
 
 .text-sec3-intro-pc {
     text-align: justify;
     color: #133351;
+    padding-right: 3%;
 }
 
 .all-header-sec3-intro-pc {
     padding-top: 10%;
+    padding-right: 3%;
 }
 
 .header1-sec3-intro-pc {
@@ -23,7 +25,7 @@
 }
 
 .header2-sec3-intro-pc {
-    font-size: 40px;
+    font-size: 45px;
     text-align: right;
     justify-content: right;
     color: #11293F;
@@ -32,9 +34,9 @@
 .header3-sec3-intro-pc {
     text-align: right;
     justify-content: right;
-    font-size: 40px;
+    font-size: 45px;
     color: #BA322E;
-    margin-top: -3%;
+    margin-top: -1.5%;
 }
 
 .sec3-intro-mb {

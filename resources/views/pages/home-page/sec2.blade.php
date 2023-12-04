@@ -3,7 +3,7 @@
     <p class="header-second-line-hp co-header-css icielbegum">TINH HOA NHẬT BẢN</p>
     <p class="header-second-line-hp co-header-css icielbegum">An yên giữa lòng phố Cảng</p><br>
     <div class="row-test">
-        <div class="col-md-3 col-xl-3">
+        <div class="col-md-3">
             <p class="first-text-hp text-hp cabin-medium pb-4">Tiên phong mang đến một làn gió mới về phong cách sống và đẳng cấp từ Nhật
                 Bản, The Minato
                 Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
