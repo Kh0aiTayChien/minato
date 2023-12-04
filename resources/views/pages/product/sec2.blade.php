@@ -1,10 +1,8 @@
 <div class="sec2-product-pc">
-    <p class="mainheader1-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 51px; color: #141C46">CĂN HỘ CAO CẤP CHUẨN NHẬT</p>
-    <p class="mainheader2-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 51px; color: #BA322E">Lần đầu tiên xuất hiện tại Hải Phòng</p>
-    <p class="mainheader1-sec2-product-pc icielbegum d-md-none" style="font-size: 30px; color: #141C46">CĂN HỘ CAO CẤP </p>
-    <p class="mainheader1-sec2-product-pc icielbegum d-md-none" style="font-size: 30px; color: #141C46">CHUẨN NHẬT</p>
-    <p class="mainheader2-sec2-product-pc icielbegum d-md-none" style="font-size: 30px; color: #BA322E">Lần đầu tiên xuất hiện </p>
-    <p class="mainheader2-sec2-product-pc icielbegum d-md-none" style="font-size: 30px; color: #BA322E"> tại Hải Phòng</p>
+    <p class="mainheader1-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 2.66vw; color: #141C46">CĂN HỘ CAO CẤP CHUẨN NHẬT</p>
+    <p class="mainheader2-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 2.66vw; color: #BA322E">Lần đầu tiên xuất hiện tại Hải Phòng</p>
+    <p class="mainheader1-sec2-product-pc icielbegum d-md-none" style="font-size: 18px; color: #141C46">CĂN HỘ CAO CẤP CHUẨN NHẬT</p>
+    <p class="mainheader2-sec2-product-pc icielbegum d-md-none" style="font-size: 18px; color: #BA322E">Lần đầu tiên xuất hiện  tại Hải Phòng </p>
     <div class="row-test-1">
         <div class="col-lg-5 col-xs-12 row-test-1">
             <img src="{{asset('images/product/sec2/aTIN_6451_ 1.png')}}" class="col-12">
@@ -15,7 +13,8 @@
     </div>
     <div class="row-test container-sec2-product-pc">
         <div class="col-lg-7  col-xs-12 " style="letter-spacing: 1px;  padding-left: 1%; padding-bottom: 5%;">
-            <p class="header2-sec2-product-pc icielbegum" style="font-size: 51px; color: #BA322E">TRIẾT LÝ ZEN</p>
+            <p class="header2-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 2.66vw; color: #BA322E">TRIẾT LÝ ZEN</p>
+            <p class="header2-sec2-product-pc icielbegum d-block d-md-none" style="font-size: 32px; color: #BA322E">TRIẾT LÝ ZEN</p>
             <p class="col-xs-12 text-sec2-product-pc cabin-medium pe-2" style="size: 16px">Mang đúng tinh thần Zen tái hiện trong không gian sống, các căn hộ tại The Minato Residence được
                 thiết kế tinh tế, tối giản và thấm đượm hơi thở Nhật Bản trong từng đường nét. Phong cách thiết kế nội
                 thất tại The Minato Residence không mang vẻ lộng lẫy hay xa hoa, thay vào đó sẽ tạo điểm nhấn thông qua

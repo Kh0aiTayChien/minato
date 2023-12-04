@@ -3,15 +3,14 @@
         <img src="{{asset('images/introduce/sec2/Mask group (4).png')}}"
              class="col-md-7 col-xxl-8 container-sec2-intro-pc img-fluid mb-4">
         <div class="col-md-4 col-xxl-4 px-5">
-            <div class="row-test-1 col-md-12">
-                <div class="col-md-9 col-xxl-7">
-                    <p class="header1-sec2-intro-pc mulish-extrabold" style="font-size: 21px">THE MINATO RESIDENCE</p>
-                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block" style="font-size: 51px">TỔNG QUAN</p>
+            <div class=" col-md-12">
+                <div class="col-md-12 ">
+                    <p class="header1-sec2-intro-pc mulish-extrabold ps-4" style="font-size: 21px; letter-spacing: 3px">THE MINATO RESIDENCE</p>
+                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block ps-4" style="font-size: 2.65625vw">TỔNG QUAN</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-flex d-md-none justify-content-center" style="font-size: 32px">TỔNG QUAN</p>
-                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block" style="font-size: 51px">DỰ ÁN</p>
+                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block ps-4" style="font-size: 2.65625vw">DỰ ÁN</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-flex d-md-none justify-content-center" style="font-size: 32px">DỰ ÁN</p>
                 </div>
-                <div class="col-md-3 col-xxl-3"></div>
             </div>
             <div class="row-test-1 col-md-12">
                 <p class="col-md-4 col-xxl-3 left-text-sec2-intro-pc cabin-medium yellow-light-color">CHỦ ĐẦU TƯ</p>
