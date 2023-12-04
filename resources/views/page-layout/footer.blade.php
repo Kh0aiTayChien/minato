@@ -3,8 +3,8 @@
         <div class="title" style="width: 90%">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <div class="mulish-extrabold text-white d-none d-md-block" style="font-size: 1.09vw; letter-spacing: 3px">THE MINATO RESIDENCE</div>
-                    <div class="mulish-extrabold text-white d-flex justify-content-center d-md-none" style="font-size: 18px; letter-spacing: 3px">THE MINATO RESIDENCE</div>
+                    <div class="mulish-extrabold text-white d-none d-md-block" style="font-size: 1.09vw; letter-spacing: 0.35rem;">THE MINATO RESIDENCE</div>
+                    <div class="mulish-extrabold text-white d-flex justify-content-center d-md-none" style="letter-spacing: 0.35rem;">THE MINATO RESIDENCE</div>
                     <div class="icielbegum yellow-light-color mt-3 d-none d-md-block" style="font-size: 2.66vw">ĐĂNG KÍ NHẬN TƯ VẤN</div>
                     <div class="icielbegum yellow-light-color mt-3 d-flex justify-content-center d-md-none" style="font-size: 25px">ĐĂNG KÍ NHẬN TƯ VẤN</div>
                 </div>
@@ -75,11 +75,11 @@
                 </div>
                 <div class="col-md-5 col-xs-12 mt-5">
                     <div class="">
-                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px; letter-spacing: 3px">THÔNG TIN DỰ ÁN</div>
+                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px; letter-spacing: 0.35rem;">THÔNG TIN DỰ ÁN</div>
                     </div>
 
                     <div class="d-flex justify-content-center align-content-center mt-5">
-                        <div class="cabin-medium text-white" style="font-size: 16px; letter-spacing: 1px">
+                        <div class="cabin-medium text-white" style="font-size: 15px; letter-spacing: 1px">
                             <div class="investor">
                                 <p>Chủ đầu tư: Công ty TNHH Minato Việt Nam</p>
                                 <p>(Đầu tư bởi Fujita & Takara Leben)</p>
@@ -112,10 +112,10 @@
                 </div>
                 <div class="col-md-5 col-xs-12 mt-5">
                     <div class="" style="width: 80%">
-                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px; letter-spacing: 3px">VĂN PHÒNG BÁN HÀNG</div>
+                        <div class="mulish-extrabold yellow-light-color" style="font-size: 21px; letter-spacing: 0.35rem;">VĂN PHÒNG BÁN HÀNG</div>
                     </div>
                     <div class="d-flex justify-content-center align-content-center mt-5"  style="width: 80%">
-                        <div class="cabin-medium text-white" style="font-size: 16px; letter-spacing: 1px">
+                        <div class="cabin-medium text-white" style="font-size: 15px; letter-spacing: 1px">
                             <div class="additional-info">
                                 <p>Địa chỉ: Showroom The Minato Residence, Đường số 3, Dự án Waterfront City, Phường Vĩnh Niệm, Quận Lê Chân, Thành phố Hải Phòng, Việt Nam</p>
                                 <p>Hotline: 1800 577783</p>

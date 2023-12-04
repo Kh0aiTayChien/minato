@@ -5,7 +5,7 @@
         <div class="col-md-4 col-xxl-4 px-5">
             <div class=" col-md-12">
                 <div class="col-md-12 ">
-                    <p class="header1-sec2-intro-pc mulish-extrabold ps-4" style="font-size: 21px; letter-spacing: 3px">THE MINATO RESIDENCE</p>
+                    <p class="header1-sec2-intro-pc mulish-extrabold ps-4" style="font-size: 21px; letter-spacing: 0.35rem;">THE MINATO RESIDENCE</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block ps-4" style="font-size: 2.65625vw">TỔNG QUAN</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-flex d-md-none justify-content-center" style="font-size: 32px">TỔNG QUAN</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block ps-4" style="font-size: 2.65625vw">DỰ ÁN</p>
@@ -58,23 +58,23 @@
         <div class="col-1"></div>
         <div class="col-lg-2 col-xs-6">
             <div class="icielbegum yellow-light-color d-flex justify-content-center align-content-center" style="font-size: 73px;">43,29%</div>
-            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 16px; letter-spacing: 1px">MẬT ĐỘ XÂY DỰNG</div>
+            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 15px; letter-spacing: 1px">MẬT ĐỘ XÂY DỰNG</div>
         </div>
         <div class="col-lg-2  col-xs-6">
             <div class="icielbegum yellow-light-color d-flex justify-content-center align-content-center" style="font-size: 73px;">12,6</div>
-            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 16px; letter-spacing: 1px">HA TỔNG DIỆN TÍCH</div>
+            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 15px; letter-spacing: 1px">HA TỔNG DIỆN TÍCH</div>
         </div>
         <div class="col-lg-2  col-xs-6">
             <div class="icielbegum yellow-light-color d-flex justify-content-center align-content-center" style="font-size: 73px;">02</div>
-            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 16px; letter-spacing: 1px">TÒA NHÀ CĂN HỘ CAO CẤP</div>
+            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 15px; letter-spacing: 1px">TÒA NHÀ CĂN HỘ CAO CẤP</div>
         </div>
         <div class="col-lg-2  col-xs-6">
             <div class="icielbegum yellow-light-color d-flex justify-content-center align-content-center" style="font-size: 73px;">924</div>
-            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 16px; letter-spacing: 1px">CĂN HỘ CAO CẤP</div>
+            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 15px; letter-spacing: 1px">CĂN HỘ CAO CẤP</div>
         </div>
         <div class="col-lg-2  col-xs-12">
             <div class="icielbegum yellow-light-color d-flex justify-content-center align-content-center" style="font-size: 73px;">03</div>
-            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 16px; letter-spacing: 1px">LOẠI HÌNH CĂN HỘ</div>
+            <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 15px; letter-spacing: 1px">LOẠI HÌNH CĂN HỘ</div>
         </div>
         <div class="col-1"></div>
     </div>

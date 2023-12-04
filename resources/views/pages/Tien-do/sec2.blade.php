@@ -1,11 +1,11 @@
 <div class="sec2-tien-do-pc">
     <p class="header1-sec2-tien-do mulish-extrabold">THE MINATO RESIDENCE</p>
-    <p class="header2-sec2-tien-do icielbegum" style="font-size: 51px">TIẾN ĐỘ</p>
+    <p class="header2-sec2-tien-do icielbegum" style="font-size: 2.66vw">TIẾN ĐỘ</p>
     <form class="row-test">
-        <input class="col-3 input-tien-do shadow-effect border-0 mulish-extrabold px-3" style="height: 3rem; font-size: 16px"
+        <input class="col-3 input-tien-do shadow-effect border-0 mulish-extrabold px-3" style="height: 3rem; font-size: 15px"
                placeholder="Nhập mã OTP" type="number" id="fullnamem" name="OTP" required ><br>
         <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: #133351">
-            <div class="btn text-white mulish-extrabold px-4" style="background-color: #133351; font-size: 16px">
+            <div class="btn text-white mulish-extrabold px-4" style="background-color: #133351; font-size: 15px">
                 OK</div>
         </div>
     </form>
