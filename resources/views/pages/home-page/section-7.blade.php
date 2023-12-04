@@ -1,7 +1,7 @@
 <div class="section-7">
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex"
-         style="font-size: 51px">
+         style="font-size: 2.66vw">
         TIN TỨC KHÁC
     </div>
 

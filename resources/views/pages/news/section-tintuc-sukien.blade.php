@@ -1,10 +1,10 @@
 <div class="tintuc-sukien d-none d-md-block">
     <div class=" d-flex justify-content-center align-items-center mulish-extrabold text-white"
-         style="font-size: 21px; ">
+         style="font-size: 1.09vw; ">
         THE MINATO RESIDENCE
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum yellow-light-color mb-5"
-         style="font-size: 51px; ">
+         style="font-size: 2.66vw; ">
         TIN TỨC & SỰ KIỆN
     </div>
     <div class="section-tintuc-sukien d-flex justify-content-center align-items-center">

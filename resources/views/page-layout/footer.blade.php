@@ -3,10 +3,10 @@
         <div class="title" style="width: 90%">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
-                    <div class="mulish-extrabold text-white d-none d-md-block" style="font-size: 21px; letter-spacing: 3px">THE MINATO RESIDENCE</div>
-                    <div class="mulish-extrabold text-white d-flex justify-content-center d-md-none" style="font-size: 21px; letter-spacing: 3px">THE MINATO RESIDENCE</div>
-                    <div class="icielbegum yellow-light-color mt-3 d-none d-md-block" style="font-size: 51px">ĐĂNG KÍ NHẬN TƯ VẤN</div>
-                    <div class="icielbegum yellow-light-color mt-3 d-flex justify-content-center d-md-none" style="font-size: 32px">ĐĂNG KÍ NHẬN TƯ VẤN</div>
+                    <div class="mulish-extrabold text-white d-none d-md-block" style="font-size: 1.09vw; letter-spacing: 3px">THE MINATO RESIDENCE</div>
+                    <div class="mulish-extrabold text-white d-flex justify-content-center d-md-none" style="font-size: 18px; letter-spacing: 3px">THE MINATO RESIDENCE</div>
+                    <div class="icielbegum yellow-light-color mt-3 d-none d-md-block" style="font-size: 2.66vw">ĐĂNG KÍ NHẬN TƯ VẤN</div>
+                    <div class="icielbegum yellow-light-color mt-3 d-flex justify-content-center d-md-none" style="font-size: 25px">ĐĂNG KÍ NHẬN TƯ VẤN</div>
                 </div>
                 <div class="col-md-4 d-none d-md-block">
                     <div class="d-flex justify-content-end justify-content-end">
