@@ -19,21 +19,21 @@
         <div class="row px-5  mb-5 gx-3 gy-2">
             <div class="col-md-3 col-xs-0"></div>
             <div class="col-md-2  d-flex justify-content-center align-content-center ">
-                <button class="tab-button btn btn-block shadow-effect blue-border-bottom
+                <button class="tab-button btn btn-block blue-border-bottom
                                  text-white  mulish-extrabold button-shake active"
                         data-target="tab1" style="width: 100%">
                     <div class=" font-size-custom">CĂN HỘ 1 PHÒNG NGỦ</div>
                 </button>
             </div>
             <div class="col-md-2 d-flex justify-content-center align-content-center">
-                <button class="tab-button btn  btn-block  shadow-effect blue-border-bottom
+                <button class="tab-button btn  btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab2" style="width: 100%">
                     <div class="  font-size-custom">CĂN HỘ 2 PHÒNG NGỦ</div>
                 </button>
             </div>
             <div class="col-md-2 d-flex justify-content-center align-content-center">
-                <button class="tab-button btn  btn-block  shadow-effect blue-border-bottom
+                <button class="tab-button btn  btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab3" style="width: 100%">
                     <div class=" font-size-custom">CĂN HỘ 3 PHÒNG NGỦ</div>

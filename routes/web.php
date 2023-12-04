@@ -24,6 +24,8 @@ Route::get('/tin-tuc/{slug}', [NewsController::class, 'show'])->name('news.show'
 Route::get('/tien-do', [ProgressController::class, 'index'])->name('progress.index');
 Route::get('/thu-vien', [LibraryController::class, 'index'])->name('library.index');
 Route::get('/lien-he', [ContactController::class, 'index'])->name('contact.index');
+Route::get('/view-pdf', [ContactController::class, 'viewPDF'])->name('library.viewPDF');
+
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {
     Route::resource('images', 'ImageController');
