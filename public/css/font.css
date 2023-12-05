@@ -13,6 +13,11 @@
     src: url("/Fonts/iCielBegum.otf");
 }
 
+@font-face {
+    font-family: 'Mulish-Black';
+    src: url("/Fonts/Mulish-Black.ttf");
+}
+
 .mulish-extrabold {
     font-family: 'Mulish-ExtraBold', sans-serif;
     font-weight: 800;
@@ -25,4 +30,20 @@
 
 .icielbegum {
     font-family: 'iCielBegum', sans-serif;
+}
+
+.mulish-black {
+    font-family: 'Mulish-Black', sans-serif;
+}
+
+.space-21 {
+    letter-spacing: 0.35rem;
+}
+
+.space-51 {
+    word-spacing: 0.4rem;
+}
+
+.space-15 {
+    letter-spacing: 0.045rem;
 }

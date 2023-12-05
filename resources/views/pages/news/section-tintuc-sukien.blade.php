@@ -1,6 +1,6 @@
 <div class="tintuc-sukien d-none d-md-block">
     <div class=" d-flex justify-content-center align-items-center mulish-extrabold text-white"
-         style="font-size: 1.09vw; ">
+         style="font-size: 1.09vw; letter-spacing: 0.35rem">
         THE MINATO RESIDENCE
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum yellow-light-color mb-5"

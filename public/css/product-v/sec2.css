@@ -3,7 +3,7 @@
     background-size: 100% 105%;
     background-repeat: no-repeat;
     padding-top: 3%;
-    background-position: center -7px;
+    background-position: center -10px;
 }
 
 .img-sec2-product-pc {
@@ -26,6 +26,7 @@
     font-size: 21px;
     padding-top: 5%;
     color: #133351;
+    letter-spacing: 0.35rem;
 }
 
 .container-sec2-product-pc {

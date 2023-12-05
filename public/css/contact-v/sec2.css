@@ -23,6 +23,7 @@
     text-transform: uppercase;
     font-size: 1.1vw;
     color: #43496B;
+    font-weight: bold;
 }
 
 .header2-sec2-contact-pc {
@@ -47,6 +48,7 @@
     text-align: justify;
     font-size: 15px;
     color: #133351;
+    font-weight: bold;
 }
 
 .header1-sec2-contact-mb {

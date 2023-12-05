@@ -1,47 +1,47 @@
 <div class="sec2-intro-pc pb-5 pt-5">
     <div class="row-test content-sec2-introduce-pc">
         <img src="{{asset('images/introduce/sec2/Mask group (4).png')}}"
-             class="col-md-7 col-xxl-8 container-sec2-intro-pc img-fluid mb-4">
-        <div class="col-md-4 col-xxl-4 px-5">
-            <div class=" col-md-12">
-                <div class="col-md-12 ">
-                    <p class="header1-sec2-intro-pc mulish-extrabold ps-4" style="font-size: 21px; letter-spacing: 3px">THE MINATO RESIDENCE</p>
-                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block ps-4" style="font-size: 2.65625vw">TỔNG QUAN</p>
+             class="col-md-8 container-sec2-intro-pc img-fluid mb-4">
+        <div class="col-md-4 col-xxl-4" style="padding-left: 3%; padding-right: 2%">
+            <div class="row-test-1 col-md-12">
+                <div class="col-md-12">
+                    <p class="header1-sec2-intro-pc mulish-extrabold space-21" style="font-size: 21px">THE MINATO RESIDENCE</p>
+                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block space-51" style="font-size: 51px">TỔNG QUAN</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-flex d-md-none justify-content-center" style="font-size: 32px">TỔNG QUAN</p>
-                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block ps-4" style="font-size: 2.65625vw">DỰ ÁN</p>
+                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block space-51" style="font-size: 51px; line-height: 10px; padding-bottom: 5%">DỰ ÁN</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-flex d-md-none justify-content-center" style="font-size: 32px">DỰ ÁN</p>
                 </div>
+{{--                <div class="col-md-3 col-xxl-3"></div>--}}
             </div>
             <div class="row-test-1 col-md-12">
-                <p class="col-md-4 col-xxl-3 left-text-sec2-intro-pc cabin-medium yellow-light-color">CHỦ ĐẦU TƯ</p>
-                <p class="col-md-8 col-xxl-7 right-text-sec2-intro-pc  cabin-medium text-white">Công ty TNHH Minato Việt Nam (Đầu tư bởi Fujita &
+                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">CHỦ ĐẦU TƯ</p>
+                <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white space-15">Công ty TNHH Minato Việt Nam (Đầu tư bởi Fujita &
                     Takara Leben)</p>
             </div>
             <div class="row-test-1 col-md-12">
-                <p class="col-md-4 col-xxl-3 left-text-sec2-intro-pc cabin-medium yellow-light-color">ĐỊA CHỈ</p>
-                <p class="col-md-8 col-xxl-7 right-text-sec2-intro-pc  cabin-medium text-white">Lô B (CT1 và CT2) quần thể Dự án Khu đô thị Ven
-                    sông Lạch Tray, phường
-                    Vĩnh Niệm, quận Lê Chân, Thành phố Hải Phòng</p>
+                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">ĐỊA CHỈ</p>
+                <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white space-15">Lô B (CT1 và CT2) quần thể Dự án Khu đô thị Ven
+                    sông Lạch Tray, phường Vĩnh Niệm, quận Lê Chân, Thành phố Hải Phòng</p>
             </div>
             <div class="row-test-1 col-md-12">
-                <p class="col-md-4 col-xxl-3 left-text-sec2-intro-pc cabin-medium yellow-light-color">TỔNG DIỆN TÍCH</p>
-                <p class="col-md-8 col-xxl-7 right-text-sec2-intro-pc  cabin-medium text-white">12.635,2 m2 </p>
+                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">TỔNG DIỆN TÍCH</p>
+                <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white space-15">12.635,2 m2 </p>
             </div>
-            <div class="row-test-1 col-md-12">
-                <p class="col-md-4 col-xxl-3 left-text-sec2-intro-pc cabin-medium yellow-light-color">QUY MÔ</p>
-                <p class="col-md-8 col-xxl-7 right-text-sec2-intro-pc  cabin-medium text-white">2 Tòa nhà với 26 tầng nổi 1 hầm tầng hầm</p>
+            <div class="row-test-1 col-md-12 space-15">
+                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color">QUY MÔ</p>
+                <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white">2 Tòa nhà với 26 tầng nổi 1 hầm tầng hầm</p>
             </div>
-            <div class="row-test-1 col-md-12">
-                <p class="col-md-4 col-xxl-3 left-text-sec2-intro-pc cabin-medium yellow-light-color">TỔNG SỐ CẦN</p>
-                <p class="col-md-8 col-xxl-7 right-text-sec2-intro-pc  cabin-medium text-white">924 căn </p>
+            <div class="row-test-1 col-md-12 space-15">
+                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color">TỔNG SỐ CĂN</p>
+                <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white">924 căn </p>
             </div>
-            <div class="row-test-1 col-md-12">
-                <div class="col-md-4 col-xxl-3">
+            <div class="row-test-1 col-md-12 space-15">
+                <div class="col-md-3">
                     <p class="col-md-12 left-text-sec2-intro-pc cabin-medium yellow-light-color">DIỆN TÍCH</p>
                     <p class="col-md-12 left-text-sec2-intro-pc cabin-medium yellow-light-color">ĐIỂN HÌNH</p>
                 </div>
-                <ul class="col-md-8 col-xxl-7 right-text-sec2-intro-pc cabin-medium text-white">
-                    <li class="">
+                <ul class="col-md-9 right-text-sec2-intro-pc cabin-medium text-white" style="padding-left: 50px">
+                    <li class="">1
                         Căn 1 Phòng ngủ: 40 - 46 m2
                     </li>
                     <li class="">

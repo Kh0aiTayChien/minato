@@ -1,9 +1,9 @@
 .sec2-loction-pc {
     background-image: url("/images/location/sec2/Group 105 (2).png");
     background-size: 100% 105%;
-    background-position: center -10px;
+    background-position: center -11px;
     padding-top: 5%;
-    padding-bottom: 5%;
+    /*padding-bottom: 5%;*/
 }
 
 .sec2-loction-mb {
@@ -19,6 +19,7 @@
 .header1-sec2-location-pc {
     font-size: 1.09vw;
     color: white;
+    letter-spacing: 0.35rem;
 }
 
 .header2-sec2-location-pc {
@@ -30,6 +31,7 @@
     font-size: 15px;
     text-align: justify;
     color: white;
+    margin-top: -1.5%;
 }
 
 .img-sec2-location-pc {
