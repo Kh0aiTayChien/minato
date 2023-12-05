@@ -14,29 +14,35 @@
     background-size: cover;
 }
 
-.content-sec5-intro {
-    margin-top: 3%;
-}
+/*.content-sec5-intro {*/
+/*    margin-top: 3%;*/
+/*}*/
 
 .img-sec5-intro {
-    transform: translateX(7%);
+    padding-right: 4%;
+    padding-left: 2%;
 }
 
 .header1-sec5-intro {
-    font-size: 51px;
+    font-size: 2.66vw;
     color: #141C46;
-    margin-bottom: -1%;
+    line-height: 40px;
+    /*width: 20vw;*/
+    padding-left: 4%;
 }
 
 .header2-sec5-intro {
-    font-size: 51px;
+    font-size: 2.66vw;
+    line-height: 40px;
+    /*width: 20vw;*/
+    padding-left: 4%;
     color: #BA322E;
 }
 
 .text-sec5-intro {
-    font-size: 15px;
     text-align: justify;
     color: #43496B;
+    /*font-size: 0.85vw;*/
 }
 
 .text-sec5-intro-mb {
