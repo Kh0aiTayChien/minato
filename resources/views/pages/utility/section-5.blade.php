@@ -59,37 +59,37 @@
             <div style="margin-left: 0.2%">
                 <img src="{{asset('images/utility/2.png')}}" alt="" >
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> CÔNG VIÊN TRẺ EM </div>
-                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0.5%"> Vườn ươm sắc màu dung dưỡng những mầm non </div>
+                <div class="mulish-extrabold" style="font-size: 1.09vw; color: white; padding-top: 0.5%"> Vườn ươm sắc màu dung dưỡng những mầm non </div>
             </div>
             <div style="margin-left: 0.2%">
                 <img src="{{asset('images/utility/3.png')}}" alt="" >
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> PHÒNG VUI CHƠI TRẺ EM </div>
-                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Rộn rã tiếng cười ngập tràn hạnh phúc </div>
+                <div class="mulish-extrabold" style="font-size: 1.09vw; color: white; padding-top: 0"> Rộn rã tiếng cười ngập tràn hạnh phúc </div>
             </div>
             <div style="margin-left: 0.2%">
                 <img src="{{asset('images/utility/4.png')}}" alt="" >
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> PHÒNG TIỆC </div>
-                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Sang trọng, đẳng cấp, đa công năng </div>
+                <div class="mulish-extrabold" style="font-size: 1.09vw; color: white; padding-top: 0"> Sang trọng, đẳng cấp, đa công năng </div>
             </div>
             <div style="margin-left: 0.2%">
                 <img src="{{asset('images/utility/5.png')}}" alt="" >
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> SẢNH CHÍNH </div>
-                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Không gian tiếp khách sang trọng xứng tầm </div>
+                <div class="mulish-extrabold" style="font-size: 1.09vw; color: white; padding-top: 0"> Không gian tiếp khách sang trọng xứng tầm </div>
             </div>
             <div style="margin-left: 0.2%">
                 <img src="{{asset('images/utility/6.png')}}" alt="" >
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> PHÒNG GYM </div>
-                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Sống tràn năng lượng với Phòng Gym hiện đại  </div>
+                <div class="mulish-extrabold" style="font-size: 1.09vw; color: white; padding-top: 0"> Sống tràn năng lượng với Phòng Gym hiện đại  </div>
             </div>
             <div style="margin-left: 0.2%">
                 <img src="{{asset('images/utility/7.png')}}" alt="" >
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> CAfE ROOFTOP </div>
-                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Cafe Rooftop với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray </div>
+                <div class="mulish-extrabold" style="font-size: 1.09vw; color: white; padding-top: 0"> Cafe Rooftop với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray </div>
             </div>
             <div style="margin-left: 0.2%">
                 <img src="{{asset('images/utility/8.png')}}" alt="" >
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 4%"> BỂ BƠI NGOÀI TRỜI </div>
-                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Thả mình thư giãn trong làn nước xanh mát </div>
+                <div class="mulish-extrabold" style="font-size: 1.09vw; color: white; padding-top: 0"> Thả mình thư giãn trong làn nước xanh mát </div>
             </div>
         </div>
     </div>
