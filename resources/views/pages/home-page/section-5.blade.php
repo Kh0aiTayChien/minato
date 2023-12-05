@@ -50,7 +50,7 @@
             <img src="{{asset('images/button/right.png')}}" alt="Next" class="shadow-effect button-shake"/>
         </button>
 
-        <div class="carousel-courses">
+        <div class="carousel-courses " style="padding-bottom: 22px">
             <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style="margin-right: 0.2%">
             <img src="{{asset('images/homepage/section-5/37.png')}}" alt="" style="margin-right: 0.2%">
             <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.2%">
