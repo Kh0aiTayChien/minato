@@ -160,14 +160,14 @@
 </div>
 
 <script>
-    $(window).scroll(function myScrollPCFunction() {
-        var header = $('.headerpc');
-        var background = header.find('.background-image');
-        var scrollTop = $(window).scrollTop();
-        var opacity = 1 - (scrollTop / $(window).height()); // Tính toán độ mờ dựa trên vị trí cuộn
-
-        background.css('opacity', Math.max(opacity, 0.7)); // Giới hạn opacity tối thiểu là 0.7
-    });
+    // $(window).scroll(function myScrollPCFunction() {
+    //     var header = $('.headerpc');
+    //     var background = header.find('.background-image');
+    //     var scrollTop = $(window).scrollTop();
+    //     var opacity = 1 - (scrollTop / $(window).height()); // Tính toán độ mờ dựa trên vị trí cuộn
+    //
+    //     background.css('opacity', Math.max(opacity, 0.7)); // Giới hạn opacity tối thiểu là 0.7
+    // });
     document.addEventListener('DOMContentLoaded', function () {
 // Lấy URL hiện tại
         var currentUrl = window.location.href;

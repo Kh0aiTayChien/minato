@@ -1,5 +1,5 @@
 <div class="section-5 pt-4 pb-4 custom-padding">
-    <div class="d-flex align-content-center justify-content-center pt-4 px-3">
+    <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
             <div class="col-xs-12 col-md-7 ">
                 <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
@@ -9,7 +9,7 @@
                 <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN</div>
                 <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
             </div>
-            <div class="col-xs-12 col-md-5 text-white">
+            <div class="col-xs-12 col-md-5 text-white" style="padding-top: 7%; padding-left: 12%">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
                     <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
                         xanh,
@@ -50,7 +50,7 @@
             <img src="{{asset('images/button/right.png')}}" alt="Next" class="shadow-effect button-shake"/>
         </button>
 
-        <div class="carousel-courses">
+        <div class="carousel-courses " style="padding-bottom: 22px">
             <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style="margin-right: 0.2%">
             <img src="{{asset('images/homepage/section-5/37.png')}}" alt="" style="margin-right: 0.2%">
             <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.2%">

@@ -2,16 +2,14 @@
     <div class="d-flex align-content-center justify-content-center pt-4 px-3">
         <div class="row">
             <div class="col-xs-12 col-md-7 ">
-                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 15px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw"> Hướng đa tầng tiện ích chuẩn Nhật</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
+                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 15px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
+                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
             </div>
             <div class="col-xs-12 col-md-5 text-white">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
-                    <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
+                    <div class="cabin-medium " style="font-size: 15px; color: transparent"> The Minato Residence mang đến một thành phố
                         xanh,
 
                         hiện đại, và đẳng cấp, nơi cư dân thỏa sức
@@ -51,14 +49,48 @@
         </button>
 
         <div class="carousel-courses">
-            <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style="margin-right: 0.2%">
-            <img src="{{asset('images/homepage/section-5/37.png')}}" alt="" style="margin-right: 0.2%">
-            <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.2%">
-            <img src="{{asset('images/homepage/section-5/39.png')}}" alt="" style="margin-right: 0.2%">
-            <img src="{{asset('images/homepage/section-5/40.png')}}" alt="" style="margin-right: 0.2%">
-            <img src="{{asset('images/homepage/section-5/41.png')}}" alt="" style="margin-right: 0.2%">
-            <img src="{{asset('images/homepage/section-5/42.png')}}" alt="" style="margin-right: 0.2%">
-            <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.2%">
+            <div>
+                <img src="{{asset('images/utility/1.png')}}" alt="" style="margin-left: 0.2%">
+                <div class="icielbegum " style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> CÔNG VIÊN SAKURA </div>
+                <div class=" text-uppercase" style="font-size: 1.09vw; color: white; padding-top: 0.5%"> Sắc hương anh đào nở rộ giữa thành phố Hoa Phượng đỏ </div>
+                <div class="icielbegum" style="font-size: 1.01vw; color: white; width: 20%; text-align: justify; padding-top: 0.9%">
+                </div>
+            </div>
+            <div style="margin-left: 0.2%">
+                <img src="{{asset('images/utility/2.png')}}" alt="" >
+                <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> CÔNG VIÊN TRẺ EM </div>
+                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0.5%"> Vườn ươm sắc màu dung dưỡng những mầm non </div>
+            </div>
+            <div style="margin-left: 0.2%">
+                <img src="{{asset('images/utility/3.png')}}" alt="" >
+                <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> PHÒNG VUI CHƠI TRẺ EM </div>
+                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Rộn rã tiếng cười ngập tràn hạnh phúc </div>
+            </div>
+            <div style="margin-left: 0.2%">
+                <img src="{{asset('images/utility/4.png')}}" alt="" >
+                <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> PHÒNG TIỆC </div>
+                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Sang trọng, đẳng cấp, đa công năng </div>
+            </div>
+            <div style="margin-left: 0.2%">
+                <img src="{{asset('images/utility/5.png')}}" alt="" >
+                <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> SẢNH CHÍNH </div>
+                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Không gian tiếp khách sang trọng xứng tầm </div>
+            </div>
+            <div style="margin-left: 0.2%">
+                <img src="{{asset('images/utility/6.png')}}" alt="" >
+                <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> PHÒNG GYM </div>
+                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Sống tràn năng lượng với Phòng Gym hiện đại  </div>
+            </div>
+            <div style="margin-left: 0.2%">
+                <img src="{{asset('images/utility/7.png')}}" alt="" >
+                <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> CAfE ROOFTOP </div>
+                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Cafe Rooftop với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray </div>
+            </div>
+            <div style="margin-left: 0.2%">
+                <img src="{{asset('images/utility/8.png')}}" alt="" >
+                <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 4%"> BỂ BƠI NGOÀI TRỜI </div>
+                <div class="icielbegum" style="font-size: 1.09vw; color: white; padding-top: 0"> Thả mình thư giãn trong làn nước xanh mát </div>
+            </div>
         </div>
     </div>
 

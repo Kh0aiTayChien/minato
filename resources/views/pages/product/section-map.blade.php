@@ -100,8 +100,8 @@
                           data-maphilight='{"fillColor":"d6edf4","fillOpacity":0.8}'
                     >
             </div>
-            <div class="overlay d-block d-none">
-                <div class="d-flex justify-content-center align-items-center vh-100">
+            <div class="overlay  d-flex justify-content-center align-items-center d-none">
+                <div class="d-flex justify-content-center align-items-center w-75" style="transform: translateY(5%)">
                     <div class=" position-relative" style="">
                         <img src="{{asset('images/map/A1.jpg')}}" alt="" id="A-1" class="img-fluid flat-image ">
                         <img src="{{asset('images/map/A2.jpg')}}" alt="" id="A-2" class="img-fluid flat-image d-none">
