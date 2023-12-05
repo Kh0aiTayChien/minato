@@ -23,9 +23,9 @@
                     <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
                         <img src="{{asset('images/tintuc-kienthuc/bg-1.png')}}" class="img-slide position-relative "
                              alt="img-slide">
-                        <div class="position-absolute custom-top start-50 ">
+                        <div class="position-absolute custom-top start-50 px-5" style="text-align: justify;">
                             <h3 class="cabin-medium"
-                                style="font-size: 35px; color: #133351; letter-spacing: 1px">{{\Illuminate\Support\Str::limit($article->title,60)}}</h3>
+                                style="font-size: 35px; color: #133351; letter-spacing: 1px">{{\Illuminate\Support\Str::limit($article->title,500)}}</h3>
                             <div class="cabin-medium pt-4 pe-4" style="font-size: 18px; color: #43496B">
                                 {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 350)) }}
                             </div>
