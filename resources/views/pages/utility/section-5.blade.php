@@ -2,16 +2,14 @@
     <div class="d-flex align-content-center justify-content-center pt-4 px-3">
         <div class="row">
             <div class="col-xs-12 col-md-7 ">
-                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 15px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw"> Hướng đa tầng tiện ích chuẩn Nhật</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
+                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 15px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
+                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
             </div>
             <div class="col-xs-12 col-md-5 text-white">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
-                    <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
+                    <div class="cabin-medium " style="font-size: 15px; color: transparent"> The Minato Residence mang đến một thành phố
                         xanh,
 
                         hiện đại, và đẳng cấp, nơi cư dân thỏa sức

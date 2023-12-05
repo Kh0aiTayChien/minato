@@ -1,7 +1,10 @@
-<div class="sec3-intro-pc d-none d-sm-block">
-    <div class="row-test all-header-sec3-intro-pc">
+<div class="sec3-intro-pc d-none d-sm-block position-relative">
+    <div class="position-absolute w-100 d-flex justify-content-end align-content-center" style="">
+        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 28%;">
+    </div>
+    <div class="row-test all-header-sec3-intro-pc ">
         <div class="col-11">
-            <p class="header1-sec3-intro-pc mulish-extrabold space-21">Cảm hứng dự án</p>
+            <p class="header1-sec3-intro-pc mulish-extrabold space-21" style="">Cảm hứng dự án</p>
             <p class="header2-sec3-intro-pc icielbegum space-51">BẢN GIAO HÒA HƯƠNG SẮC</p>
             <p class="header3-sec3-intro-pc icielbegum space-51">ĐẬM CHẤT MIỀN PHÙ TANG</p>
         </div>

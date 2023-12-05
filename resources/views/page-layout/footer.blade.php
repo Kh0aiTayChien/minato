@@ -78,7 +78,7 @@
                         <div class="mulish-extrabold yellow-light-color" style="font-size: 21px; letter-spacing: 0.35rem;">THÔNG TIN DỰ ÁN</div>
                     </div>
 
-                    <div class="d-flex justify-content-center align-content-center mt-5">
+                    <div class="d-flex justify-content-start align-content-center mt-5">
                         <div class="cabin-medium text-white" style="font-size: 15px; letter-spacing: 1px">
                             <div class="investor">
                                 <p>Chủ đầu tư: Công ty TNHH Minato Việt Nam</p>

@@ -37,8 +37,9 @@
             </div>
             <div class="row-test-1 col-md-12 space-15">
                 <div class="col-md-3">
-                    <p class="col-md-12 left-text-sec2-intro-pc cabin-medium yellow-light-color">DIỆN TÍCH</p>
-                    <p class="col-md-12 left-text-sec2-intro-pc cabin-medium yellow-light-color">ĐIỂN HÌNH</p>
+                    <p class="col-md-12 left-text-sec2-intro-pc cabin-medium yellow-light-color">DIỆN TÍCH <br>
+                        ĐIỂN HÌNH</p>
+
                 </div>
                 <ul class="col-md-9 right-text-sec2-intro-pc cabin-medium text-white" style="padding-left: 50px">
                     <li class="">1

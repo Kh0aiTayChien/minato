@@ -24,13 +24,13 @@
                         <img src="{{asset('images/tintuc-kienthuc/bg-1.png')}}" class="img-slide position-relative "
                              alt="img-slide">
                         <div class="position-absolute custom-top start-50 ">
-                            <h3 class="cabin-medium"
-                                style="font-size: 35px; color: #133351; letter-spacing: 1px">{{\Illuminate\Support\Str::limit($article->title,60)}}</h3>
-                            <div class="cabin-medium pt-4 pe-4" style="font-size: 18px; color: #43496B">
-                                {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 350)) }}
+                            <h3 class="mulish-extrabold bold-text"
+                                style="font-size: 2.2vw; color: #133351; letter-spacing: 1px">{{\Illuminate\Support\Str::limit($article->title,60)}}</h3>
+                            <div class="cabin-medium pt-4" style="font-size: 1.1vw; color: #43496B; letter-spacing: 1px; padding-right: 18%; text-align: justify;">
+                                {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 250)) }}
                             </div>
-                            <div class="d-flex align-content-center justify-content-start mt-4 cabin-medium"
-                                 style="padding-top: 10%; color: #D93D32">
+                            <div class="d-flex align-content-center justify-content-start mulish-extrabold"
+                                 style="padding-top: 5%; color: #D93D32; font-size: small">
                                 <a href="{{route('news.show',['slug' => $article->slug])}}"> XEM CHI TIẾT</a>
                             </div>
                         </div>

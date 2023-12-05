@@ -47,35 +47,35 @@
                     <div class="col-lg-3  d-flex justify-content-center align-content-center ">
                         <button class="tab-m1-button btn btn-block
                                  text-white  mulish-extrabold button-shake active"
-                                data-target="tab11" style="width: 100%">
+                                data-target="tab11" style="width: 100%; color: #43496B ">
                             <div class=" font-size-custom" style="">TẤT CẢ</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
-                                data-target="tab22" style="width: 100%">
+                                data-target="tab22" style="width: 100%; color: #43496B ">
                             <div class=" ">TỔNG THỂ</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
-                                data-target="tab33" style="width: 100%">
+                                data-target="tab33" style="width: 100%; color: #43496B ">
                             <div class="">TIỆN ÍCH</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
-                                data-target="tab44" style="width: 100%">
+                                data-target="tab44" style="width: 100%; color: #43496B ">
                             <div class="">NỘI THẤT</div>
                         </button>
                     </div>
                 </div>
             </div>
             <div class="row tab tab11  active" style="">
-                <div class="w-100" style="padding: 10%">
+                <div class="w-100" style="padding: 3% 10% 10% 10%">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
@@ -113,8 +113,8 @@
 
 
             </div>
-            <div class="row tab tab22  mt-5 gy-4 gx-0 " style="">
-                <div class="w-100" style="padding: 10%">
+            <div class="row tab tab22  " style="">
+                <div class="w-100" style="padding: 3% 10% 10% 10%">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="{{asset('images/thuvien/tong-the/C7.png')}}" alt="" class="img-fluid mb-2">
@@ -134,8 +134,8 @@
                 </div>
             </div>
 
-            <div class="row tab tab33  mt-5 gy-4 gx-0 " style="">
-                <div class="w-100" style="padding: 10%">
+            <div class="row tab tab33   " style="">
+                <div class="w-100" style="padding: 3% 10% 10% 10%">
                     <div class="row">
                         <div class="col-md-4">
                             <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
@@ -181,7 +181,10 @@
         <div class="row tab tab2  mt-5 gy-4 gx-0 " style="">
             <div class="row px-5">
                 <div class="col-md-6 col-xs-12">
-                    <img src="{{asset('images/thuvien/video/video1.png')}}" alt="" class="img-fluid">
+                    <a href="https://www.youtube.com/watch?v=upz0p-KoE8U" target="_blank">
+                        <img src="{{asset('images/thuvien/video/video1.png')}}" alt="" class="img-fluid">
+                    </a>
+
                 </div>
                 <div class="col-md-6 col-xs-12">
                 </div>
@@ -190,7 +193,7 @@
         <div class="row tab tab3 px-5 mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
                 <a href="{{asset('images/thuvien/brochure/BROCHURE.pdf')}}">
-                    <img src="{{asset('images/thuvien/brochure/bro1.png')}}" alt="" class="img-fluid">
+                    <img src="{{asset('images/thuvien/brochure/bro1.png')}}" alt="" class="img-fluid w-50">
                 </a>
             </div>
             <div class="col-md-6 col-xs-12">
@@ -200,7 +203,7 @@
         <div class="row tab tab4 px-5 mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
                 <a href="{{asset('images/thuvien/flyer/Residence.pdf')}}">
-                    <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid">
+                    <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid w-25">
                 </a>
             </div>
             <div class="col-md-6 col-xs-12">
@@ -213,7 +216,7 @@
 </div>
 <style>
     .thuvien {
-        background-image: url("/images/thuvien/background-thuvien.png");
+        background-image: url("/images/thuvien/bg-thuvien.png");
         background-size: 100% 105%;
         background-position: center -10px;
         padding: 5% 0 5% 0;
@@ -238,7 +241,7 @@
     }
 
     .tab-m1-button {
-        color: darkblue !important;
+        color: #43496B !important;
     }
 
     .tab-m1-button.active {
