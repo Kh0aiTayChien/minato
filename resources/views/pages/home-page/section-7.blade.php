@@ -51,22 +51,16 @@
 
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center">
-        <div class="d-flex align-content-center justify-content-center" style="width: 65%">
-            <button onclick="" style="padding: 0; border: none; background: none;">
-                <a href="{{route('news.index')}}">
-                    <img src="{{asset('images/button/xemthemtintuc.png')}}" alt="Xem thêm tin tức" style=""
-                         class="img-fluid">
-                </a>
-            </button>
-        </div>
+    <div class="btn-content-sec5-hp">
+        <a href="{{route('news.index')}}"
+           class="btn-content-sec5-hp double-border px-5 py-3 mulish-black space-21">XEM THÊM TIN TỨC</a>
     </div>
 </div>
 <style>
     .section-7 {
         background-image: url("/images/footer/background-footer.png");
         background-size: cover;
-        padding: 5% 5% 5% 8%;
+        padding: 3% 5% 3% 8%;
     }
 </style>
 <style>

@@ -48,10 +48,9 @@
                         </textarea>
                         <br>
                         <div class="mt-5" style="width: 80%">
-                            <div class="" style="float: right">
-                                <button onclick="" style="padding: 0; border: none; background: none;">
-                                    <img src="{{asset('images/button/dangki.png')}}" alt="Đăng ký" style="" class="img-fluid">
-                                </button>
+                            <div class="btn-content-footer">
+                                <button onclick=""
+                                        class="double-border px-5 py-3 mulish-black space-21">ĐĂNG KÝ</button>
                             </div>
                         </div>
                     </div>

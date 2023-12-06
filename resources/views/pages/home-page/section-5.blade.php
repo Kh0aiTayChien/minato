@@ -2,15 +2,27 @@
     <div class="d-flex align-content-center justify-content-center pt-4 px-3">
         <div class="row">
             <div class="col-xs-12 col-md-7 ">
-                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 15px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hướng đa tầng tiện ích chuẩn Nhật</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
+                <div class="mulish-extrabold text-white mb-5 d-none d-md-block"
+                     style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH
+                </div>
+                <div class="mulish-extrabold text-white mb-5 d-md-none"
+                     style="font-size: 15px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH
+                </div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA
+                    THIÊN NHIÊN
+                </div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hướng đa tầng
+                    tiện ích chuẩn Nhật
+                </div>
+                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN
+                </div>
+                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích
+                    chuẩn Nhật
+                </div>
             </div>
             <div class="col-xs-12 col-md-5 text-white">
-                <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block"
+                     style="width: 100%; text-align: justify; letter-spacing: 1px">
                     <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
                         xanh,
 
@@ -23,7 +35,8 @@
                         thiện
                     </div>
                 </div>
-                <div class=" d-md-flex align-content-start justify-content-end d-md-none" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                <div class=" d-md-flex align-content-start justify-content-end d-md-none"
+                     style="width: 100%; text-align: justify; letter-spacing: 1px">
                     <div class="cabin-medium " style="font-size: 13px"> The Minato Residence mang đến một thành phố
                         xanh,
 
@@ -36,7 +49,8 @@
                         thiện
                     </div>
                 </div>
-                <div class="ms-5 ps-5 me-5 pe-5 d-flex align-content-center justify-content-end" style="width: 100%; margin-top: 10%">
+                <div class="ms-5 ps-5 me-5 pe-5 d-flex align-content-center justify-content-end"
+                     style="width: 100%; margin-top: 10%">
                     <div class="custom-dots"></div>
                 </div>
             </div>
@@ -61,14 +75,17 @@
             <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.2%">
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center pb-5">
-        <button onclick="" style="padding: 0; border: none; background: none;">
-            <a href="{{route('utility.index')}}">
-                <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">
-            </a>
-        </button>
+    {{--    <div class="d-flex align-content-center justify-content-center pb-5">--}}
+    {{--        <button onclick="" style="padding: 0; border: none; background: none;">--}}
+    {{--            <a href="{{route('utility.index')}}">--}}
+    {{--                <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">--}}
+    {{--            </a>--}}
+    {{--        </button>--}}
+    {{--    </div>--}}
+    <div class="btn-content-sec5-hp">
+        <a href="{{route('utility.index')}}"
+           class="btn-content-sec5-hp double-border px-5 py-3 mulish-black space-21">XEM THÊM TIỆN ÍCH</a>
     </div>
-
 
     <script>
         $(document).ready(function () {
@@ -124,7 +141,8 @@
         padding: 0;
         margin-top: 1rem;
     }
-    .carousel-indicators [data-bs-target]{
+
+    .carousel-indicators [data-bs-target] {
         background-color: transparent; /* Màu nền trắng cho dot không active */
         border: 2px solid #fff; /* Viền trắng cho dot không active */
         color: white; /* Màu chữ trắng cho dot không active */
@@ -134,11 +152,13 @@
         border-radius: 50%; /* Hình dạng tròn cho dot */
         cursor: pointer;
     }
-    .carousel-indicators .active{
+
+    .carousel-indicators .active {
         background-color: #fff; /* Màu nền trắng cho dot active */
         border-color: #fff; /* Viền trắng cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
     }
+
     .custom-padding {
         padding: 5% 5% 5% 8%;
     }
@@ -190,6 +210,7 @@
         border-color: #fff; /* Viền trắng cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
     }
+
     .slick-slide:not(.slick-active) {
         opacity: 0.5; /* Điều chỉnh độ mờ tùy ý */
         transition: opacity 0.3s ease; /* Thêm transition để làm mịn hiệu ứng */

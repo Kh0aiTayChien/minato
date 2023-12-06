@@ -97,7 +97,7 @@
 }
 
 .double-border {
-    border: 2px solid ; /* Border đầu tiên */
+    border: 3px solid ; /* Border đầu tiên */
     outline: 2px solid #EFD483; /* Border thứ hai (outline) */
     background-color: #EFD483;
     color: inherit;
@@ -105,8 +105,21 @@
     font-size: 0.8vw;
 }
 
+.double-border-blue {
+    border: 2px solid ; /* Border đầu tiên */
+    outline: 3px solid #133351; /* Border thứ hai (outline) */
+    background-color: #133351;
+    /*color: inherit;*/
+    text-decoration: none;
+    font-size: 0.8vw;
+}
+
 .double-border:hover {
     color: #1c294e;
+}
+
+.double-border-blue:hover {
+    color: white;
 }
 
 .header-content2-sec2-hp {

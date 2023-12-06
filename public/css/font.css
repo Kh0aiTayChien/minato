@@ -36,8 +36,13 @@
     font-family: 'Mulish-Black', sans-serif;
 }
 
+.mulish-black-white {
+    font-family: 'Mulish-Black', sans-serif;
+    color: white;
+}
+
 .space-21 {
-    letter-spacing: 0.35rem;
+    letter-spacing: 0.325rem;
 }
 
 .space-51 {
