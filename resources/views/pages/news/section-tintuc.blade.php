@@ -4,7 +4,7 @@
         TIN TỨC KHÁC
     </div>
     <div class=" d-flex d-md-none justify-content-center align-items-center icielbegum yellow-light-color "
-         style="font-size: 32px; ">
+         style="font-size: 29px; ">
         TIN TỨC KHÁC
     </div>
     <div class="row gy-5 gx-1 mt-2 px-3">

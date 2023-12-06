@@ -150,12 +150,6 @@
             </div>
         </div>
     </div>
-
-    <div class="d-flex align-content-center justify-content-center">
-        <button onclick="" style="padding: 0; border: none; background: none;" class="w-75">
-            <img src="{{asset('images/button/xemthemsanpham.png')}}" alt="Xem thêm sản phẩm" style="" class="img-fluid">
-        </button>
-    </div>
 </div>
 <style>
     .tab-button.active {
