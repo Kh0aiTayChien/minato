@@ -1,16 +1,17 @@
 <div class="section-5 pt-4 pb-4 custom-padding">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
-            <div class="col-xs-12 col-md-7 ">
-                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
-                <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 15px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
+            <div class="col-xs-12 col-md-7 pc-padding">
+                <div class="mulish-extrabold text-white mb-2 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
+                <div class="mulish-extrabold text-white mb-2 d-md-none d-flex justify-content-center align-content-center" style="font-size: 13px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hướng đa tầng tiện ích chuẩn Nhật</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> Hướng đa tầng tiện ích chuẩn Nhật</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hướng đa tầng tiện ích</div>
+                <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> SỐNG GIỮA THIÊN NHIÊN</div>
+                <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> Hướng đa tầng tiện ích </div>
             </div>
-            <div class="col-xs-12 col-md-5 text-white" style="padding-top: 7%; padding-left: 12%">
-                <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
+            <div class="col-xs-12 col-md-5 text-white" style="">
+                <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify;
+                letter-spacing: 1px; padding-top: 18.5%; padding-left: 12% ">
                     <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
                         xanh,
 
@@ -23,7 +24,7 @@
                         thiện
                     </div>
                 </div>
-                <div class=" d-md-flex align-content-start justify-content-end d-md-none" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                <div class=" d-md-flex align-content-start justify-content-end d-md-none px-3 pt-3" style="width: 100%; text-align: justify; letter-spacing: 1px">
                     <div class="cabin-medium " style="font-size: 13px"> The Minato Residence mang đến một thành phố
                         xanh,
 
@@ -36,8 +37,8 @@
                         thiện
                     </div>
                 </div>
-                <div class="ms-5 ps-5 me-5 pe-5 d-flex align-content-center justify-content-end" style="width: 100%; margin-top: 10%">
-                    <div class="custom-dots"></div>
+                <div class="ms-5 ps-5 me-5 pe-5 d-flex align-content-center justify-content-end" style="width: 100%">
+                    <div class="custom-dots" style="margin-right: 4%"></div>
                 </div>
             </div>
         </div>
@@ -125,8 +126,8 @@
         display: flex;
         justify-content: center;
         list-style: none;
-        padding: 0;
-        margin-top: 1rem;
+        padding: 2rem;
+        margin-top: 1rem !important;
     }
     .carousel-indicators [data-bs-target]{
         background-color: transparent; /* Màu nền trắng cho dot không active */
@@ -142,6 +143,17 @@
         background-color: #fff; /* Màu nền trắng cho dot active */
         border-color: #fff; /* Viền trắng cho dot active */
         color: transparent; /* Màu chữ trắng cho dot active */
+    }
+    @media only screen and (min-width: 800px) {
+        .pc-padding{
+            padding-top: 3%;
+        }
+    }
+
+    @media only screen and (max-width: 800px) {
+        .custom-padding {
+            padding: 5% 0 0 0 !important;
+        }
     }
     .custom-padding {
         padding: 5% 5% 5% 8%;
@@ -160,7 +172,7 @@
     .custom-prev-arrow-course,
     .custom-next-arrow-course {
         position: absolute;
-        top: 50%;
+        top: 45%;
         transform: translateY(-50%);
         background: none;
         border: none;
@@ -170,11 +182,11 @@
     }
 
     .custom-prev-arrow-course {
-        left: 10px;
+        left: 1px !important;
     }
 
     .custom-next-arrow-course {
-        right: 10px;
+        right: 1px !important;
     }
 
     .slick-dots button {

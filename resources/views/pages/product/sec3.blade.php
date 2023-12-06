@@ -13,7 +13,7 @@
                 <li class="cabin-medium">Thiết kế nội khu thông minh, hạn chế tối đa những điều bất cập, không lành mạnh.</li>
             </ul>
             <div class="col-12">
-                <img src="{{asset('images/product/sec3/Group 104 (1).png')}}" class="col-12 img-sec3-product-pc">
+                <img src="{{asset('images/product/sec3/camguard.png')}}" class="col-12 img-sec3-product-pc">
             </div>
         </div>
     </div>
@@ -30,5 +30,5 @@
         <li class="cabin-medium">Hệ thống camera an ninh được lắp đặt trải khắp tòa nhà</li>
         <li class="cabin-medium">Thiết kế nội khu thông minh, hạn chế tối đa những điều bất cập, không lành mạnh.</li>
     </ul>
-    <img src="{{asset('images/product/sec3/Group 104 (1).png')}}" class="col-11 img-sec3-product-mb">
+    <img src="{{asset('images/product/sec3/camguard.png')}}" class="col-11 img-sec3-product-mb">
 </div>

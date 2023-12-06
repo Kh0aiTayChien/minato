@@ -25,8 +25,10 @@
 
 <div class="sec3-intro-mb d-block d-sm-none">
     <p class="header-first-line-intro-mb line-height-cap mulish-extrabold">Cảm hứng dự án</p>
-    <p class="header-second-line-intro-mb line-height-cap icielbegum">BẢN GIAO HÒA HƯƠNG SẮC</p>
-    <p class="header-third-line-intro-mb line-height-cap icielbegum">ĐẬM CHẤT MIỀN PHÙ TANG</p>
+    <p class="header-second-line-intro-mb line-height-cap icielbegum pt-1">BẢN GIAO HÒA </p>
+    <p class="header-second-line-intro-mb line-height-cap icielbegum"> HƯƠNG SẮC</p>
+    <p class="header-third-line-intro-mb line-height-cap icielbegum pt-1">ĐẬM CHẤT MIỀN </p>
+    <p class="header-third-line-intro-mb line-height-cap icielbegum"> PHÙ TANG</p>
     <p class="text-sec3-intro-mb cabin-medium">Lấy cảm hứng từ thành phố Cảng phồn hoa của xứ sở hoa anh đào, The Minato
         Residence đã tạo nên
         một không gian độc đáo, kết hợp nét kiến trúc đặc trưng, cảnh quan thiên nhiên an tĩnh và sự sôi động đầy sức

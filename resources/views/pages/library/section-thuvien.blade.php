@@ -203,7 +203,7 @@
         <div class="row tab tab4 px-5 mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
                 <a href="{{asset('images/thuvien/flyer/Residence.pdf')}}">
-                    <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid w-25">
+                    <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid" style="width: 35%">
                 </a>
             </div>
             <div class="col-md-6 col-xs-12">
