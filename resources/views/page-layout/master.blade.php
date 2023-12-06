@@ -35,6 +35,7 @@
     <link href="{{asset('/css/homepage/section-1.css')}}" rel="stylesheet">
     <link href="{{asset('/css/homepage/sec2.css')}}" rel="stylesheet">
     <link href="{{asset('/css/homepage/sec3.css')}}" rel="stylesheet">
+    <link href="{{asset('/css/homepage/sec5.css')}}" rel="stylesheet">
     <link href="{{asset('/css/homepage/sec7-v.css')}}" rel="stylesheet">
     <link href="{{asset('/css/introduce/sec1.css')}}" rel="stylesheet">
     <link href="{{asset('/css/introduce/sec2.css')}}" rel="stylesheet">

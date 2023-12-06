@@ -61,12 +61,16 @@
             <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.2%">
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center pb-5">
-        <button onclick="" style="padding: 0; border: none; background: none;">
-            <a href="{{route('utility.index')}}">
-                <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">
-            </a>
-        </button>
+    {{--    <div class="d-flex align-content-center justify-content-center pb-5">--}}
+    {{--        <button onclick="" style="padding: 0; border: none; background: none;">--}}
+    {{--            <a href="{{route('utility.index')}}">--}}
+    {{--                <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">--}}
+    {{--            </a>--}}
+    {{--        </button>--}}
+    {{--    </div>--}}
+    <div class="btn-content-sec5-hp">
+        <a href="{{route('utility.index')}}"
+           class="btn-content-sec5-hp double-border px-5 py-3 mulish-black space-21">XEM THÊM TIỆN ÍCH</a>
     </div>
 
 
