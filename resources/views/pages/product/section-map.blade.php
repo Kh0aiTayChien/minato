@@ -156,10 +156,10 @@
 {{--            <img src="{{asset('images/button/xemthemsanpham.png')}}" alt="Xem thêm sản phẩm" style="" class="img-fluid">--}}
 {{--        </button>--}}
 {{--    </div>--}}
-    <div class="btn-content-sec6-hp">
-        <a href="{{route('')}}"
-           class="btn-content-sec5-hp double-border-blue px-5 py-3 mulish-black-white space-21">XEM THÊM SẢN PHẨM</a>
-    </div>
+{{--    <div class="btn-content-sec6-hp">--}}
+{{--        <a href="{{route('')}}"--}}
+{{--           class="btn-content-sec5-hp double-border-blue px-5 py-3 mulish-black-white space-21">XEM THÊM SẢN PHẨM</a>--}}
+{{--    </div>--}}
 </div>
 <style>
     .tab-button.active {
