@@ -1,16 +1,13 @@
 .sec1-intro-pc {
-    background-image: url("/images/introduce/sec1/Rectangle 171.png");
+    background: rgba(19, 51, 81, 1);
     width: 100vw;
-    height: 83vh;
     background-size: cover;
-    background-repeat: no-repeat;
-    margin-top: 12vh;
+    padding-top: 12.5vh;
 }
 
 .sec1-intro-mb {
-    background-image: url("/images/introduce/sec1/Rectangle 171.png");
-    width: 100vw;
-    height: 83vh;
+    /*background-image: url("/images/introduce/sec1/Rectangle 171.png");*/
+
     background-size: cover;
     background-repeat: no-repeat;
     /*margin-top: 12vh;*/

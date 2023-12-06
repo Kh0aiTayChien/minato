@@ -1,9 +1,10 @@
 .sec2-intro-pc {
     background-image: url("/images/introduce/sec2/Group 110.png");
-    background-size: 100% 105%;
+    background-size: 110% auto; /* Phóng to theo chiều ngang 10%, chiều cao tự động điều chỉnh */
     background-repeat: no-repeat;
-    background-position: center -10px;
+    background-position: center bottom; /* Dịch chuyển hình nền xuống phía dưới */
 }
+
 
 .container-sec2-intro-pc {
 
@@ -18,7 +19,7 @@
 }
 
 .header2-sec2-intro-pc {
-    color: #D8AB67;
+    color: #EFD483;
     font-size: 40px;
 }
 
@@ -27,7 +28,7 @@
     text-align: justify;
 }
 .left-text-sec2-intro-pc {
-    color: #D8AB67;
+    color: #EFD483;
     text-transform: uppercase;
     text-align: left;
     vertical-align: unset;

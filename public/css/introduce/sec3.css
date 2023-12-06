@@ -1,9 +1,9 @@
 .sec3-intro-pc {
-    background-image: url("/images/introduce/sec3/Group 103 (1).png");
+    background-image: url("/images/introduce/sec3/bg-4.png");
     background-repeat: no-repeat;
     padding-bottom: 40%;
     background-position: center -10px;
-    background-size: 100% 105%;
+    background-size: 120% auto;
 }
 
 .text-sec3-intro-pc {

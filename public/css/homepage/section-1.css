@@ -1,9 +1,9 @@
 .section-1{
-    margin-top: 12vh;
+    padding-top: 12.5vh;
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     .section-1{
-        margin-top: 0;
+        padding-top: 0;
     }
 }
 .img-slide {
