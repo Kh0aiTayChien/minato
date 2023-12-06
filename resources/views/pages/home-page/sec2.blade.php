@@ -10,7 +10,7 @@
                 Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
                 lọc những tinh hoa từ xứ Phù Tang, The Minato Residence mang đến sự cân bằng trọn vẹn giữa nhịp sống
                 hiện đại, tiện nghi và những khoảnh khắc “sống an” chan hòa cùng thiên nhiên.</p>
-            <a href="{{route('introduce.index')}}" class="double-border first-text-hp px-3 py-2 mulish-black space-21">
+            <a href="{{route('introduce.index')}}" class="double-border first-text-hp px-3 py-3 mulish-black space-21">
                 TÌM HIỂU THÊM
             </a>
         </div>
@@ -40,7 +40,7 @@
             </div>
             <div class="btn-content2-sec2-hp">
                 <a href="{{route('location.index')}}"
-                   class="btn-content2-sec2-hp double-border px-4 py-2 mulish-black space-21">TÌM HIỂU THÊM</a>
+                   class="btn-content2-sec2-hp double-border px-4 py-3 mulish-black space-21">TÌM HIỂU THÊM</a>
             </div>
         </div>
     </div>

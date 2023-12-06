@@ -115,7 +115,7 @@
 </script>
 
 <div class="headerpc fixed-top mulish-extrabold d-none d-sm-block" id="myHeader ">
-    <div class="background-image"></div>
+{{--    <div class="background-image"></div>--}}
     <div class="col-xxl-12 col-md-12 row-test headermenu">
         <ul class="col-md-5 menuleft">
             <li class="header-link-left">
