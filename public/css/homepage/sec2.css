@@ -20,6 +20,13 @@
     /*align-items: center;*/
 }
 
+.row-test-2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /*align-items: center;*/
+}
+
 .img-sec2-hp-1 {
     /*padding-left: 2%;*/
     /*padding-right: 4%;*/

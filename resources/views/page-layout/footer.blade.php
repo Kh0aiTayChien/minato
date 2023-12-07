@@ -1,5 +1,5 @@
-<div class="footer">
-    <div class="container-fluid custom-padding-footer">
+<div class="footer" id="footer">
+    <div class="container-fluid custom-padding">
         <div class="title" style="width: 90%">
             <div class="row">
                 <div class="col-md-8 col-xs-12">

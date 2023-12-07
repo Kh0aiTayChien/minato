@@ -1,6 +1,8 @@
 .sec3-product-pc {
     background-image: url("/images/product/sec3/Group 105 (3).png");
     background-size: 100% 100%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 }
 
 .sec3-product-mb {
@@ -13,7 +15,7 @@
 
 .content-sec3-product-pc {
     padding-left: 5%;
-    padding-top: 5%;
+    padding-top: 10%;
 }
 
 .header1-sec3-product-pc {
@@ -42,7 +44,7 @@
 }
 
 .img-sec3-product-pc {
-    padding-top: 2%;
+    padding-top: 11%;
 }
 
 .header1-sec2-product-mb {
