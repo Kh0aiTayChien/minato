@@ -1,7 +1,7 @@
 <div class="section-5 pt-4 pb-4 custom-padding">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
-            <div class="col-xs-12 col-md-7 pc-padding">
+            <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
                 <div class="mulish-extrabold text-white mb-2 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="mulish-extrabold text-white mb-2 d-md-none d-flex justify-content-center align-content-center" style="font-size: 13px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA THIÊN NHIÊN</div>
@@ -9,7 +9,7 @@
                 <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> SỐNG GIỮA THIÊN NHIÊN</div>
                 <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> Hướng đa tầng tiện ích </div>
             </div>
-            <div class="col-xs-12 col-md-5 text-white" style="">
+            <div class="col-xs-12 col-md-5 text-white" style="" data-aos="fade-up" data-aos-duration="3000">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify;
                 letter-spacing: 1px; padding-top: 18.5%; padding-left: 12% ">
                     <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-    <div class="slick-carousel position-relative mt-4">
+    <div class="slick-carousel position-relative mt-4" data-aos="flip-right" data-aos-duration="3000">
         <button class="custom-prev-arrow-course " aria-label="Previous">
             <img src="{{asset('images/button/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>

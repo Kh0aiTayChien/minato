@@ -1,4 +1,4 @@
-<div class="section-6 pt-5 pb-5">
+<div class="section-6 pt-5 pb-5" >
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex"
          style="font-size: 2.65625vw; color: #141C46">
         CĂN HỘ CAO CẤP CHUẨN NHẬT

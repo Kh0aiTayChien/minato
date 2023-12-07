@@ -1,6 +1,6 @@
-<div class="sec3-hp-pc d-none d-sm-block">
+<div class="sec3-hp-pc d-none d-sm-block" >
     <div class="row-test">
-        <div class="col-12 row-test">
+        <div class="col-12 row-test" data-aos="flip-left" data-aos-duration="3000">
             <img src="{{asset('images/homepage/sec3/17-17 1.png')}}" class="col-4">
             <img src="{{asset('images/homepage/sec3/Group 104 (2).png')}}" class="col-9">
         </div>
