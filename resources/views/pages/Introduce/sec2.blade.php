@@ -62,7 +62,7 @@
             <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 16px; letter-spacing: 1px">MẬT ĐỘ XÂY DỰNG</div>
         </div>
         <div class="col-lg-2  col-xs-6">
-            <div class="icielbegum yellow-light-color d-flex justify-content-center align-content-center" style="font-size: 73px;">12,6</div>
+            <div class="icielbegum yellow-light-color d-flex justify-content-center align-content-center" style="font-size: 73px;">1,2</div>
             <div class="cabin-medium text-white d-flex justify-content-center align-content-center" style="font-size: 16px; letter-spacing: 1px">HA TỔNG DIỆN TÍCH</div>
         </div>
         <div class="col-lg-2  col-xs-6">
