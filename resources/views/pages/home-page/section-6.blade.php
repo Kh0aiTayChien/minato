@@ -1,4 +1,4 @@
-<div class="section-6 pt-5 pb-5">
+<div class="section-6 pt-5 pb-5" >
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex"
          style="font-size: 2.65625vw; color: #141C46">
         CĂN HỘ CAO CẤP CHUẨN NHẬT
@@ -215,20 +215,15 @@
     </div>
 
 
-{{--    <div class="d-flex align-content-center justify-content-center">--}}
-{{--        <div class="d-flex align-content-center justify-content-center" style="width: 65%">--}}
-{{--            <button onclick="" style="padding: 0; border: none; background: none;">--}}
-{{--                <a href="{{route('Product.index')}}">--}}
-{{--                    <img src="{{asset('images/button/xemthemsanpham.png')}}" alt="Xem thêm sản phẩm" style=""--}}
-{{--                         class="img-fluid">--}}
-{{--                </a>--}}
-{{--            </button>--}}
-{{--        </div>--}}
-{{--    </div>--}}
-    <div class="btn-content-sec6-hp">
-        <a href="{{route('Product.index')}}"
-           class="btn-content-sec5-hp double-border-blue px-5 py-3 mulish-black-white space-21">XEM THÊM SẢN PHẨM</a>
+    <div class="d-flex align-content-center justify-content-center">
+        <div class="d-flex align-content-center justify-content-center" style="width: 80%">
+            <div class="btn-content-sec6-hp">
+                <a href="{{route('Product.index')}}"
+                   class="btn-content-sec5-hp double-border-blue px-3 py-3 mulish-black-white space-21">XEM THÊM SẢN PHẨM</a>
+            </div>
+        </div>
     </div>
+
 </div>
 <style>
     .tab-button.active {

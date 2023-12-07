@@ -1,25 +1,25 @@
 <div class="sec2-HP-pc d-none d-sm-block">
-    <p class="header-first-line-hp-1 co-header-css mulish-extrabold space-21">The Minato Residence</p>
-    <p class="header-second-line-hp-1 co-header-css icielbegum space-51">TINH HOA NHẬT BẢN</p>
-    <p class="header-second-line-hp-1 co-header-css icielbegum space-51">An yên giữa lòng phố Cảng</p>
+    <p class="header-first-line-hp-1 co-header-css mulish-extrabold space-21" data-aos="fade-right" data-aos-duration="3000">The Minato Residence</p>
+    <p class="header-second-line-hp-1 co-header-css icielbegum space-51" data-aos="fade-left" data-aos-duration="3000">TINH HOA NHẬT BẢN</p>
+    <p class="header-second-line-hp-1 co-header-css icielbegum space-51" data-aos="fade-right" data-aos-duration="3000">An yên giữa lòng phố Cảng</p>
     <div class="row-test-1">
-        <div class="left-test-1" style="padding-left: 4%; padding-top: 4%">
-            <p class="first-text-hp text-content1-sec2-hp space-15 text-hp cabin-medium pb-4">Tiên phong mang đến một làn gió mới về phong
+        <div class="left-test-1" style="padding-left: 4%; padding-top: 4%" >
+            <p class="first-text-hp text-content1-sec2-hp space-15 text-hp cabin-medium pb-4" data-aos="fade-right" data-aos-duration="3000">Tiên phong mang đến một làn gió mới về phong
                 cách sống và đẳng cấp từ Nhật
                 Bản, The Minato
                 Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
                 lọc những tinh hoa từ xứ Phù Tang, The Minato Residence mang đến sự cân bằng trọn vẹn giữa nhịp sống
                 hiện đại, tiện nghi và những khoảnh khắc “sống an” chan hòa cùng thiên nhiên.</p>
-            <a href="{{route('introduce.index')}}" class="double-border first-text-hp px-3 py-3 mulish-black space-21">
+            <a href="{{route('introduce.index')}}" class="double-border first-text-hp px-3 py-3 mulish-black space-21" data-aos="fade-up" data-aos-duration="3000">
                 TÌM HIỂU THÊM
             </a>
         </div>
-        <img src="{{asset('images/homepage/sec2/Mask group (3).png')}}" class="img-sec2-hp-1 right-test-1">
+        <img src="{{asset('images/homepage/sec2/Mask group (3).png')}}" class="img-sec2-hp-1 right-test-1" data-aos="fade-left" data-aos-duration="3000">
     </div>
     <br>
     <div class="row-test" style="padding-top: 2%">
-        <img src="{{asset('images/homepage/sec2/Bản đồ hạ tầng 1.png')}}" class="left-test img-sec2-hp-2">
-        <div class="d-block" style="">
+        <img src="{{asset('images/homepage/sec2/Bản đồ hạ tầng 1.png')}}" class="left-test img-sec2-hp-2" data-aos="fade-right" data-aos-duration="3000">
+        <div class="d-block" style="" data-aos="fade-left" data-aos-duration="3000">
             <p class="header-first-line-hp space-21 header-content2-sec2-hp mulish-extrabold pb-2">vị trí dự án</p>
             <p class="header-second-line-hp header-content2-sec2-hp space-51 icielbegum">KẾ SÔNG</p>
             <p class="header-second-line-hp header-content2-sec2-hp icielbegum space-51">CẬN THỦY</p>

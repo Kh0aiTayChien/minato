@@ -212,7 +212,7 @@
 <style>
     .thuvien {
         background-image: url("/images/thuvien/background-thuvien.png");
-        background-size: 100% 105%;
+        background-size: cover;
         background-position: center -10px;
         padding: 5% 0 5% 0;
         background-attachment: fixed;
