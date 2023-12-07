@@ -8,7 +8,7 @@
     </div>
 
     <div class="mt-4 mb-4" style="">
-        <div class="row  mx-5 mb-5 gx-3 gy-2">
+        <div class="row  mx-5 mb-5 ">
             <div class="col-md-3 d-flex justify-content-center align-content-center">
                 <button class="tab-button btn btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake active"
@@ -41,8 +41,8 @@
     </div>
 
     <div class=" tabs mb-3 pb-3">
-        <div class="row tab tab1  mt-5 gy-4 gx-0 active" style="">
-            <div class="mt-1" style="">
+        <div class="row tab tab1  mt-5  active" style="">
+            <div class="mt-1 pb-5" style="">
                 <div class="row px-5 mx-5 gx-3 gy-2">
                     <div class="col-lg-3  d-flex justify-content-center align-content-center ">
                         <button class="tab-m1-button btn btn-block
@@ -74,105 +74,100 @@
                     </div>
                 </div>
             </div>
-            <div class="row tab tab11  active" style="">
-                <div class="w-100" style="padding: 3% 10% 10% 10%">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C2.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C7.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+            <div class="row tab tab11 active" style=" padding: 0 8% 0 11%">
+
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C8.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C9.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C12.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C2.png')}}" alt="" class="img-fluid mb-2">
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C13.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/C14.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tatca/D10.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C7.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tatca/C8.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tatca/C9.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tatca/C12.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tatca/C13.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tatca/C14.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tatca/D10.png')}}" alt="" class="img-fluid mb-2">
                     </div>
                 </div>
 
 
             </div>
-            <div class="row tab tab22  " style="">
-                <div class="w-100" style="padding: 3% 10% 10% 10%">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tong-the/C7.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tong-the/C8.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tong-the/C9.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+            <div class="row tab tab22" style="padding: 0 8% 0 11%">
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tong-the/C7.png')}}" alt="" class="img-fluid mb-2">
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tong-the/D10.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tong-the/C8.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tong-the/C9.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tong-the/D10.png')}}" alt="" class="img-fluid mb-2">
                     </div>
                 </div>
             </div>
 
-            <div class="row tab tab33   " style="">
-                <div class="w-100" style="padding: 3% 10% 10% 10%">
-                    <div class="row">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C2.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C7.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+            <div class="row tab tab33" style="padding: 0 8% 0 11%">
+                <div class="row">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C8.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C9.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C12.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C2.png')}}" alt="" class="img-fluid mb-2">
                     </div>
-                    <div class="row mt-2">
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C13.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/C14.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
-                        <div class="col-md-4">
-                            <img src="{{asset('images/thuvien/tien-ich/D11.png')}}" alt="" class="img-fluid mb-2">
-                        </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C7.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C8.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C9.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C12.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                </div>
+                <div class="row mt-2">
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C13.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/C14.png')}}" alt="" class="img-fluid mb-2">
+                    </div>
+                    <div class="col-md-4 d-flex justify-content-center align-content-center">
+                        <img src="{{asset('images/thuvien/tien-ich/D11.png')}}" alt="" class="img-fluid mb-2">
                     </div>
                 </div>
             </div>
 
-            <div class="row tab tab44  mt-5 gy-4 gx-0 " style="">
+            <div class="row tab tab44" style="">
 
             </div>
 
@@ -216,10 +211,11 @@
 </div>
 <style>
     .thuvien {
-        background-image: url("/images/thuvien/bg-thuvien.png");
+        background-image: url("/images/thuvien/background-thuvien.png");
         background-size: 100% 105%;
         background-position: center -10px;
         padding: 5% 0 5% 0;
+        background-attachment: fixed;
     }
 </style>
 <style>
