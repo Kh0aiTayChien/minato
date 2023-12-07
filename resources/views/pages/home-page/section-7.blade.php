@@ -51,9 +51,17 @@
 
         </div>
     </div>
-    <div class="btn-content-sec5-hp" data-aos="fade-up" data-aos-duration="3000">
-        <a href="{{route('news.index')}}"
-           class="btn-content-sec5-hp double-border px-5 py-3 mulish-black space-21">XEM THÊM TIN TỨC</a>
+    <div class="d-flex align-content-center justify-content-center pb-5" data-aos="fade-up" data-aos-duration="3000">
+        <div class="btn-content-sec5-hp ">
+            <a href="{{route('news.index')}}"
+               class="double-border px-5 py-3 btn-sec2-hp-pc mulish-extrabold d-none d-md-block">
+                XEM THÊM TIN TỨC
+            </a>
+
+            <a href="{{route('news.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none">
+                XEM THÊM TIN TỨC
+            </a>
+        </div>
     </div>
 </div>
 <style>
