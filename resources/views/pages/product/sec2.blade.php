@@ -1,10 +1,10 @@
 <div class="sec2-product-pc">
     <p class="mainheader1-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 2.66vw; color: #141C46">CĂN HỘ CAO CẤP CHUẨN NHẬT</p>
-    <p class="mainheader2-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 2.66vw; color: #BA322E">Lần đầu tiên xuất hiện tại Hải Phòng</p>
+    <p class="mainheader2-sec2-product-pc icielbegum d-none d-md-block" style="font-size: 2.66vw; color: #BA322E; line-height: 10px; padding-bottom: 2%">Lần đầu tiên xuất hiện tại Hải Phòng</p>
     <p class="mainheader1-sec2-product-pc icielbegum d-md-none" style="font-size: 18px; color: #141C46">CĂN HỘ CAO CẤP CHUẨN NHẬT</p>
     <p class="mainheader2-sec2-product-pc icielbegum d-md-none" style="font-size: 18px; color: #BA322E">Lần đầu tiên xuất hiện  tại Hải Phòng </p>
     <div class="row-test-1">
-        <div class="col-lg-5 col-xs-12 row-test-1">
+        <div class="col-lg-5 col-xs-12 row-test-2">
             <img src="{{asset('images/product/sec2/aTIN_6451_ 1.png')}}" class="col-12">
             <p class="col-9 header-sec2-product-pc mulish-black space-21">KIẾN TRÚC DUY MỸ <br>
                 KHẮC HỌA</p>

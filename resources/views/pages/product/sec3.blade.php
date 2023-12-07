@@ -1,7 +1,7 @@
 <div class="sec3-product-pc d-none d-sm-block">
     <div class="row-test-1">
-        <img src="{{asset('images/product/sec3/grv94yfk.jpeg')}}" class="col-6 img-fluid">
-        <div class=" col-6 content-sec3-product-pc">
+        <img src="{{asset('images/product/sec3/grv94yfk.jpeg')}}" class="col-7 img-fluid">
+        <div class=" col-5 content-sec3-product-pc">
             <p class="header1-sec3-product-pc mulish-black space-21 ">hệ thống an ninh đa lớp</p>
             <p class="header2-sec3-product-pc icielbegum">ĐẢM BẢO <br>
                 AN TOÀN 24/7</p>
@@ -13,7 +13,7 @@
                 <li class="cabin-medium">Thiết kế nội khu thông minh, hạn chế tối đa những điều bất cập, không lành mạnh.</li>
             </ul>
             <div class="col-12">
-                <img src="{{asset('images/product/sec3/Group 104 (1).png')}}" class="col-12 img-sec3-product-pc">
+                <img src="{{asset('images/product/sec3/Group 2 (4).png')}}" class="col-12 img-sec3-product-pc">
             </div>
         </div>
     </div>

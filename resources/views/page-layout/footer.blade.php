@@ -1,4 +1,4 @@
-<div class="footer">
+<div class="footer" id="footer">
     <div class="container-fluid custom-padding">
         <div class="title" style="width: 90%">
             <div class="row">

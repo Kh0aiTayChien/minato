@@ -12,22 +12,22 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{asset('images/homepage/section-1/p3.jpg')}}" class="img-slide img-fluid normal-screen"
-                         alt="img-slide">
-                    <img src="{{asset('images/homepage/section-1/l3.jpg')}}" class="img-slide img-fluid long-screen"
-                         alt="img-slide">
+                    <a href="#footer"><img src="{{asset('images/homepage/section-1/p3.jpg')}}" class="img-slide img-fluid normal-screen"
+                         alt="img-slide"></a>
+                    <a href="#footer"><img src="{{asset('images/homepage/section-1/l3.jpg')}}" class="img-slide img-fluid long-screen"
+                         alt="img-slide"></a>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('images/homepage/section-1/p2.jpg')}}" class="img-slide img-fluid normal-screen"
-                         alt="img-slide">
-                    <img src="{{asset('images/homepage/section-1/l2.png')}}" class=" img-slide img-fluid long-screen"
-                         alt="img-slide">
+                    <a href="#footer"><img src="{{asset('images/homepage/section-1/p2.jpg')}}" class="img-slide img-fluid normal-screen"
+                         alt="img-slide"></a>
+                    <a href="#footer"><img src="{{asset('images/homepage/section-1/l2.png')}}" class=" img-slide img-fluid long-screen"
+                         alt="img-slide"></a>
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('images/homepage/section-1/p1.jpg')}}" class="img-slide img-fluid normal-screen"
-                         alt="img-slide">
-                    <img src="{{asset('images/homepage/section-1/l1.jpg')}}" class="img-slide img-fluid long-screen"
-                         alt="img-slide">
+                    <a href="#footer"><img src="{{asset('images/homepage/section-1/p1.jpg')}}" class="img-slide img-fluid normal-screen"
+                         alt="img-slide"></a>
+                    <a href="#footer"><img src="{{asset('images/homepage/section-1/l1.jpg')}}" class="img-slide img-fluid long-screen"
+                         alt="img-slide"></a>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#section-1-carousel"
