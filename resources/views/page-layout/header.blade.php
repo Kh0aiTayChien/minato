@@ -135,7 +135,7 @@
                 <a href="{{asset('san-pham')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
             </li>
         </ul>
-        <div class="col-md-2 logominmin">
+        <div class="col-md-2 logominmin img-fluid">
             <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style=""
                                           class="logo-test col-xxl-11 col-md-11"></a>
         </div>

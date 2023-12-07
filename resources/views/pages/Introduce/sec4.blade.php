@@ -24,9 +24,11 @@
 
 <div class="sec4-intro-mb d-block d-sm-none">
     <p class="header1-sec4-intro-mb mulish-extrabold">BẢO CHỨNG CHO SỰ UY TÍN</p>
-    <p class="header2-sec4-intro-mb icielbegum">sự kết hợp đỉnh cao đầu tiên tại việt nam</p>
-    <p class="header3-sec4-intro-mb icielbegum">Từ hai ông lớn Bất động sản xứ sở Hoa Anh Đào</p>
-    <p class="header21-sec4-intro-mb icielbegum">Fujita & Takara Leben</p>
+    <p class="header2-sec4-intro-mb icielbegum" style="line-height: 1.5">sự kết hợp đỉnh cao </p>
+    <p class="header2-sec4-intro-mb icielbegum" style="line-height: 1">đầu tiên tại việt nam</p>
+    <p class="header3-sec4-intro-mb icielbegum" style="line-height: 1">Từ hai ông lớn Bất động </p>
+    <p class="header3-sec4-intro-mb icielbegum" style="line-height: 1">sản xứ sở Hoa Anh Đào</p>
+    <p class="header21-sec4-intro-mb icielbegum" style="line-height: 2">Fujita & Takara Leben</p>
     <div class="row-test">
         <p class="text-sec4-intro-pc col-10 cabin-medium">Dự án The Minato Residence là dự án khu đô thị đầu tiên tại Thành phố Hải Phòng được đầu tư hoàn toàn
             bởi hai “ông lớn” trong ngành bất động sản tại Nhật Bản là Fujita và Takara Leben.</p>

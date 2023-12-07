@@ -4,6 +4,14 @@
     background-repeat: no-repeat;
     background-position: center bottom; /* Dịch chuyển hình nền xuống phía dưới */
 }
+@media (max-width: 900px) {
+    .sec2-intro-pc {
+        background-image: url("/images/introduce/sec2/Group 110.png");
+        background-size: 900% auto; /* Phóng to theo chiều ngang 10%, chiều cao tự động điều chỉnh */
+        background-repeat: no-repeat;
+        background-position: center bottom; /* Dịch chuyển hình nền xuống phía dưới */
+    }
+}
 
 
 .container-sec2-intro-pc {

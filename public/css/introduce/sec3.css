@@ -2,7 +2,7 @@
     background-image: url("/images/introduce/sec3/bg-4.png");
     background-repeat: no-repeat;
     padding-bottom: 40%;
-    background-position: center -10px;
+    background-position: center -10rem;
     background-size: 120% auto;
 }
 
@@ -56,21 +56,22 @@
     margin-left: 5%;
     text-align: justify;
     color: #133351;
+    font-size: 13px;
 }
 
 .header-first-line-intro-mb {
     color: #133351;
-    font-size: 18px;
-    padding-top: 5%;
+    font-size: 13px;
+    padding-top: 12%;
     text-transform: uppercase;
 }
 
 .header-second-line-intro-mb {
     color: #133351;
-    font-size: 25px;
+    font-size: 29px;
 }
 
 .header-third-line-intro-mb {
     color: #BA322E;
-    font-size: 25px;
+    font-size: 29px;
 }

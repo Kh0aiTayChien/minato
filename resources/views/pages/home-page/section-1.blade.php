@@ -9,6 +9,8 @@
                         aria-label="Slide 2" aria-current="true"></button>
                 <button type="button" data-bs-target="#section-1-carousel" data-bs-slide-to="2" class=""
                         aria-label="Slide 3" aria-current="true"></button>
+                <button type="button" data-bs-target="#section-1-carousel" data-bs-slide-to="3" class=""
+                        aria-label="Slide 4" aria-current="true"></button>
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
@@ -28,6 +30,12 @@
                          alt="img-slide"></a>
                     <a href="#footer"><img src="{{asset('images/homepage/section-1/l1.jpg')}}" class="img-slide img-fluid long-screen"
                          alt="img-slide"></a>
+                </div>
+                <div class="carousel-item">
+                    <video class="d-block w-100" autoplay muted loop>
+                        <source src="{{asset('images/homepage/section-1/video.mp4')}}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#section-1-carousel"

@@ -7,8 +7,8 @@
          style="font-size: 2.66vw; ">
         TIN TỨC & SỰ KIỆN
     </div>
-    <div class="section-tintuc-sukien d-flex justify-content-center align-items-center">
-        <div id="section-tintuc-sukien" class="carousel slide w-100" data-bs-ride="carousel">
+    <div class="section-tintuc-sukien d-flex justify-content-center align-items-center" data-bs-interval="false">
+        <div id="section-tintuc-sukien" class="carousel slide w-100" data-bs-ride="carousel" >
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#section-tintuc-sukien" data-bs-slide-to="0" class="active"
                         aria-label="Slide 1"></button>
@@ -25,8 +25,8 @@
                              alt="img-slide">
                         <div class="position-absolute custom-top start-50 ">
                             <h3 class="mulish-extrabold bold-text"
-                                style="font-size: 2.2vw; color: #133351; letter-spacing: 1px">{{\Illuminate\Support\Str::limit($article->title,60)}}</h3>
-                            <div class="cabin-medium pt-4" style="font-size: 1.1vw; color: #43496B; letter-spacing: 1px; padding-right: 18%; text-align: justify;">
+                                style="font-size: 2.2vw; color: #133351; letter-spacing: 1px; padding-right: 15%">{{\Illuminate\Support\Str::limit($article->title,300)}}</h3>
+                            <div class="cabin-medium pt-4" style="font-size: 1.1vw; color: #43496B; letter-spacing: 1px; padding-right: 15%; text-align: justify;">
                                 {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 250)) }}
                             </div>
                             <div class="d-flex align-content-center justify-content-start mulish-extrabold"
@@ -59,6 +59,7 @@
 
     .custom-top {
         top: 30%;
+        margin-left: 3%;
     }
 
     a {
