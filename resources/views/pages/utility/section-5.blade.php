@@ -1,10 +1,10 @@
 <div class="section-5 pt-4 pb-4 custom-padding">
-    <div class="d-flex align-content-center justify-content-center pt-4 px-3">
+    <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
             <div class="col-xs-12 col-md-7 ">
-                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem; line-height: 0.55"> HÒA MÌNH TẬN HƯỞNG</div>
                 <div class="mulish-extrabold text-white mb-5 d-md-none" style="font-size: 15px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw; line-height: 0.55"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
                 <div class="icielbegum yellow-light-color d-md-none" style="font-size: 35px"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
             </div>
             <div class="col-xs-12 col-md-5 text-white">
