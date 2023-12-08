@@ -5,9 +5,9 @@
                 <div class="mulish-extrabold text-white mb-2 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="mulish-extrabold text-white mb-2 d-md-none d-flex justify-content-center align-content-center" style="font-size: 13px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hướng đa tầng tiện ích</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hưởng đa tầng tiện ích</div>
                 <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> Hướng đa tầng tiện ích </div>
+                <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> Hưởng đa tầng tiện ích </div>
             </div>
             <div class="col-xs-12 col-md-5 text-white" style="" data-aos="fade-up" data-aos-duration="3000">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify;
