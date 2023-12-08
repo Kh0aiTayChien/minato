@@ -86,13 +86,13 @@
                 <img src="{{asset('images/utility/doc6.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
             </div>
             <div style="margin-left: 0.2%">
-                <img src="{{asset('images/utility/7.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/utility/Mask group.png')}}" alt="" class="img-fluid">
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> CAFE ROOFTOP </div>
                 <div class="mulish-extrabold text-uppercase mb-5" style="font-size: 1.09vw; color: white; padding-top: 0"> Cafe Rooftop với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray </div>
                 <img src="{{asset('images/utility/doc7.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
             </div>
             <div style="margin-left: 0.2%">
-                <img src="{{asset('images/utility/8.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/utility/Mask group (1).png')}}" alt="" class="img-fluid">
                 <div class="icielbegum" style="font-size: 2.66vw; color: #EFD483; padding-top: 1%"> BỂ BƠI NGOÀI TRỜI </div>
                 <div class="mulish-extrabold text-uppercase mb-5" style="font-size: 1.09vw; color: white; padding-top: 0"> Thả mình thư giãn trong làn nước xanh mát </div>
                 <img src="{{asset('images/utility/doc8.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">

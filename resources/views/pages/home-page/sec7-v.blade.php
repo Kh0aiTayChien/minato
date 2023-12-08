@@ -6,7 +6,7 @@
     <p class="col-12 header2-sec7-v-hp  icielbegum space-51" data-aos="fade-left" data-aos-duration="3000">
         THE MINATO RESIDENCE
     </p><br>
-    <a href="https://marcom3d.com/minato/" class="double-border px-5 py-3 btn-sec2-hp-pc mulish-extrabold" data-aos="fade-up" data-aos-duration="3000">
+    <a href="https://marcom3d.com/minato/" class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black" data-aos="fade-up" data-aos-duration="3000">
         TRẢI NGHIỆM VR 360
     </a>
 </div>

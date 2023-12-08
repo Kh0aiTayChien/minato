@@ -65,7 +65,7 @@
         <div class="d-flex align-content-center justify-content-center pb-5">
             <div class="btn-content-sec5-hp ">
                 <a href="{{route('utility.index')}}"
-                   class="double-border px-5 py-3 btn-sec2-hp-pc mulish-extrabold d-none d-md-block">
+                   class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black d-none d-md-block">
                     XEM THÊM TIỆN ÍCH
                 </a>
 
