@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-    <div class="slick-carousel position-relative mt-4" data-aos="flip-right" data-aos-duration="3000">
+    <div class="slick-carousel position-relative mt-4" data-aos="fade-up" data-aos-duration="3000">
         <button class="custom-prev-arrow-course " aria-label="Previous">
             <img src="{{asset('images/button/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>
