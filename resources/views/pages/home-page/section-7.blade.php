@@ -20,7 +20,7 @@
 
         <div class="carousel-sec-9" >
             @foreach($articles as $article)
-                <div class="d-flex justify-content-center" data-aos="flip-right" data-aos-duration="3000">
+                <div class="d-flex justify-content-center">
                     <a href="{{route('news.show',['slug' => $article->slug])}}"
                        style="text-decoration: unset; color: unset">
                         {{--                        <a href="" style="text-decoration: unset; color: unset">--}}

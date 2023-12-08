@@ -1,5 +1,4 @@
-<div class="d-none d-md-block"  data-aos="fade-up"
-     data-aos-duration="3000">
+<div class="d-none d-md-block" >
     <div class="d-flex justify-content-center align-items-center"
          style="background: rgba(19, 51, 81, 1);padding-top: 12.5vh">
         <div id="section-1-carousel" class="carousel slide w-100" data-bs-ride="carousel">
