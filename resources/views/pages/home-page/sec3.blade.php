@@ -1,8 +1,8 @@
 <div class="sec3-hp-pc d-none d-sm-block">
     <div class="row-test">
         <div class="col-12 row-test">
-            <img src="{{asset('images/homepage/sec3/17-17 1.png')}}" class="col-4">
-            <img src="{{asset('images/homepage/sec3/Group 104 (2).png')}}" class="col-9">
+            <img src="{{asset('images/homepage/sec3/1. 09 lí do.png')}}" class="col-4">
+            <img src="{{asset('images/homepage/sec3/1. 09 lý do 1 ảnh.png')}}" class="col-9">
         </div>
     </div>
 </div>

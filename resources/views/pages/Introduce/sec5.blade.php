@@ -11,7 +11,7 @@
             nghiệp, lựa chọn theo tiêu chuẩn quốc tế, phù hợp với kiến trúc cao tầng và đảm bảo an toàn cho các cư
             dân.</p>
         </div>
-        <img src="{{asset('images/introduce/sec5/Mask group (6).png')}}" class="img-sec2-hp-1 right-test-1">
+        <img src="{{asset('images/introduce/sec5/5. Đẳng cấp vượt trội-01.jpg')}}" class="img-sec2-hp-1 right-test-1">
     </div>
 </div>
 
