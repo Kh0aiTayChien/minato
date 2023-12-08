@@ -2,16 +2,18 @@
     display: block;
     justify-content: center;
     text-align: center;
-    background-image: url("/images/introduce/sec4/Group 105 (1).png");
+    background-image: url("/images/introduce/sec4/Group 104 (3).png");
     background-size: cover;
-    padding-bottom: 115%;
-    padding-top: 5%;
+    background-position: center;
+    padding-bottom: 100%;
+    /*padding-top: 5%;*/
 }
 
 .header1-sec4-intro-pc {
     font-size: 1.09vw;
     color: #133351;
     letter-spacing: 0.35rem;
+    padding-top: 5%;
 }
 
 .header2-sec4-intro-pc {

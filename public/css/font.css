@@ -43,12 +43,12 @@
 
 .space-21 {
     letter-spacing: 0.325rem;
-    font-size: 13px !important
+    /*font-size: 21px !important*/
 }
 
 .space-21-btn {
     letter-spacing: 0.325rem;
-    font-size: 12px !important
+    font-size: 13px !important
 }
 
 .space-51 {
