@@ -1,15 +1,15 @@
 <div class="section-5 pt-4 pb-4 custom-padding">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
-            <div class="col-xs-12 col-md-7 pc-padding">
+            <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
                 <div class="mulish-extrabold text-white mb-2 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="mulish-extrabold text-white mb-2 d-md-none d-flex justify-content-center align-content-center" style="font-size: 13px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH</div>
                 <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hướng đa tầng tiện ích</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hưởng đa tầng tiện ích</div>
                 <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> SỐNG GIỮA THIÊN NHIÊN</div>
-                <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> Hướng đa tầng tiện ích </div>
+                <div class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center" style="font-size: 29px; line-height: 1.25"> Hưởng đa tầng tiện ích </div>
             </div>
-            <div class="col-xs-12 col-md-5 text-white" style="">
+            <div class="col-xs-12 col-md-5 text-white" style="" data-aos="fade-up" data-aos-duration="3000">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify;
                 letter-spacing: 1px; padding-top: 18.5%; padding-left: 12% ">
                     <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-    <div class="slick-carousel position-relative mt-4">
+    <div class="slick-carousel position-relative mt-4" data-aos="flip-right" data-aos-duration="3000">
         <button class="custom-prev-arrow-course " aria-label="Previous">
             <img src="{{asset('images/button/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>
@@ -62,17 +62,19 @@
             <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.2%">
         </div>
     </div>
-    {{--    <div class="d-flex align-content-center justify-content-center pb-5">--}}
-    {{--        <button onclick="" style="padding: 0; border: none; background: none;">--}}
-    {{--            <a href="{{route('utility.index')}}">--}}
-    {{--                <img src="{{asset('images/button/xemthemtienich.png')}}" alt="Đăng ký" style="" class="img-fluid">--}}
-    {{--            </a>--}}
-    {{--        </button>--}}
-    {{--    </div>--}}
-    <div class="btn-content-sec5-hp">
-        <a href="{{route('utility.index')}}"
-           class="btn-content-sec5-hp double-border px-5 py-3 mulish-black space-21">XEM THÊM TIỆN ÍCH</a>
-    </div>
+        <div class="d-flex align-content-center justify-content-center pb-5">
+            <div class="btn-content-sec5-hp ">
+                <a href="{{route('utility.index')}}"
+                   class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black d-none d-md-block">
+                    XEM THÊM TIỆN ÍCH
+                </a>
+
+                <a href="{{route('utility.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none">
+                    XEM THÊM TIỆN ÍCH
+                </a>
+            </div>
+        </div>
+
 
 
     <script>

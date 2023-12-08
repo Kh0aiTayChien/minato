@@ -1,7 +1,7 @@
 <div class="section-7">
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex"
-         style="font-size: 2.66vw">
+         style="font-size: 2.66vw" data-aos="fade-down" data-aos-duration="3000">
         TIN TỨC KHÁC
     </div>
 
@@ -10,7 +10,7 @@
         TIN TỨC KHÁC
     </div>
 
-    <div class="slick-carousel position-relative">
+    <div class="slick-carousel position-relative" >
         <button class="custom-prev-arrow-9 " aria-label="Previous">
             <img src="{{asset('images/button/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>
@@ -18,9 +18,9 @@
             <img src="{{asset('images/button/right.png')}}" alt="Next" class="shadow-effect button-shake"/>
         </button>
 
-        <div class="carousel-sec-9">
+        <div class="carousel-sec-9" >
             @foreach($articles as $article)
-                <div class="d-flex justify-content-center">
+                <div class="d-flex justify-content-center" data-aos="flip-right" data-aos-duration="3000">
                     <a href="{{route('news.show',['slug' => $article->slug])}}"
                        style="text-decoration: unset; color: unset">
                         {{--                        <a href="" style="text-decoration: unset; color: unset">--}}
@@ -51,9 +51,17 @@
 
         </div>
     </div>
-    <div class="btn-content-sec5-hp">
-        <a href="{{route('news.index')}}"
-           class="btn-content-sec5-hp double-border px-5 py-3 mulish-black space-21">XEM THÊM TIN TỨC</a>
+    <div class="d-flex align-content-center justify-content-center pb-5" data-aos="fade-up" data-aos-duration="3000">
+        <div class="btn-content-sec5-hp ">
+            <a href="{{route('news.index')}}"
+               class="double-border px-5 btn-sec2-hp-pc mulish-black d-none d-md-block">
+                XEM THÊM TIN TỨC
+            </a>
+
+            <a href="{{route('news.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none">
+                XEM THÊM TIN TỨC
+            </a>
+        </div>
     </div>
 </div>
 <style>

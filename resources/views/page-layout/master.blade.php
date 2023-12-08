@@ -29,6 +29,7 @@
     <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdn.rawgit.com/tarkhov/postboot/v1.0.3/dist/css/postboot.min.css"/>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link href="{{asset('/css/header.css')}}" rel="stylesheet">
     <link href="{{asset('/css/footer.css')}}" rel="stylesheet">
     <link href="{{asset('/css/font.css')}}" rel="stylesheet">
@@ -60,5 +61,9 @@
 @include('page-layout/header')
 @yield('section')
 @include('page-layout/footer')
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </body>
 </html>

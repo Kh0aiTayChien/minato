@@ -114,32 +114,38 @@
     });
 </script>
 
-<div class="headerpc fixed-top mulish-extrabold d-none d-sm-block" id="myHeader ">
+<div class="headerpc fixed-top mulish-extrabold d-none d-sm-block" id="myHeader " >
 {{--    <div class="background-image"></div>--}}
     <div class="col-xxl-12 col-md-12 row-test headermenu">
-        <ul class="col-md-5 menuleft">
-            <li class="header-link-left">
+        <ul class="col-md-5 menuleft" >
+            <li class="header-link-left" data-aos="fade-down"
+                data-aos-duration="1500">
                 <a href="{{asset('/')}}" id="trang-chu-link">
                     <p>TRANG CHỦ</p>
                 </a>
             </li>
-            <li class="header-link-left">
+            <li class="header-link-left" data-aos="fade-down"
+                data-aos-duration="1500">
                 <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
                     <p>GIỚI THIỆU</p>
                 </a>
             </li>
-            <li class="header-link-left">
+            <li class="header-link-left" data-aos="fade-down"
+                data-aos-duration="1500">
                 <a href="{{asset('vi-tri')}}" id="vi-tri-link"><p>VỊ TRÍ</p></a>
             </li>
-            <li class="">
-                <a href="{{asset('san-pham')}}" id="san-pham-link"><p>SẢN PHẨM</p></a>
+            <li class="" data-aos="fade-down"
+                data-aos-duration="1500">
+                <a href="{{asset('san-pham')}}" id="san-pham-link" ><p>SẢN PHẨM</p></a>
             </li>
         </ul>
-        <div class="col-md-2 logominmin img-fluid">
+        <div class="col-md-2 logominmin img-fluid" data-aos="fade-down"
+             data-aos-duration="1500">
             <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style=""
                                           class="logo-test col-xxl-11 col-md-11"></a>
         </div>
-        <ul class="col-md-5 menuright">
+        <ul class="col-md-5 menuright" data-aos="fade-down"
+            data-aos-duration="1500">
             <li class="">
                 <a href="{{asset('tien-ich')}}" id="tien-ich-link"><p>TIỆN ÍCH</p></a>
             </li>

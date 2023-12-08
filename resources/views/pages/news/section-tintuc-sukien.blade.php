@@ -25,7 +25,7 @@
                              alt="img-slide">
                         <div class="position-absolute custom-top start-50 ">
                             <h3 class="mulish-extrabold bold-text"
-                                style="font-size: 2.2vw; color: #133351; letter-spacing: 1px; padding-right: 15%">{{\Illuminate\Support\Str::limit($article->title,300)}}</h3>
+                                style="font-size: 1.5vw; color: #133351; letter-spacing: 1px; padding-right: 15%">{{\Illuminate\Support\Str::limit($article->title,300)}}</h3>
                             <div class="cabin-medium pt-4" style="font-size: 1.1vw; color: #43496B; letter-spacing: 1px; padding-right: 15%; text-align: justify;">
                                 {{ preg_replace('/<[^>]*>/', '', \Illuminate\Support\Str::limit(strip_tags($article->content), 250)) }}
                             </div>
