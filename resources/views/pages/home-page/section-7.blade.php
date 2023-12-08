@@ -54,7 +54,7 @@
     <div class="d-flex align-content-center justify-content-center pb-5" data-aos="fade-up" data-aos-duration="3000">
         <div class="btn-content-sec5-hp ">
             <a href="{{route('news.index')}}"
-               class="double-border px-5 py-3 btn-sec2-hp-pc mulish-extrabold d-none d-md-block">
+               class="double-border px-5 btn-sec2-hp-pc mulish-black d-none d-md-block">
                 XEM THÊM TIN TỨC
             </a>
 
