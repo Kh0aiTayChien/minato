@@ -1,4 +1,7 @@
 <div class="sec4-intro-pc d-none d-sm-block">
+    <div class="position-absolute w-100 d-flex justify-content-end align-content-center" style="">
+        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 28%;">
+    </div>
     <p class="header1-sec4-intro-pc mulish-extrabold space-21">BẢO CHỨNG CHO SỰ UY TÍN</p>
     <p class="header2-sec4-intro-pc icielbegum space-51">sự kết hợp đỉnh cao đầu tiên tại việt nam</p>
     <p class="header3-sec4-intro-pc icielbegum space-51">Từ hai ông lớn Bất động sản xứ sở Hoa Anh Đào</p>
