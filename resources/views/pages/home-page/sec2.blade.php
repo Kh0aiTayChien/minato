@@ -14,7 +14,7 @@
                 TÌM HIỂU THÊM
             </a>
         </div>
-        <img src="{{asset('images/homepage/sec2/Mask group (3).png')}}" class="img-sec2-hp-1 right-test-1" data-aos="fade-left" data-aos-duration="3000">
+        <img src="{{asset('images/homepage/sec2/21321-01.jpg')}}" class="img-sec2-hp-1 right-test-1" data-aos="fade-left" data-aos-duration="3000">
     </div>
     <br>
     <div class="row-test" style="padding-top: 2%">
