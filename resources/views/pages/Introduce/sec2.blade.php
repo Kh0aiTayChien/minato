@@ -1,6 +1,6 @@
 <div class="sec2-intro-pc pb-5 pt-5">
     <div class="row-test content-sec2-introduce-pc">
-        <img src="{{asset('images/introduce/sec2/Mask group (4).png')}}"
+        <img src="{{asset('images/introduce/sec2/Neww-01.jpg')}}"
              class="col-md-8 container-sec2-intro-pc img-fluid mb-4">
         <div class="col-md-4 col-xxl-4" style="padding-left: 3%; padding-right: 2%">
             <div class="row-test-1 col-md-12">
