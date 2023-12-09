@@ -2,7 +2,7 @@
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex"
          style="font-size: 2.66vw" data-aos="fade-down" data-aos-duration="3000">
-        TIN TỨC KHÁC
+        TIN TỨC
     </div>
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 pt-3 d-md-none"
@@ -20,7 +20,7 @@
 
         <div class="carousel-sec-9" >
             @foreach($articles as $article)
-                <div class="d-flex justify-content-center" data-aos="flip-right" data-aos-duration="3000">
+                <div class="d-flex justify-content-center">
                     <a href="{{route('news.show',['slug' => $article->slug])}}"
                        style="text-decoration: unset; color: unset">
                         {{--                        <a href="" style="text-decoration: unset; color: unset">--}}
@@ -54,7 +54,7 @@
     <div class="d-flex align-content-center justify-content-center pb-5" data-aos="fade-up" data-aos-duration="3000">
         <div class="btn-content-sec5-hp ">
             <a href="{{route('news.index')}}"
-               class="double-border px-5 btn-sec2-hp-pc mulish-black d-none d-md-block">
+               class="double-border px-5 btn-sec2-hp-pc mulish-black space-21-btn d-none d-md-block">
                 XEM THÊM TIN TỨC
             </a>
 

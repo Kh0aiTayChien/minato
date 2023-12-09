@@ -25,6 +25,7 @@ Route::get('/tien-do', [ProgressController::class, 'index'])->name('progress.ind
 Route::get('/thu-vien', [LibraryController::class, 'index'])->name('library.index');
 Route::get('/lien-he', [ContactController::class, 'index'])->name('contact.index');
 Route::get('/view-pdf', [ContactController::class, 'viewPDF'])->name('library.viewPDF');
+Route::post('/info', [IndexController::class, 'send'])->name('info');
 
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {
