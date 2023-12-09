@@ -157,6 +157,24 @@
         .custom-padding {
             padding: 5% 0 0 0 !important;
         }
+        .custom-prev-arrow-course,
+        .custom-next-arrow-course {
+            position: absolute;
+            top: 42%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            scale: 75%;
+            z-index: 2;
+        }
+        .custom-prev-arrow-course {
+            left: -10% !important;
+        }
+
+        .custom-next-arrow-course {
+            right: -8% !important;
+        }
     }
     .custom-padding {
         padding: 5% 5% 5% 8%;
@@ -175,7 +193,7 @@
     .custom-prev-arrow-course,
     .custom-next-arrow-course {
         position: absolute;
-        top: 42%;
+        top: 50%;
         transform: translateY(-50%);
         background: none;
         border: none;
@@ -185,11 +203,11 @@
     }
 
     .custom-prev-arrow-course {
-        left: -10% !important;
+        left: 1px% !important;
     }
 
     .custom-next-arrow-course {
-        right: -8% !important;
+        right: 1px !important;
     }
 
     .slick-dots button {
