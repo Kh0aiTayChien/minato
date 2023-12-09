@@ -11,13 +11,13 @@
     </form>
 </div>
 <div class="secret d-none">
-    <img src="{{asset('images/tien-do/1.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/2.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/3.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/4.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/5.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/6.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/7.png')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/11.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/22.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/33.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/44.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/55.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/66.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/77.jpg')}}" alt="" class="w-100">
 </div>
 <style>
     .btn {
