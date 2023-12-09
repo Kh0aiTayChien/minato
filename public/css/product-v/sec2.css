@@ -1,9 +1,10 @@
 .sec2-product-pc {
     background-image: url("/images/product/sec2/Group 103 (2).png");
-    background-size: 100% 105%;
+    background-size: cover;
     background-repeat: no-repeat;
     padding-top: 5.5%;
     background-position: center -10px;
+    scale: 101%;
 }
 
 .img-sec2-product-pc {
