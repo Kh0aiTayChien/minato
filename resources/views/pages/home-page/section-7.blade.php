@@ -12,10 +12,10 @@
 
     <div class="slick-carousel position-relative" >
         <button class="custom-prev-arrow-9 " aria-label="Previous">
-            <img src="{{asset('images/button/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
+            <img src="{{asset('images/button/left.png')}}" alt="Previous" class=" button-shake"/>
         </button>
         <button class="custom-next-arrow-9 " aria-label="Next">
-            <img src="{{asset('images/button/right.png')}}" alt="Next" class="shadow-effect button-shake"/>
+            <img src="{{asset('images/button/right.png')}}" alt="Next" class=" button-shake"/>
         </button>
 
         <div class="carousel-sec-9" >
@@ -210,7 +210,7 @@
             left: -17px;
             position: absolute;
             top: 40%;
-            scale: 50%;
+            /*scale: 50%;*/
             opacity: 50%;
         }
 
@@ -218,7 +218,7 @@
             right: -17px;
             position: absolute;
             top: 40%;
-            scale: 50%;
+            /*scale: 50%;*/
             opacity: 50%;
         }
 

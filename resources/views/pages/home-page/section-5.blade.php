@@ -100,7 +100,8 @@
                         breakpoint: 600,
                         settings: {
                             slidesToShow: 1,
-                            slidesToScroll: 1
+                            slidesToScroll: 1,
+                            variableWidth: false,
                         }
                     },
                     {
@@ -174,7 +175,7 @@
     .custom-prev-arrow-course,
     .custom-next-arrow-course {
         position: absolute;
-        top: 45%;
+        top: 42%;
         transform: translateY(-50%);
         background: none;
         border: none;
@@ -184,11 +185,11 @@
     }
 
     .custom-prev-arrow-course {
-        left: 1px !important;
+        left: -10% !important;
     }
 
     .custom-next-arrow-course {
-        right: 1px !important;
+        right: -8% !important;
     }
 
     .slick-dots button {
