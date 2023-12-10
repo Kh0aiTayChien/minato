@@ -3,10 +3,10 @@
         <div class="row">
             <div class="col-xs-12 col-md-7 ">
                 <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem; line-height: 0.55"> HÒA MÌNH TẬN HƯỞNG</div>
-                <div class="mulish-extrabold text-white mb-5 d-md-none text-center" style="font-size: 15px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="mulish-extrabold text-white mb-1 d-md-none text-center" style="font-size: 15px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
                 <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw; line-height: 0.55"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
-                <div class="icielbegum yellow-light-color d-md-none text-center" style="font-size: 28px"> THIÊN ĐƯỜNG TIỆN ÍCH </div>
-                <div class="icielbegum yellow-light-color d-md-none text-center" style="font-size: 28px">  HẠNG A</div>
+                <div class="icielbegum yellow-light-color d-md-none text-center" style="font-size: 28px; line-height: 1.25"> THIÊN ĐƯỜNG TIỆN ÍCH </div>
+                <div class="icielbegum yellow-light-color d-md-none text-center" style="font-size: 28px; line-height: 1.25">  HẠNG A</div>
             </div>
             <div class="col-xs-12 col-md-5 text-white">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
@@ -22,7 +22,7 @@
                         thiện
                     </div>
                 </div>
-                <div class=" d-md-flex align-content-center justify-content-end d-md-none px-3" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                <div class=" d-md-flex align-content-center justify-content-end d-md-none" style="width: 100%; text-align: justify; letter-spacing: 1px">
                     <div class="cabin-medium " style="font-size: 13px"> The Minato Residence mang đến một thành phố
                         xanh,
 
@@ -55,9 +55,9 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> CÔNG VIÊN SAKURA </div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> CÔNG VIÊN SAKURA </div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%"> Sắc hương anh đào nở rộ giữa thành phố Hoa Phượng đỏ </div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%"> Sắc hương anh đào nở rộ giữa thành phố Hoa Phượng đỏ </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%"> Sắc hương anh đào nở rộ giữa thành phố Hoa Phượng đỏ </div>
                 <img src="{{asset('images/utility/doc1.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify; font-size: 13px">
                     Mang đúng tinh thần Zen tái hiện trong không gian sống, các căn hộ tại The Minato Residence
                     được thiết kế tinh tế, tối giản và thấm đượm hơi thở Nhật Bản trong từng đường nét. Phong cách
                     thiết kế nội thất tại The Minato Residence không mang vẻ lộng lẫy hay xa hoa, thay vào đó sẽ tạo
@@ -70,9 +70,9 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> CÔNG VIÊN TRẺ EM </div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> CÔNG VIÊN TRẺ EM </div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%"> Vườn ươm sắc màu dung dưỡng những mầm non </div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%"> Vườn ươm sắc màu dung dưỡng những mầm non  </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%"> Vườn ươm sắc màu dung dưỡng những mầm non  </div>
                 <img src="{{asset('images/utility/doc2.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify; font-size: 13px">
                     Khu vui chơi ngoài trời được bao quanh bởi hệ sinh thái tự nhiên với cây cỏ ngập tràn cùng không khí
                     trong lành, mát mẻ. Đây sẽ là nơi các bạn nhỏ được tiếp xúc gần gũi với thiên nhiên bao la, mở rộng
                     tầm nhìn trong không gian khoáng đạt, cùng giao lưu và kết nối với cộng đồng dân cư đa quốc gia đã
@@ -85,9 +85,9 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> PHÒNG VUI CHƠI TRẺ EM</div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> PHÒNG VUI CHƠI TRẺ EM </div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Rộn rã tiếng cười ngập tràn hạnh phúc  </div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%"> Rộn rã tiếng cười ngập tràn hạnh phúc  </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%"> Rộn rã tiếng cười ngập tràn hạnh phúc  </div>
                 <img src="{{asset('images/utility/doc3.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify; font-size: 13px;">
                     Khu vui chơi trong nhà cũng được The Minato Ressidence chăm chút kiến tạo với không gian được thiết
                     kế mở, trang thiết bị an toàn, hiện đại với chất lượng an toàn hàng đầu giúp các bậc phụ huynh yên
                     tâm trao gửi để con trẻ có những trải nghiệm tuổi thơ tuyệt vời nhất.
@@ -98,9 +98,9 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> PHÒNG TIỆC</div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> PHÒNG TIỆC </div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Sang trọng, đẳng cấp, đa công năng</div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%">Sang trọng, đẳng cấp, đa công năng </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%">Sang trọng, đẳng cấp, đa công năng </div>
                 <img src="{{asset('images/utility/doc4.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px">
                     Hệ thống phòng tiệc tại The Minato Residence được thiết kế theo phong cách hiện đại với
                     sức chứa lớn, linh hoạt đa công năng khi vừa có thể là nơi tổ chức những buổi tiệc xa hoa
                     đẳng cấp, vừa có thể là nơi tổ chức các hoạt động sinh hoạt động đồng hay các lớp học nâng cao
@@ -112,9 +112,9 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> SẢNH CHÍNH</div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> SẢNH CHÍNH</div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Không gian tiếp khách sang trọng xứng tầm </div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%">Không gian tiếp khách sang trọng xứng tầm </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%">Không gian tiếp khách sang trọng xứng tầm </div>
                 <img src="{{asset('images/utility/doc5.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px">
                     Mang theo âm hưởng thiết kế Á Đông, vừa đơn giản lại không kém phần tiện nghi sang trọng,
                     sảnh đón khách của The Minato Residence mang lại cảm giác hài lòng và ấm áp mỗi khi trở về.
                     Từ chất lượng dịch vụ đến đội ngũ nhân viên đều được đảm bảo theo tiêu chuẩn 5 sao Quốc tế.
@@ -125,9 +125,9 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> PHÒNG GYM</div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> PHÒNG GYM</div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Sống tràn năng lượng với Phòng Gym hiện đại </div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%">Sống tràn năng lượng với Phòng Gym hiện đại </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%">Sống tràn năng lượng với Phòng Gym hiện đại </div>
                 <img src="{{asset('images/utility/doc6.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px">
                     Phòng Gym tại The Minato Residence được trang bị hệ thống dụng cụ đa dạng theo xu hướng với
                     chất lượng hàng đầu, nhằm đem đến trải nghiệm tập luyện hoàn hảo nhất cho cư dân. Đặc biệt,
                     phòng tập được thiết kế rộng thoáng với tầm nhìn mở, hướng thẳng ra cảnh quan sinh thái nội khu,
@@ -141,10 +141,10 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> CAFE ROOFTOP</div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> CAFE ROOFTOP</div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Cafe Rooftop với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray </div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%">Cafe Rooftop với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%">Cafe Rooftop với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray </div>
                 <div class="mulish-extrabold text-uppercase mb-5" style="font-size: 1.09vw; color: white; padding-top: 0">  </div>
                 <img src="{{asset('images/utility/doc7.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px; ">
                     Bể bơi ngoài trời tại The Minato Residence sẽ là nơi các cư dân tìm đến để được thư giãn đúng nghĩa,
                     thả lòng hoàn toàn cơ thể và tinh thần, đắm chìm vào cảm giác an nhiên, tự tại mà dự án mang lại.
                     Dưới bàn tay của các kiến trúc sư tinh hoa Nhật Bản, bể bơi được trang bị hệ thống chiếu sáng thông
@@ -157,9 +157,9 @@
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> BỂ BƠI NGOÀI TRỜI </div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 1%"> BỂ BƠI NGOÀI TRỜI </div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Thả mình thư giãn trong làn nước xanh mát </div>
-                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 1rem; color: white; padding-top: 0.5%">Thả mình thư giãn trong làn nước xanh mát </div>
+                <div class="d-block d-md-none mulish-extrabold text-uppercase mb-5" style="font-size: 13px; color: white; padding-top: 0.5%">Thả mình thư giãn trong làn nước xanh mát </div>
                 <img src="{{asset('images/utility/doc8.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block">
-                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify">
+                <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px">
                     Chăm sóc tinh thần và tận hưởng thời gian chất lượng bên bạn bè qua những buổi gặp gỡ tại Cafe
                     Rooftop với tầm nhìn toàn cảnh thành phố Cảng
                 </div>

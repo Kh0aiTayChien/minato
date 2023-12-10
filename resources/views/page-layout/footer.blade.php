@@ -1,18 +1,18 @@
 <div class="footer" id="footer">
     <div class="container-fluid custom-padding">
-        <div class="title" style="width: 90%">
+        <div class="title" style="">
             <div class="row">
                 <div class="col-md-8 col-xs-12">
                     <div class="mulish-extrabold text-white d-none d-md-block"
-                         style="font-size: 1.09vw; letter-spacing: 0.35rem;">THE MINATO RESIDENCE
+                         style="font-size: 1.09vw; letter-spacing: 0.35rem; width: 90%">THE MINATO RESIDENCE
                     </div>
-                    <div class="mulish-extrabold text-white d-flex justify-content-center d-md-none"
-                         style="letter-spacing: 0.35rem; font-size: 13px">THE MINATO RESIDENCE
+                    <div class="mulish-extrabold text-white d-flex  d-md-none"
+                         style="letter-spacing: 0.35rem; font-size: 15px">THE MINATO RESIDENCE
                     </div>
-                    <div class="icielbegum yellow-light-color mt-3 d-none d-md-block" style="font-size: 2.66vw">ĐĂNG KÍ
+                    <div class="icielbegum yellow-light-color mt-3 d-none d-md-block" style="font-size: 2.66vw; width: 90%">ĐĂNG KÍ
                         NHẬN TƯ VẤN
                     </div>
-                    <div class="icielbegum yellow-light-color mt-3 d-flex justify-content-center d-md-none text-center"
+                    <div class="icielbegum yellow-light-color mt-3 d-flex  d-md-none "
                          style="font-size: 29px">ĐĂNG KÍ NHẬN TƯ VẤN
                     </div>
                 </div>
@@ -154,13 +154,12 @@
     @media only screen and (max-width: 800px) {
         .custom-padding-room {
             width: 100% !important;
-            padding: 0 8%;
         }
     }
 
     @media only screen and (max-width: 800px) {
         .custom-padding-footer-last {
-            padding: 7% !important;
+
         }
     }
 
