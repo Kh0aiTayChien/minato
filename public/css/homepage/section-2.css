@@ -42,25 +42,25 @@
     opacity: 0.5;
 }
 
-.custom-prev-arrow-course,
-.custom-next-arrow-course {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    background: none;
-    border: none;
-    cursor: pointer;
-    scale: 75%;
-    z-index: 2;
-}
+/*.custom-prev-arrow-course,*/
+/*.custom-next-arrow-course {*/
+/*    position: absolute;*/
+/*    top: 50%;*/
+/*    transform: translateY(-50%);*/
+/*    background: none;*/
+/*    border: none;*/
+/*    cursor: pointer;*/
+/*    scale: 75%;*/
+/*    z-index: 2;*/
+/*}*/
 
-.custom-prev-arrow-course {
-    left: 10px;
-}
+/*.custom-prev-arrow-course {*/
+/*    left: 10px;*/
+/*}*/
 
-.custom-next-arrow-course {
-    right: 10px;
-}
+/*.custom-next-arrow-course {*/
+/*    right: 10px;*/
+/*}*/
 
 .hall-of-fame .card {
     background: transparent;

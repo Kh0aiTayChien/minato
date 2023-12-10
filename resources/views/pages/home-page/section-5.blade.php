@@ -43,7 +43,7 @@
             </div>
         </div>
     </div>
-    <div class="slick-carousel position-relative mt-4" data-aos="flip-right" data-aos-duration="3000">
+    <div class="slick-carousel position-relative mt-4" data-aos="fade-up" data-aos-duration="3000">
         <button class="custom-prev-arrow-course " aria-label="Previous">
             <img src="{{asset('images/button/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
         </button>
@@ -100,7 +100,8 @@
                         breakpoint: 600,
                         settings: {
                             slidesToShow: 1,
-                            slidesToScroll: 1
+                            slidesToScroll: 1,
+                            variableWidth: false,
                         }
                     },
                     {
@@ -156,6 +157,24 @@
         .custom-padding {
             padding: 5% 0 0 0 !important;
         }
+        .custom-prev-arrow-course,
+        .custom-next-arrow-course {
+            position: absolute;
+            top: 42%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            cursor: pointer;
+            scale: 75%;
+            z-index: 2;
+        }
+        .custom-prev-arrow-course {
+            left: -10% !important;
+        }
+
+        .custom-next-arrow-course {
+            right: -8% !important;
+        }
     }
     .custom-padding {
         padding: 5% 5% 5% 8%;
@@ -174,7 +193,7 @@
     .custom-prev-arrow-course,
     .custom-next-arrow-course {
         position: absolute;
-        top: 45%;
+        top: 50%;
         transform: translateY(-50%);
         background: none;
         border: none;
@@ -184,7 +203,7 @@
     }
 
     .custom-prev-arrow-course {
-        left: 1px !important;
+        left: 1px% !important;
     }
 
     .custom-next-arrow-course {

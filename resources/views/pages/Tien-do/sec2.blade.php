@@ -1,6 +1,7 @@
 <div class="sec2-tien-do-pc">
     <p class="header1-sec2-tien-do mulish-extrabold">THE MINATO RESIDENCE</p>
-    <p class="header2-sec2-tien-do icielbegum" style="font-size: 2.66vw">TIẾN ĐỘ</p>
+    <p class="header2-sec2-tien-do icielbegum d-none d-md-block" style="font-size: 2.66vw">TIẾN ĐỘ</p>
+    <p class="header2-sec2-tien-do icielbegum d-block d-md-none" style="font-size: 1.5rem">TIẾN ĐỘ</p>
     <form class="row-test">
         <input class="col-3 input-tien-do shadow-effect border-0 mulish-extrabold px-3" style="height: 3rem; font-size: 15px"
                placeholder="Nhập mã OTP" type="number" id="fullnamem" name="OTP" required ><br>
@@ -11,13 +12,13 @@
     </form>
 </div>
 <div class="secret d-none">
-    <img src="{{asset('images/tien-do/1.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/2.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/3.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/4.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/5.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/6.png')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/7.png')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/11.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/22.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/33.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/44.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/55.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/66.jpg')}}" alt="" class="w-100">
+    <img src="{{asset('images/tien-do/77.jpg')}}" alt="" class="w-100">
 </div>
 <style>
     .btn {

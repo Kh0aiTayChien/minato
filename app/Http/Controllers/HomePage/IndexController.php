@@ -3,6 +3,7 @@
 namespace App\Http\Controllers\HomePage;
 
 use App\Http\Controllers\Controller;
+use App\Mail\RegisterMailable;
 use App\Models\Article;
 use App\Models\Cart;
 use App\Models\Image;
@@ -14,6 +15,7 @@ use Artesaos\SEOTools\Facades\SEOMeta;
 use Artesaos\SEOTools\Facades\TwitterCard;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Cookie;
+use Illuminate\Support\Facades\Mail;
 use Illuminate\Support\Str;
 use App\Models\Category;
 
@@ -41,5 +43,20 @@ class IndexController extends Controller
         Đầu tiên tại Miền Bắc. Công viên Sakura rộng 3000m2. Tinh hoa Nhật Bản - An yên giữa lòng phố Cảng' );
         JsonLd::addImage('');
         return view('pages/home-page/index', ['articles' => $articles]);
+    }
+
+    public function send(Request $request)
+    {
+        $viewData = [
+            'status' => 'register_send',
+        ];
+        $name = $request->name;
+        $phone = $request->phone;
+        $email = $request->email;
+        $detail = $request->detail;
+
+      Mail::to('minato.info@waterfrontcity.vn')->send(new RegisterMailable($name, $phone, $email, $detail));
+//        Mail::to('chien.hcckt@gmail.com')->send(new RegisterMailable($name, $phone, $email, $detail));
+        return response()->json($viewData);
     }
 }

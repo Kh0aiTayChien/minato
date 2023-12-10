@@ -1,11 +1,11 @@
 <div class="sec2-intro-pc pb-5 pt-5 d-none d-sm-block">
     <div class="row-test content-sec2-introduce-pc">
-        <img src="{{asset('images/introduce/sec2/Mask group (4).png')}}"
+        <img src="{{asset('images/introduce/sec2/Neww-01.jpg')}}"
              class="col-md-8 container-sec2-intro-pc img-fluid mb-4">
         <div class="col-md-4 col-xxl-4" style="padding-left: 3%; padding-right: 2%">
-            <div class="row-test-1 col-md-12">
+            <div class=" col-md-12">
                 <div class="col-md-12">
-                    <p class="header1-sec2-intro-pc mulish-extrabold space-21" style="font-size: 21px">THE MINATO RESIDENCE</p>
+                    <p class="header1-sec2-intro-pc mulish-extrabold space-21-btn d-flex d-md-block justify-content-center align-content-center" style="font-size: 21px">THE MINATO RESIDENCE</p>
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block space-51" style="font-size: 51px">TỔNG QUAN</p>
 {{--                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-flex d-md-none justify-content-center" style="font-size: 32px">TỔNG QUAN</p>--}}
                     <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block space-51" style="font-size: 51px; line-height: 10px; padding-bottom: 5%">DỰ ÁN</p>
@@ -24,7 +24,7 @@
                     sông Lạch Tray, phường Vĩnh Niệm, quận Lê Chân, Thành phố Hải Phòng</p>
             </div>
             <div class="row-test-1 col-md-12">
-                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">TỔNG DIỆN TÍCH</p>
+                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">TỔNG DIỆN TÍCH</p> <b></b>
                 <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white space-15">12.635,2 m2 </p>
             </div>
             <div class="row-test-1 col-md-12 space-15">

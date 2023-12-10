@@ -5,7 +5,7 @@
     padding-top: 5%;
     padding-bottom: 5%;
     background-image: url("/images/tien-do/Group 107 (1).png");
-    background-size: 100% 170%;
+    background-size: 150% 150%;
     background-position: center -11px;
 }
 
@@ -13,6 +13,11 @@
    letter-spacing: 0.35rem;
     font-size: 1.09vw;
     color: #141c46;
+}
+@media (max-width: 800px) {
+    .header1-sec2-tien-do{
+        font-size: 18px;
+    }
 }
 
 .header2-sec2-tien-do {
