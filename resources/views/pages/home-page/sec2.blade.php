@@ -50,28 +50,24 @@
     <p class="header-first-line-hp-mb line-height-cap mulish-extrabold">The Minato Residence</p>
     <p class="header-second-line-hp-mb line-height-cap icielbegum">TINH HOA NHẬT BẢN</p>
     <p class="header-second-line-hp-mb line-height-cap icielbegum">An yên giữa lòng phố Cảng</p>
-    <p class="text-hp-mb cabin-medium">The Minato Residence tọa lạc bên bờ sông Lạch Tray thơ mộng, thừa hưởng trọn vẹn
+    <p class="text-hp-mb cabin-medium mt-4">The Minato Residence tọa lạc bên bờ sông Lạch Tray thơ mộng, thừa hưởng trọn vẹn
         lợi thế về
         phong thủy hội tụ “vượng khí tài lộc” đắc địa bậc nhất thành phố Cảng Hải Phòng. Điều này mang tới nguồn sinh
         khí dồi dào và hưng thịnh cho từng căn hộ nơi đây. </p>
     <img src="{{asset('images/homepage/sec2/Mask group (3).png')}}" class="col-11 img-sec2-hp-mb">
-    <a href="#" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold">
+    <a href="#" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-black space-15">
         TÌM HIỂU THÊM
     </a>
-    <p class="header-first-line-hp-mb line-height-cap mulish-extrabold pt-4">vị trí dự án</p>
+    <p class="header-first-line-hp-mb line-height-cap mulish-extrabold pt-5">vị trí dự án</p>
     <p class="header-second-line-hp-mb line-height-cap icielbegum">KẾ SÔNG CẬN THỦY</p>
     <p class="header-second-line-hp-mb line-height-cap icielbegum">ĐỊA THẾ PHÚ QUÝ</p>
-    <p class="text-hp-mb cabin-medium">Tiên phong mang đến một làn gió mới về phong cách sống và đẳng cấp từ Nhật
+    <p class="text-hp-mb cabin-medium mt-4">Tiên phong mang đến một làn gió mới về phong cách sống và đẳng cấp từ Nhật
         Bản, The Minato
         Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
         lọc những tinh hoa từ xứ Phù Tang, The Minato Residence mang đến sự cân bằng trọn vẹn giữa nhịp sống
         hiện đại, tiện nghi và những khoảnh khắc “sống an” chan hòa cùng thiên nhiên.</p>
     <img src="{{asset('images/homepage/sec2/image 6.png')}}" class="col-11 img-sec2-hp-mb">
-    <p class="text-hp-mb cabin-medium">Nằm tại lõi trung tâm mới của thành phố Hải Phòng, The Minato Residence là tâm
-        điểm giao thoa
-        với hệ tiện ích ngoại khu đạt chuẩn quốc tế đáp ứng mọi nhu cầu từ ăn uống, vui chơi, giải trí đến mua sắm, giáo
-        dục, y tế chỉ trong vài bước chân. </p>
-    <a href="{{route('location.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold">
+    <a href="{{route('location.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-black space-15">
         TÌM HIỂU THÊM
     </a>
 </div>

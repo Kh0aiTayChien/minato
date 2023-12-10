@@ -141,7 +141,7 @@ ul.iconmb {
 }
 
 .fix-pos {
-    top: -8px
+    /*top: -px*/
 }
 
 .menuleft {
@@ -192,6 +192,7 @@ ul.iconmb {
 .text-menu-mb {
     text-decoration: none;
     color: #ECCE79;
+    font-size: 20px;
 }
 
 .header-link-left {

@@ -69,7 +69,7 @@
                     XEM THÊM TIỆN ÍCH
                 </a>
 
-                <a href="{{route('utility.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none">
+                <a href="{{route('utility.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-black space-15 d-block d-md-none" style="font-size: 12px">
                     XEM THÊM TIỆN ÍCH
                 </a>
             </div>

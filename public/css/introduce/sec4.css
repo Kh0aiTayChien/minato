@@ -44,11 +44,11 @@
 .sec4-intro-mb {
     justify-content: center;
     text-align: center;
-    padding-top: 10%;
-    padding-bottom: 350%;
-    background-image: url("/images/introduce/sec4/Group 105 (1).png");
-    background-size: cover;
-
+    /*padding-top: 10%;*/
+    padding-bottom: 115%;
+    background-image: url("/images/introduce/sec4/Group 107.jpg");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
 }
 
 .header1-sec4-intro-mb {

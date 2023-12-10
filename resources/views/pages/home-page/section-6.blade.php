@@ -216,10 +216,12 @@
 
 
     <div class="d-flex align-content-center justify-content-center">
-        <div class="d-flex align-content-center justify-content-center" style="width: 80%">
+        <div class="d-flex align-content-center justify-content-center">
             <div class="btn-content-sec6-hp">
                 <a href="{{route('Product.index')}}"
-                   class="btn-content-sec5-hp double-border-blue px-4 mulish-black-white space-21-btn">XEM THÊM SẢN PHẨM</a>
+                   class="btn-content-sec5-hp double-border-blue px-4 mulish-black-white space-21-btn d-none d-sm-block" style="font-size: 0.8vw;">XEM THÊM SẢN PHẨM</a>
+                <a href="{{route('Product.index')}}"
+                   class="btn-content-sec5-hp double-border-blue px-4 py-1 mulish-black-white space-15 d-block d-sm-none" style="font-size: 12px;">XEM THÊM SẢN PHẨM</a>
             </div>
         </div>
     </div>

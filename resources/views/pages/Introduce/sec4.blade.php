@@ -26,7 +26,10 @@
 </div>
 
 <div class="sec4-intro-mb d-block d-sm-none">
-    <p class="header1-sec4-intro-mb mulish-extrabold">BẢO CHỨNG CHO SỰ UY TÍN</p>
+    <div class="position-absolute w-100 d-flex justify-content-end align-content-center" style="">
+        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 40%;">
+    </div>
+    <p class="header1-sec4-intro-mb mulish-extrabold" style="padding-top: 10%;">BẢO CHỨNG CHO SỰ UY TÍN</p>
     <p class="header2-sec4-intro-mb icielbegum" style="line-height: 1.5">sự kết hợp đỉnh cao </p>
     <p class="header2-sec4-intro-mb icielbegum" style="line-height: 1">đầu tiên tại việt nam</p>
     <p class="header3-sec4-intro-mb icielbegum" style="line-height: 1">Từ hai ông lớn Bất động </p>

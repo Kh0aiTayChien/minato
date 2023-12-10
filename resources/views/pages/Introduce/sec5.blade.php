@@ -16,9 +16,12 @@
 </div>
 
 <div class="sec5-intro-mb d-block d-sm-none">
-    <p class="header1-sec5-intro-mb icielbegum">ĐẲNG CẤP VƯỢT TRỘI</p>
+    <div class="position-absolute w-100 d-flex justify-content-end align-content-center" style="">
+        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 40%;">
+    </div>
+    <p class="header1-sec5-intro-mb icielbegum" style="padding-top: 7%">ĐẲNG CẤP VƯỢT TRỘI</p>
     <p class="header2-sec5-intro-mb icielbegum">Từ chất lượng Nhật Bản</p>
-    <p class="text-sec5-intro-mb cabin-medium">The Minato Residence là dự án tiên phong tại Hải Phòng hội tụ đủ 100% yếu
+    <p class="text-sec5-intro-mb cabin-medium" style="margin-top: -2%">The Minato Residence là dự án tiên phong tại Hải Phòng hội tụ đủ 100% yếu
         tố Nhật
         Bản, từ thiết kế, thi công đến giám sát, vận hành. Với chuỗi căn hộ cao cấp của mình, The Minato Residence
         mang đến cho khách hàng cơ hội trải nghiệm những tác phẩm kiến trúc tinh tế và sang trọng nhất, được sáng
