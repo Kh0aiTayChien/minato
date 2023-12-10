@@ -24,6 +24,9 @@
 </div>
 
 <div class="sec3-intro-mb d-block d-sm-none">
+    <div class="position-absolute w-100 d-flex justify-content-end align-content-center" style="">
+        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 40%;">
+    </div>
     <p class="header-first-line-intro-mb line-height-cap mulish-extrabold">Cảm hứng dự án</p>
     <p class="header-second-line-intro-mb line-height-cap icielbegum pt-1">BẢN GIAO HÒA </p>
     <p class="header-second-line-intro-mb line-height-cap icielbegum"> HƯƠNG SẮC</p>

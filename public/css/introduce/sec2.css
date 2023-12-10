@@ -14,10 +14,6 @@
 }
 
 
-.container-sec2-intro-pc {
-
-}
-
 .container-sec2-2-intro-pc {
     margin-top: 5%;
 }
@@ -41,4 +37,18 @@
     text-align: left;
     vertical-align: unset;
 
+}
+
+.sec2-intro-mb {
+    justify-content: center;
+    text-align: center;
+    background-image: url("/images/introduce/sec2/Group 110.png");
+    background-size: 500% 105%; /* Phóng to theo chiều ngang 10%, chiều cao tự động điều chỉnh */
+    background-repeat: no-repeat;
+    background-position: center top -10px; /* Dịch chuyển hình nền xuống phía dưới */
+}
+
+.header2-sec2-intro-mb {
+    color: #EFD483;
+    line-height: 25px;
 }

@@ -14,7 +14,7 @@
 {{--    </div>--}}
 {{--</div>--}}
 <div class="header-mobile shadow-effect sticky-top d-md-none position-relative">
-    <div class="position-absolute dropdown-header fix-pos" style="right: -2px; scale: 60%">
+    <div class="position-absolute dropdown-header fix-pos" style="right: -2px; scale: 55%">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="60" height="60" viewBox="0 0 48 48">
             <linearGradient id="9iHXMuvV7brSX7hFt~tsna_Rdp3AydLFY2A_gr1" x1="12.066" x2="34.891" y1=".066" y2="22.891"
                             gradientUnits="userSpaceOnUse">
@@ -39,41 +39,41 @@
                   d="M43,39H5c-1.1,0-2-0.9-2-2v-2c0-1.1,0.9-2,2-2h38c1.1,0,2,0.9,2,2v2C45,38.1,44.1,39,43,39z"></path>
         </svg>
     </div>
-    <div class="position-absolute dropdown-cancer d-none fix-pos" style="right: 2px; scale: 50%">
+    <div class="position-absolute dropdown-cancer d-none fix-pos" style="right: 2px; scale: 45%">
         <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="80" height="80" viewBox="0 0 48 48">
             <linearGradient id="hbE9Evnj3wAjjA2RX0We2a_OZuepOQd0omj_gr1" x1="7.534" x2="27.557" y1="7.534" y2="27.557"
                             gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#f44f5a"></stop>
-                <stop offset=".443" stop-color="#ee3d4a"></stop>
-                <stop offset="1" stop-color="#e52030"></stop>
+                <stop offset="0" stop-color="#ECCE79"></stop>
+                <stop offset=".443" stop-color="#ECCE79"></stop>
+                <stop offset="1" stop-color="#ECCE79"></stop>
             </linearGradient>
             <path fill="url(#hbE9Evnj3wAjjA2RX0We2a_OZuepOQd0omj_gr1)"
                   d="M42.42,12.401c0.774-0.774,0.774-2.028,0-2.802L38.401,5.58c-0.774-0.774-2.028-0.774-2.802,0	L24,17.179L12.401,5.58c-0.774-0.774-2.028-0.774-2.802,0L5.58,9.599c-0.774,0.774-0.774,2.028,0,2.802L17.179,24L5.58,35.599	c-0.774,0.774-0.774,2.028,0,2.802l4.019,4.019c0.774,0.774,2.028,0.774,2.802,0L42.42,12.401z"></path>
             <linearGradient id="hbE9Evnj3wAjjA2RX0We2b_OZuepOQd0omj_gr2" x1="27.373" x2="40.507" y1="27.373" y2="40.507"
                             gradientUnits="userSpaceOnUse">
-                <stop offset="0" stop-color="#a8142e"></stop>
-                <stop offset=".179" stop-color="#ba1632"></stop>
-                <stop offset=".243" stop-color="#c21734"></stop>
+                <stop offset="0" stop-color="#ECCE79"></stop>
+                <stop offset=".179" stop-color="#ECCE79"></stop>
+                <stop offset=".243" stop-color="#ECCE79"></stop>
             </linearGradient>
             <path fill="url(#hbE9Evnj3wAjjA2RX0We2b_OZuepOQd0omj_gr2)"
                   d="M24,30.821L35.599,42.42c0.774,0.774,2.028,0.774,2.802,0l4.019-4.019	c0.774-0.774,0.774-2.028,0-2.802L30.821,24L24,30.821z"></path>
         </svg>
     </div>
-    <div class="header-content d-flex justify-content-center align-content-center ">
-        <img class=header-logo src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" alt="LOGO">
+    <div class="header-content d-flex justify-content-center align-content-center">
+        <img class="header-logo" src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" alt="LOGO" style="scale: 90%">
     </div>
 </div>
 <div class="menu-dropdown d-none">
     <div class="mobile-menu">
-        <div class="text-center"><a href="/" class="text-menu-mb">TRANG CHỦ</a></div>
-        <div class="text-center mt-3"><a href="/gioi-thieu" class="text-menu-mb">GIỚI THIỆU</a></div>
-        <div class="text-center mt-3"><a href="/vi-tri" class="text-menu-mb">VỊ TRÍ</a> </div>
-        <div class="text-center mt-3"><a href="/san-pham" class="text-menu-mb">SẢN PHẨM</a> </div>
-        <div class="text-center mt-3"><a href="/tien-ich" class="text-menu-mb">TIỆN ÍCH</a> </div>
-        <div class="text-center mt-3"><a href="/tin-tuc" class="text-menu-mb">TIN TỨC</a> </div>
-        <div class="text-center mt-3"><a href="/tien-do" class="text-menu-mb">TIẾN ĐỘ</a> </div>
-        <div class="text-center mt-3"><a href="/thu-vien" class="text-menu-mb">THƯ VIỆN</a> </div>
-        <div class="text-center mt-3"><a href="/lien-he" class="text-menu-mb">LIÊN HỆ</a> </div>
+        <div class="text-center"><a href="/" class="text-menu-mb mulish-extrabold">TRANG CHỦ</a></div>
+        <div class="text-center mt-3"><a href="/gioi-thieu" class="text-menu-mb mulish-extrabold">GIỚI THIỆU</a></div>
+        <div class="text-center mt-3"><a href="/vi-tri" class="text-menu-mb mulish-extrabold">VỊ TRÍ</a> </div>
+        <div class="text-center mt-3"><a href="/san-pham" class="text-menu-mb mulish-extrabold">SẢN PHẨM</a> </div>
+        <div class="text-center mt-3"><a href="/tien-ich" class="text-menu-mb mulish-extrabold">TIỆN ÍCH</a> </div>
+        <div class="text-center mt-3"><a href="/tin-tuc" class="text-menu-mb mulish-extrabold">TIN TỨC</a> </div>
+        <div class="text-center mt-3"><a href="/tien-do" class="text-menu-mb mulish-extrabold">TIẾN ĐỘ</a> </div>
+        <div class="text-center mt-3"><a href="/thu-vien" class="text-menu-mb mulish-extrabold">THƯ VIỆN</a> </div>
+        <div class="text-center mt-3"><a href="/lien-he" class="text-menu-mb mulish-extrabold">LIÊN HỆ</a> </div>
 {{--        <div class="text-center mt-2">--}}
 {{--            <button class="btn-contact px-5 py-1">LIÊN HỆ</button>--}}
 {{--        </div>--}}
@@ -86,11 +86,11 @@
         height: 100vh;
         padding-top: 7rem;
         color: white;
-        font-family: 'Mulish-Black';
+        /*font-family: 'Mulish-Black';*/
     }
 
     .menu-dropdown {
-        background: #1b4b72;
+        background: #133351;
         position: fixed;
         top: 0;
         left: 0;
