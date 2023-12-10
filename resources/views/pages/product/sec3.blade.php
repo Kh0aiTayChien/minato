@@ -23,12 +23,13 @@
     <p class="header1-sec2-product-mb mulish-extrabold">HỆ THỐNG AN NINH ĐA LỚP</p>
     <p class="header2-sec2-product-mb icielbegum">ĐẢM BẢO AN TOÀN 24/7
     </p>
-    <ul class="text-sec3-product-mb">
+    <ul class="text-sec3-product-mb" style="margin-top: -3.5%">
         <li class="cabin-medium">Lễ tân giám sát tại sảnh căn hộ</li>
         <li class="cabin-medium">Đội ngũ quản lý an ninh chuyên nghiệp, được đào tạo bài bản</li>
         <li class="cabin-medium">Hệ thống thẻ từ thang máy, căn hộ.</li>
         <li class="cabin-medium">Hệ thống camera an ninh được lắp đặt trải khắp tòa nhà</li>
         <li class="cabin-medium">Thiết kế nội khu thông minh, hạn chế tối đa những điều bất cập, không lành mạnh.</li>
     </ul>
+    <img src="{{asset('images/product/sec3/grv94yfk.jpeg')}}" class="col-11" style="margin-bottom: 4%">
     <img src="{{asset('images/product/sec3/Group 104 (1).png')}}" class="col-11 img-sec3-product-mb">
 </div>

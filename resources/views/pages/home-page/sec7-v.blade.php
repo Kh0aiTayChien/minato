@@ -21,7 +21,7 @@
     </p><br>
     <div class="d-flex justify-content-center align-content-center">
         <div class="w-75">
-            <a href="https://marcom3d.com/minato/" class="double-border px-4 py-2 mulish-extrabold btn-sec2-hp-mb">
+            <a href="https://marcom3d.com/minato/" class="double-border px-4 py-2 mulish-black space-15 btn-sec2-hp-mb">
                 TRẢI NGHIỆM VR 360
             </a>
         </div>

@@ -8,8 +8,8 @@
 .sec5-intro-mb {
     justify-content: center;
     text-align: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
+    /*padding-top: 5%;*/
+    padding-bottom: 9%;
     background-image: url("/images/introduce/sec5/Group 102 (2).png");
     background-size: cover;
 }
@@ -56,11 +56,12 @@
 .header1-sec5-intro-mb {
     font-size: 25px;
     color: #141C46;
+    /*margin-top: 2%;*/
 }
 
 .header2-sec5-intro-mb {
     font-size: 25px;
     color: #BA322E;
-    margin-top: -4%;
+    margin-top: -5%;
 }
 

@@ -120,7 +120,7 @@
     background-color: #133351;
     /*color: inherit;*/
     text-decoration: none;
-    font-size: 0.8vw;
+    /*font-size: 0.8vw;*/
     padding-top: 12px;
     padding-bottom: 12px;
 }
@@ -164,8 +164,8 @@
 .sec2-hp-mb {
     justify-content: center;
     text-align: center;
-    /*padding-top: 5%;*/
-    padding-bottom: 7%;
+    padding-top: 7%;
+    padding-bottom: 12%;
     background-image: url("/images/homepage/sec2/Group 101.png");
     background-size: auto;
     background-position: center -10px;
@@ -179,7 +179,7 @@
 }
 
 .img-sec2-hp-mb {
-    padding-bottom: 5%;
+    padding-bottom: 7%;
 }
 
 .line-height-cap {
@@ -188,7 +188,7 @@
 
 .header-first-line-hp-mb {
     color: white;
-    font-size: 18px;
+    font-size: 13px;
     padding-top: 5%;
     text-transform: uppercase;
 }

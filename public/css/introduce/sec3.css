@@ -49,6 +49,7 @@
     justify-content: center;
     text-align: center;
     padding-bottom: 100%;
+    /*background-size: cover;*/
 }
 
 .text-sec3-intro-mb {
@@ -62,7 +63,7 @@
 .header-first-line-intro-mb {
     color: #133351;
     font-size: 13px;
-    padding-top: 12%;
+    padding-top: 9%;
     text-transform: uppercase;
 }
 
