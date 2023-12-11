@@ -1,4 +1,4 @@
-<div class="section-5 pt-4 pb-4 custom-padding-header-sec-5 ">
+<div class="section-5 pb-4 custom-padding-header-sec-5 ">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
             <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
@@ -67,7 +67,7 @@
             <img src="{{asset('images/button/right.png')}}" alt="Next" class="shadow-effect button-shake"/>
         </button>
 
-        <div class="carousel-courses " style="padding-bottom: 22px">
+        <div class="carousel-courses y-mobile" style="padding-bottom: 22px">
 
             <div class="mg02">
                 <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style=""
@@ -76,7 +76,7 @@
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> CÔNG VIÊN SAKURA</p>
-                    <p style="font-size: 13px"> Nơi lan tỏa chất Zen tĩnh tại của xứ Phù Tang</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> Nơi lan tỏa chất Zen tĩnh tại của xứ Phù Tang</p>
                 </div>
             </div>
 
@@ -88,51 +88,51 @@
                      class="d-block d-md-none  img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> CÔNG VIÊN TRẺ EM</p>
-                    <p style="font-size: 13px"> Nơi cho các cư dân nhí ưa vận động, trải nghiệm kỳ thú cho tuổi thơ</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Nơi cho các cư dân nhí ưa vận động, trải nghiệm kỳ thú cho tuổi thơ</p>
                 </div>
             </div>
 
             <div class="mg02">
                 <img src="{{asset('images/homepage/section-5/39.png')}}" alt="" style="margin-right: 0.2%"
                      class="d-none d-md-block img-fluid">
-                <img src="{{asset('images/homepage/section-5m/39.png')}}" alt="" style=""
+                <img src="{{asset('images/homepage/section-5m/38.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                  <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> BỂ BƠI NGOÀI TRỜI</p>
-                    <p style="font-size: 13px"> Thả mình thư giãn trong làn nước xanh mát</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> Thả mình thư giãn trong làn nước xanh mát</p>
                 </div>
             </div>
 
             <div class="mg02">
                 <img src="{{asset('images/homepage/section-5/40.png')}}" alt="" style="margin-right: 0.2%"
                      class="d-none d-md-block img-fluid">
-                <img src="{{asset('images/homepage/section-5m/40.png')}}" alt="" style=""
+                <img src="{{asset('images/homepage/section-5m/39.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> PHÒNG TẬP GYM</p>
-                    <p style="font-size: 13px"> Thể thao năng động, nâng cao sức khỏe</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Thể thao năng động, nâng cao sức khỏe</p>
                 </div>
             </div>
 
             <div class="mg02">
                 <img src="{{asset('images/homepage/section-5/42.png')}}" alt="" style="margin-right: 0.2%"
                      class="d-none d-md-block img-fluid">
-                <img src="{{asset('images/homepage/section-5m/42.png')}}" alt="" style=""
+                <img src="{{asset('images/homepage/section-5m/40.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> PHÒNG VUI CHƠI TRẺ EM</p>
-                    <p style="font-size: 13px"> Rộn rã tiếng cười ngập tràn hạnh phúc</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Rộn rã tiếng cười ngập tràn hạnh phúc</p>
                 </div>
             </div>
 
             <div class="mg02">
                 <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.2%"
                      class="d-none d-md-block img-fluid">
-                <img src="{{asset('images/homepage/section-5m/38.png')}}" alt="" style=""
+                <img src="{{asset('images/homepage/section-5m/41.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> CAFE ROOFTOP</p>
-                    <p style="font-size: 13px"> Với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray</p>
                 </div>
             </div>
 
@@ -141,11 +141,11 @@
             <div class="mg02">
                 <img src="{{asset('images/homepage/section-5/41.png')}}" alt="" style="margin-right: 0.2%"
                      class="d-none d-md-block img-fluid">
-                <img src="{{asset('images/homepage/section-5m/41.png')}}" alt="" style=""
+                <img src="{{asset('images/homepage/section-5m/42.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                  <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> PHÒNG TIỆC</p>
-                    <p style="font-size: 13px"> Sang trọn đẳng cấp</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Sang trọn đẳng cấp</p>
                 </div>
             </div>
 
@@ -158,7 +158,7 @@
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> SẢNH ĐÓN KHÁCH</p>
-                    <p style="font-size: 13px"> Lịch sự, tinh tế theo âm hưởng thiết kế Á Đông</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> Lịch sự, tinh tế theo âm hưởng thiết kế Á Đông</p>
                 </div>
 
 
@@ -166,7 +166,7 @@
             </div>
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center pb-5">
+    <div class="d-flex align-content-center justify-content-center pb-2">
         <div class="btn-content-sec5-hp ">
             <a href="{{route('utility.index')}}"
                class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black d-none d-md-block">
@@ -233,12 +233,17 @@
         margin-left: 0.2%
     }
      .custom-padding-header-sec-5 {
-            padding: 5% !important;
+            padding: 5% 5% !important;
         }
-    
+    .y-mobile{
+
+    }
     @media (max-width: 800px) {
         .mg02 {
             margin-left: 0
+        }
+        .y-mobile{
+            transform: translateY(-10%);
         }
     }
 
@@ -275,7 +280,7 @@
 
     @media only screen and (max-width: 800px) {
         .custom-padding-header-sec-5 {
-            padding: 0 !important;
+            padding: 5% 0 !important;
         }
 
         .custom-prev-arrow-course,

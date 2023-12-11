@@ -12,11 +12,11 @@
 .header1-sec2-tien-do {
    letter-spacing: 0.35rem;
     font-size: 1.09vw;
-    color: #141c46;
+    color: #43496B;
 }
 @media (max-width: 800px) {
     .header1-sec2-tien-do{
-        font-size: 18px;
+        font-size: 15px;
     }
 }
 

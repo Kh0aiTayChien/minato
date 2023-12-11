@@ -1,9 +1,9 @@
-<div class="sec2-tien-do-pc">
+<div class="sec2-tien-do-pc py-5">
     <p class="header1-sec2-tien-do mulish-extrabold">THE MINATO RESIDENCE</p>
     <p class="header2-sec2-tien-do icielbegum d-none d-md-block" style="font-size: 2.66vw">TIẾN ĐỘ</p>
-    <p class="header2-sec2-tien-do icielbegum d-block d-md-none" style="font-size: 1.5rem">TIẾN ĐỘ</p>
+    <p class="header2-sec2-tien-do icielbegum d-block d-md-none" style="font-size: 29px">TIẾN ĐỘ</p>
     <form class="row-test">
-        <input class="col-3 input-tien-do shadow-effect border-0 mulish-extrabold px-3" style="height: 3rem; font-size: 15px"
+        <input class="col-md-3 col-xs-12 input-tien-do shadow-effect border-0 mulish-extrabold px-3" style="height: 3rem; font-size: 15px"
                placeholder="Nhập mã OTP" type="number" id="fullnamem" name="OTP" required ><br>
         <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: #133351">
             <div class="btn text-white mulish-extrabold px-4" style="background-color: #133351; font-size: 15px">

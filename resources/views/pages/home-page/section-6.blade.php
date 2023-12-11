@@ -50,10 +50,10 @@
         </div>
     </div>
 
-    <div class=" tabs mb-3 pb-3">
+    <div class=" tabs mb-3 pb-3 px-5">
 
         <div class="row tab tab1  mt-5 gy-4 gx-0 active" style="">
-            <div class="section-tab d-flex justify-content-center align-items-center">
+            <div class="section-tab d-flex justify-content-center align-items-center ">
                 <div id="section-tab1-carousel" class="carousel slide w-100" data-bs-ride="carousel"
                      data-bs-interval="false">
                     <div class="carousel-indicators">
