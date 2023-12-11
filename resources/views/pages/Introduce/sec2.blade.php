@@ -42,7 +42,7 @@
 
                 </div>
                 <ul class="col-md-9 right-text-sec2-intro-pc cabin-medium text-white" style="padding-left: 50px">
-                    <li class="">1
+                    <li class="">
                         Căn 1 Phòng ngủ: 40 - 46 m2
                     </li>
                     <li class="">
