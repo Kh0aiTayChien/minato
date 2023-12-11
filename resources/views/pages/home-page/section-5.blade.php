@@ -1,4 +1,4 @@
-<div class="section-5 pt-4 pb-4 custom-padding-header-sec-5">
+<div class="section-5 pt-4 pb-4 custom-padding-header-sec-5 ">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
             <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
@@ -232,14 +232,13 @@
     .mg02 {
         margin-left: 0.2%
     }
-
+     .custom-padding-header-sec-5 {
+            padding: 5% !important;
+        }
+    
     @media (max-width: 800px) {
         .mg02 {
             margin-left: 0
-        }
-
-        .custom-padding-header-sec-5 {
-            padding: 5% !important;
         }
     }
 
