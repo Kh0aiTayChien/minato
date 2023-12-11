@@ -10,8 +10,8 @@
     justify-content: center;
     text-align: center;
     background-image: url("/images/contact-v/Group 106 (1).png");
-    background-size: 100% 105%;
-    padding: 5% 0;
+    background-size: 300% 105%;
+    padding-bottom: 7%;
     background-position: center -7px;
 }
 
@@ -53,13 +53,14 @@
 
 .header1-sec2-contact-mb {
     text-transform: uppercase;
-    font-size: 18px;
+    font-size: 15px;
     color: #43496B;
+    padding-top: 7%;
 }
 
 .header2-sec2-contact-mb {
     text-transform: uppercase;
-    font-size: 25px;
+    font-size: 27px;
     color: #141C46;
 }
 
@@ -73,6 +74,7 @@
     text-transform: uppercase;
     color: #D93D32;
     font-size: 20px;
+    margin-top: -4%;
 }
 
 .text-sec2-contact-mb {

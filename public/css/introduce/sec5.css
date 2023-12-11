@@ -54,13 +54,14 @@
 }
 
 .header1-sec5-intro-mb {
-    font-size: 25px;
+    font-size: 27px;
     color: #141C46;
+    letter-spacing: -0.04rem;
     /*margin-top: 2%;*/
 }
 
 .header2-sec5-intro-mb {
-    font-size: 25px;
+    font-size: 27px;
     color: #BA322E;
     margin-top: -5%;
 }

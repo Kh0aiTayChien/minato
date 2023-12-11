@@ -40,7 +40,7 @@
             </div>
             <div class="btn-content2-sec2-hp">
                 <a href="{{route('location.index')}}"
-                   class="btn-content2-sec2-hp double-border px-4 mulish-black space-21-btn">TÌM HIỂU THÊM</a>
+                   class="btn-content2-sec2-hp double-border px-3 mulish-black space-21-btn">TÌM HIỂU THÊM</a>
             </div>
         </div>
     </div>
@@ -48,7 +48,7 @@
 
 <div class="sec2-hp-mb d-block d-sm-none">
     <p class="header-first-line-hp-mb line-height-cap mulish-extrabold">The Minato Residence</p>
-    <p class="header-second-line-hp-mb line-height-cap icielbegum">TINH HOA NHẬT BẢN</p>
+    <p class="header-second-line-hp-mb line-height-cap icielbegum" style="font-size: 29px">TINH HOA NHẬT BẢN</p>
     <p class="header-second-line-hp-mb line-height-cap icielbegum">An yên giữa lòng phố Cảng</p>
     <p class="text-hp-mb cabin-medium mt-4">The Minato Residence tọa lạc bên bờ sông Lạch Tray thơ mộng, thừa hưởng trọn vẹn
         lợi thế về
@@ -59,8 +59,8 @@
         TÌM HIỂU THÊM
     </a>
     <p class="header-first-line-hp-mb line-height-cap mulish-extrabold pt-5">vị trí dự án</p>
-    <p class="header-second-line-hp-mb line-height-cap icielbegum">KẾ SÔNG CẬN THỦY</p>
-    <p class="header-second-line-hp-mb line-height-cap icielbegum">ĐỊA THẾ PHÚ QUÝ</p>
+    <p class="header-second-line-hp-mb line-height-cap icielbegum" style="font-size: 29px">KẾ SÔNG CẬN THỦY</p>
+    <p class="header-second-line-hp-mb line-height-cap icielbegum" style="font-size: 29px">ĐỊA THẾ PHÚ QUÝ</p>
     <p class="text-hp-mb cabin-medium mt-4">Tiên phong mang đến một làn gió mới về phong cách sống và đẳng cấp từ Nhật
         Bản, The Minato
         Residence được xây dựng bên bờ sông Lạch Tray, thừa hưởng trọn vẹn lợi thế về phong thủy bậc nhất. Chắt
