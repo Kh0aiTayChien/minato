@@ -83,7 +83,7 @@
 
 <div class="d-block d-sm-none sec2-intro-mb pb-4 pt-4">
     <p class="header1-sec2-intro-pc mulish-extrabold space-21" style="font-size: 13px">THE MINATO RESIDENCE</p>
-    <p class="header2-sec2-intro-mb icielbegum d-flex d-md-none justify-content-center" style="font-size: 32px">TỔNG QUAN DỰ ÁN</p>
+    <p class="header2-sec2-intro-mb icielbegum d-flex d-md-none justify-content-center" style="font-size: 29px">TỔNG QUAN DỰ ÁN</p>
 {{--    <p class="header2-sec2-intro-mb icielbegum d-flex d-md-none justify-content-center" style="font-size: 32px"></p>--}}
     <img src="{{asset('images/introduce/sec2/Mask group (4).png')}}"
          class="col-11 img-fluid mb-4">
@@ -102,7 +102,7 @@
     </div>
     <div class="col-12 row-test-2">
         <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">QUY MÔ</p>
-        <p class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15">2 Tòa nhà với 26 tầng nổi 1 hầm tầng hầm</p>
+        <p class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15">2 Tòa nhà với 26 tầng nổi <br> 1 hầm tầng hầm</p>
     </div>
     <div class="col-12 row-test-2">
         <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">TỔNG SỐ CĂN</p>
@@ -111,14 +111,14 @@
     <div class="col-12 row-test-2">
         <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">DIỆN TÍCH ĐIỂN HÌNH</p>
         <ul class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15" style="padding-left: 50px">
-            <li class="">1
-                Căn 1 Phòng ngủ: 40 - 46 m2
+            <li class="">
+                Căn 1 Phòng ngủ: 40 - 46 m²
             </li>
             <li class="">
-                Căn 2 Phòng ngủ: 66 - 88 m2
+                Căn 2 Phòng ngủ: 66 - 88 m²
             </li>
             <li class="">
-                Căn 3 Phòng ngủ: 97 - 111 m2
+                Căn 3 Phòng ngủ: 97 - 111 m²
             </li>
         </ul>
     </div>

@@ -52,7 +52,7 @@
     <p class="col-12 header-sec2-product-mb mulish-black space-21" style="padding: 5% 0 0 0;">KIẾN TRÚC DUY MỸ <br>
         KHẮC HỌA</p>
     <p class="header2-sec2-product-mb icielbegum" style="color: #BA322E; padding-top: 1%">TRIẾT LÝ ZEN</p>
-    <img src="{{asset('images/product/sec2/Mask group (5).png')}}" class="col-11">
+    <img src="{{asset('images/product/sec2/Mask group (5).png')}}" class="col-11" style="margin-top: -4.3%">
     <div class="row-test">
         <p class="col-11 text-sec2-product-pc cabin-medium space-15" style="size: 15px; margin-top: 5%">Mang đúng tinh
             thần

@@ -16,10 +16,12 @@
 </div>
 
 <div class="sec2-contact-mb d-block d-sm-none">
-
-    <p class="header1-sec2-contact-mb mulish-extrabold">The Minato Residence</p>
+{{--    <div class="position-absolute w-100 d-flex justify-content-end align-content-center" style="">--}}
+{{--        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 40%;">--}}
+{{--    </div>--}}
+    <p class="header1-sec2-contact-mb mulish-extrabold space-21">The Minato Residence</p>
     <p class="header2-sec2-contact-mb icielbegum">liên hệ</p>
-    <p class="header3-sec2-contact-mb mulish-extrabold">HOTLINE</p>
+    <p class="header3-sec2-contact-mb mulish-extrabold space-21">HOTLINE</p>
     <p class="header4-sec2-contact-mb cabin-medium">1800 577783</p>
     <p class="header3-sec2-contact-mb mulish-extrabold">VĂN PHÒNG BÁN HÀNG</p>
     <p class="text-sec2-contact-mb cabin-medium">Showroom The Minato Residence, Đường số 3, Dự án Waterfront City,
