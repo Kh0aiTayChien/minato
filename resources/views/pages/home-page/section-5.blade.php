@@ -238,7 +238,7 @@
             margin-left: 0
         }
 
-        .custom-padding-sec-5 {
+        .custom-padding-header-sec-5 {
             padding: 5% !important;
         }
     }
