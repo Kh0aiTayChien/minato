@@ -9,7 +9,8 @@
                     <div class="mulish-extrabold text-white d-flex  d-md-none"
                          style="letter-spacing: 0.35rem; font-size: 15px">THE MINATO RESIDENCE
                     </div>
-                    <div class="icielbegum yellow-light-color mt-3 d-none d-md-block" style="font-size: 2.66vw; width: 90%">ĐĂNG KÍ
+                    <div class="icielbegum yellow-light-color mt-3 d-none d-md-block"
+                         style="font-size: 2.66vw; width: 90%">ĐĂNG KÍ
                         NHẬN TƯ VẤN
                     </div>
                     <div class="icielbegum yellow-light-color mt-3 d-flex  d-md-none "
@@ -55,10 +56,17 @@
                         <textarea type="text" name="detail" id="contact_content" class="text-area">
                         </textarea>
                         <br>
-                        <div class="mt-5" style="width: 80%">
+                        <div class="mt-5 d-none d-md-block" style="width: 80%">
                             <div class="btn-content-footer">
                                 <button onclick=""
-                                        class="double-border px-5 py-3 mulish-black space-21-btn">ĐĂNG KÝ
+                                        class="double-border px-5 py-1 mulish-black space-21-btn">ĐĂNG KÝ
+                                </button>
+                            </div>
+                        </div>
+                        <div class="mt-5 d-block d-md-none" style="width: 80%;">
+                            <div class="">
+                                <button onclick=""
+                                        class="double-border px-5 py-1 mulish-black space-21-btn">ĐĂNG KÝ
                                 </button>
                             </div>
                         </div>
@@ -84,8 +92,8 @@
                 <div class="col-md-5 col-xs-12 mt-5">
                     <div class="">
                         <div
-                            class="mulish-extrabold yellow-light-color d-flex d-md-block justify-content-center align-content-center"
-                            style="font-size: 18px; letter-spacing: 0.35rem;">THÔNG TIN DỰ ÁN
+                            class="mulish-extrabold yellow-light-color d-flex d-md-block "
+                            style="font-size: 18px">THÔNG TIN DỰ ÁN
                         </div>
                     </div>
 
@@ -124,8 +132,8 @@
                 <div class="col-md-5 col-xs-12 mt-5">
                     <div class="" style="width: 100%">
                         <div
-                            class="mulish-extrabold yellow-light-color d-flex d-md-block justify-content-center align-content-center"
-                            style="font-size: 18px; letter-spacing: 0.35rem;">VĂN PHÒNG BÁN HÀNG
+                            class="mulish-extrabold yellow-light-color d-flex d-md-block "
+                            style="font-size: 18px">VĂN PHÒNG BÁN HÀNG
                         </div>
                     </div>
                     <div class="d-flex justify-content-center align-content-center mt-5 custom-padding-room"
@@ -143,9 +151,16 @@
             </div>
         </div>
     </div>
-    <div class="about yellow-light-bg text-dark cabin-medium" style="font-size: 13px">
+    <div class="about yellow-light-bg text-dark cabin-medium d-none d-md-block" style="font-size: 13px">
         <div class="content py-2">
             Bản quyền 2023 © The Minato Residence. Đã đăng ký bản quyền.
+        </div>
+    </div>
+    <div class="about yellow-light-bg text-dark cabin-medium d-block d-md-none" style="font-size: 13px">
+        <div class="content py-2 text-center" style="line-height: 1.25">
+            Bản quyền 2023 © The Minato Residence.
+            <br>
+            Đã đăng ký bản quyền.
         </div>
     </div>
 </div>
@@ -160,6 +175,17 @@
     @media only screen and (max-width: 800px) {
         .custom-padding-footer-last {
 
+        }
+
+        .custom-padding {
+            padding: 10% 5% 5% 5% !important;
+        }
+    }
+
+    @media only screen and (min-width: 800px) {
+
+        .custom-padding {
+            padding: 5% 5% 5% 8% !important;
         }
     }
 
@@ -180,9 +206,6 @@
         width: 90%
     }
 
-    .custom-padding {
-        padding: 5% 5% 5% 8% !important;
-    }
 
     .contact-form input {
         font-size: 14px;

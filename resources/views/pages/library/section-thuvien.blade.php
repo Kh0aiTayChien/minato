@@ -74,7 +74,7 @@
                     </div>
                 </div>
             </div>
-            <div class="row tab tab11 active" style=" padding: 0 8% 0 11%">
+            <div class="row tab tab11 flag-mobile active " style="">
 
                 <div class="row">
                     <div class="col-md-4 d-flex justify-content-center align-content-center">
@@ -112,7 +112,7 @@
 
 
             </div>
-            <div class="row tab tab22" style="padding: 0 8% 0 11%">
+            <div class="row tab tab22 flag-mobile" style="">
                 <div class="row">
                     <div class="col-md-4 d-flex justify-content-center align-content-center">
                         <img src="{{asset('images/thuvien/tong-the/C7.png')}}" alt="" class="img-fluid mb-2">
@@ -131,7 +131,7 @@
                 </div>
             </div>
 
-            <div class="row tab tab33" style="padding: 0 8% 0 11%">
+            <div class="row tab tab33 flag-mobile" style="">
                 <div class="row">
                     <div class="col-md-4 d-flex justify-content-center align-content-center">
                         <img src="{{asset('images/thuvien/tien-ich/C1.png')}}" alt="" class="img-fluid mb-2">
@@ -167,14 +167,14 @@
                 </div>
             </div>
 
-            <div class="row tab tab44" style="">
+            <div class="row tab tab44 flag-mobile" style="">
 
             </div>
 
         </div>
 
-        <div class="row tab tab2  mt-5 gy-4 gx-0 " style="">
-            <div class="row px-5">
+        <div class="row tab tab2 flag-video mt-5 gy-4 gx-0 " style="">
+            <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <a href="https://www.youtube.com/watch?v=upz0p-KoE8U" target="_blank">
                         <img src="{{asset('images/thuvien/video/video1.png')}}" alt="" class="img-fluid">
@@ -195,7 +195,7 @@
 
             </div>
         </div>
-        <div class="row tab tab4 px-5 mt-5 gy-4 gx-0 " style="">
+        <div class="row tab tab4 flag-brochure mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
                 <a href="{{asset('images/thuvien/flyer/Residence.pdf')}}">
                     <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid" style="width: 35%">
@@ -210,6 +210,29 @@
 
 </div>
 <style>
+
+    @media (min-width: 800px) {
+        .flag-mobile{
+            padding: 0 8% 0 11%
+        }
+        .flag-video{
+            padding: 0
+        }
+       .flag-brochure{
+            padding: 0
+        }
+    }
+    @media (max-width: 800px) {
+        .flag-mobile{
+            padding: 0 0 0 12%
+        }
+        .flag-video{
+            padding: 0 0 0 8%
+        }
+        .flag-brochure{
+            padding: 0 0 0 8%
+        }
+    }
     .thuvien {
         background-image: url("/images/thuvien/background-thuvien.png");
         background-size: cover;

@@ -1,16 +1,16 @@
 <div class="section-7">
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex"
-         style="font-size: 2.66vw" data-aos="fade-down" data-aos-duration="3000">
+         style="font-size: 2.66vw">
         TIN TỨC
     </div>
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 pt-3 d-md-none"
          style="font-size: 32px">
-        TIN TỨC KHÁC
+        TIN TỨC
     </div>
 
-    <div class="slick-carousel position-relative" >
+    <div class="slick-carousel position-relative " >
         <button class="custom-prev-arrow-9 " aria-label="Previous">
             <img src="{{asset('images/button/left.png')}}" alt="Previous" class=" button-shake"/>
         </button>
@@ -18,7 +18,7 @@
             <img src="{{asset('images/button/right.png')}}" alt="Next" class=" button-shake"/>
         </button>
 
-        <div class="carousel-sec-9" >
+        <div class="carousel-sec-9 " >
             @foreach($articles as $article)
                 <div class="d-flex justify-content-center">
                     <a href="{{route('news.show',['slug' => $article->slug])}}"
@@ -51,7 +51,7 @@
 
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center pb-5" data-aos="fade-up" data-aos-duration="3000">
+    <div class="d-flex align-content-center justify-content-center pb-5" >
         <div class="btn-content-sec5-hp ">
             <a href="{{route('news.index')}}"
                class="double-border px-5 btn-sec2-hp-pc mulish-black space-21-btn d-none d-md-block" style="font-size: 0.8vw;">
@@ -68,7 +68,7 @@
     .section-7 {
         background-image: url("/images/footer/background-footer.png");
         background-size: cover;
-        padding: 3% 5% 3% 8%;
+        padding: 3% 5% 1% 5%;
     }
 </style>
 <style>
@@ -200,14 +200,16 @@
             width: 40vw;
         }
     }
+    .y-mobile{
 
+    }
     @media only screen and (max-width: 800px) {
-        .img-sec9 {
-            /*scale: 70%;*/
+        .y-mobile{
+            transform: translateY(-10%);
         }
 
         .custom-prev-arrow-9 {
-            left: -17px;
+            left: -1px;
             position: absolute;
             top: 40%;
             /*scale: 50%;*/
@@ -215,7 +217,7 @@
         }
 
         .custom-next-arrow-9 {
-            right: -17px;
+            right: -1px;
             position: absolute;
             top: 40%;
             /*scale: 50%;*/
