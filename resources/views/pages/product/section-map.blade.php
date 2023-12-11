@@ -146,7 +146,10 @@
 
         <div class="row tab tab2  mt-5 gy-4 gx-0 " style="">
             <div class="d-flex justify-content-center align-content-center">
-                <img src="{{asset('images/product/section-4/ct2.png')}}" alt="map" style="" class="img-fluid w-75">
+                <img src="{{asset('images/product/section-4/ct2.png')}}" alt="map" style="" class="img-fluid w-75 d-none d-md-block">
+            </div>
+            <div class="d-flex justify-content-center align-content-center">
+                <img src="{{asset('images/product/section-4/ct2.png')}}" alt="map" style="" class="img-fluid w-100 d-block d-md-none">
             </div>
         </div>
     </div>
