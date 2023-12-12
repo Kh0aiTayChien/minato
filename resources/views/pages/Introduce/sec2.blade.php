@@ -43,13 +43,13 @@
                 </div>
                 <ul class="col-md-9 right-text-sec2-intro-pc cabin-medium text-white" style="padding-left: 50px">
                     <li class="">
-                        Căn 1 Phòng ngủ: 40 - 46 m2
+                        Căn 1 Phòng ngủ: 40 - 46 m²
                     </li>
                     <li class="">
-                        Căn 2 Phòng ngủ: 66 - 88 m2
+                        Căn 2 Phòng ngủ: 66 - 88 m²
                     </li>
                     <li class="">
-                        Căn 3 Phòng ngủ: 97 - 111 m2
+                        Căn 3 Phòng ngủ: 97 - 111 m²
                     </li>
                 </ul>
             </div>
