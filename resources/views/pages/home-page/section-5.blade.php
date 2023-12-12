@@ -88,7 +88,7 @@
                      class="d-block d-md-none  img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> CÔNG VIÊN TRẺ EM</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Nơi cho các cư dân nhí ưa vận động, trải nghiệm kỳ thú cho tuổi thơ</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> Nơi cho các cư dân nhí ưa vận động, trải nghiệm kỳ thú cho tuổi thơ</p>
                 </div>
             </div>
 
@@ -132,7 +132,7 @@
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> CAFE ROOFTOP</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> Với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray</p>
                 </div>
             </div>
 
@@ -166,7 +166,7 @@
             </div>
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center pb-2">
+    <div class="d-flex align-content-center justify-content-center pb-2" style="transform: translateY(-100%)">
         <div class="btn-content-sec5-hp ">
             <a href="{{route('utility.index')}}"
                class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black d-none d-md-block">
@@ -280,7 +280,7 @@
 
     @media only screen and (max-width: 800px) {
         .custom-padding-header-sec-5 {
-            padding: 5% 0 !important;
+            padding: 5% 0 0 0 !important;
         }
 
         .custom-prev-arrow-course,

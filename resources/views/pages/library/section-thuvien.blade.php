@@ -188,7 +188,7 @@
         <div class="row tab tab3 px-5 mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
                 <a href="{{asset('images/thuvien/brochure/BROCHURE.pdf')}}">
-                    <img src="{{asset('images/thuvien/brochure/bro1.png')}}" alt="" class="img-fluid w-50">
+                    <img src="{{asset('images/thuvien/brochure/bro1.png')}}" alt="" class="img-fluid mobile-50">
                 </a>
             </div>
             <div class="col-md-6 col-xs-12">
@@ -198,7 +198,7 @@
         <div class="row tab tab4 flag-brochure mt-5 gy-4 gx-0 " style="">
             <div class="col-md-6 col-xs-12">
                 <a href="{{asset('images/thuvien/flyer/Residence.pdf')}}">
-                    <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid" style="width: 35%">
+                    <img src="{{asset('images/thuvien/flyer/flyer1.png')}}" alt="" class="img-fluid mobile-35">
                 </a>
             </div>
             <div class="col-md-6 col-xs-12">
@@ -221,6 +221,13 @@
        .flag-brochure{
             padding: 0
         }
+       .mobile-50{
+           width: 50% !important;
+       }
+        .mobile-35{
+            width: 35% !important;
+            padding-left: 5%;
+        }
     }
     @media (max-width: 800px) {
         .flag-mobile{
@@ -231,6 +238,12 @@
         }
         .flag-brochure{
             padding: 0 0 0 8%
+        }
+        .mobile-50{
+            width: 100% !important;
+        }
+        .mobile-35{
+            width: 92% !important;
         }
     }
     .thuvien {

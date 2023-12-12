@@ -165,7 +165,7 @@
                     </div>
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="{{asset('images/homepage/section-6/3-phong-ngu/1.png')}}" class="img-slide"
+                            <img src="{{asset('images/homepage/section-6/3-phong-ngu/1.png')}}" class="img-slide h-100"
                                  alt="img-slide">
                         </div>
                         <div class="carousel-item ">
