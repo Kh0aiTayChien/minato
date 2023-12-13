@@ -65,15 +65,26 @@
 </div>
 <div class="menu-dropdown d-none">
     <div class="mobile-menu">
-        <div class="text-center"><a href="/" class="text-menu-mb mulish-extrabold">TRANG CHỦ</a></div>
-        <div class="text-center mt-3"><a href="/gioi-thieu" class="text-menu-mb mulish-extrabold">GIỚI THIỆU</a></div>
-        <div class="text-center mt-3"><a href="/vi-tri" class="text-menu-mb mulish-extrabold">VỊ TRÍ</a> </div>
-        <div class="text-center mt-3"><a href="/san-pham" class="text-menu-mb mulish-extrabold">SẢN PHẨM</a> </div>
-        <div class="text-center mt-3"><a href="/tien-ich" class="text-menu-mb mulish-extrabold">TIỆN ÍCH</a> </div>
-        <div class="text-center mt-3"><a href="/tin-tuc" class="text-menu-mb mulish-extrabold">TIN TỨC</a> </div>
-        <div class="text-center mt-3"><a href="/tien-do" class="text-menu-mb mulish-extrabold">TIẾN ĐỘ</a> </div>
-        <div class="text-center mt-3"><a href="/thu-vien" class="text-menu-mb mulish-extrabold">THƯ VIỆN</a> </div>
-        <div class="text-center mt-3"><a href="/lien-he" class="text-menu-mb mulish-extrabold">LIÊN HỆ</a> </div>
+        <div class="text-center"><a href="{{ LaravelLocalization::localizeUrl(route('homepage.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.homepage') }}</a></div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('introduce.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.introduction') }}</a></div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('location.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.location') }}</a> </div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('Product.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.product') }}</a> </div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('utility.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.utilities') }}</a> </div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('news.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.news') }}</a> </div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('progress.index'))}}" class="text-menu-mb mulish-extrabold">{{ __('header.progress') }}</a> </div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('library.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.library') }}</a> </div>
+        <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('contact.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.contact') }}</a> </div>
+        <div class="text-center mt-3 text-menu-mb mulish-extrabold yellow-light-color">
+            <select onchange="window.location.href=this.value">
+                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                    <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
+                        {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                        {{ $properties['native'] }}
+                    </option>
+                @endforeach
+            </select>
+        </div>
+
 {{--        <div class="text-center mt-2">--}}
 {{--            <button class="btn-contact px-5 py-1">LIÊN HỆ</button>--}}
 {{--        </div>--}}
@@ -120,23 +131,23 @@
         <ul class="col-md-5 menuleft" >
             <li class="header-link-left" data-aos="fade-down"
                 data-aos-duration="1500">
-                <a href="{{asset('/')}}" id="trang-chu-link">
-                    <p>TRANG CHỦ</p>
+                <a href="{{ LaravelLocalization::localizeUrl(route('homepage.index')) }}" id="trang-chu-link">
+                    <p>{{ __('header.homepage') }}</p>
                 </a>
             </li>
             <li class="header-link-left" data-aos="fade-down"
                 data-aos-duration="1500">
-                <a href="{{asset('gioi-thieu')}}" id="gioi-thieu-link">
-                    <p>GIỚI THIỆU</p>
+                <a href="{{ LaravelLocalization::localizeUrl(route('introduce.index')) }}" id="gioi-thieu-link">
+                    <p>{{ __('header.introduction') }}</p>
                 </a>
             </li>
             <li class="header-link-left" data-aos="fade-down"
                 data-aos-duration="1500">
-                <a href="{{asset('vi-tri')}}" id="vi-tri-link"><p>VỊ TRÍ</p></a>
+                <a href="{{ LaravelLocalization::localizeUrl(route('location.index')) }}" id="vi-tri-link"><p>{{ __('header.location') }}</p></a>
             </li>
             <li class="" data-aos="fade-down"
                 data-aos-duration="1500">
-                <a href="{{asset('san-pham')}}" id="san-pham-link" ><p>SẢN PHẨM</p></a>
+                <a href="{{ LaravelLocalization::localizeUrl(route('Product.index')) }}" id="san-pham-link" ><p>{{ __('header.product') }}</p></a>
             </li>
         </ul>
         <div class="col-md-2 logominmin img-fluid" data-aos="fade-down"
@@ -147,19 +158,29 @@
         <ul class="col-md-5 menuright" data-aos="fade-down"
             data-aos-duration="1500">
             <li class="">
-                <a href="{{asset('tien-ich')}}" id="tien-ich-link"><p>TIỆN ÍCH</p></a>
+                <a href="{{ LaravelLocalization::localizeUrl(route('utility.index')) }}" id="tien-ich-link"><p>{{ __('header.utilities') }}</p></a>
             </li>
             <li class="header-link-right">
-                <a href="{{asset('tien-do')}}" id="tien-do-link"><p>TIẾN ĐỘ</p></a>
+                <a href="{{ LaravelLocalization::localizeUrl(route('progress.index')) }}" id="tien-do-link"><p>{{ __('header.progress') }}</p></a>
             </li>
             <li class="header-link-right">
-                <a href="{{asset('tin-tuc')}}" id="tin-tuc-link"><p>TIN TỨC</p></a>
+                <a href="{{ LaravelLocalization::localizeUrl(route('news.index')) }}" id="tin-tuc-link"><p>{{ __('header.news') }}</p></a>
             </li>
             <li class="header-link-right">
-                <a href="{{asset('thu-vien')}}" id="thu-vien-link"><p>THƯ VIỆN</p></a>
+                <a href="{{ LaravelLocalization::localizeUrl(route('library.index')) }}" id="thu-vien-link"><p>{{ __('header.library') }}</p></a>
             </li>
             <li class="header-link-right">
-                <a href="{{asset('lien-he')}}" id="lien-he-link"><p>LIÊN HỆ</p></a>
+                <a href="{{ LaravelLocalization::localizeUrl(route('contact.index')) }}" id="lien-he-link"><p>{{ __('header.contact') }}</p></a>
+            </li>
+            <li class="header-link-right">
+                <select onchange="window.location.href=this.value">
+                    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                        <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
+                            {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                            {{ $properties['native'] }}
+                        </option>
+                    @endforeach
+                </select>
             </li>
         </ul>
     </div>

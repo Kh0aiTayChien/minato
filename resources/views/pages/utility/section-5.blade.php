@@ -267,11 +267,19 @@
             background-image: url("/images/footer/background-footer.png");
             background-size: cover;
         }
+        .custom-prev-arrow-course,
+        .custom-next-arrow-course {
+            top: 33% !important;
+        }
     }
     @media (max-width: 800px) {
         .section-5 {
             background-image: url("/images/utility/bg-1.png");
             background-size: cover;
+        }
+        .custom-prev-arrow-course,
+        .custom-next-arrow-course {
+            top: 20% !important;
         }
     }
 

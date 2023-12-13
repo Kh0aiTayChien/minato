@@ -166,7 +166,7 @@
             </div>
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center pb-2" style="transform: translateY(-100%)">
+    <div class="d-flex align-content-center justify-content-center pb-2" >
         <div class="btn-content-sec5-hp ">
             <a href="{{route('utility.index')}}"
                class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black d-none d-md-block">
@@ -174,7 +174,7 @@
             </a>
 
             <a href="{{route('utility.index')}}"
-               class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none">
+               class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none" style="transform: translateY(-100%)">
                 XEM THÊM TIỆN ÍCH
             </a>
         </div>
