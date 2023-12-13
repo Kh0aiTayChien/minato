@@ -13,19 +13,24 @@ use App\Http\Controllers\News\NewsController;
 use App\Http\Controllers\MediaController;
 use App\Http\Controllers\ProfileController;
 use Illuminate\Support\Facades\Route;
+use Mcamara\LaravelLocalization\Facades\LaravelLocalization;
 
-Route::get('/', [IndexController::class, 'index'])->name('homepage.index');
-Route::get('/gioi-thieu', [IntroduceController::class, 'index'])->name('introduce.index');
-Route::get('/vi-tri', [LocationController::class, 'index'])->name('location.index');
-Route::get('/san-pham', [ProductionController::class, 'index'])->name('Product.index');
-Route::get('/tien-ich', [UtilityController::class, 'index'])->name('utility.index');
-Route::get('/tin-tuc', [NewsController::class, 'index'])->name('news.index');
-Route::get('/tin-tuc/{slug}', [NewsController::class, 'show'])->name('news.show');
-Route::get('/tien-do', [ProgressController::class, 'index'])->name('progress.index');
-Route::get('/thu-vien', [LibraryController::class, 'index'])->name('library.index');
-Route::get('/lien-he', [ContactController::class, 'index'])->name('contact.index');
-Route::get('/view-pdf', [ContactController::class, 'viewPDF'])->name('library.viewPDF');
-Route::post('/info', [IndexController::class, 'send'])->name('info');
+
+Route::group(['prefix' => LaravelLocalization::setLocale(), 'middleware' => ['localize']], function () {
+    Route::get(LaravelLocalization::transRoute('routes.homepage.index'), [IndexController::class, 'index'])->name('homepage.index');
+    Route::get(LaravelLocalization::transRoute('routes.introduce.index'), [IntroduceController::class, 'index'])->name('introduce.index');
+    Route::get(LaravelLocalization::transRoute('routes.location.index'), [LocationController::class, 'index'])->name('location.index');
+    Route::get(LaravelLocalization::transRoute('routes.Product.index'), [ProductionController::class, 'index'])->name('Product.index');
+    Route::get(LaravelLocalization::transRoute('routes.utility.index'), [UtilityController::class, 'index'])->name('utility.index');
+    Route::get(LaravelLocalization::transRoute('routes.news.index'), [NewsController::class, 'index'])->name('news.index');
+    Route::get(LaravelLocalization::transRoute('routes.news.show'), [NewsController::class, 'show'])->name('news.show');
+    Route::get(LaravelLocalization::transRoute('routes.progress.index'), [ProgressController::class, 'index'])->name('progress.index');
+    Route::get(LaravelLocalization::transRoute('routes.library.index'), [LibraryController::class, 'index'])->name('library.index');
+    Route::get(LaravelLocalization::transRoute('routes.contact.index'), [ContactController::class, 'index'])->name('contact.index');
+    Route::get(LaravelLocalization::transRoute('routes.library.viewPDF'), [ContactController::class, 'viewPDF'])->name('library.viewPDF');
+    Route::post(LaravelLocalization::transRoute('routes.info.send'), [IndexController::class, 'send'])->name('info.send');
+});
+
 
 Auth::routes();
 Route::prefix('admin')->middleware('auth')->group(function () {
