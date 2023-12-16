@@ -2,12 +2,12 @@
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 d-none d-md-flex"
          style="font-size: 2.66vw">
-        TIN TỨC
+        {{__('homepage/section7.news')}}
     </div>
 
     <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4 pt-3 d-md-none"
          style="font-size: 32px">
-        TIN TỨC
+        {{__('homepage/section7.news')}}
     </div>
 
     <div class="slick-carousel position-relative " >

@@ -1,27 +1,27 @@
 <div class="section-6 pt-5 pb-5" >
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex"
          style="font-size: 2.65625vw; color: #141C46">
-        CĂN HỘ CAO CẤP CHUẨN NHẬT
+        {{ __('homepage/section6.Title1')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none text-center"
          style="font-size: 29px; color: #141C46; line-height: 1.25">
-        CĂN HỘ CAO CẤP
+        {{ __('homepage/section6.Title1mobile1')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none text-center"
          style="font-size: 29px; color: #141C46; line-height: 1.25">
-         CHUẨN NHẬT
+        {{ __('homepage/section6.Title1mobile2')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex"
          style="font-size: 2.65625vw; color: #BA322E">
-        Lần đầu tiên xuất hiện tại Hải Phòng
+        {{ __('homepage/section6.Title2')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none text-center"
          style="font-size: 29px; color: #BA322E; line-height: 1.25">
-        Lần đầu tiên xuất hiện
+        {{ __('homepage/section6.Title1mobile1')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none text-center"
          style="font-size: 29px; color: #BA322E; line-height: 1.25">
-         tại Hải Phòng
+        {{ __('homepage/section6.Title1mobile2')}}
     </div>
     <div class="mt-4 mb-4" >
         <div class="row px-5  mb-5 gx-3 gy-2">
@@ -30,21 +30,21 @@
                 <button class="tab-button btn btn-block blue-border-bottom
                                  text-white  mulish-extrabold button-shake active"
                         data-target="tab1" style="width: 100%">
-                    <div class=" font-size-custom" style="font-size: 13px">CĂN HỘ 1 PHÒNG NGỦ</div>
+                    <div class=" font-size-custom" style="font-size: 13px">{{ __('homepage/section6.subTitleSlide1')}}</div>
                 </button>
             </div>
             <div class="col-md-2 d-flex justify-content-center align-content-center">
                 <button class="tab-button btn  btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab2" style="width: 100%">
-                    <div class="  font-size-custom" style="font-size: 13px">CĂN HỘ 2 PHÒNG NGỦ</div>
+                    <div class="  font-size-custom" style="font-size: 13px">{{ __('homepage/section6.subTitleSlide2')}}</div>
                 </button>
             </div>
             <div class="col-md-2 d-flex justify-content-center align-content-center">
                 <button class="tab-button btn  btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab3" style="width: 100%">
-                    <div class=" font-size-custom" style="font-size: 13px">CĂN HỘ 3 PHÒNG NGỦ</div>
+                    <div class=" font-size-custom" style="font-size: 13px">{{ __('homepage/section6.subTitleSlide3')}}</div>
                 </button>
             </div>
         </div>

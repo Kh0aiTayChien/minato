@@ -1,5 +1,6 @@
 <?php
 return [
+    'lang' => 'vn',
     'homepage' => 'TRANG CHỦ',
     'introduction' => 'GIỚI THIỆU',
     'location' => 'VỊ TRÍ',

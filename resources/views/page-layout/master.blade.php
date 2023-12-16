@@ -30,6 +30,11 @@
     <meta name="csrf-token" content="{{ csrf_token() }}">
     <link rel="stylesheet" href="https://cdn.rawgit.com/tarkhov/postboot/v1.0.3/dist/css/postboot.min.css"/>
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
+    />
+
     <link href="{{asset('/css/header.css')}}" rel="stylesheet">
     <link href="{{asset('/css/footer.css')}}" rel="stylesheet">
     <link href="{{asset('/css/font.css')}}" rel="stylesheet">

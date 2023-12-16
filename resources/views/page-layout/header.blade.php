@@ -75,14 +75,20 @@
         <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('library.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.library') }}</a> </div>
         <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('contact.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.contact') }}</a> </div>
         <div class="text-center mt-3 text-menu-mb mulish-extrabold yellow-light-color">
-            <select onchange="window.location.href=this.value">
-                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                    <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
-                        {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                        {{ $properties['native'] }}
-                    </option>
-                @endforeach
-            </select>
+                <select onchange="window.location.href=this.value">
+                    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                        @if($localeCode === 'en')
+                            <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                                <span class="flag-icon flag-icon-gb"></span>EN
+                            </option>
+                        @elseif($localeCode === 'vi')
+                            <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                                <span class="flag-icon flag-icon-vn"></span>VN
+                            </option>
+                        @endif
+                    @endforeach
+                </select>
+                <span class="fi fi-{{__('header.lang')}}"></span>
         </div>
 
 {{--        <div class="text-center mt-2">--}}
@@ -175,12 +181,18 @@
             <li class="header-link-right">
                 <select onchange="window.location.href=this.value">
                     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                        <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}"
-                            {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                            {{ $properties['native'] }}
-                        </option>
+                        @if($localeCode === 'en')
+                            <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                                <span class="flag-icon flag-icon-gb"></span>EN
+                            </option>
+                        @elseif($localeCode === 'vi')
+                            <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                                <span class="flag-icon flag-icon-vn"></span>VN
+                            </option>
+                        @endif
                     @endforeach
                 </select>
+                <span class="fi fi-{{__('header.lang')}}"></span>
             </li>
         </ul>
     </div>
@@ -220,44 +232,44 @@
             trangChuLink.style.color = "#404041";
         }
 // Kiểm tra nếu đang ở link 'gioi-thieu'
-        if (currentUrl.indexOf("gioi-thieu") !== -1) {
+        if (currentUrl.indexOf("gioi-thieu") !== -1 || currentUrl.indexOf("introduction") !== -1 ) {
 // Đặt màu sắc cho các thẻ tương ứng
             gioiThieuLink.style.color = "#ECCE79";
             trangChuLink.style.color = "#FFF";
         }
 
 // Kiểm tra nếu đang ở link 'san-pham'
-        if (currentUrl.indexOf("san-pham") !== -1) {
+        if (currentUrl.indexOf("san-pham") !== -1 || currentUrl.indexOf("products") !== -1) {
 // Đặt màu sắc cho các thẻ tương ứng
             sanPhamLink.style.color = "#ECCE79";
             trangChuLink.style.color = "#FFF";
         }
-        if (currentUrl.indexOf("vi-tri") !== -1) {
+        if (currentUrl.indexOf("vi-tri") !== -1 || currentUrl.indexOf("location") !== -1) {
 // Đặt màu sắc cho các thẻ tương ứng
             viTriLink.style.color = "#ECCE79";
             trangChuLink.style.color = "#FFF";
         }
-        if (currentUrl.indexOf("tin-tuc") !== -1) {
+        if (currentUrl.indexOf("tin-tuc") !== -1 || currentUrl.indexOf("news") !== -1)  {
 // Đặt màu sắc cho các thẻ tương ứng
             tinTucLink.style.color = "#ECCE79";
             trangChuLink.style.color = "#FFF";
         }
-        if (currentUrl.indexOf("tien-ich") !== -1) {
+        if (currentUrl.indexOf("tien-ich") !== -1 || currentUrl.indexOf("utilities") !== -1)  {
 // Đặt màu sắc cho các thẻ tương ứng
             tienIchLink.style.color = "#ECCE79";
             trangChuLink.style.color = "#FFF";
         }
-        if (currentUrl.indexOf("lien-he") !== -1) {
+        if (currentUrl.indexOf("lien-he") !== -1 || currentUrl.indexOf("contact") !== -1)  {
 // Đặt màu sắc cho các thẻ tương ứng
             lienHeLink.style.color = "#ECCE79";
             trangChuLink.style.color = "#FFF";
         }
-        if (currentUrl.indexOf("tien-do") !== -1) {
+        if (currentUrl.indexOf("tien-do") !== -1 || currentUrl.indexOf("progress") !== -1)  {
             // Đặt màu sắc cho các thẻ tương ứng
             tienDoLink.style.color = "#ECCE79"; // Đặt màu sắc về mặc định (có thể để trống để nó quay về CSS mặc định)
             trangChuLink.style.color = "#FFF";
         }
-        if (currentUrl.indexOf("thu-vien") !== -1) {
+        if (currentUrl.indexOf("thu-vien") !== -1 || currentUrl.indexOf("library") !== -1)  {
             // Đặt màu sắc cho các thẻ tương ứng
             thuVienLink.style.color = "#ECCE79"; // Đặt màu sắc về mặc định (có thể để trống để nó quay về CSS mặc định)
             trangChuLink.style.color = "#FFF";
