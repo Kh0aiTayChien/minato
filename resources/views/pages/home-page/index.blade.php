@@ -1,6 +1,10 @@
 @extends('page-layout.master')
 @section('section')
-    @include('pages.home-page.section-1')
+    @if(app()->getLocale() === 'vi')
+        @include('pages.home-page.section-1')
+    @elseif(app()->getLocale() === 'en')
+        @include('pages.home-page.section-1-eng')
+    @endif
     @include('pages.home-page.sec2')
     @include('pages.home-page.sec3')
     @include('pages.home-page.section-5')

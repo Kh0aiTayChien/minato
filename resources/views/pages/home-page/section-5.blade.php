@@ -3,54 +3,39 @@
         <div class="row">
             <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
                 <div class="mulish-extrabold text-white mb-2 d-none d-md-block"
-                     style="font-size: 21px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH
+                     style="font-size: 21px; letter-spacing: 0.35rem;"> {{ __('homepage/section5.subTitle1') }}
                 </div>
                 <div
                     class="mulish-extrabold text-white mb-2 d-md-none d-flex justify-content-center align-content-center"
-                    style="font-size: 13px; letter-spacing: 0.35rem;"> HỆ THỐNG TIỆN ÍCH
+                    style="font-size: 13px; letter-spacing: 0.35rem;"> {{ __('homepage/section5.subTitle1') }}
                 </div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> SỐNG GIỮA
-                    THIÊN NHIÊN
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw">
+                    {{ __('homepage/section5.mainTitle1') }}
                 </div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw"> Hưởng đa tầng
-                    tiện ích
-                </div>
-                <div
-                    class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center"
-                    style="font-size: 29px; line-height: 1.25"> SỐNG GIỮA THIÊN NHIÊN
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw">
+                    {{ __('homepage/section5.mainTitle2') }}
                 </div>
                 <div
                     class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center"
-                    style="font-size: 29px; line-height: 1.25"> Hưởng đa tầng tiện ích
+                    style="font-size: 29px; line-height: 1.25">
+                    {{ __('homepage/section5.mainTitle1') }}
+                </div>
+                <div
+                    class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center"
+                    style="font-size: 29px; line-height: 1.25"> {{ __('homepage/section5.mainTitle2') }}
                 </div>
             </div>
             <div class="col-xs-12 col-md-5 text-white" style="" data-aos="fade-up" data-aos-duration="3000">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify;
                 letter-spacing: 1px; padding-top: 18.5%; padding-left: 12% ">
-                    <div class="cabin-medium " style="font-size: 15px"> The Minato Residence mang đến một thành phố
-                        xanh,
-
-                        hiện đại, và đẳng cấp, nơi cư dân thỏa sức
-                        trải
-                        nghiệm các
-
-                        tiện ích đẳng cấp chuẩn Nhật và môi trường
-                        thân
-                        thiện
+                    <div class="cabin-medium " style="font-size: 15px">
+                        {{ __('homepage/section5.mainDocument') }}
                     </div>
                 </div>
                 <div class=" d-md-flex align-content-start justify-content-end d-md-none px-3 pt-3"
                      style="width: 100%; text-align: justify; letter-spacing: 1px">
-                    <div class="cabin-medium " style="font-size: 13px"> The Minato Residence mang đến một thành phố
-                        xanh,
-
-                        hiện đại, và đẳng cấp, nơi cư dân thỏa sức
-                        trải
-                        nghiệm các
-
-                        tiện ích đẳng cấp chuẩn Nhật và môi trường
-                        thân
-                        thiện
+                    <div class="cabin-medium " style="font-size: 13px">
+                        {{ __('homepage/section5.mainDocument') }}
                     </div>
                 </div>
                 <div class="ms-5 ps-5 me-5 pe-5 d-flex align-content-center justify-content-end" style="width: 100%">
@@ -70,95 +55,136 @@
         <div class="carousel-courses y-mobile" style="padding-bottom: 22px">
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style=""
-                     class="d-none d-md-block img-fluid">
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/congviensakura.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/congviensakura.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> CÔNG VIÊN SAKURA</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> Nơi lan tỏa chất Zen tĩnh tại của xứ Phù Tang</p>
+                    <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide1') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide1') }}</p>
                 </div>
             </div>
 
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/37.png')}}" alt="" style="margin-right: 0.2%"
-                     class="d-none d-md-block ">
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/37.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/37.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/37.png')}}" alt="" style=""
                      class="d-block d-md-none  img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> CÔNG VIÊN TRẺ EM</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> Nơi cho các cư dân nhí ưa vận động, trải nghiệm kỳ thú cho tuổi thơ</p>
+                    <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide2') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> {{ __('homepage/section5.subDocumentSlide2') }}</p>
                 </div>
             </div>
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/39.png')}}" alt="" style="margin-right: 0.2%"
-                     class="d-none d-md-block img-fluid">
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/39.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/39.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/38.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                  <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> BỂ BƠI NGOÀI TRỜI</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> Thả mình thư giãn trong làn nước xanh mát</p>
+                    <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide3') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide3') }}</p>
                 </div>
             </div>
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/40.png')}}" alt="" style="margin-right: 0.2%"
-                     class="d-none d-md-block img-fluid">
+
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/40.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/40.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/39.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> PHÒNG TẬP GYM</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Thể thao năng động, nâng cao sức khỏe</p>
+                    <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide4') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide4') }}</p>
                 </div>
             </div>
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/42.png')}}" alt="" style="margin-right: 0.2%"
-                     class="d-none d-md-block img-fluid">
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/42.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/42.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/40.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> PHÒNG VUI CHƠI TRẺ EM</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Rộn rã tiếng cười ngập tràn hạnh phúc</p>
+                    <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide5') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide5') }}</p>
                 </div>
             </div>
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.2%"
-                     class="d-none d-md-block img-fluid">
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/38.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/38.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/41.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> CAFE ROOFTOP</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> Với tầm view nhìn toàn bộ thành phố Hải Phòng và sông Lạch Tray</p>
+                    <p style="font-size: 13px">{{ __('homepage/section5.subTitleSlide6') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> {{ __('homepage/section5.subDocumentSlide6') }}</p>
                 </div>
             </div>
 
 
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/41.png')}}" alt="" style="margin-right: 0.2%"
-                     class="d-none d-md-block img-fluid">
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/41.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/41.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/42.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                  <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> PHÒNG TIỆC</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> Sang trọn đẳng cấp</p>
+                    <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide7') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide7') }}</p>
                 </div>
             </div>
 
 
 
             <div class="mg02">
-                <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.2%"
-                     class="d-none d-md-block img-fluid">
+                @if(app()->getLocale() === 'vi')
+                    <img src="{{asset('images/homepage/section-5/43.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @elseif(app()->getLocale() === 'en')
+                    <img src="{{asset('images/homepage/section-5/eng/43.png')}}" alt="" style="margin-right: 0.2%"
+                         class="d-none d-md-block img-fluid">
+                @endif
                 <img src="{{asset('images/homepage/section-5m/43.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
-                    <p style="font-size: 13px"> SẢNH ĐÓN KHÁCH</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> Lịch sự, tinh tế theo âm hưởng thiết kế Á Đông</p>
+                    <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide8') }}</p>
+                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide8') }}</p>
                 </div>
 
 

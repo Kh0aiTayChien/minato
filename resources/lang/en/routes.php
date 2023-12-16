@@ -1,7 +1,7 @@
 <?php
 return [
     'homepage.index' => '',
-    'introduce.index' => 'about',
+    'introduce.index' => 'introduction',
     'location.index' => 'location',
     'Product.index' => 'products',
     'utility.index' => 'utilities',

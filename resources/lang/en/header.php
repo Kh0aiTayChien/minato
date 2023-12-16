@@ -1,9 +1,10 @@
 <?php
 return [
+    'lang' => 'gb',
     'homepage' => 'HOMEPAGE',
     'introduction' => 'INTRODUCTION',
     'location' => 'LOCATION',
-    'product' => 'PRODUCT',
+    'product' => 'PRODUCTS',
     'utilities' => 'UTILITIES',
     'news' => 'NEWS',
     'progress' => 'PROJECT PROGRESS',

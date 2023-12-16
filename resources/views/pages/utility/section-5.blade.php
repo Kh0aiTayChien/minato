@@ -1,4 +1,4 @@
-<div class="section-5 pt-5 pb-4 custom-padding-sec-5">
+<div class="section-5 pt-5 pb-4 custom-padding-sec-5 d-none d-md-block pc-5">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
             <div class="col-xs-12 col-md-7 ">
@@ -10,7 +10,7 @@
             </div>
             <div class="col-xs-12 col-md-5 text-white">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
-                    <div class="cabin-medium " style="font-size: 15px; color: transparent"> The Minato Residence mang đến một thành phố
+                    <div class="cabin-medium " style="font-size: 15px; color: transparent;   user-select: none;"> The Minato Residence mang đến một thành phố
                         xanh,
 
                         hiện đại, và đẳng cấp, nơi cư dân thỏa sức
@@ -23,7 +23,7 @@
                     </div>
                 </div>
                 <div class=" d-md-flex align-content-center justify-content-end d-md-none" style="width: 100%; text-align: justify; letter-spacing: 1px">
-                    <div class="cabin-medium " style="font-size: 13px"> The Minato Residence mang đến một thành phố
+                    <div class="cabin-medium " style="font-size: 13px;   user-select: none;"> The Minato Residence mang đến một thành phố
                         xanh,
 
                         hiện đại, và đẳng cấp, nơi cư dân thỏa sức
@@ -39,6 +39,124 @@
                     <div class="custom-dots"></div>
                 </div>
             </div>
+        </div>
+    </div>
+    <div class="slick-carousel position-relative " >
+        <button class="custom-prev-arrow-pc " aria-label="Previous">
+            <img src="{{asset('images/button/left.png')}}" alt="Previous" class="shadow-effect button-shake"/>
+        </button>
+        <button class="custom-next-arrow-pc" aria-label="Next">
+            <img src="{{asset('images/button/right.png')}}" alt="Next" class="shadow-effect button-shake"/>
+        </button>
+
+        <div class="carousel-pcs pb-5">
+            <div class="mg02" style="">
+                <img src="{{asset('images/utility/vi/11.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+            <div class="mg02"style="">
+                <img src="{{asset('images/utility/vi/12.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+            <div class="mg02"style="">
+                <img src="{{asset('images/utility/vi/13.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+            <div class="mg02"style="">
+                <img src="{{asset('images/utility/vi/14.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+            <div class="mg02"style="">
+                <img src="{{asset('images/utility/vi/15.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+            <div class="mg02"style="">
+                <img src="{{asset('images/utility/vi/16.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+            <div class="mg02"style="">
+                <img src="{{asset('images/utility/vi/17.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+            <div class="mg02"style="">
+                <img src="{{asset('images/utility/vi/18.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+            </div>
+        </div>
+    </div>
+    <style>
+        .mg02{
+            margin-left: 0.2%
+        }
+        .y-mobile{
+
+        }
+        @media (max-width: 800px) {
+            .mg02{
+                margin-left: 0
+            }
+            .custom-padding-sec-5{
+                padding: 5% 5% 0 5%!important;
+            }
+            .y-mobile{
+                transform: translateY(-10%);
+            }
+        }
+
+
+    </style>
+
+
+    <script>
+        $(document).ready(function () {
+            $('.carousel-pcs').slick({
+                infinite: true,
+                speed: 900,
+                slidesToShow: 1,
+                slidesToScroll: 1,
+                dots: true,
+                prevArrow: $('.custom-prev-arrow-pc'),
+                nextArrow: $('.custom-next-arrow-pc'),
+                variableWidth: true,
+                responsive: [
+                    {
+                        breakpoint: 1024,
+                        settings: {
+                            slidesToShow: 2,
+                            slidesToScroll: 1,
+                        }
+                    },
+                    {
+                        breakpoint: 600,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            variableWidth: false,
+                        }
+                    },
+                    {
+                        breakpoint: 480,
+                        settings: {
+                            slidesToShow: 1,
+                            slidesToScroll: 1,
+                            variableWidth: false,
+                        }
+                    }
+                ]
+            });
+        });
+
+        $('.carousel-pcs').on('init', function (event, slick) {
+            // Di chuyển dots vào div tùy chỉnh
+            $('.pc-5 .slick-dots').appendTo('.custom-dots');
+        });
+    </script>
+
+
+</div>
+<div class="mobile-s5 section-5 pt-5 pb-4 custom-padding-sec-5 d-md-none" style="overflow: hidden">
+    <div class="d-flex align-content-center justify-content-center pt-4 ">
+        <div class="row">
+            <div class="col-xs-12 col-md-7 ">
+                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem; line-height: 0.55"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="mulish-extrabold text-white mb-1 d-md-none text-center" style="font-size: 15px; letter-spacing: 0.35rem;"> HÒA MÌNH TẬN HƯỞNG</div>
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.66vw; line-height: 0.55"> THIÊN ĐƯỜNG TIỆN ÍCH HẠNG A</div>
+                <div class="icielbegum yellow-light-color d-md-none text-center" style="font-size: 28px; line-height: 1.25"> THIÊN ĐƯỜNG TIỆN ÍCH </div>
+                <div class="icielbegum yellow-light-color d-md-none text-center pb-2" style="font-size: 28px; line-height: 1.25">  HẠNG A</div>
+            </div>
+
         </div>
     </div>
     <div class="slick-carousel position-relative y-mobile" >
@@ -180,7 +298,7 @@
                 padding: 5% 5% 0 5%!important;
             }
             .y-mobile{
-                transform: translateY(-10%);
+                transform: translateY(5%);
             }
         }
 
@@ -227,10 +345,6 @@
             });
         });
 
-        $('.carousel-courses').on('init', function (event, slick) {
-            // Di chuyển dots vào div tùy chỉnh
-            $('.slick-dots').appendTo('.custom-dots');
-        });
     </script>
 
 
@@ -299,12 +413,30 @@
         scale: 75%;
         z-index: 2;
     }
+    .custom-prev-arrow-pc,
+    .custom-next-arrow-pc {
+        position: absolute;
+        top: 20%;
+        transform: translateY(-50%);
+        background: none;
+        border: none;
+        cursor: pointer;
+        scale: 75%;
+        z-index: 2;
+    }
 
     .custom-prev-arrow-course {
         left: -5%;
     }
 
     .custom-next-arrow-course {
+        right:-5%;
+    }
+    .custom-prev-arrow-pc {
+        left: -5%;
+    }
+
+    .custom-next-arrow-pc {
         right:-5%;
     }
 

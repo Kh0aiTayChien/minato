@@ -10,11 +10,12 @@
                          style="letter-spacing: 0.35rem; font-size: 15px">THE MINATO RESIDENCE
                     </div>
                     <div class="icielbegum yellow-light-color mt-3 d-none d-md-block"
-                         style="font-size: 2.66vw; width: 90%">ĐĂNG KÍ
-                        NHẬN TƯ VẤN
+                         style="font-size: 2.66vw; width: 90%">
+                        {{__('footer.headerForm')}}
                     </div>
                     <div class="icielbegum yellow-light-color mt-3 d-flex  d-md-none "
-                         style="font-size: 29px">ĐĂNG KÍ NHẬN TƯ VẤN
+                         style="font-size: 29px">
+                        {{__('footer.headerForm')}}
                     </div>
                 </div>
                 <div class="col-md-4 d-none d-md-block">
@@ -29,14 +30,16 @@
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <div class="form-group contact-form  mt-3">
-                        <label for="contact_name" class="cabin-medium text-white" style="font-size: 13px">HỌ VÀ
-                            TÊN</label>
+                        <label for="contact_name" class="cabin-medium text-white" style="font-size: 13px">
+                            {{__('footer.fullName')}}
+                        </label>
                         <br>
                         <input type="text" name="name" id="fullname" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
-                        <label for="contact_phone" class=" cabin-medium text-white" style="font-size: 13px">SỐ ĐIỆN
-                            THOẠI</label>
+                        <label for="contact_phone" class=" cabin-medium text-white" style="font-size: 13px">
+                            {{__('footer.phoneNumber')}}
+                        </label>
                         <br>
                         <input type="text" name="phone" id="phone" class="mt-3">
                     </div>
@@ -50,7 +53,7 @@
                 <div class="col-md-6 col-xs-12">
                     <div class="form-group" style="">
                         <label for="contact_content" class="cabin-medium text-white mt-3" style="font-size: 13px">
-                            YÊU CẦU CHI TIẾT
+                            {{__('footer.dt')}}
                         </label>
                         <br>
                         <textarea type="text" name="detail" id="contact_content" class="text-area">
@@ -93,33 +96,33 @@
                     <div class="">
                         <div
                             class="mulish-extrabold yellow-light-color d-flex d-md-block "
-                            style="font-size: 18px">THÔNG TIN DỰ ÁN
+                            style="font-size: 18px">{{__('footer.PROJECTINFOMATION')}}
                         </div>
                     </div>
 
                     <div class="d-flex justify-content-start align-content-center mt-5 custom-padding-footer-last ">
                         <div class="cabin-medium text-white" style="font-size: 13px; letter-spacing: 1px">
                             <div class="investor">
-                                <p>Chủ đầu tư: Công ty TNHH Minato Việt Nam</p>
-                                <p>(Đầu tư bởi Fujita & Takara Leben)</p>
+                                <p>{{__('footer.c1line1')}}</p>
+                                <p>{{__('footer.c1line2')}}</p>
                             </div>
 
                             <div class="contractor">
-                                <p>Nhà thầu xây dựng: Công ty TNHH Fujita Việt Nam</p>
-                                <p>(thuộc Fujita Corporation Nhật Bản)</p>
+                                <p>{{__('footer.c1line3')}}</p>
+                                <p>{{__('footer.c1line4')}}</p>
                             </div>
 
                             <div class="operation">
-                                <p>Quản lý vận hành: Leben Community Việt Nam</p>
+                                <p>{{__('footer.c1line5')}}</p>
                             </div>
 
                             <div class="address">
-                                <p>Địa chỉ dự án: Lô B (CT1 và CT2) quần thể Dự án Khu đô thị Ven sông Lạch Tray, </p>
-                                <p>phường Vĩnh Niệm, quận Lê Chân, Thành phố Hải Phòng, Việt Nam</p>
+                                <p>{{__('footer.c1line6')}}</p>
+                                <p>{{__('footer.c1line7')}}</p>
                             </div>
 
                             <div class="scale">
-                                <p>Quy mô: 2 Tòa nhà với 26 tầng nổi, 1 hầm tầng hầm</p>
+                                <p>{{__('footer.c1line8')}}</p>
                             </div>
 
                             <div class="contact">
@@ -133,15 +136,14 @@
                     <div class="" style="width: 100%">
                         <div
                             class="mulish-extrabold yellow-light-color d-flex d-md-block "
-                            style="font-size: 18px">VĂN PHÒNG BÁN HÀNG
+                            style="font-size: 18px">{{__('footer.SHOWROOM')}}
                         </div>
                     </div>
                     <div class="d-flex justify-content-center align-content-center mt-5 custom-padding-room"
                          style="width: 80%">
                         <div class="cabin-medium text-white" style="font-size: 13px; letter-spacing: 1px">
                             <div class="additional-info">
-                                <p>Địa chỉ: Showroom The Minato Residence, Đường số 3, Dự án Waterfront City, Phường
-                                    Vĩnh Niệm, Quận Lê Chân, Thành phố Hải Phòng, Việt Nam</p>
+                                <p>{{__('footer.c2line1')}}</p>
                                 <p>Hotline: 1800 577783</p>
                             </div>
                         </div>
@@ -153,14 +155,14 @@
     </div>
     <div class="about yellow-light-bg text-dark cabin-medium d-none d-md-block" style="font-size: 13px">
         <div class="content py-2">
-            Bản quyền 2023 © The Minato Residence. Đã đăng ký bản quyền.
+            {{__('footer.cp')}}
         </div>
     </div>
     <div class="about yellow-light-bg text-dark cabin-medium d-block d-md-none" style="font-size: 13px">
         <div class="content py-2 text-center" style="line-height: 1.25">
-            Bản quyền 2023 © The Minato Residence.
+            {{__('footer.cpm1')}}
             <br>
-            Đã đăng ký bản quyền.
+            {{__('footer.cpm2')}}
         </div>
     </div>
 </div>
