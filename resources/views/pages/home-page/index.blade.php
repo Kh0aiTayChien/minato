@@ -6,7 +6,11 @@
         @include('pages.home-page.section-1-eng')
     @endif
     @include('pages.home-page.sec2')
-    @include('pages.home-page.sec3')
+    @if(app()->getLocale() === 'vi')
+        @include('pages.home-page.sec3')
+    @elseif(app()->getLocale() === 'en')
+        @include('pages.home-page.sec3-eng')
+    @endif
     @include('pages.home-page.section-5')
     @include('pages.home-page.section-6')
     @include('pages.home-page.section-7')

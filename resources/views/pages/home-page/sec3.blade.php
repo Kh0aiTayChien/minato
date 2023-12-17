@@ -13,7 +13,7 @@
                 <div class="col-12 row-test">
                     <img src="{{asset('images/homepage/sec3/17-17 1.png')}}" class="col-6">
                 </div>
-        <img src="{{asset('images/homepage/sec3/Group 85 (1).png')}}" class="col-11">
+        <img src="{{asset('images/homepage/sec3/mobilevn.png')}}" class="col-11">
 {{--                <div class="col-12 row-test">--}}
 {{--                    <img src="{{asset('images/homepage/sec3/Group 83.png')}}" class="col-5 left-sec3-mb">--}}
 {{--                    <img src="{{asset('images/homepage/sec3/Group 78.png')}}" class="col-5 right-sec3-mb">--}}
