@@ -161,7 +161,7 @@
             <a href="{{asset('/')}}"><img src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" style=""
                                           class="logo-test col-xxl-11 col-md-11"></a>
         </div>
-        <ul class="col-md-5 menuright" data-aos="fade-down"
+        <ul class="col-md-5 menuright position-relative" data-aos="fade-down"
             data-aos-duration="1500">
             <li class="">
                 <a href="{{ LaravelLocalization::localizeUrl(route('utility.index')) }}" id="tien-ich-link"><p>{{ __('header.utilities') }}</p></a>
@@ -178,16 +178,16 @@
             <li class="header-link-right">
                 <a href="{{ LaravelLocalization::localizeUrl(route('contact.index')) }}" id="lien-he-link"><p>{{ __('header.contact') }}</p></a>
             </li>
-            <li class="header-link-right">
-                <select onchange="window.location.href=this.value">
+            <li class="header-link-right position-absolute" style="right: 6%; font-size: x-small">
+                <select onchange="window.location.href=this.value" style="background-color: rgba(19, 51, 81, 0.4); color: white; border-color: transparent">
                     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                         @if($localeCode === 'en')
                             <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                                <span class="flag-icon flag-icon-gb"></span>EN
+                                <span class="flag-icon flag-icon-gb" style="background-color: #0c85d0"></span> <p class="text-white">EN</p>
                             </option>
                         @elseif($localeCode === 'vi')
                             <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                                <span class="flag-icon flag-icon-vn"></span>VN
+                                <span class="flag-icon flag-icon-vn" style="background-color: #0c85d0"></span>VN
                             </option>
                         @endif
                     @endforeach
