@@ -14,9 +14,9 @@ return [
 
     'mainTitle4' => 'KẾ SÔNG',
 
-    'mainTitle5' => 'ĐỊA THẾ',
+    'mainTitle5' => 'CẬN THỦY',
 
-    'mainTitle6' => 'CẬN THỦY',
+    'mainTitle6' => 'ĐỊA THẾ',
 
     'mainTitle7' => 'PHÚ QUÝ',
 
@@ -24,5 +24,8 @@ return [
                 Lạch Tray thơ mộng, thừa
                 hưởng trọn vẹn lợi thế về
                 phong thủy hội tụ “vượng khí tài lộc” đắc địa bậc nhất thành phố Cảng Hải Phòng. Điều này mang tới nguồn
-                sinh khí dồi dào và hưng thịnh cho từng căn hộ nơi đây. '
+                sinh khí dồi dào và hưng thịnh cho từng căn hộ nơi đây.',
+    'btn' => 'TÌM HIỂU THÊM',
+    'mainTitlem4' => 'KẾ SÔNG CẬN THỦY',
+    'mainTitlem5' => 'ĐỊA THẾ PHÚ QUÝ'
 ];

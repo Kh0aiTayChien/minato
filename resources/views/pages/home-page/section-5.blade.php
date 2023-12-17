@@ -3,26 +3,26 @@
         <div class="row">
             <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
                 <div class="mulish-extrabold text-white mb-2 d-none d-md-block"
-                     style="font-size: 21px; letter-spacing: 0.35rem;"> {{ __('homepage/section5.subTitle1') }}
+                     style="font-size: 21px; letter-spacing: 0.35rem; text-transform: uppercase"> {{ __('homepage/section5.subTitle1') }}
                 </div>
                 <div
                     class="mulish-extrabold text-white mb-2 d-md-none d-flex justify-content-center align-content-center"
-                    style="font-size: 13px; letter-spacing: 0.35rem;"> {{ __('homepage/section5.subTitle1') }}
+                    style="font-size: 13px; letter-spacing: 0.35rem; text-transform: uppercase"> {{ __('homepage/section5.subTitle1') }}
                 </div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw">
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw; text-transform: uppercase">
                     {{ __('homepage/section5.mainTitle1') }}
                 </div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw">
+                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw;">
                     {{ __('homepage/section5.mainTitle2') }}
                 </div>
                 <div
                     class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center"
-                    style="font-size: 29px; line-height: 1.25">
+                    style="font-size: 29px; line-height: 1.25; text-transform: uppercase">
                     {{ __('homepage/section5.mainTitle1') }}
                 </div>
                 <div
                     class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center"
-                    style="font-size: 29px; line-height: 1.25"> {{ __('homepage/section5.mainTitle2') }}
+                    style="font-size: 29px; line-height: 1.25;"> {{ __('homepage/section5.mainTitle2') }}
                 </div>
             </div>
             <div class="col-xs-12 col-md-5 text-white" style="" data-aos="fade-up" data-aos-duration="3000">
@@ -196,12 +196,12 @@
         <div class="btn-content-sec5-hp ">
             <a href="{{route('utility.index')}}"
                class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black d-none d-md-block">
-                XEM THÊM TIỆN ÍCH
+                {{ __('homepage/section5.btn') }}
             </a>
 
             <a href="{{route('utility.index')}}"
                class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none" style="transform: translateY(-100%)">
-                XEM THÊM TIỆN ÍCH
+                {{ __('homepage/section5.btn') }}
             </a>
         </div>
     </div>

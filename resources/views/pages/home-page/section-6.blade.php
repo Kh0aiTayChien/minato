@@ -1,14 +1,14 @@
 <div class="section-6 pt-5 pb-5" >
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex"
-         style="font-size: 2.65625vw; color: #141C46">
+         style="font-size: 2.65625vw; color: #141C46; text-transform: uppercase">
         {{ __('homepage/section6.Title1')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none text-center"
-         style="font-size: 29px; color: #141C46; line-height: 1.25">
+         style="font-size: 29px; color: #141C46; line-height: 1.25; text-transform: uppercase">
         {{ __('homepage/section6.Title1mobile1')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-md-none text-center"
-         style="font-size: 29px; color: #141C46; line-height: 1.25">
+         style="font-size: 29px; color: #141C46; line-height: 1.25; text-transform: uppercase">
         {{ __('homepage/section6.Title1mobile2')}}
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum px-3 d-none d-md-flex"
@@ -219,9 +219,9 @@
         <div class="d-flex align-content-center justify-content-center">
             <div class="btn-content-sec6-hp">
                 <a href="{{route('Product.index')}}"
-                   class="btn-content-sec5-hp double-border-blue px-4 mulish-black-white space-21-btn d-none d-sm-block" style="font-size: 0.8vw;">XEM THÊM SẢN PHẨM</a>
+                   class="btn-content-sec5-hp double-border-blue px-4 mulish-black-white space-21-btn d-none d-sm-block" style="font-size: 0.8vw;">{{ __('homepage/section6.btn') }}</a>
                 <a href="{{route('Product.index')}}"
-                   class="btn-content-sec5-hp double-border-blue px-4 py-1 mulish-black-white space-15 d-block d-sm-none" style="font-size: 12px;">XEM THÊM SẢN PHẨM</a>
+                   class="btn-content-sec5-hp double-border-blue px-4 py-1 mulish-black-white space-15 d-block d-sm-none" style="font-size: 12px;">{{ __('homepage/section6.btn') }}</a>
             </div>
         </div>
     </div>
