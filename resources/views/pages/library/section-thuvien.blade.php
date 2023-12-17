@@ -1,10 +1,17 @@
 <div class="thuvien">
-    <div class=" d-flex justify-content-center align-items-center mulish-extrabold mb-3"
+    <div class="d-none d-sm-flex justify-content-center align-items-center mulish-extrabold mb-3 "
          style="font-size: 21px; color: #43496B; letter-spacing: 0.35rem;">
         THE MINATO RESIDENCE
     </div>
-    <div class=" d-flex justify-content-center align-items-center icielbegum" style="font-size: 51px; color: #141C46">
-        THƯ VIỆN
+    <div class=" d-flex d-sm-none justify-content-center align-items-center mulish-extrabold mb-3"
+         style="font-size: 13px; color: #43496B; letter-spacing: 0.35rem;">
+        THE MINATO RESIDENCE
+    </div>
+    <div class=" justify-content-center align-items-center icielbegum d-none d-sm-flex" style="font-size: 51px; color: #141C46">
+        {{__('library/sec2.title1')}}
+    </div>
+    <div class=" d-flex justify-content-center align-items-center icielbegum d-flex d-sm-none" style="font-size: 29px; color: #141C46">
+        {{__('library/sec2.title1')}}
     </div>
 
     <div class="mt-4 mb-4" style="">
@@ -13,7 +20,7 @@
                 <button class="tab-button btn btn-block  blue-border-bottom
                                  text-white  mulish-extrabold button-shake active"
                         data-target="tab1" style="width: 100%">
-                    <div class=" font-size-custom">HÌNH ẢNH</div>
+                    <div class=" font-size-custom">{{__('library/sec2.option1')}}</div>
                 </button>
             </div>
             <div class="col-md-3 d-flex justify-content-center align-content-center">
@@ -48,28 +55,28 @@
                         <button class="tab-m1-button btn btn-block
                                  text-white  mulish-extrabold button-shake active"
                                 data-target="tab11" style="width: 100%; color: #43496B ">
-                            <div class=" font-size-custom" style="">TẤT CẢ</div>
+                            <div class=" font-size-custom" style="">{{__('library/sec2.1')}}</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab22" style="width: 100%; color: #43496B ">
-                            <div class=" ">TỔNG THỂ</div>
+                            <div class=" ">{{__('library/sec2.2')}}</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab33" style="width: 100%; color: #43496B ">
-                            <div class="">TIỆN ÍCH</div>
+                            <div class="">{{__('library/sec2.3')}}</div>
                         </button>
                     </div>
                     <div class="col-lg-3 col-md-2 d-flex justify-content-center align-content-center">
                         <button class="tab-m1-button btn  btn-block
                                  text-white  mulish-extrabold button-shake"
                                 data-target="tab44" style="width: 100%; color: #43496B ">
-                            <div class="">NỘI THẤT</div>
+                            <div class="">{{__('library/sec2.4')}}</div>
                         </button>
                     </div>
                 </div>
@@ -249,9 +256,10 @@
     .thuvien {
         background-image: url("/images/thuvien/background-thuvien.png");
         background-size: cover;
-        background-position: center -10px;
+        background-position: center px;
         padding: 5% 0 5% 0;
         background-attachment: fixed;
+        /*background-repeat: no-repeat ;*/
     }
 </style>
 <style>

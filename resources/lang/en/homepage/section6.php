@@ -7,9 +7,10 @@ return [
     "Title2mobile1" => "Standard Apartments",
     "Title2mobile2" => "in Hai Phong",
 
-    "subTitleSlide1" => "1-Bedroom Apartment:",
+    "subTitleSlide1" => "1-BEDROOM APARTMENT",
 
-    "subTitleSlide2" => "2-Bedroom Apartment:",
+    "subTitleSlide2" => "2-BEDROOM APARTMENT",
 
-    "subTitleSlide3" => "3-Bedroom Apartment:",
+    "subTitleSlide3" => "3-BEDROOM APARTMENT",
+    'btn' => 'VIEW MORE PRODUCTS'
 ];

@@ -2,7 +2,7 @@
 return [
     "subTitle1" => "HỆ THỐNG TIỆN ÍCH",
     "mainTitle1" => "SỐNG GIỮA THIÊN NHIÊN",
-    "mainTitle2" => "Hướng đa tầng tiện ích",
+    "mainTitle2" => "Hưởng đa tầng tiện ích",
     "mainDocument" => "The Minato Residence mang đến một thành phố
                         xanh,
                         hiện đại, và đẳng cấp, nơi cư dân thỏa sức
@@ -34,5 +34,6 @@ return [
     "subDocumentSlide7" => "Sang trọn đẳng cấp",
 
     "subTitleSlide8" => "SẢNH ĐÓN KHÁCH",
-    "subDocumentSlide8" => "Lịch sự, tinh tế theo âm hưởng thiết kế Á Đông"
+    "subDocumentSlide8" => "Lịch sự, tinh tế theo âm hưởng thiết kế Á Đông",
+    'btn' => 'XEM THÊM TIỆN ÍCH',
 ];

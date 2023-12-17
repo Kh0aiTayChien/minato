@@ -22,4 +22,5 @@ return [
     'cp' => 'Copyright 2023 © The Minato Residence. All rights reserved.',
     'cpm1' => 'Copyright 2023 © The Minato Residence.',
     'cpm2' => ' All rights reserved.',
+    'btn' => 'REGISTER'
 ];

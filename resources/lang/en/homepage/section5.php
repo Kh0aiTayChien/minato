@@ -29,5 +29,6 @@ return [
     "subDocumentSlide7" => "Elegant and luxurious.",
 
     "subTitleSlide8" => "RECEPTION HALL",
-    "subDocumentSlide8" => "Polite and sophisticated, following the Eastern design influence."
+    "subDocumentSlide8" => "Polite and sophisticated, following the Eastern design influence.",
+    'btn' => 'SEE MORE UTILITIES',
 ];
