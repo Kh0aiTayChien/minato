@@ -417,7 +417,7 @@
     .custom-prev-arrow-pc,
     .custom-next-arrow-pc {
         position: absolute;
-        top: 20%;
+        top: 40%;
         transform: translateY(-50%);
         background: none;
         border: none;
