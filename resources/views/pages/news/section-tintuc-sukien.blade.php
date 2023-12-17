@@ -5,7 +5,7 @@
     </div>
     <div class=" d-flex justify-content-center align-items-center icielbegum yellow-light-color mb-5"
          style="font-size: 2.66vw; ">
-        TIN TỨC & SỰ KIỆN
+        {{ __('news/sec2.title1') }}
     </div>
     <div class="section-tintuc-sukien d-flex justify-content-center align-items-center" data-bs-interval="false">
         <div id="section-tintuc-sukien" class="carousel slide w-100" data-bs-ride="carousel" >
@@ -31,7 +31,7 @@
                             </div>
                             <div class="d-flex align-content-center justify-content-start mulish-extrabold"
                                  style="padding-top: 5%; color: #D93D32; font-size: small">
-                                <a href="{{route('news.show',['slug' => $article->slug])}}"> XEM CHI TIẾT</a>
+                                <a href="{{route('news.show',['slug' => $article->slug])}}">{{ __('homepage/section7.detail') }}</a>
                             </div>
                         </div>
                     </div>

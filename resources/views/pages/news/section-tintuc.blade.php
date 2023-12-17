@@ -1,11 +1,11 @@
 <div class="tintuc">
     <div class=" d-none d-md-flex justify-content-center align-items-center icielbegum yellow-light-color mb-5"
          style="font-size: 51px; ">
-        TIN TỨC KHÁC
+        {{ __('news/sec2.title2') }}
     </div>
     <div class=" d-flex d-md-none justify-content-center align-items-center icielbegum yellow-light-color "
          style="font-size: 29px; ">
-        TIN TỨC KHÁC
+        {{ __('news/sec2.title2') }}
     </div>
     <div class="row gy-5 gx-1 mt-2 px-3">
         @foreach($articles as $article)
@@ -29,8 +29,7 @@
 
                                 <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4"
                                      style="font-size: 13px">
-                                    <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
-                                        CHI TIẾT</a>
+                                    <a href="" class="yellow-light-color" style="text-decoration: unset">{{ __('homepage/section7.detail') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -44,7 +43,7 @@
     .tintuc {
         background-image: url("/images/footer/background-footer.png");
         background-size: cover;
-        padding: 5% 0 5% 0;
+        padding: 10% 0 5% 0;
     }
 
     .bg-transparent-black {

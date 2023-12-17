@@ -12,4 +12,5 @@ return [
     "subTitleSlide2" => "CĂN HỘ 2 PHÒNG NGỦ",
 
     "subTitleSlide3" => "CĂN HỘ 3 PHÒNG NGỦ",
+    'btn' => 'XEM THÊM SẢN PHẨM'
 ];

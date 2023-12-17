@@ -22,4 +22,5 @@ return [
     'cp' => ' Bản quyền 2023 © The Minato Residence. Đã đăng ký bản quyền.',
     'cpm1' => 'Bản quyền 2023 © The Minato Residence.',
     'cpm2' => ' Đã đăng ký bản quyền.',
+    'btn' => 'ĐĂNG KÝ'
 ];

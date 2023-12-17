@@ -40,8 +40,7 @@
                                 <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4"
                                      style="font-size: 13px">
                                     <a href="{{route('news.show',['slug' => $article->slug])}}"
-                                       class="yellow-light-color" style="text-decoration: unset">XEM
-                                        CHI TIẾT</a>
+                                       class="yellow-light-color" style="text-decoration: unset">{{ __('homepage/section7.detail') }}</a>
                                 </div>
                             </div>
                         </div>
@@ -55,11 +54,11 @@
         <div class="btn-content-sec5-hp ">
             <a href="{{route('news.index')}}"
                class="double-border px-5 btn-sec2-hp-pc mulish-black space-21-btn d-none d-md-block" style="font-size: 0.8vw;">
-                XEM THÊM TIN TỨC
+                {{ __('homepage/section7.btn') }}
             </a>
 
             <a href="{{route('news.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb mulish-black space-15 d-block d-md-none">
-                XEM THÊM TIN TỨC
+                {{ __('homepage/section7.btn') }}
             </a>
         </div>
     </div>

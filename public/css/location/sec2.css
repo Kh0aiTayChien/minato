@@ -39,13 +39,14 @@
 }
 
 .header1-sec2-location-mb {
-    font-size: 18px;
+    font-size: 13px;
     color: white;
 }
 
 .header2-sec2-location-mb {
     font-size: 25px;
     color: #EFD483;
+    text-transform: uppercase;
 }
 
 .text-sec2-location-mb {

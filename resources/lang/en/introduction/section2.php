@@ -4,8 +4,7 @@ return [
     "OVERVIEW"=> "PROJECT",
     "PROJECT"=> "OVERVIEW",
     "INVESTOR"=> "INVESTOR",
-    "Name" => " Công ty TNHH Minato Việt Nam (Đầu tư bởi Fujita &
-                    Takara Leben)",
+    "Name" => "Minato Vietnam Co., Ltd (invested by Fujita & Takara Leben)",
     "ADDRESS"=> "ADDRESS",
     "addressDetail" => "Lot B (CT1 and CT2)  Riverside Lach Tray Urban Area Project,
     Vinh Niem Ward, Le Chan District, Hai Phong City",
