@@ -25,7 +25,7 @@
                 <button class="tab-button btn  btn-block   blue-border-bottom
                                  text-white  mulish-extrabold button-shake"
                         data-target="tab2" style="width: 100%">
-                    <div class=" font-size-custom">CT1 BUILDING</div>
+                    <div class=" font-size-custom">CT2 BUILDING</div>
                 </button>
             </div>
         </div>
