@@ -7,7 +7,7 @@
     @elseif(app()->getLocale() === 'en')
         @include('pages.Introduce.sec3-english')
     @endif
-    @include('pages.Introduce.sec3')
+{{--    @include('pages.Introduce.sec3')--}}
     @include('pages.Introduce.sec4')
     @include('pages.Introduce.sec5')
 @stop
