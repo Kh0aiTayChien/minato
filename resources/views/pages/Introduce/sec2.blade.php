@@ -41,7 +41,7 @@
                         {{__('introduction/section2.AREA')}} </p>
 
                 </div>
-                <ul class="col-md-9 right-text-sec2-intro-pc cabin-medium text-white" style="padding-left: 50px">
+                <ul class="col-md-9 right-text-sec2-intro-pc cabin-medium text-white" style="padding-left: 12%">
                     <li class="">
                         {{__('introduction/section2.1')}}
                     </li>
@@ -118,7 +118,7 @@
             {{__('introduction/section2.TYPICAL')}}
             {{__('introduction/section2.AREA')}}
         </p>
-        <ul class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15" style="padding-left: 50px">
+        <ul class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15" style="margin-right: 25px">
             <li class="">
                 {{__('introduction/section2.1')}}
             </li>

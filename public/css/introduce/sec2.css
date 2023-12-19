@@ -43,9 +43,9 @@
     justify-content: center;
     text-align: center;
     background-image: url("/images/introduce/sec2/Group 110.png");
-    background-size: 500% 105%; /* Phóng to theo chiều ngang 10%, chiều cao tự động điều chỉnh */
+    background-size: 500% 110%; /* Phóng to theo chiều ngang 10%, chiều cao tự động điều chỉnh */
     background-repeat: no-repeat;
-    background-position: center top -10px; /* Dịch chuyển hình nền xuống phía dưới */
+    background-position: center top -15px; /* Dịch chuyển hình nền xuống phía dưới */
 }
 
 .header2-sec2-intro-mb {
