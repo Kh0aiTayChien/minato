@@ -5,7 +5,7 @@ return [
     "PROJECT" => "DỰ ÁN",
     "INVESTOR" => "CHỦ ĐẦU TƯ",
     "Name" => "Công ty TNHH Minato Việt Nam (Đầu tư bởi Fujita & Takara Leben)",
-    "ADDRESS" => "ADDRESS",
+    "ADDRESS" => "ĐỊA CHỈ",
     "addressDetail" => "Lô B (CT1 và CT2) quần thể Dự án Khu đô thị Ven
                     sông Lạch Tray, phường Vĩnh Niệm, quận Lê Chân, Thành phố Hải Phòng",
     "TOTAL AREA" => "TỔNG DIỆN TÍCH",
