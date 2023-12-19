@@ -78,13 +78,13 @@
                                  alt="img-slide">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#section-tab1-carousel"
+                    <button class="carousel-control-prev mobile-space-prev" type="button" data-bs-target="#section-tab1-carousel"
                             data-bs-slide="prev">
                         <img src="{{asset('images/button/left.png')}}" alt="Previous"
                              class="button-shake img-carousel-arrow">
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#section-tab1-carousel"
+                    <button class="carousel-control-next mobile-space-next" type="button" data-bs-target="#section-tab1-carousel"
                             data-bs-slide="next">
                         <img src="{{asset('images/button/right.png')}}" alt="Next"
                              class="button-shake img-carousel-arrow">
@@ -274,4 +274,13 @@
         background-image: url("/images/homepage/section-6/background.png");
         background-size: cover;
     }
+    @media screen and (max-width: 800px){
+        .mobile-space-prev{
+            left: -15%;
+        }
+        .mobile-space-next{
+            right: -15%;
+        }
+    }
+
 </style>
