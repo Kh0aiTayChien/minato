@@ -11,7 +11,7 @@ return [
     "TOTAL AREA" => "TỔNG DIỆN TÍCH",
 
     "SCALE" => "QUY MÔ",
-    "scaleDetail" => "2 Tòa nhà với 26 tầng nổi, 1 hầm tầng hầm",
+    "scaleDetail" => "2 Tòa nhà với 26 tầng nổi, 1 tầng hầm",
     "TOTAL UNITS" => "TỔNG SỐ CĂN",
     "TYPICAL" => "DIỆN TÍCH",
     "AREA" => " ĐIỂN HÌNH",
