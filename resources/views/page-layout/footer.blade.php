@@ -183,7 +183,7 @@
             padding: 5% 5% 5% 8% !important;
         }
         .custom-padding-footer-last {
-            width: 50%;
+            width: 65%;
         }
     }
 
