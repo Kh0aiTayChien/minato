@@ -1,8 +1,11 @@
-<div class="sec2-tien-do-pc py-5">
-    <p class="header1-sec2-tien-do mulish-extrabold">THE MINATO RESIDENCE</p>
+<div class="sec2-tien-do-pc">
+    <div class="position-absolute d-flex justify-content-end align-content-center d-block d-sm-none" style="width: 140%; transform: translateX(-29%)">
+        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 28%;">
+    </div>
+    <p class="header1-sec2-tien-do mulish-extrabold" style="">THE MINATO RESIDENCE</p>
     <p class="header2-sec2-tien-do icielbegum d-none d-md-block" style="font-size: 2.66vw">{{ __('progress/sec2.title') }}</p>
     <p class="header2-sec2-tien-do icielbegum d-block d-md-none" style="font-size: 29px">{{ __('progress/sec2.title') }}</p>
-    <form class="row-test">
+    <form class="row-test" style="padding-bottom: 8%">
         <input class="col-md-3 col-xs-12 input-tien-do shadow-effect border-0 mulish-extrabold px-3" style="height: 3rem; font-size: 15px"
                placeholder="OTP CODE" type="number" id="fullnamem" name="OTP" required ><br>
         <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: #133351">
