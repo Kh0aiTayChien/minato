@@ -51,7 +51,7 @@
 
         <div class="carousel-pcs pb-5">
             <div class="mg02" style="">
-                <img src="{{asset('images/utility/vi/11.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
+                <img src="{{asset('images/utility/vi/Group 108.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
             </div>
             <div class="mg02"style="">
                 <img src="{{asset('images/utility/vi/12.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid">
