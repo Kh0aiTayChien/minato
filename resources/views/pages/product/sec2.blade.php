@@ -29,7 +29,7 @@
                 sự trang nhã của màu sắc và chất liệu thô mộc ấm áp, hòa quyện với bức tranh thiên nhiên hùng vĩ của núi
                 Phú Sĩ vẽ trên tường ngăn, cửa trượt Shoji </p>
             <p class="col-xs-12 text-sec2-product-pc cabin-medium pe-2 space-15" style="size: 15px">Mọi không gian sống
-                đều được chau chuốt tỉ mỉ bởi các kiến trúc sư Nhật Bản tài ba, các không
+                đều được trau truốt tỉ mỉ bởi các kiến trúc sư Nhật Bản tài ba, các không
                 gian được sử dụng triệt để, đa công năng nhưng không tạo ra sự chật chội. Hệ thống cửa kính lớn giúp căn
                 phòng tràn ngập ánh nắng tự nhiên và có tầm view hướng ra công viên Sakura xanh mát và sông Lạch Tray
                 thơ mộng.</p>

@@ -18,9 +18,9 @@ return [
     "2"=> "2 Bedroom Units: 66 - 88 m²",
     "3"=> "3 Bedroom Units: 97 - 111 m²",
 
-    "sub1" => "Construction density",
-    "sub2" => "ha Total area",
-    "sub3" => "High-end apartment buildings",
-    "sub4" => "High-end apartments",
-    "sub5" => "Types of apartment",
+    "sub1" => "CONSTRUCTION DENSITY",
+    "sub2" => "HA TOTAL AREA",
+    "sub3" => "HIGH-END APARTMENT BUILDINGS",
+    "sub4" => "HIGH-END APARTMENTS",
+    "sub5" => "TYPES OF APARTMENT",
 ];

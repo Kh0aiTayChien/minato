@@ -75,20 +75,20 @@
         <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('library.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.library') }}</a> </div>
         <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('contact.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.contact') }}</a> </div>
         <div class="text-center mt-3 text-menu-mb mulish-extrabold yellow-light-color">
-                <select onchange="window.location.href=this.value">
-                    @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
-                        @if($localeCode === 'en')
-                            <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                                <span class="flag-icon flag-icon-gb"></span>EN
-                            </option>
-                        @elseif($localeCode === 'vi')
-                            <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                                <span class="flag-icon flag-icon-vn"></span>VN
-                            </option>
-                        @endif
-                    @endforeach
-                </select>
-                <span class="fi fi-{{__('header.lang')}}"></span>
+            <select onchange="window.location.href=this.value" style="background-color: rgba(19, 51, 81, 0.4); color: white; border-color: transparent">
+                @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
+                    @if($localeCode === 'en')
+                        <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                            <span class="flag-icon flag-icon-gb" style="background-color: #0c85d0"></span> <p class="text-white">EN</p>
+                        </option>
+                    @elseif($localeCode === 'vi')
+                        <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                            <span class="flag-icon flag-icon-vn" style="background-color: #0c85d0"></span>VN
+                        </option>
+                    @endif
+                @endforeach
+            </select>
+            <span class="fi fi-{{__('header.lang')}}"></span>
         </div>
 
 {{--        <div class="text-center mt-2">--}}

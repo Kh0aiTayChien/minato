@@ -68,15 +68,15 @@
             </div>
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img src="{{asset('images/homepage/section-1/m3.jpg')}}" class="img-slide img-fluid"
+                    <img src="{{asset('images/homepage/section-1/eng/m3.jpg')}}" class="img-slide img-fluid"
                          alt="img-slide" style="height: 092vh">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('images/homepage/section-1/m2.jpg')}}" class="img-slide img-fluid "
+                    <img src="{{asset('images/homepage/section-1/eng/m2.jpg')}}" class="img-slide img-fluid "
                          alt="img-slide" style="height: 092vh">
                 </div>
                 <div class="carousel-item">
-                    <img src="{{asset('images/homepage/section-1/m1.jpg')}}" class="img-slide img-fluid "
+                    <img src="{{asset('images/homepage/section-1/eng/m1.jpg')}}" class="img-slide img-fluid "
                          alt="img-slide" style="height: 092vh">
                 </div>
             </div>
