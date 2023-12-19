@@ -8,7 +8,7 @@ return [
     'dt' => 'YÊU CẦU CHI TIẾT',
     'SHOWROOM' => 'VĂN PHÒNG BÁN HÀNG',
     'c1line1' => 'Chủ đầu tư: Công ty TNHH Minato Việt Nam',
-    'c1line2' => '(Đầu tư bởi Fujita & Takara Leben',
+    'c1line2' => '(đầu tư bởi Fujita & Takara Leben)',
     'c1line3' => 'Nhà thầu xây dựng: Công ty TNHH Fujita Việt Nam',
     'c1line4' => '(thuộc Fujita Corporation Nhật Bản)',
     'c1line5' => 'Quản lý vận hành: Leben Community Việt Nam',
