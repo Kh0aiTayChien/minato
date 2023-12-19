@@ -60,7 +60,7 @@
         </svg>
     </div>
     <div class="header-content d-flex justify-content-center align-content-center">
-        <img class="header-logo" src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" alt="LOGO" style="scale: 90%">
+        <a href="{{asset('/')}}" class=""><img class="header-logo" src="{{asset('images/header/Minato Logo gradient -01 1.png')}}" alt="LOGO" style="width: 65%; margin-left: 20%; margin-top: 3px;"></a>
     </div>
 </div>
 <div class="menu-dropdown d-none">
