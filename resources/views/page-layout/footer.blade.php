@@ -103,13 +103,11 @@
                     <div class="d-flex justify-content-start align-content-center mt-5 custom-padding-footer-last ">
                         <div class="cabin-medium text-white" style="font-size: 13px; letter-spacing: 1px">
                             <div class="investor">
-                                <p>{{__('footer.c1line1')}}</p>
-                                <p>{{__('footer.c1line2')}}</p>
+                                <p>{{__('footer.c1line1')}} <br>{{__('footer.c1line2')}}</p>
                             </div>
 
                             <div class="contractor">
-                                <p>{{__('footer.c1line3')}}</p>
-                                <p>{{__('footer.c1line4')}}</p>
+                                <p>{{__('footer.c1line3')}} <br> {{__('footer.c1line4')}}</p>
                             </div>
 
                             <div class="operation">
@@ -117,8 +115,7 @@
                             </div>
 
                             <div class="address">
-                                <p>{{__('footer.c1line6')}}</p>
-                                <p>{{__('footer.c1line7')}}</p>
+                                <p>{{__('footer.c1line6')}} {{__('footer.c1line7')}}</p>
                             </div>
 
                             <div class="scale">
@@ -175,10 +172,6 @@
     }
 
     @media only screen and (max-width: 800px) {
-        .custom-padding-footer-last {
-
-        }
-
         .custom-padding {
             padding: 10% 5% 5% 5% !important;
         }
@@ -188,6 +181,9 @@
 
         .custom-padding {
             padding: 5% 5% 5% 8% !important;
+        }
+        .custom-padding-footer-last {
+            width: 50%;
         }
     }
 
@@ -226,7 +222,7 @@
     .text-area {
         font-size: 14px;
         line-height: 1rem;
-        height: 8rem;
+        height: 7.1rem;
         letter-spacing: 0.57px;
         color: #FFFFFF;
         border: none;
