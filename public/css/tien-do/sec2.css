@@ -2,17 +2,16 @@
     display: block;
     text-align: center;
     justify-content: center;
-    padding-top: 5%;
-    padding-bottom: 5%;
     background-image: url("/images/tien-do/Group 107 (1).png");
-    background-size: 150% 150%;
+    background-size: cover;
     background-position: center -11px;
 }
 
 .header1-sec2-tien-do {
-   letter-spacing: 0.35rem;
+   letter-spacing: 0.33rem;
     font-size: 1.09vw;
     color: #43496B;
+    padding-top: 5%;
 }
 @media (max-width: 800px) {
     .header1-sec2-tien-do{
@@ -22,4 +21,18 @@
 
 .header2-sec2-tien-do {
     color: #133351;
+}
+
+@media screen and (max-width: 600px) {
+    .sec2-tien-do-pc {
+        display: block;
+        text-align: center;
+        justify-content: center;
+        background-image: url("/images/tien-do/Group 107 (1).png");
+        background-size: 250% 150%;
+        background-position: left -11px;
+    }
+    .header1-sec2-tien-do {
+        padding-top: 7%;
+    }
 }
