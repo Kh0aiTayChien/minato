@@ -125,13 +125,13 @@
                                  alt="img-slide">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#section-tab2-carousel"
+                    <button class="carousel-control-prev mobile-space-prev" type="button" data-bs-target="#section-tab2-carousel"
                             data-bs-slide="prev">
                         <img src="{{asset('images/button/left.png')}}" alt="Previous"
                              class="button-shake img-carousel-arrow">
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#section-tab2-carousel"
+                    <button class="carousel-control-next mobile-space-next" type="button" data-bs-target="#section-tab2-carousel"
                             data-bs-slide="next">
                         <img src="{{asset('images/button/right.png')}}" alt="Next"
                              class="button-shake img-carousel-arrow">
@@ -197,13 +197,13 @@
                                  alt="img-slide">
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#section-tab3-carousel"
+                    <button class="carousel-control-prev mobile-space-prev" type="button" data-bs-target="#section-tab3-carousel"
                             data-bs-slide="prev">
                         <img src="{{asset('images/button/left.png')}}" alt="Previous"
                              class="button-shake img-carousel-arrow">
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#section-tab3-carousel"
+                    <button class="carousel-control-next mobile-space-next" type="button" data-bs-target="#section-tab3-carousel"
                             data-bs-slide="next">
                         <img src="{{asset('images/button/right.png')}}" alt="Next"
                              class="button-shake img-carousel-arrow">
