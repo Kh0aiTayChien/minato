@@ -1,6 +1,6 @@
 <div class="section-7">
 
-    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4" style="font-size: 51px">
+    <div class="d-flex align-content-center justify-content-center icielbegum yellow-light-color mb-4" style="font-size: 29px">
         TIN TỨC KHÁC
     </div>
 
@@ -28,7 +28,7 @@
                                 <p class="height-text-card cabin-medium text-white" style="font-size: 15px; letter-spacing: 2px"><strong>{{\Illuminate\Support\Str::limit($article->title,60)}}</strong></p>
 
                                 <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4" style="font-size: 13px">
-                                    <a href="" class="yellow-light-color" style="text-decoration: unset">XEM
+                                    <a href="{{route('news.show',['slug' => $article->slug])}}" class="yellow-light-color" style="text-decoration: unset">XEM
                                         CHI TIẾT</a>
                                 </div>
                             </div>

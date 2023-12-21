@@ -33,15 +33,15 @@ class IndexController extends Controller
         OpenGraph::setTitle('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc');
         OpenGraph::setUrl('https://theminatoresidence.vn/vi/');
         OpenGraph::addProperty('type', 'article');
-        OpenGraph::addImage('');
+        OpenGraph::addImage('https://theminatoresidence.vn/images/homepage/section-1/L11.jpg');
 
         TwitterCard::setTitle('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc');
-        TwitterCard::setSite('');
+        TwitterCard::setSite('http://127.0.0.1:8000/images/homepage/section-1/L11.jpg');
 
         JsonLd::setTitle('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc');
         JsonLd::setDescription('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc
         Đầu tiên tại Miền Bắc. Công viên Sakura rộng 3000m2. Tinh hoa Nhật Bản - An yên giữa lòng phố Cảng' );
-        JsonLd::addImage('');
+        JsonLd::addImage('https://theminatoresidence.vn/images/homepage/section-1/L11.jpg');
         return view('pages/home-page/index', ['articles' => $articles]);
     }
 
