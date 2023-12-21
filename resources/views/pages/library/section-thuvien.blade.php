@@ -107,7 +107,7 @@
                 </div>
                 <div class="row mt-2">
                     <div class="col-md-4 d-flex justify-content-center align-content-center">
-                        <img src="{{asset('images/thuvien/tatca/C13.png')}}" alt="" class="img-fluid mb-2">
+                        <img src="{{asset('images/thuvien/tatca/C1 (1).png')}}" alt="" class="img-fluid mb-2">
                     </div>
                     <div class="col-md-4 d-flex justify-content-center align-content-center">
                         <img src="{{asset('images/thuvien/tatca/C14.png')}}" alt="" class="img-fluid mb-2">
