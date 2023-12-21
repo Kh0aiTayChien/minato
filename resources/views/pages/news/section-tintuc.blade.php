@@ -29,7 +29,7 @@
 
                                 <div class="d-flex align-content-center justify-content-start cabin-medium mt-5 mb-4"
                                      style="font-size: 13px">
-                                    <a href="" class="yellow-light-color" style="text-decoration: unset">{{ __('homepage/section7.detail') }}</a>
+                                    <a href="{{route('news.show',['slug' => $article->slug])}}" class="yellow-light-color" style="text-decoration: unset">{{ __('homepage/section7.detail') }}</a>
                                 </div>
                             </div>
                         </div>
