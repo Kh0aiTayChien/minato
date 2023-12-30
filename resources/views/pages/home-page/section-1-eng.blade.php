@@ -32,7 +32,6 @@
                          alt="img-slide"></a>
                 </div>
                 <div class="carousel-item">
-                    <div class="embed-responsive">
                         <video class="embed-responsive-item img-fluid w-100" style="" autoplay muted loop>
                             <source src="{{asset('images/homepage/section-1/video.mp4')}}" type="video/mp4">
                             Your browser does not support the video tag.

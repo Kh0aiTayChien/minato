@@ -6,7 +6,7 @@
     <p class="col-12 header2-sec7-v-hp  icielbegum space-51">
         THE MINATO RESIDENCE
     </p><br>
-    <a href="https://marcom3d.com/minato/" class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black">
+    <a target="_blank" href="https://marcom3d.com/minato/" class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black">
         {{__('homepage/section7-v.ExperienceVR360')}}
     </a>
 </div>
@@ -21,7 +21,7 @@
     </p><br>
     <div class="d-flex justify-content-center align-content-center">
         <div class="w-75">
-            <a href="https://marcom3d.com/minato/" class="double-border px-4 py-2 mulish-black space-15 btn-sec2-hp-mb">
+            <a target="_blank" href="https://marcom3d.com/minato/" class="double-border px-4 py-2 mulish-black space-15 btn-sec2-hp-mb">
                 {{__('homepage/section7-v.ExperienceVR360')}}
             </a>
         </div>
