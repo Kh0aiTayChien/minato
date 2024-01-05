@@ -85,6 +85,10 @@
                         <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
                             <span class="flag-icon flag-icon-vn" style="background-color: #0c85d0"></span>VN
                         </option>
+                    @elseif($localeCode === 'ja')
+                        <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                            <span class="flag-icon flag-icon-ja" style="background-color: #0c85d0"></span>VN
+                        </option>
                     @endif
                 @endforeach
             </select>
@@ -188,6 +192,10 @@
                         @elseif($localeCode === 'vi')
                             <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
                                 <span class="flag-icon flag-icon-vn" style="background-color: #0c85d0"></span>VN
+                            </option>
+                        @elseif($localeCode === 'ja')
+                            <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
+                                <span class="flag-icon flag-icon-ja" style="background-color: #0c85d0"></span>JPN
                             </option>
                         @endif
                     @endforeach
