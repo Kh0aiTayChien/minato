@@ -4,12 +4,16 @@
         @include('pages.home-page.section-1')
     @elseif(app()->getLocale() === 'en')
         @include('pages.home-page.section-1-eng')
+    @elseif(app()->getLocale() === 'ja')
+        @include('pages.home-page.section-1-ja')
     @endif
     @include('pages.home-page.sec2')
     @if(app()->getLocale() === 'vi')
         @include('pages.home-page.sec3')
     @elseif(app()->getLocale() === 'en')
         @include('pages.home-page.sec3-eng')
+    @elseif(app()->getLocale() === 'ja')
+        @include('pages.home-page.sec3-ja')
     @endif
     @include('pages.home-page.section-5')
     @include('pages.home-page.section-6')
