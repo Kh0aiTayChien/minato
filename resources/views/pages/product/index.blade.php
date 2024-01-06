@@ -9,5 +9,9 @@
         @include('pages.product.sec2-eng')
         @include('pages.product.sec3-eng')
         @include('pages.product.section-map-eng')
+    @elseif(app()->getLocale() === 'ja')
+        @include('pages.product.sec2-ja')
+        @include('pages.product.sec3-ja')
+        @include('pages.product.section-map-ja')
     @endif
 @stop
