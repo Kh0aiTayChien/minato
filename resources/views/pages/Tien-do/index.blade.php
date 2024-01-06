@@ -5,5 +5,7 @@
         @include('pages.Tien-do.sec2')
     @elseif(app()->getLocale() === 'en')
         @include('pages.Tien-do.sec2-eng')
+    @elseif(app()->getLocale() === 'ja')
+        @include('pages.Tien-do.sec2-ja')
     @endif
 @stop
