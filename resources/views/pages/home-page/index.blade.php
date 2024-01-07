@@ -7,7 +7,13 @@
     @elseif(app()->getLocale() === 'ja')
         @include('pages.home-page.section-1-ja')
     @endif
-    @include('pages.home-page.sec2')
+    @if(app()->getLocale() === 'vi')
+        @include('pages.home-page.sec2')
+    @elseif(app()->getLocale() === 'en')
+        @include('pages.home-page.sec2')
+    @elseif(app()->getLocale() === 'ja')
+        @include('pages.home-page.sec2-jp')
+    @endif
     @if(app()->getLocale() === 'vi')
         @include('pages.home-page.sec3')
     @elseif(app()->getLocale() === 'en')
@@ -18,5 +24,11 @@
     @include('pages.home-page.section-5')
     @include('pages.home-page.section-6')
     @include('pages.home-page.section-7')
-    @include('pages.home-page.sec7-v')
+    @if(app()->getLocale() === 'vi')
+        @include('pages.home-page.sec7-v')
+    @elseif(app()->getLocale() === 'en')
+        @include('pages.home-page.sec7-v')
+    @elseif(app()->getLocale() === 'ja')
+        @include('pages.home-page.sec7-v-jp')
+    @endif
 @stop
