@@ -74,7 +74,7 @@
         <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('progress.index'))}}" class="text-menu-mb mulish-extrabold">{{ __('header.progress') }}</a> </div>
         <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('library.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.library') }}</a> </div>
         <div class="text-center mt-3"><a href="{{ LaravelLocalization::localizeUrl(route('contact.index')) }}" class="text-menu-mb mulish-extrabold">{{ __('header.contact') }}</a> </div>
-        <div class="text-center mt-3 text-menu-mb mulish-extrabold yellow-light-color">
+        <div class="text-center mt-3 text-menu-mb mitr-light yellow-light-color">
             <select onchange="window.location.href=this.value" style="background-color: rgba(19, 51, 81, 0.4); color: white; border-color: transparent">
                 @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                     @if($localeCode === 'en')
@@ -87,7 +87,7 @@
                         </option>
                     @elseif($localeCode === 'ja')
                         <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                            <span class="flag-icon flag-icon-ja" style="background-color: #0c85d0"></span>JPN
+                            <span class="flag-icon flag-icon-ja" style="background-color: #0c85d0"></span>JP
                         </option>
                     @endif
                 @endforeach
@@ -182,7 +182,7 @@
             <li class="header-link-right">
                 <a href="{{ LaravelLocalization::localizeUrl(route('contact.index')) }}" id="lien-he-link"><p>{{ __('header.contact') }}</p></a>
             </li>
-            <li class="header-link-right position-absolute" style="right: 6%; font-size: x-small">
+            <li class="header-link-right position-absolute mitr-light" style="right: 6%; font-size: x-small">
                 <select onchange="window.location.href=this.value" style="background-color: rgba(19, 51, 81, 0.4); color: white; border-color: transparent">
                     @foreach(LaravelLocalization::getSupportedLocales() as $localeCode => $properties)
                         @if($localeCode === 'en')
@@ -195,7 +195,7 @@
                             </option>
                         @elseif($localeCode === 'ja')
                             <option value="{{ LaravelLocalization::getLocalizedURL($localeCode, null, [], true) }}" {{ LaravelLocalization::getCurrentLocale() == $localeCode ? 'selected' : '' }}>
-                                <span class="flag-icon flag-icon-ja" style="background-color: #0c85d0"></span>JPN
+                                <span class="flag-icon flag-icon-ja" style="background-color: #0c85d0"></span>JP
                             </option>
                         @endif
                     @endforeach

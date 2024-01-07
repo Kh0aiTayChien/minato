@@ -1,45 +1,40 @@
 <div class="section-5 pb-4 custom-padding-header-sec-5 ">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
-            <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
-                <div class="mulish-extrabold text-white mb-2 d-none d-md-block"
-                     style="font-size: 21px; letter-spacing: 0.35rem; text-transform: uppercase"> {{ __('homepage/section5.subTitle1') }}
-                </div>
-                <div
-                    class="mulish-extrabold text-white mb-2 d-md-none d-flex justify-content-center align-content-center"
-                    style="font-size: 13px; letter-spacing: 0.35rem; text-transform: uppercase"> {{ __('homepage/section5.subTitle1') }}
-                </div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw; text-transform: uppercase">
-                    {{ __('homepage/section5.mainTitle1') }}
-                </div>
-                <div class="icielbegum yellow-light-color d-none d-md-block" style="font-size: 2.65625vw;">
-                    {{ __('homepage/section5.mainTitle2') }}
-                </div>
-                <div
-                    class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center"
-                    style="font-size: 29px; line-height: 1.25; text-transform: uppercase">
-                    {{ __('homepage/section5.mainTitle1') }}
-                </div>
-                <div
-                    class="icielbegum yellow-light-color d-md-none d-flex justify-content-center align-content-center text-center"
-                    style="font-size: 29px; line-height: 1.25;"> {{ __('homepage/section5.mainTitle2') }}
-                </div>
+            <div class="col-xs-12 col-md-7 ">
+                <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem; line-height: 0.55"> 公共施設</div>
+                <div class="mulish-extrabold text-white mb-1 d-md-none text-center" style="font-size: 15px; letter-spacing: 0.35rem;"> 自然を享受する暮らし </div>
+                <div class="icielbegum yellow-light-color " style="font-size: 2.66vw; line-height: 0.55"> 充実のアメニティ</div>
             </div>
-            <div class="col-xs-12 col-md-5 text-white" style="" data-aos="fade-up" data-aos-duration="3000">
-                <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify;
-                letter-spacing: 1px; padding-top: 18.5%; padding-left: 12% ">
-                    <div class="cabin-medium " style="font-size: 15px">
-                        {{ __('homepage/section5.mainDocument') }}
+            <div class="col-xs-12 col-md-5 text-white">
+                <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                    <div class="cabin-medium " style="font-size: 15px; color: transparent;   user-select: none;"> The Minato Residence mang đến một thành phố
+                        xanh,
+
+                        hiện đại, và đẳng cấp, nơi cư dân thỏa sức
+                        trải
+                        nghiệm các
+
+                        tiện ích đẳng cấp chuẩn Nhật và môi trường
+                        thân
+                        thiện
                     </div>
                 </div>
-                <div class=" d-md-flex align-content-start justify-content-end d-md-none px-3 pt-3"
-                     style="width: 100%; text-align: justify; letter-spacing: 1px">
-                    <div class="cabin-medium " style="font-size: 13px">
-                        {{ __('homepage/section5.mainDocument') }}
+                <div class=" d-md-flex align-content-center justify-content-end d-md-none" style="width: 100%; text-align: justify; letter-spacing: 1px">
+                    <div class="cabin-medium " style="font-size: 13px;   user-select: none;"> The Minato Residence mang đến một thành phố
+                        xanh,
+
+                        hiện đại, và đẳng cấp, nơi cư dân thỏa sức
+                        trải
+                        nghiệm các
+
+                        tiện ích đẳng cấp chuẩn Nhật và môi trường
+                        thân
+                        thiện
                     </div>
                 </div>
-                <div class="ms-5 ps-5 me-5 pe-5 d-flex align-content-center justify-content-end" style="width: 100%">
-                    <div class="custom-dots" style="margin-right: 4%"></div>
+                <div class="ms-5 ps-5 me-5 pe-5 d-flex align-content-center justify-content-end" style="width: 100%; margin-top: 10%; transform: translateY(-65%)">
+                    <div class="custom-dots"></div>
                 </div>
             </div>
         </div>
@@ -56,20 +51,24 @@
 
             <div class="mg02">
                 @if(app()->getLocale() === 'vi')
-                    <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt="" style="margin-right: 0.2%"
+                    <img src="{{asset('images/homepage/section-5/congviensakura.png')}}" alt=""
+                         style="margin-right: 0.2%"
                          class="d-none d-md-block img-fluid">
                 @elseif(app()->getLocale() === 'en')
-                    <img src="{{asset('images/homepage/section-5/eng/congviensakura.png')}}" alt="" style="margin-right: 0.2%"
+                    <img src="{{asset('images/homepage/section-5/eng/congviensakura.png')}}" alt=""
+                         style="margin-right: 0.2%"
                          class="d-none d-md-block img-fluid">
                 @elseif(app()->getLocale() === 'ja')
-                    <img src="{{asset('images/homepage/section-5/ja/congviensakura.png')}}" alt="" style="margin-right: 0.2%"
+                    <img src="{{asset('images/homepage/section-5/ja/congviensakura.png')}}" alt=""
+                         style="margin-right: 0.2%"
                          class="d-none d-md-block img-fluid">
                 @endif
                 <img src="{{asset('images/homepage/section-5m/congviensakura.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide1') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide1') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide1') }}</p>
                 </div>
             </div>
 
@@ -89,7 +88,8 @@
                      class="d-block d-md-none  img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide2') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> {{ __('homepage/section5.subDocumentSlide2') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-4 text-center"> {{ __('homepage/section5.subDocumentSlide2') }}</p>
                 </div>
             </div>
 
@@ -106,9 +106,10 @@
                 @endif
                 <img src="{{asset('images/homepage/section-5m/38.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
-                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
+                <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide3') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide3') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide3') }}</p>
                 </div>
             </div>
 
@@ -128,7 +129,8 @@
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide4') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide4') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide4') }}</p>
                 </div>
             </div>
 
@@ -147,7 +149,8 @@
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide5') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide5') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide5') }}</p>
                 </div>
             </div>
 
@@ -166,10 +169,10 @@
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px">{{ __('homepage/section5.subTitleSlide6') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-4 text-center"> {{ __('homepage/section5.subDocumentSlide6') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-4 text-center"> {{ __('homepage/section5.subDocumentSlide6') }}</p>
                 </div>
             </div>
-
 
 
             <div class="mg02">
@@ -185,12 +188,12 @@
                 @endif
                 <img src="{{asset('images/homepage/section-5m/42.png')}}" alt="" style=""
                      class="d-block d-md-none img-fluid">
-                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
+                <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide7') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide7') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-3 text-center"> {{ __('homepage/section5.subDocumentSlide7') }}</p>
                 </div>
             </div>
-
 
 
             <div class="mg02">
@@ -208,15 +211,15 @@
                      class="d-block d-md-none img-fluid">
                 <div class="text-white mulish-extrabold text-center d-block d-md-none mt-3">
                     <p style="font-size: 13px"> {{ __('homepage/section5.subTitleSlide8') }}</p>
-                    <p style="font-size: 13px; text-align: justify" class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide8') }}</p>
+                    <p style="font-size: 13px; text-align: justify"
+                       class="cabin-medium px-5 text-center"> {{ __('homepage/section5.subDocumentSlide8') }}</p>
                 </div>
-
 
 
             </div>
         </div>
     </div>
-    <div class="d-flex align-content-center justify-content-center pb-2" >
+    <div class="d-flex align-content-center justify-content-center pb-2">
         <div class="btn-content-sec5-hp ">
             <a href="{{route('utility.index')}}"
                class="double-border px-5 space-21-btn btn-sec2-hp-pc mulish-black d-none d-md-block">
@@ -224,7 +227,8 @@
             </a>
 
             <a href="{{route('utility.index')}}"
-               class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none" style="transform: translateY(-90%)">
+               class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none"
+               style="transform: translateY(-90%)">
                 {{ __('homepage/section5.btn') }}
             </a>
         </div>
@@ -282,17 +286,21 @@
     .mg02 {
         margin-left: 0.2%
     }
-     .custom-padding-header-sec-5 {
-            padding: 5% 5% !important;
-        }
-    .y-mobile{
+
+    .custom-padding-header-sec-5 {
+        padding: 5% 5% !important;
+    }
+
+    .y-mobile {
 
     }
+
     @media (max-width: 800px) {
         .mg02 {
             margin-left: 0
         }
-        .y-mobile{
+
+        .y-mobile {
             transform: translateY(-10%);
         }
     }

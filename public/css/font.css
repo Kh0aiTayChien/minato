@@ -17,6 +17,13 @@
     font-family: 'Mulish-Black';
     src: url("/Fonts/Mulish-Black.ttf");
 }
+@font-face {
+    font-family: 'Mitr-Light';
+    src: url("/Fonts/Mitr-Light.ttf");
+}
+.mitr-light{
+    font-family: 'Mitr-Light', sans-serif;
+}
 
 .mulish-extrabold {
     font-family: 'Mulish-ExtraBold', sans-serif;
