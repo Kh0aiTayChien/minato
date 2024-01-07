@@ -140,18 +140,18 @@
                     <ul class="pagination custom-pagination">
                         <li class="page-item prev-page">
                             <a class="" href="#" aria-label="Previous">
-                                <img src="{{asset('images/button/left-blue.png')}}" alt="Previous" />
+                                <img src="{{asset('images/button/left-blue.png')}}" alt="Previous" style="height: 80%" />
                             </a>
                         </li>
                         <li class="page-item cabin-medium active" data-page="1">
-                            <div class="page-link rounded-circle" href="#">1</div>
+                            <div class="page-link " href="#">1</div>
                         </li>
                         <li class="page-item cabin-medium" data-page="2">
-                            <div class="page-link rounded-circle" href="#">2</div>
+                            <div class="page-link " href="#">2</div>
                         </li>
                         <li class="page-item next-page">
                             <a class="" href="#" aria-label="Next">
-                                <img src="{{asset('images/button/right-blue.png')}}" alt="Previous" />
+                                <img src="{{asset('images/button/right-blue.png')}}" alt="Next" style="height: 80%" />
                             </a>
                         </li>
                     </ul>
@@ -178,8 +178,8 @@
                     background-color: transparent; /* Màu nền */
                     border: 3px solid #133351; /* Màu viền */
                     color: #133351; /* Màu chữ */
-                    width: 50px; /* Kích thước */
-                    height: 50px; /* Kích thước */
+                    width: 40px; /* Kích thước */
+                    height: 40px; /* Kích thước */
                     display: flex; /* Hiển thị theo kiểu flex */
                     justify-content: center; /* Canh giữa nội dung */
                     align-items: center; /* Canh giữa nội dung */
