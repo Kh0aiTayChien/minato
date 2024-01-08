@@ -9,11 +9,11 @@
                     <div class="mulish-extrabold text-white d-flex  d-md-none"
                          style="letter-spacing: 0.35rem; font-size: 15px">THE MINATO RESIDENCE
                     </div>
-                    <div class="icielbegum yellow-light-color mt-3 d-none d-md-block"
+                    <div class="NotoSerifJP yellow-light-color mt-3 d-none d-md-block"
                          style="font-size: 2.66vw; width: 90%">
                         {{__('footer.headerForm')}}
                     </div>
-                    <div class="icielbegum yellow-light-color mt-3 d-flex  d-md-none "
+                    <div class="NotoSerifJP yellow-light-color mt-3 d-flex  d-md-none "
                          style="font-size: 29px">
                         {{__('footer.headerForm')}}
                     </div>
@@ -30,21 +30,21 @@
             <div class="row">
                 <div class="col-md-6 col-xs-12">
                     <div class="form-group contact-form  mt-3">
-                        <label for="contact_name" class="cabin-medium text-white" style="font-size: 13px">
+                        <label for="contact_name" class="NotoSerifJP text-white" style="font-size: 13px">
                             {{__('footer.fullName')}}
                         </label>
                         <br>
                         <input type="text" name="name" id="fullname" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
-                        <label for="contact_phone" class=" cabin-medium text-white" style="font-size: 13px">
+                        <label for="contact_phone" class=" NotoSerifJP text-white" style="font-size: 13px">
                             {{__('footer.phoneNumber')}}
                         </label>
                         <br>
                         <input type="text" name="phone" id="phone" class="mt-3">
                     </div>
                     <div class="form-group contact-form mt-3">
-                        <label for="contact_email" class="cabin-medium text-white"
+                        <label for="contact_email" class="NotoSerifJP text-white"
                                style="font-size: 13px">{{__('footer.emailAddress')}}</label>
                         <br>
                         <input type="text" name="email" id="email" class="mt-3">
@@ -52,7 +52,7 @@
                 </div>
                 <div class="col-md-6 col-xs-12">
                     <div class="form-group" style="">
-                        <label for="contact_content" class="cabin-medium text-white mt-3" style="font-size: 13px">
+                        <label for="contact_content" class="NotoSerifJP text-white mt-3" style="font-size: 13px">
                             {{__('footer.dt')}}
                         </label>
                         <br>
@@ -62,14 +62,14 @@
                         <div class="mt-5 d-none d-md-block" style="width: 80%">
                             <div class="btn-content-footer">
                                 <button onclick=""
-                                        class="double-border px-5 py-1 mulish-black space-21-btn">{{__('footer.btn')}}
+                                        class="double-border px-5 py-1 NotoSerifJP space-21-btn">{{__('footer.btn')}}
                                 </button>
                             </div>
                         </div>
                         <div class="mt-5 d-block d-md-none" style="width: 80%;">
                             <div class="">
                                 <button onclick=""
-                                        class="double-border px-5 py-1 mulish-black space-21-btn">{{__('footer.btn')}}
+                                        class="double-border px-5 py-1 NotoSerifJP space-21-btn">{{__('footer.btn')}}
                                 </button>
                             </div>
                         </div>
@@ -95,7 +95,7 @@
                 <div class="col-md-5 col-xs-12 mt-5">
                     <div class="">
                         <div
-                            class="cabin-medium yellow-light-color d-flex d-md-block "
+                            class="NotoSerifJP  yellow-light-color d-flex d-md-block "
                             style="font-size: 18px">{{__('footer.PROJECTINFOMATION')}}
                         </div>
                     </div>
@@ -132,7 +132,7 @@
                 <div class="col-md-5 col-xs-12 mt-5">
                     <div class="" style="width: 100%">
                         <div
-                            class="mulish-extrabold yellow-light-color d-flex d-md-block "
+                            class="NotoSerifJP  yellow-light-color d-flex d-md-block "
                             style="font-size: 18px">{{__('footer.SHOWROOM')}}
                         </div>
                     </div>
@@ -150,12 +150,12 @@
             </div>
         </div>
     </div>
-    <div class="about yellow-light-bg text-dark cabin-medium d-none d-md-block" style="font-size: 13px">
+    <div class="about yellow-light-bg text-dark NotoSerifJP d-none d-md-block" style="font-size: 13px">
         <div class="content py-2">
             {{__('footer.cp')}}
         </div>
     </div>
-    <div class="about yellow-light-bg text-dark cabin-medium d-block d-md-none" style="font-size: 13px">
+    <div class="about yellow-light-bg text-dark NotoSerifJP d-block d-md-none" style="font-size: 13px">
         <div class="content py-2 text-center" style="line-height: 1.25">
             {{__('footer.cpm1')}}
             <br>
