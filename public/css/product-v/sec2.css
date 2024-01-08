@@ -7,6 +7,16 @@
     scale: 101%;
 }
 
+.sec2-product-pc-jp {
+    background-image: url("/images/product/sec2/Group 103 (2).png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-top: 5.5%;
+    background-position: center -10px;
+    scale: 101%;
+    height: 110vh;
+}
+
 .img-sec2-product-pc {
     padding-left: 50px;
 }

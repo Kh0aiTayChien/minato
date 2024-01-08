@@ -7,41 +7,38 @@
                 <div class="col-md-12">
                     <p class="header1-sec2-intro-pc mulish-extrabold space-21-btn d-flex d-md-block justify-content-center align-content-center"
                        style="font-size: 21px">{{__('THE MINATO RESIDENCE')}}</p>
-                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block space-51"
+                    <p class="header2-sec2-intro-pc NotoSerifJP yellow-light-color d-none d-md-block space-51"
                        style="font-size: 51px">プロジェクト概要
                     </p>
-{{--                    <p class="header2-sec2-intro-pc icielbegum yellow-light-color d-none d-md-block space-51"--}}
-{{--                       style="font-size: 51px; line-height: 10px; padding-bottom: 5%">{{__('introduction/section2.PROJECT')}}</p>--}}
                 </div>
-                {{--                <div class="col-md-3 col-xxl-3"></div>--}}
             </div>
             <div class="row-test-1 col-md-12">
-                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">プロジェクト概要</p>
+                <p class="col-md-4 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">プロジェクト概要</p>
                 <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white space-15">
                     {{__('introduction/section2.Name')}}
                 </p>
             </div>
             <div class="row-test-1 col-md-12">
-                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">所在地
+                <p class="col-md-4 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">所在地
                 </p>
                 <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white space-15">{{__('introduction/section2.addressDetail')}}</p>
             </div>
             <div class="row-test-1 col-md-12">
-                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">敷地面積</p>
+                <p class="col-md-4 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">敷地面積</p>
                 <b></b>
                 <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white space-15">12.635,2 m2 </p>
             </div>
             <div class="row-test-1 col-md-12 space-15">
-                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color">規模</p>
+                <p class="col-md-4 left-text-sec2-intro-pc NotoSerifJP yellow-light-color">規模</p>
                 <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white">{{__('introduction/section2.scaleDetail')}}</p>
             </div>
             <div class="row-test-1 col-md-12 space-15">
-                <p class="col-md-4 left-text-sec2-intro-pc cabin-medium yellow-light-color">総戸数</p>
+                <p class="col-md-4 left-text-sec2-intro-pc NotoSerifJP yellow-light-color">総戸数</p>
                 <p class="col-md-8 right-text-sec2-intro-pc  cabin-medium text-white">924</p>
             </div>
             <div class="row-test-1 col-md-12 space-15">
                 <div class="col-md-3">
-                    <p class="col-md-12 left-text-sec2-intro-pc cabin-medium yellow-light-color">間取り・専有面積
+                    <p class="col-md-12 left-text-sec2-intro-pc NotoSerifJP yellow-light-color">間取り・専有面積
                     </p>
 
                 </div>
@@ -102,42 +99,42 @@
 
 <div class="d-block d-sm-none sec2-intro-mb pb-4 pt-4">
     <p class="header1-sec2-intro-pc mulish-extrabold space-21" style="font-size: 13px">THE MINATO RESIDENCE</p>
-    <p class="header2-sec2-intro-mb icielbegum d-flex d-md-none justify-content-center" style="font-size: 29px">
+    <p class="header2-sec2-intro-mb NotoSerifJP d-flex d-md-none justify-content-center" style="font-size: 29px">
         プロジェクト概要
     </p>
     {{--    <p class="header2-sec2-intro-mb icielbegum d-flex d-md-none justify-content-center" style="font-size: 32px"></p>--}}
     <img src="{{asset('images/introduce/sec2/Mask group (4).png')}}"
          class="col-11 img-fluid mb-4">
     <div class="col-12 row-test-2">
-        <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">プロジェクト概要
+        <p class="col-11 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">プロジェクト概要
         </p>
         <p class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15">
             {{__('introduction/section2.Name')}}
         </p>
     </div>
     <div class="col-12 row-test-2">
-        <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">所在地
+        <p class="col-11 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">所在地
         </p>
         <p class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15">
             {{__('introduction/section2.addressDetail')}}g</p>
     </div>
     <div class="col-12 row-test-2">
-        <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">所在地
+        <p class="col-11 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">所在地
         </p>
         <p class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15">12.635,2 m2</p>
     </div>
     <div class="col-12 row-test-2">
-        <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">規模
+        <p class="col-11 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">規模
         </p>
         <p class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15">{{__('introduction/section2.scaleDetail')}}</p>
     </div>
     <div class="col-12 row-test-2">
-        <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">総戸数
+        <p class="col-11 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">総戸数
         </p>
         <p class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15">924</p>
     </div>
     <div class="col-12 row-test-2">
-        <p class="col-11 left-text-sec2-intro-pc cabin-medium yellow-light-color space-15">
+        <p class="col-11 left-text-sec2-intro-pc NotoSerifJP yellow-light-color space-15">
             間取り・専有面積
         </p>
         <ul class="col-11 right-text-sec2-intro-pc  cabin-medium text-white space-15" style="margin-right: 25px">

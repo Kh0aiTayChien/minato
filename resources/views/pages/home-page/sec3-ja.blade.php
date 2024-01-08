@@ -2,7 +2,7 @@
     <div class="row-test">
         <div class="col-12 row-test" data-aos="fade-down" data-aos-duration="3000">
             <img src="{{asset('images/homepage/sec3/eng/09eng.png')}}" class="col-4">
-            <img src="{{asset('images/homepage/sec3/eng/pc-eng.png')}}" class="col-9">
+            <img src="{{asset('images/homepage/sec3/jp/9-lydo-pc.png')}}" class="col-9">
         </div>
     </div>
 </div>
@@ -13,7 +13,7 @@
                 <div class="col-12 row-test">
                     <img src="{{asset('images/homepage/sec3/eng/09eng.png')}}" class="col-6">
                 </div>
-        <img src="{{asset('images/homepage/sec3/eng/mobile-eng.png')}}" class="col-11">
+        <img src="{{asset('images/homepage/sec3/jp/Mobile.png')}}" class="col-11">
 {{--                <div class="col-12 row-test">--}}
 {{--                    <img src="{{asset('images/homepage/sec3/Group 83.png')}}" class="col-5 left-sec3-mb">--}}
 {{--                    <img src="{{asset('images/homepage/sec3/Group 78.png')}}" class="col-5 right-sec3-mb">--}}
