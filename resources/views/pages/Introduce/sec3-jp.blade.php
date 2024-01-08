@@ -15,7 +15,7 @@
     </div>
     <div class="row-test">
         <div class="col-6"></div>
-        <p class="col-5 text-sec3-intro-pc NNotoSerifJP space-15">
+        <p class="col-5 text-sec3-intro-pc NotoSerifJP space-15">
             日本の港区からインスピレーションを得て、先進的なデザインと、静謐でありながら活力に満ちた自然の景観を融合させた空間を演出しています。
             <br>コンドミニアム2棟の間に位置する桜公園をはじめ、スイミングプール、ジム、パーティルーム、屋内外に用意されたキッズスペースなど、充実の共用施設によって、敷地内で活力に満ちた日常を謳歌できます。
         </p>
