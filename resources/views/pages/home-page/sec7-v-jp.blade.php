@@ -1,9 +1,9 @@
 <div class="sec7-v-hp-pc d-none d-sm-block">
     <div class="col-12 ">
-        <p class="header-sec7-v-hp NotoSerifJP space-21">
+        <p class="header-sec7-v-hp NotoSerifJP">
             プロジェクトの敷地内・建物を360°のパノラマビューでご覧いただけます。
         </p></div>
-    <p class="col-12 header2-sec7-v-hp NotoSerifJP space-51">
+    <p class="col-12 header2-sec7-v-hp-jp NotoSerifJP">
         まるで実際にその場に立っているかのような感覚を、是非ご体感ください。
     </p><br>
     <a target="_blank" href="https://marcom3d.com/minato/" class="double-border px-5 space-21-btn btn-sec2-hp-pc NotoSerifJP-Bold">

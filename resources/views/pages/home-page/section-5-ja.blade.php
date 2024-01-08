@@ -227,7 +227,7 @@
             </a>
 
             <a href="{{route('utility.index')}}"
-               class="double-border px-4 py-1 btn-sec2-hp-mb mulish-extrabold d-block d-md-none"
+               class="double-border px-4 py-1 btn-sec2-hp-mb mulish-black d-block d-md-none"
                style="transform: translateY(-90%)">
                 {{ __('homepage/section5.btn') }}
             </a>
