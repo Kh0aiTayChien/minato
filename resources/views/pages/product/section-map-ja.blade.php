@@ -1,8 +1,8 @@
 <div class="section-map pt-5 pb-5">
-    <div class=" d-none d-md-flex justify-content-center align-items-center icielbegum " style="font-size: 51px; color: #141C46">
+    <div class=" d-none d-md-flex justify-content-center align-items-center NotoSerifJP   " style="font-size: 51px; color: #141C46">
         フロアプラン
     </div>
-    <div class=" d-flex d-md-none justify-content-center align-items-center icielbegum " style="font-size: 32px; color: #141C46">
+    <div class=" d-flex d-md-none justify-content-center align-items-center NotoSerifJP   " style="font-size: 32px; color: #141C46">
         フロアプラン
     </div>
     <div class="mt-4 mb-4" style="">

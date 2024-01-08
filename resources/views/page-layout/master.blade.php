@@ -65,9 +65,23 @@
     </style>
 </head>
 <body>
-@include('page-layout/header')
+@if(app()->getLocale() === 'vi')
+    @include('page-layout/header')
+@elseif(app()->getLocale() === 'en')
+    @include('page-layout/header')
+@elseif(app()->getLocale() === 'ja')
+    @include('page-layout/header-ja')
+@endif
+
 @yield('section')
-@include('page-layout/footer')
+
+@if(app()->getLocale() === 'vi')
+    @include('page-layout/footer')
+@elseif(app()->getLocale() === 'en')
+    @include('page-layout/footer')
+@elseif(app()->getLocale() === 'ja')
+    @include('page-layout/footer-ja')
+@endif
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();

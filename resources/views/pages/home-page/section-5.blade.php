@@ -1,7 +1,7 @@
 <div class="section-5 pb-4 custom-padding-header-sec-5 ">
     <div class="d-flex align-content-center justify-content-center pt-4 ">
         <div class="row">
-            <div class="col-xs-12 col-md-7 pc-padding" data-aos="fade-down" data-aos-duration="3000">
+            <div class="col-xs-12 col-md-7 pc-padding" >
                 <div class="mulish-extrabold text-white mb-2 d-none d-md-block"
                      style="font-size: 21px; letter-spacing: 0.35rem; text-transform: uppercase"> {{ __('homepage/section5.subTitle1') }}
                 </div>

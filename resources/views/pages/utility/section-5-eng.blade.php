@@ -225,7 +225,7 @@
                 </div>
             </div>
             <div class="mg02"style="">
-                <img src="{{asset('images/utility/6.png')}}" alt="" class="img-fluid">
+                <img src="{{asset('images/utility/5.png')}}" alt="" class="img-fluid">
                 <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> MAIN LOBBY</div>
                 <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 6%"> MAIN LOBBY</div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Luxurious Reception Space of Distinction </div>

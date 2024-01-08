@@ -8,27 +8,27 @@ return [
     experience Japanese-standard utilities and a friendly environment.",
 
     "subTitleSlide1" => "SAKURA PARK",
-    "subDocumentSlide1" => "A place to spread the tranquil Zen of Japan",
+    "subDocumentSlide1" => "",
 
     "subTitleSlide2" => "CHILDREN'S PLAYGROUND",
-    "subDocumentSlide2" => "A space for active young residents, offering an enchanting experience for their childhood.",
+    "subDocumentSlide2" => "",
 
-    "subTitleSlide3" => "OUTDOOR SWIMMING POOL",
-    "subDocumentSlide3" => "Submerge yourself in the cool, refreshing azure waters, allowing relaxation to wash over you.",
+    "subTitleSlide3" => "屋外スイミングプール",
+    "subDocumentSlide3" => "",
 
-    "subTitleSlide4" => "GYM ROOM",
-    "subDocumentSlide4" => "Dynamic sports to enhance health.",
+    "subTitleSlide4" => "ジムルーム",
+    "subDocumentSlide4" => "",
 
-    "subTitleSlide5" => "KIDS' ROOM",
-    "subDocumentSlide5" => "Filled with laughter and joy.",
+    "subTitleSlide5" => "キッズルーム",
+    "subDocumentSlide5" => "",
 
-    "subTitleSlide6" => "ROOFTOP CAFE",
-    "subDocumentSlide6" => "Panoramic views of the entire city of Hai Phong and the Lach Tray River.",
+    "subTitleSlide6" => "ルーフトップカフェ",
+    "subDocumentSlide6" => "",
 
-    "subTitleSlide7" => "PARTY ROOM",
-    "subDocumentSlide7" => "Elegant and luxurious.",
+    "subTitleSlide7" => "パーティルーム",
+    "subDocumentSlide7" => "",
 
-    "subTitleSlide8" => "RECEPTION HALL",
-    "subDocumentSlide8" => "Polite and sophisticated, following the Eastern design influence.",
+    "subTitleSlide8" => "レセプションホール",
+    "subDocumentSlide8" => "",
     'btn' => 'SEE MORE UTILITIES',
 ];
