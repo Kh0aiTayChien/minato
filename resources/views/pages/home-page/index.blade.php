@@ -21,7 +21,13 @@
     @elseif(app()->getLocale() === 'ja')
         @include('pages.home-page.sec3-ja')
     @endif
-    @include('pages.home-page.section-5')
+    @if(app()->getLocale() === 'vi')
+        @include('pages.home-page.section-5')
+    @elseif(app()->getLocale() === 'en')
+        @include('pages.home-page.section-5')
+    @elseif(app()->getLocale() === 'ja')
+        @include('pages.home-page.section-5-ja')
+    @endif
     @include('pages.home-page.section-6')
     @include('pages.home-page.section-7')
     @if(app()->getLocale() === 'vi')
