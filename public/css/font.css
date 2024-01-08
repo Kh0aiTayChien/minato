@@ -30,8 +30,17 @@
     src: url("/Fonts/NotoSerifJP-Regular.otf");
 }
 
+@font-face {
+    font-family: 'NotoSerifJP-Bold';
+    src: url("/Fonts/NotoSerifJP-Bold.otf");
+}
+
 .NotoSerifJP {
     font-family: 'NotoSerifJP-Regular', sans-serif;
+}
+
+.NotoSerifJP-Bold {
+    font-family: 'NotoSerifJP-Bold', sans-serif;
 }
 
 .mulish-extrabold {

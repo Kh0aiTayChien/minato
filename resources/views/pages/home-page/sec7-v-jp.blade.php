@@ -6,7 +6,7 @@
     <p class="col-12 header2-sec7-v-hp NotoSerifJP space-51">
         まるで実際にその場に立っているかのような感覚を、是非ご体感ください。
     </p><br>
-    <a target="_blank" href="https://marcom3d.com/minato/" class="double-border px-5 space-21-btn btn-sec2-hp-pc NotoSerifJP">
+    <a target="_blank" href="https://marcom3d.com/minato/" class="double-border px-5 space-21-btn btn-sec2-hp-pc NotoSerifJP-Bold">
         VR360を体験する
     </a>
 </div>
@@ -21,7 +21,7 @@
     </p><br>
     <div class="d-flex justify-content-center align-content-center">
         <div class="w-75">
-            <a target="_blank" href="https://marcom3d.com/minato/" class="double-border px-4 py-2 NotoSerifJP space-15 btn-sec2-hp-mb">
+            <a target="_blank" href="https://marcom3d.com/minato/" class="double-border px-4 py-2 NotoSerifJP-Bold space-15 btn-sec2-hp-mb">
                 VR360を体験する
             </a>
         </div>
