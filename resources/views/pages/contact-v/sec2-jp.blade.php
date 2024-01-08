@@ -5,11 +5,11 @@
             referrerpolicy="no-referrer-when-downgrade"></iframe>
     <div class="col-3 content-sec2-contact-pc">
         <p class="header1-sec2-contact-pc mulish-extrabold space-21">The Minato Residence</p>
-        <p class="header2-sec2-contact-pc icielbegum">お問い合わせ
+        <p class="header2-sec2-contact-pc NotoSerifJP">お問い合わせ
         </p>
         <p class="header3-sec2-contact-pc mulish-extrabold">HOTLINE</p>
         <p class="header4-sec2-contact-pc cabin-medium">1800 577783</p>
-        <p class="header3-sec2-contact-pc mulish-extrabold">ショールーム所在地
+        <p class="header3-sec2-contact-pc NotoSerifJP">ショールーム所在地
         </p>
         <p class="text-sec2-contact-pc cabin-medium space-15">{{ __('contact/sec2.2') }}</p>
     </div>
@@ -20,11 +20,11 @@
     {{--        <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 40%;">--}}
     {{--    </div>--}}
     <p class="header1-sec2-contact-mb mulish-extrabold space-21">The Minato Residence</p>
-    <p class="header2-sec2-contact-mb icielbegum">お問い合わせ
+    <p class="header2-sec2-contact-mb NotoSerifJP">お問い合わせ
     </p>
     <p class="header3-sec2-contact-mb mulish-extrabold space-21">HOTLINE</p>
     <p class="header4-sec2-contact-mb cabin-medium">1800 577783</p>
-    <p class="header3-sec2-contact-mb mulish-extrabold">ショールーム所在地
+    <p class="header3-sec2-contact-mb NotoSerifJP">ショールーム所在地
     </p>
     <p class="text-sec2-contact-mb cabin-medium">{{ __('contact/sec2.2') }}</p>
     <iframe class="col-11"

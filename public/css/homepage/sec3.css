@@ -1,8 +1,9 @@
 .sec3-hp-pc {
     background-image: url("/images/homepage/sec3/Group 102.png");
-    background-size: cover;
+    background-size: 105% 100%;
     padding-bottom: 50%;
     padding-top: 5%;
+    background-position: center left -10px;
 }
 
 .left-img-sec3-hp {

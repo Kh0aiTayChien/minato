@@ -18,6 +18,15 @@
     src: url("/Fonts/Mulish-Black.ttf");
 }
 
+@font-face {
+    font-family: 'NotoSerifJP-Regular';
+    src: url("/Fonts/NotoSerifJP-Regular.otf");
+}
+
+.NotoSerifJP {
+    font-family: 'NotoSerifJP-Regular', sans-serif;
+}
+
 .mulish-extrabold {
     font-family: 'Mulish-ExtraBold', sans-serif;
     font-weight: 800;

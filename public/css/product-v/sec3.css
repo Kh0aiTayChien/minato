@@ -33,6 +33,7 @@
 .text-sec3-product-pc {
     color: white;
     font-size: 15px;
+    transform: translateX(-2%);
 }
 
 .text-sec3-product-mb {
@@ -44,8 +45,13 @@
 }
 
 .img-sec3-product-pc {
+    padding-top: 25%;
+}
+
+.img-sec3-product-jp-pc {
     padding-top: 45%;
 }
+
 
 .header1-sec2-product-mb {
     font-size: 13px;

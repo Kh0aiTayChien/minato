@@ -34,7 +34,9 @@
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.0.0/css/flag-icons.min.css"
     />
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap" rel="stylesheet">
     <link href="{{asset('/css/header.css')}}" rel="stylesheet">
     <link href="{{asset('/css/footer.css')}}" rel="stylesheet">
     <link href="{{asset('/css/font.css')}}" rel="stylesheet">
