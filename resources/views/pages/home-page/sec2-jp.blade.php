@@ -11,7 +11,7 @@
                data-aos-duration="3000">
                 日本のライフスタイルを目指して、THE MINATO RESIDENCEが誕生。ラックチャイ川を見渡すここには、利便性と自然環境が調和し、ここに住まう歓びを穏やかに感じられる空気感が満ちています。
             </p>
-            <a href="{{route('introduce.index')}}" class="double-border first-text-hp px-3 NotoSerifJP space-21-btn"
+            <a href="{{route('introduce.index')}}" class="double-border first-text-hp px-3 NotoSerifJP-Bold space-21-btn"
                data-aos="fade-up" data-aos-duration="3000">
                 もっと見る
             </a>
@@ -38,7 +38,7 @@
             </div>
             <div class="btn-content2-sec2-hp">
                 <a href="{{route('location.index')}}"
-                   class="btn-content2-sec2-hp double-border px-3 NotoSerifJP space-21-btn">もっと見る
+                   class="btn-content2-sec2-hp double-border px-3 NotoSerifJP-Bold space-21-btn">もっと見る
                 </a>
             </div>
         </div>
@@ -54,7 +54,7 @@
     <p class="text-hp-mb NotoSerifJP mt-4">日本のライフスタイルを目指して、THE MINATO RESIDENCEが誕生。ラックチャイ川を見渡すここには、利便性と自然環境が調和し、ここに住まう歓びを穏やかに感じられる空気感が満ちています。
     </p>
     <img src="{{asset('images/homepage/sec2/Mask group (3).png')}}" class="col-11 img-sec2-hp-mb">
-    <a href="#" class="double-border px-4 py-1 btn-sec2-hp-mb NotoSerifJP space-15">
+    <a href="#" class="double-border px-4 py-1 btn-sec2-hp-mb NotoSerifJP-Bold space-15">
         もっと見る
     </a>
     <p class="header-first-line-hp-mb line-height-cap mulish-extrabold pt-5">{{ __('homepage/section2.mainTitle3') }}</p>
@@ -66,7 +66,7 @@
     <p class="text-hp-mb NotoSerifJP mt-4">その美しさから愛されるラックチャイ川のほとり、ハイフォン市の新興エリア「ウォーターフロントシティ」の中心に位置。多種多様な飲食店、ショッピングはもちろん、寛ぎや散歩の時間も優雅に愉しめます。
     </p>
     <img src="{{asset('images/homepage/sec2/image 6.png')}}" class="col-11 img-sec2-hp-mb">
-    <a href="{{route('location.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb NotoSerifJP space-15">
+    <a href="{{route('location.index')}}" class="double-border px-4 py-1 btn-sec2-hp-mb NotoSerifJP-Bold space-15">
         もっと見る
     </a>
 </div>
