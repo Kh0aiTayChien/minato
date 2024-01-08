@@ -25,6 +25,15 @@
     font-family: 'Mitr-Light', sans-serif;
 }
 
+@font-face {
+    font-family: 'NotoSerifJP-Regular';
+    src: url("/Fonts/NotoSerifJP-Regular.otf");
+}
+
+.NotoSerifJP {
+    font-family: 'NotoSerifJP-Regular', sans-serif;
+}
+
 .mulish-extrabold {
     font-family: 'Mulish-ExtraBold', sans-serif;
     font-weight: 800;
