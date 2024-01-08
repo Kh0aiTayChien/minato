@@ -45,7 +45,7 @@
                     </div>
                     <div class="form-group contact-form mt-3">
                         <label for="contact_email" class="cabin-medium text-white"
-                               style="font-size: 13px">EMAIL</label>
+                               style="font-size: 13px">{{__('footer.emailAddress')}}</label>
                         <br>
                         <input type="text" name="email" id="email" class="mt-3">
                     </div>

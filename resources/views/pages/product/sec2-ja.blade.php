@@ -15,7 +15,7 @@
     </div>
     <div class="row-test container-sec2-product-pc">
         <div class="col-lg-7  col-xs-12 " style="letter-spacing: 1px;  padding-left: 1%; padding-bottom: 5%; ">
-            <p class="header2-sec2-product-pc icielbegum d-none d-md-block" style="; font-size: 2.66vw; color: #BA322E; color: transparent;   user-select: none;">
+            <p class="header2-sec2-product-pc icielbegum d-none d-md-block" style="; font-size: 2.66vw; color: #BA322E; ">
                 ZEN PHILOSOPHY</p>
             <p class="header2-sec2-product-pc icielbegum d-block d-md-none" style="font-size: 32px; color: #BA322E">
                 ZEN PHILOSOPHY</p>
@@ -33,7 +33,7 @@
                 Sample apartment images
                 for reference, furniture not included upon handover.</p>
         </div>
-        <img src="{{asset('images/product/sec2/Group 102 (1).png')}}"
+        <img src=""
              class="col-lg-4 col-xs-12 img-fluid ps-5 pe-5 pb-5">
     </div>
 </div>
