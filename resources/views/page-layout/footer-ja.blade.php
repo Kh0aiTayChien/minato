@@ -62,14 +62,14 @@
                         <div class="mt-5 d-none d-md-block" style="width: 80%">
                             <div class="btn-content-footer">
                                 <button onclick=""
-                                        class="double-border px-5 py-1 NotoSerifJP space-21-btn">{{__('footer.btn')}}
+                                        class="double-border px-5 py-1 NotoSerifJP-Bold space-21-btn">{{__('footer.btn')}}
                                 </button>
                             </div>
                         </div>
                         <div class="mt-5 d-block d-md-none" style="width: 80%;">
                             <div class="">
                                 <button onclick=""
-                                        class="double-border px-5 py-1 NotoSerifJP space-21-btn">{{__('footer.btn')}}
+                                        class="double-border px-5 py-1 NotoSerifJP-Bold space-21-btn">{{__('footer.btn')}}
                                 </button>
                             </div>
                         </div>

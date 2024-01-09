@@ -13,11 +13,11 @@
 
 <div class="sec7-v-hp-mb d-block d-sm-none">
     <div class="col-12">
-        <p class="header-sec7-v-hp-mb mulish-extrabold" style="font-size: 13px">
-            {{__('homepage/section7-v.title1')}}
+        <p class="header-sec7-v-hp-mb NotoSerifJP" style="font-size: 13px; width: 90vw; margin-left: 5%">
+            プロジェクトの敷地内・建物を360°のパノラマビューでご覧いただけます。
         </p></div>
-    <p class="col-12 header2-sec7-v-hp-mb icielbegum">
-        THE MINATO RESIDENCE
+    <p class="col-12 header2-sec7-v-hp-mb NotoSerifJP" style="width: 90vw; margin-left: 5%">
+        まるで実際にその場に立っているかのような感覚を、是非ご体感ください。
     </p><br>
     <div class="d-flex justify-content-center align-content-center">
         <div class="w-75">
