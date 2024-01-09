@@ -4,7 +4,7 @@
             <div class="col-xs-12 col-md-7 ">
                 <div class="mulish-extrabold text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem; line-height: 0.55"> 公共施設</div>
                 <div class="mulish-extrabold text-white mb-1 d-md-none text-center" style="font-size: 15px; letter-spacing: 0.35rem;"> 自然を享受する暮らし </div>
-                <div class="icielbegum yellow-light-color " style="font-size: 2.66vw; line-height: 0.55"> 充実のアメニティ</div>
+                <div class="yellow-light-color NotoSerifJP" style="font-size: 2.66vw; line-height: 0.55"> 自然を享受する暮らし</div>
             </div>
             <div class="col-xs-12 col-md-5 text-white">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
