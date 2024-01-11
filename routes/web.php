@@ -1,5 +1,6 @@
 <?php
 use App\Http\Controllers\ArticleController;
+use App\Http\Controllers\UserController;
 use App\Http\Controllers\HomeController;
 use App\Http\Controllers\HomePage\IndexController;
 use App\Http\Controllers\Introduce\IntroduceController;
@@ -37,6 +38,7 @@ Route::prefix('admin')->middleware('auth')->group(function () {
     Route::resource('images', 'ImageController');
     Route::resource('products', 'ProductController');
     Route::resource('articles', 'ArticleController')->except(['index']);
+    Route::resource('users', 'UserController');
     Route::get('index/{conditionView}', [ArticleController::class, 'index'])->name('articles.index');
     Route::delete('articles/forceDel/{article} ', [ArticleController::class, 'forceDestroy'])->name('articles.forceDestroy');
     Route::post('articles/trash/{article} ', [ArticleController::class, 'restore'])->name('articles.restore');
