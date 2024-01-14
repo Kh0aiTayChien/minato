@@ -15,6 +15,7 @@
     </form>
 </div>
 <div class="secret d-none">
+{{--    test--}}
     @foreach($images_tien_do_en as $key => $image)
         <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
             <img src="{{$image->image_url}}" class="w-100 img-fluid" alt="img-slide" data-url="{{$image->url}}">
