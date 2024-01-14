@@ -99,15 +99,15 @@
 
                         <div class="pl-lg-4">
                             <div class="row">
-{{--                                <div class="col-lg-6">--}}
-{{--                                    <div class="form-group focused">--}}
-{{--                                        <label class="form-control-label" for="title">Tiêu đề ảnh<span--}}
-{{--                                                class="small text-danger">*</span></label>--}}
-{{--                                        <input type="text" id="name" class="form-control" name="name"--}}
-{{--                                               value="{{$image->name}}"--}}
-{{--                                               placeholder="tên ảnh">--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
+                                <div class="col-lg-6">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Tiêu đề ảnh<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="name" class="form-control" name="name"
+                                               value="{{$image->name}}"
+                                               placeholder="tên ảnh">
+                                    </div>
+                                </div>
                                 <div class="col-lg-12">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="category">Chủ đề<span class="small text-danger">*</span></label>
@@ -126,7 +126,7 @@
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="image"> Upload ảnh tại đây <span
                                                 class="small text-danger">*</span></label>
-                                        <input type="file" id="image" class="form-control" name="image"
+                                        <input type="file" id="image" class="form-control" name="image_url"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
                                     </div>
                                 </div>

@@ -72,7 +72,7 @@
             <div class="carousel-inner">
                 @foreach($images_vietnamese_mobile as $key => $image)
                     <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
-                        <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}">
+                        <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}" style="height: 092vh">
                     </div>
                 @endforeach
             </div>
