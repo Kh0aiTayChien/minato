@@ -98,7 +98,6 @@ class ImageController extends Controller
         }
         $image->name = $request->name;
         $image->category_id = $validatedData['category'];
-        $image->url = $request->url;
 //        dd($image);
         $image->save();
 
