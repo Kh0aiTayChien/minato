@@ -15,13 +15,18 @@
     </form>
 </div>
 <div class="secret d-none">
-    <img src="{{asset('images/tien-do/11.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/22.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/33.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/44.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/55.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/66.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/77.jpg')}}" alt="" class="w-100">
+    @foreach($images_tien_do_vi as $key => $image)
+        <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
+            <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}">
+        </div>
+    @endforeach
+{{--    <img src="{{asset('images/tien-do/11.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/22.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/33.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/44.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/55.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/66.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/77.jpg')}}" alt="" class="w-100">--}}
 </div>
 <style>
     .btn {
