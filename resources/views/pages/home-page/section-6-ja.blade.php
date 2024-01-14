@@ -28,21 +28,21 @@
             <div class="col-md-3 col-xs-0"></div>
             <div class="col-md-2  d-flex justify-content-center align-content-center ">
                 <button class="tab-button btn btn-block blue-border-bottom
-                                 text-white  mulish-extrabold button-shake active"
+                                 text-white  NotoSerifJP button-shake active"
                         data-target="tab1" style="width: 100%">
                     <div class=" font-size-custom" style="font-size: 13px">{{ __('homepage/section6.subTitleSlide1')}}</div>
                 </button>
             </div>
             <div class="col-md-2 d-flex justify-content-center align-content-center">
                 <button class="tab-button btn  btn-block  blue-border-bottom
-                                 text-white  mulish-extrabold button-shake"
+                                 text-white  NotoSerifJP button-shake"
                         data-target="tab2" style="width: 100%">
                     <div class="  font-size-custom" style="font-size: 13px">{{ __('homepage/section6.subTitleSlide2')}}</div>
                 </button>
             </div>
             <div class="col-md-2 d-flex justify-content-center align-content-center">
                 <button class="tab-button btn  btn-block  blue-border-bottom
-                                 text-white  mulish-extrabold button-shake"
+                                 text-white  NotoSerifJP button-shake"
                         data-target="tab3" style="width: 100%">
                     <div class=" font-size-custom" style="font-size: 13px">{{ __('homepage/section6.subTitleSlide3')}}</div>
                 </button>
