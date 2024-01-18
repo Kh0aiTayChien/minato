@@ -15,10 +15,8 @@
     </form>
 </div>
 <div class="secret d-none">
-    @foreach($images_tien_do_ja as $key => $image)
-        <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
-            <img src="{{$image->image_url}}" class="w-100 img-fluid" alt="img-slide" data-url="{{$image->url}}">
-        </div>
+    @foreach($images_tien_do_ja as $image)
+        <img src="{{$image->image_url}}" class="w-100 img-fluid" alt="img-slide">
     @endforeach
 {{--    <img src="{{asset('images/tien-do/1E.jpg')}}" alt="" class="w-100">--}}
 {{--    <img src="{{asset('images/tien-do/2E.jpg')}}" alt="" class="w-100">--}}

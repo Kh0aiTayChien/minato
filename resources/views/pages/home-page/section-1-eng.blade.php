@@ -15,7 +15,7 @@
             <div class="carousel-inner">
                 @foreach($images_english_pc as $key => $image)
                     <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
-                        <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}">
+                        <img src="{{$image->image_url}}" class="img-slide img-fluid" alt="img-slide" data-url="{{$image->url}}">
                     </div>
                 @endforeach
 {{--                <div class="carousel-item active">--}}
