@@ -1,5 +1,5 @@
 <div class="sec2-product-pc-jp d-none d-sm-block">
-    <p class="mainheader1-sec2-product-pc NotoSerifJP d-none d-md-block" style="font-size: 2.66vw; color: #141C46">ハイフォン初　日系コンドミニアム
+    <p class="mainheader1-sec2-product-pc NotoSerifJP d-none d-md-block" style="font-size: 2.66vw; color: #141C46">ベトナム北部初のオール日系企業によるコンドミニアム
     </p>
 {{--    <p class="mainheader2-sec2-product-pc icielbegum d-none d-md-block"--}}
 {{--       style="font-size: 2.66vw; color: #BA322E; line-height: 10px; padding-bottom: 2%">APPEAR FOR THE FIRST TIME IN HAI PHONG</p>--}}
@@ -41,7 +41,7 @@
 </div>
 
 <div class="sec2-product-mb d-block d-sm-none">
-    <p class="mainheader1-sec2-product-mb NotoSerifJP" style="color: #141C46; padding-bottom: 3%">ハイフォン初　日系コンドミニアム</p>
+    <p class="mainheader1-sec2-product-mb NotoSerifJP" style="color: #141C46; padding-bottom: 3%">ベトナム北部初のオール日系企業によるコンドミニアム</p>
 {{--    <p class="mainheader2-sec2-product-mb icielbegum"--}}
 {{--       style="font-size: 25px; color: #BA322E; padding-bottom: 2%; line-height: 28px">APPEAR FOR THE FIRST TIME  <br> IN HAI PHONG</p>--}}
     <img src="{{asset('images/product/sec2/aTIN_6451_ 1.png')}}" class="col-11" style="margin-top: -6%">

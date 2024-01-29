@@ -3,8 +3,8 @@
         <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 28%;">
     </div>
     <p class="header1-sec4-intro-pc mulish-extrabold space-21" style="text-transform: uppercase">{{__('introduction/section4.subTitle1')}}</p>
-    <p class="header2-sec4-intro-pc NotoSerifJP space-51">フジタとタカラレーベンが開発・建築を担い、</p>
-    <p class="header3-sec4-intro-pc NotoSerifJP space-51">管理はレーベンコミュニティ ベトナムが担う</p>
+    <p class="header2-sec4-intro-pc NotoSerifJP space-51">フジタとタカラレーベンが開発・建築を、<br>レーベンコミュニティベトナムが管理を担う、</p>
+    <p class="header3-sec4-intro-pc NotoSerifJP space-51">ベトナム北部初のオール日系企業によるコンドミニアム</p>
     <p class="header21-sec4-intro-pc  NotoSerifJP space-51">開発・建築・管理までオール日系企業となる、ベトナム北部初のコンドミニアム
     </p>
     <div class="row-test space-15 pt-5">
@@ -22,9 +22,9 @@
         <img src="{{asset('/images/introduce/sec3/sun.png')}}" alt="" class="" style="width: 40%;">
     </div>
     <p class="header1-sec4-intro-mb mulish-extrabold" style="padding-top: 10%; text-transform: uppercase">{{__('introduction/section4.subTitle1')}}</p>
-    <p class="header2-sec4-intro-mb NotoSerifJP" style="line-height: 1.5">フジタとタカラレーベンが開発・建築を担い、</p>
+    <p class="header2-sec4-intro-mb NotoSerifJP" style="line-height: 1.5">フジタとタカラレーベンが開発・建築を、レーベンコミュニティベトナムが管理を担う、</p>
 {{--    <p class="header2-sec4-intro-mb icielbegum" style="line-height: 1">{{__('introduction/section4.mainTitle1m2')}}</p>--}}
-    <p class="header3-sec4-intro-mb NotoSerifJP" style="line-height: 1">管理はレーベンコミュニティ ベトナムが担う</p>
+    <p class="header3-sec4-intro-mb NotoSerifJP" style="line-height: 1">ベトナム北部初のオール日系企業によるコンドミニアム</p>
 {{--    <p class="header3-sec4-intro-mb icielbegum" style="line-height: 1">{{__('introduction/section4.mainTitle2m2')}}</p>--}}
     <p class="header21-sec4-intro-mb NotoSerifJP" style="line-height: 1.2">開発・建築・管理までオール日系企業となる、ベトナム北部初のコンドミニアム</p>
     <div class="row-test">
