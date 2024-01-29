@@ -1,7 +1,7 @@
 <?php
 return [
-    "Title1" => "ハイフォン初の日系コンドミニアム",
-    "Title1mobile1" => "ハイフォン初の日系コンドミニアム",
+    "Title1" => "ベトナム北部初のオール日系コンドミニアム",
+    "Title1mobile1" => "ベトナム北部初のオール日系コンドミニアム",
     "Title1mobile2" => "",
         "Title2" => "",
     "Title2mobile1" => "",
