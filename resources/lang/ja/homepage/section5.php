@@ -1,7 +1,7 @@
 <?php
 return [
     "subTitle1" => "公共施設",
-    "mainTitle1" => "自然を享受する暮らし",
+    "mainTitle1" => "自然と調和した豊かなライフスタイルへ",
     "mainTitle2" => "",
     "mainDocument" => "Utilities System: Living amidst nature - Enjoying multi-tiered Japanese-standard
     utilities. The Minato Residence brings a modern and luxurious green city where residents can fully

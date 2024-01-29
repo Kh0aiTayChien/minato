@@ -120,28 +120,28 @@
             </div>
         </li>
 
-{{--        <li class="nav-item">--}}
-{{--            <a class="nav-link" data-toggle="collapse" href="#images" role="button" aria-expanded="false"--}}
-{{--               aria-controls="images">--}}
-{{--                <i class="fa fa-image"></i>--}}
-{{--                <span>Ảnh</span>--}}
-{{--            </a>--}}
-{{--            <div class="collapse" id="images">--}}
-{{--                <ul class="nav flex-column">--}}
-{{--                    <li class="nav-item {{ Nav::isRoute('images.create') }}">--}}
-{{--                        <a class="nav-link" href="{{ route('images.create') }}">--}}
-{{--                            <span>Thêm ảnh mới</span>--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
-{{--                    <li class="nav-item {{ Nav::isRoute('images.index') }}">--}}
-{{--                        <a class="nav-link" href="{{ route('images.index') }}">--}}
-{{--                            <span>Danh sách ảnh</span>--}}
-{{--                        </a>--}}
-{{--                    </li>--}}
+        <li class="nav-item">
+            <a class="nav-link" data-toggle="collapse" href="#images" role="button" aria-expanded="false"
+               aria-controls="images">
+                <i class="fa fa-image"></i>
+                <span>Ảnh</span>
+            </a>
+            <div class="collapse" id="images">
+                <ul class="nav flex-column">
+                    <li class="nav-item {{ Nav::isRoute('images.create') }}">
+                        <a class="nav-link" href="{{ route('images.create') }}">
+                            <span>Thêm ảnh mới</span>
+                        </a>
+                    </li>
+                    <li class="nav-item {{ Nav::isRoute('images.index') }}">
+                        <a class="nav-link" href="{{ route('images.index') }}">
+                            <span>Danh sách ảnh</span>
+                        </a>
+                    </li>
 
-{{--                </ul>--}}
-{{--            </div>--}}
-{{--        </li>--}}
+                </ul>
+            </div>
+        </li>
         <li class="nav-item">
             <a class="nav-link" data-toggle="collapse" href="#libraries" role="button" aria-expanded="false"
                aria-controls="libraries">
@@ -201,7 +201,23 @@
             </a>
         </li>
 
-        <!-- Divider -->
+        @if (Auth::check() && Auth::user()->email == 'nguyenthiphuongthao@waterfrontcity.vn')
+            <li class="nav-item {{ Nav::isRoute('users.index') }}">
+                <a class="nav-link" href="{{ route('users.index') }}">
+                    <i class="fas fa-fw fa-id-card"></i>
+                    <span>{{ __('Quản lý tài khoản') }}</span>
+                </a>
+            </li>
+
+            <li class="nav-item {{ Nav::isRoute('register') }}">
+                <a class="nav-link" href="{{ route('register') }}">
+                    <i class="fas fa-fw fa-user-plus"></i>
+                    <span>{{ __('Đăng kí tài khoản') }}</span>
+                </a>
+            </li>
+         @endif
+
+    <!-- Divider -->
         <hr class="sidebar-divider d-none d-md-block">
 
         <!-- Sidebar Toggler (Sidebar) -->

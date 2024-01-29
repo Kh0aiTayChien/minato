@@ -15,14 +15,17 @@
     </form>
 </div>
 <div class="secret d-none">
-    <img src="{{asset('images/tien-do/1E.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/2E.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/3E.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/4E.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/5E.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/6E.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/7E.jpg')}}" alt="" class="w-100">
-    <img src="{{asset('images/tien-do/8E.jpg')}}" alt="" class="w-100">
+    @foreach($images_tien_do_ja as $image)
+        <img src="{{$image->image_url}}" class="w-100 img-fluid" alt="img-slide">
+    @endforeach
+{{--    <img src="{{asset('images/tien-do/1E.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/2E.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/3E.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/4E.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/5E.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/6E.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/7E.jpg')}}" alt="" class="w-100">--}}
+{{--    <img src="{{asset('images/tien-do/8E.jpg')}}" alt="" class="w-100">--}}
 </div>
 <style>
     .btn {

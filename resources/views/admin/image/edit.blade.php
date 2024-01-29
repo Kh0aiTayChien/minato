@@ -99,15 +99,15 @@
 
                         <div class="pl-lg-4">
                             <div class="row">
-{{--                                <div class="col-lg-6">--}}
-{{--                                    <div class="form-group focused">--}}
-{{--                                        <label class="form-control-label" for="title">Tiêu đề ảnh<span--}}
-{{--                                                class="small text-danger">*</span></label>--}}
-{{--                                        <input type="text" id="name" class="form-control" name="name"--}}
-{{--                                               value="{{$image->name}}"--}}
-{{--                                               placeholder="tên ảnh">--}}
-{{--                                    </div>--}}
-{{--                                </div>--}}
+                                <div class="col-lg-6">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="title">Tiêu đề ảnh<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="name" class="form-control" name="name"
+                                               value="{{$image->name}}"
+                                               placeholder="tên ảnh">
+                                    </div>
+                                </div>
                                 <div class="col-lg-12">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="category">Chủ đề<span class="small text-danger">*</span></label>
@@ -126,8 +126,12 @@
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="image"> Upload ảnh tại đây <span
                                                 class="small text-danger">*</span></label>
-                                        <input type="file" id="image" class="form-control" name="image"
+                                        <input type="file" id="image" class="form-control" name="image_url"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
+                                        <div
+                                            class="small text-danger"> Ảnh PC kích thước theo tỷ lệ tiêu chuẩn 2000px x 812,5px, dung lượng ảnh không vượt quá 3mb</div>
+                                        <div
+                                            class="small text-danger">Ảnh Mobile kích thước theo tỷ lệ tiêu chuẩn 2000px x 3555px, dung lượng ảnh không vượt quá 2mb</div>
                                     </div>
                                 </div>
                             </div>

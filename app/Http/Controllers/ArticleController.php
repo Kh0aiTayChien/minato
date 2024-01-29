@@ -29,7 +29,7 @@ class ArticleController extends Controller
 
         $articles = $query->paginate($paginate);
         return view('admin/article/index',
-            compact('articles', 'conditionView' , 'paginate', 'searchType', 'conditionView'));
+            compact('articles', 'conditionView', 'paginate', 'searchType', 'conditionView'));
     }
 
     public function create()

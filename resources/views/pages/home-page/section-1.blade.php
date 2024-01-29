@@ -13,43 +13,49 @@
                         aria-label="Slide 4" aria-current="true"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <a href="#footer"><img src="{{asset('images/homepage/section-1/P11.jpg')}}" class="img-slide img-fluid normal-screen"
-                         alt="img-slide"></a>
-                    <a href="#footer"><img src="{{asset('images/homepage/section-1/L11.jpg')}}" class="img-slide img-fluid long-screen"
-                         alt="img-slide"></a>
-                </div>
+                @foreach($images_vietnamese_pc as $key => $image)
+                    <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
+                        <img src="{{$image->image_url}}" class="img-slide img-fluid" alt="img-slide" data-url="{{$image->url}}">
+                    </div>
+                @endforeach
+                {{--                <div class="carousel-item active">--}}
+                {{--                    <a href="#footer"><img src="{{asset('images/homepage/section-1/eng/P11.jpg')}}" class="img-slide img-fluid normal-screen"--}}
+                {{--                         alt="img-slide"></a>--}}
+                {{--                    <a href="#footer"><img src="{{asset('images/homepage/section-1/eng/L11.jpg')}}" class="img-slide img-fluid "--}}
+                {{--                         alt="img-slide"></a>--}}
+                {{--                </div>--}}
+                {{--                <div class="carousel-item">--}}
+                {{--                    <a href="#footer"><img src="{{asset('images/homepage/section-1/eng/P22.jpg')}}" class="img-slide img-fluid normal-screen"--}}
+                {{--                         alt="img-slide"></a>--}}
+                {{--                    <a href="#footer"><img src="{{asset('images/homepage/section-1/eng/L22.jpg')}}" class=" img-slide img-fluid "--}}
+                {{--                         alt="img-slide"></a>--}}
+                {{--                </div>--}}
+                {{--                <div class="carousel-item">--}}
+                {{--                    <a href="#footer"><img src="{{asset('images/homepage/section-1/eng/P33.jpg')}}" class="img-slide img-fluid normal-screen"--}}
+                {{--                         alt="img-slide"></a>--}}
+                {{--                    <a href="#footer"><img src="{{asset('images/homepage/section-1/eng/L33.jpg')}}" class="img-slide img-fluid "--}}
+                {{--                         alt="img-slide"></a>--}}
+                {{--                </div>--}}
                 <div class="carousel-item">
-                    <a href="#footer"><img src="{{asset('images/homepage/section-1/P22.jpg')}}" class="img-slide img-fluid normal-screen"
-                         alt="img-slide"></a>
-                    <a href="#footer"><img src="{{asset('images/homepage/section-1/L22.jpg')}}" class=" img-slide img-fluid long-screen"
-                         alt="img-slide"></a>
-                </div>
-                <div class="carousel-item">
-                    <a href="#footer"><img src="{{asset('images/homepage/section-1/P33.jpg')}}" class="img-slide img-fluid normal-screen"
-                         alt="img-slide"></a>
-                    <a href="#footer"><img src="{{asset('images/homepage/section-1/L33.jpg')}}" class="img-slide img-fluid long-screen"
-                         alt="img-slide"></a>
-                </div>
-                <div class="carousel-item">
-                    <video class="d-block w-100 embed-responsive" autoplay muted loop>
+                    <video class="embed-responsive-item img-fluid w-100" style="" autoplay muted loop>
                         <source src="{{asset('images/homepage/section-1/video.mp4')}}" type="video/mp4">
                         Your browser does not support the video tag.
                     </video>
                 </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#section-1-carousel"
-                    data-bs-slide="prev">
-                <img src="{{asset('images/button/left.png')}}" alt="Previous" class="button-shake img-carousel-arrow">
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#section-1-carousel"
-                    data-bs-slide="next">
-                <img src="{{asset('images/button/right.png')}}" alt="Next" class="button-shake img-carousel-arrow">
-                <span class="visually-hidden">Next</span>
-            </button>
         </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#section-1-carousel"
+                data-bs-slide="prev">
+            <img src="{{asset('images/button/left.png')}}" alt="Previous" class="button-shake img-carousel-arrow">
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#section-1-carousel"
+                data-bs-slide="next">
+            <img src="{{asset('images/button/right.png')}}" alt="Next" class="button-shake img-carousel-arrow">
+            <span class="visually-hidden">Next</span>
+        </button>
     </div>
+</div>
 </div>
 
 
@@ -65,18 +71,11 @@
                         aria-label="Slide 3" aria-current="true"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img src="{{asset('images/homepage/section-1/m3.jpg')}}" class="img-slide img-fluid"
-                         alt="img-slide" style="height: 092vh">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('images/homepage/section-1/m2.jpg')}}" class="img-slide img-fluid "
-                         alt="img-slide" style="height: 092vh">
-                </div>
-                <div class="carousel-item">
-                    <img src="{{asset('images/homepage/section-1/m1.jpg')}}" class="img-slide img-fluid "
-                         alt="img-slide" style="height: 092vh">
-                </div>
+                @foreach($images_vietnamese_mobile as $key => $image)
+                    <div class="carousel-item  {{$key == 0 ? 'active' : ''}}">
+                        <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}" style="height: 092vh">
+                    </div>
+                @endforeach
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#section-m1-carousel"
                     data-bs-slide="prev">

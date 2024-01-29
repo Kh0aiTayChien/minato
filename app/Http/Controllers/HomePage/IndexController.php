@@ -24,6 +24,37 @@ class IndexController extends Controller
     public function index(Request $request)
     {
         $articles = Article::all();
+
+        $categoryImgSlug = "slide-trang-chu-tieng-anh-pc";
+        $images_eng_pc = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
+            $query->where('slug', $categoryImgSlug);
+        })->get();
+
+        $categoryImgSlug = "slide-trang-chu-tieng-viet-pc";
+        $images_viet_pc = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
+            $query->where('slug', $categoryImgSlug);
+        })->get();
+
+        $categoryImgSlug = "slide-trang-chu-tieng-nhat-pc";
+        $images_japan_pc = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
+            $query->where('slug', $categoryImgSlug);
+        })->get();
+
+        $categoryImgSlug = "slide-trang-chu-tieng-anh-mobile";
+        $images_eng_mobile = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
+            $query->where('slug', $categoryImgSlug);
+        })->get();
+
+        $categoryImgSlug = "slide-trang-chu-tieng-viet-mobile";
+        $images_viet_mobile = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
+            $query->where('slug', $categoryImgSlug);
+        })->get();
+
+        $categoryImgSlug = "slide-trang-chu-tieng-nhat-mobile";
+        $images_japan_mobile = Image::whereHas('category', function ($query) use ($categoryImgSlug) {
+            $query->where('slug', $categoryImgSlug);
+        })->get();
+
         SEOMeta::setTitle('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc');
         SEOMeta::setDescription('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc
         Đầu tiên tại Miền Bắc. Công viên Sakura rộng 3000m2. Tinh hoa Nhật Bản - An yên giữa lòng phố Cảng' );
@@ -42,7 +73,15 @@ class IndexController extends Controller
         JsonLd::setDescription('THE MINATO RESIDENCE - Căn hộ cao cấp chuẩn 100% Nhật Đầu tiên tại Miền Bắc
         Đầu tiên tại Miền Bắc. Công viên Sakura rộng 3000m2. Tinh hoa Nhật Bản - An yên giữa lòng phố Cảng' );
         JsonLd::addImage('https://theminatoresidence.vn/images/homepage/section-1/L11.jpg');
-        return view('pages/home-page/index', ['articles' => $articles]);
+        return view('pages/home-page/index', [
+            'articles' => $articles,
+            'images_english_pc' => $images_eng_pc,
+            'images_vietnamese_pc' => $images_viet_pc,
+            'images_japanese_pc' => $images_japan_pc,
+            'images_english_mobile' => $images_eng_mobile,
+            'images_vietnamese_mobile' => $images_viet_mobile,
+            'images_japanese_mobile' => $images_japan_mobile,
+        ]);
     }
 
     public function send(Request $request)

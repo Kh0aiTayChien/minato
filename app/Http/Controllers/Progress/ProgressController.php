@@ -17,6 +17,25 @@ class ProgressController extends Controller
 {
     public function index(Request $request)
     {
-        return view('pages/Tien-do/index');
+        $categoryImgSlugVi = "slide-tien-do-vi";
+        $images_tien_do_vi = Image::whereHas('category', function ($query) use ($categoryImgSlugVi) {
+            $query->where('slug', $categoryImgSlugVi);
+        })->get();
+
+        $categoryImgSlugEn = "slide-tien-do-en";
+        $images_tien_do_en = Image::whereHas('category', function ($query) use ($categoryImgSlugEn) {
+            $query->where('slug', $categoryImgSlugEn);
+        })->get();
+
+        $categoryImgSlugJa = "slide-tien-do-ja";
+        $images_tien_do_ja = Image::whereHas('category', function ($query) use ($categoryImgSlugJa) {
+            $query->where('slug', $categoryImgSlugJa);
+        })->get();
+        return view('pages/Tien-do/index',
+            [
+                'images_tien_do_vi' => $images_tien_do_vi,
+                'images_tien_do_en' => $images_tien_do_en,
+                'images_tien_do_ja' => $images_tien_do_ja,
+            ]);
     }
 }

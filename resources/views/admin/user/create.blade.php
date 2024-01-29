@@ -86,24 +86,24 @@
 
                 <div class="card-body">
 
-                    <form method="POST" action="{{route('images.store')}}" autocomplete="off" enctype="multipart/form-data">
+                    <form method="POST" action="{{route('articles.store')}}" autocomplete="off" enctype="multipart/form-data">
                         <input type="hidden" name="_token" value="{{ csrf_token() }}">
 
                         <input type="hidden" name="_method" value="POST">
 
-                        <h6 class="heading-small text-muted mb-4">Tạo ảnh slide mới </h6>
+                        <h6 class="heading-small text-muted mb-4">Tạo bài viết mới </h6>
 
                         <div class="pl-lg-4">
                             <div class="row">
-                                <div class="col-lg-6">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
-                                        <label class="form-control-label" for="title">Tiêu đề ảnh<span
+                                        <label class="form-control-label" for="title">Tiêu đề<span
                                                 class="small text-danger">*</span></label>
-                                        <input type="text" id="name" class="form-control" name="name"
-                                               placeholder="tên ảnh">
+                                        <input type="text" id="title" class="form-control" name="title"
+                                               placeholder="tiêu đề của bài viết">
                                     </div>
                                 </div>
-                                <div class="col-lg-12">
+                                <div class="col-lg-4">
                                     <div class="form-group focused">
                                         <label class="form-control-label" for="category">Chủ đề<span class="small text-danger">*</span></label>
                                         <select id="category" class="form-control" name="category">
@@ -114,19 +114,49 @@
                                         </select>
                                     </div>
                                 </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="slug">Slug<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="text" id="slug" class="form-control" name="slug"
+                                               placeholder="link không dấu của bài viết">
+                                    </div>
+                                </div>
                             </div>
 
                             <div class="row">
                                 <div class="col-lg-12">
-                                    <div class="form-group focused">
-                                        <label class="form-control-label" for="image"> Upload ảnh tại đây <span
+                                    <div class="form-group">
+                                        <label class="form-control-label" for="content">Nội dung <span
+                                                class="small text-danger">*</span><span
                                                 class="small text-danger">*</span></label>
-                                        <input type="file" id="image" class="form-control" name="image_url"
+                                        <textarea class="form-control" id="editor" name="content" rows="10"> </textarea>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="order_number">Số thự tự<span
+                                                class="small text-danger">*</span></label>
+                                        <input type="number" id="order_number" class="form-control" name="order_number"
+                                               placeholder="Số thự tự - mặc định là 1">
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="status">Trạng thái<span
+                                                class="small text-danger">*</span></label>
+                                        <select class="form-control" id="status" name="status">
+                                            <option value="0">Draft</option>
+                                            <option value="1">Published</option>
+                                        </select>
+                                    </div>
+                                </div>
+                                <div class="col-lg-4">
+                                    <div class="form-group focused">
+                                        <label class="form-control-label" for="image"> Ảnh cho bài viết <span
+                                                class="small text-danger">*</span></label>
+                                        <input type="file" id="image" class="form-control" name="image"
                                                placeholder="chọn file ảnh" onchange="previewImage(event)">
-                                        <div
-                                            class="small text-danger"> Ảnh PC kích thước theo tỷ lệ tiêu chuẩn 2000px x 812,5px, dung lượng ảnh không vượt quá 3mb</div>
-                                        <div
-                                            class="small text-danger">Ảnh Mobile kích thước theo tỷ lệ tiêu chuẩn 2000px x 3555px, dung lượng ảnh không vượt quá 2mb</div>
                                     </div>
                                 </div>
                             </div>
