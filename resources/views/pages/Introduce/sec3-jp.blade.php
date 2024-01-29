@@ -16,8 +16,7 @@
     <div class="row-test">
         <div class="col-6"></div>
         <p class="col-5 text-sec3-intro-pc NotoSerifJP space-15">
-            日本の港区からインスピレーションを得て、先進的なデザインと、静謐でありながら活力に満ちた自然の景観を融合させた空間を演出しています。
-            <br>コンドミニアム2棟の間に位置する桜公園をはじめ、スイミングプール、ジム、パーティルーム、屋内外に用意されたキッズスペースなど、充実の共用施設によって、敷地内で活力に満ちた日常を謳歌できます。
+            東京の港区からインスピレーションを得て、先進的なデザインと、静謐でありながら活力に満ちた自然の景観を融合させた空間を演出しています。コンドミニアム2棟の間に位置するサクラパークをはじめ、スイミングプール、ジム、パーティルーム、屋内外に用意されたキッズスペースなど、充実の共用施設とともに活力に満ちた日常を謳歌できます。
         </p>
     </div>
 
@@ -33,7 +32,7 @@
     <p class="header-second-line-intro-mb line-height-cap NotoSerifJP">日常を謳歌する</p>
     {{--    <p class="header-third-line-intro-mb line-height-cap icielbegum pt-1">{{__('introduction/section3.mainTitle2m1')}} </p>--}}
     {{--    <p class="header-third-line-intro-mb line-height-cap icielbegum"> {{__('introduction/section3.mainTitle2m2')}}</p>--}}
-    <p class="text-sec3-intro-mb NotoSerifJP">日本の港区からインスピレーションを得て、先進的なデザインと、静謐でありながら活力に満ちた自然の景観を融合させた空間を演出しています。
-        <br>コンドミニアム2棟の間に位置する桜公園をはじめ、スイミングプール、ジム、パーティルーム、屋内外に用意されたキッズスペースなど、充実の共用施設によって、敷地内で活力に満ちた日常を謳歌できます。
+    <p class="text-sec3-intro-mb NotoSerifJP">
+        東京の港区からインスピレーションを得て、先進的なデザインと、静謐でありながら活力に満ちた自然の景観を融合させた空間を演出しています。コンドミニアム2棟の間に位置するサクラパークをはじめ、スイミングプール、ジム、パーティルーム、屋内外に用意されたキッズスペースなど、充実の共用施設とともに活力に満ちた日常を謳歌できます。
     </p>
 </div>
