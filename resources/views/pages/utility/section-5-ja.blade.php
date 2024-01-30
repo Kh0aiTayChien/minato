@@ -172,7 +172,7 @@
                 <div class="d-block d-md-none mulish-extrabold text-uppercase mb-3" style="font-size: 13px; color: white; padding-top: 0.5%"> Cherry Blossoms in the City of Red Flamboyant </div>
                 <img src="{{asset('images/utility/doc1.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block pb-5">
                 <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify; font-size: 13px">
-                    約3000m2の広大な敷地には、桜が咲き誇る中央広場、緑豊かな木々に囲まれた木陰の遊歩道、穏やかな自然環境を備えています。
+                    約3,000㎡の広大な敷地には、桜が咲き誇る中央広場、緑豊かな木々に囲まれた木陰の遊歩道を備えています。
                 </div>
             </div>
             <div class="mg02"style="">
@@ -183,7 +183,7 @@
                 <div class="d-block d-md-none mulish-extrabold text-uppercase mb-3" style="font-size: 13px; color: white; padding-top: 0.5%"> A Colorful Nursery Nurturing Young Seeds  </div>
                 <img src="{{asset('images/utility/doc2.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block pb-5">
                 <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify; font-size: 13px">
-                    豊かな芝生が生い茂る自然の生態系に囲まれた、爽やかでリラックスした雰囲気のエリア。このエリアは、子供たちが広大で多様な自然と密接につながり、開放的で広々とした環境の中で視野を広げ、国際色豊かなコミュニティと関わる空間を提供します。
+                    豊かな芝生が生い茂る自然の生態系に囲まれた、爽やかなリラックスした雰囲気のエリア。
                 </div>
             </div>
             <div class="mg02"style="">
@@ -194,7 +194,7 @@
                 <div class="d-block d-md-none mulish-extrabold text-uppercase mb-3" style="font-size: 13px; color: white; padding-top: 0.5%"> Overflowing with joy and happiness  </div>
                 <img src="{{asset('images/utility/doc3.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block pb-5">
                 <div class="d-block d-md-none d-block d-md-none cabin-medium text-white" style="text-align: justify; font-size: 13px;">
-                    屋内の遊び場として、安全性に考慮されたレイアウト・設備となっており、ご両親が安心して利用できる空間づくりをしています。
+                    屋内の遊び場として、安全性に考慮されたレイアウト・設備。親子で安心して利用できる空間です。
                 </div>
             </div>
             <div class="mg02"style="">
@@ -216,7 +216,7 @@
                 <div class="d-block d-md-none mulish-extrabold text-uppercase mb-3" style="font-size: 13px; color: white; padding-top: 0.5%">Luxurious Reception Space of Distinction</div>
                 <img src="{{asset('images/utility/doc6.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block pb-5">
                 <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px">
-                    シンプルさとラグジュアリーなアメニティが融合し、いつ訪れても心地よい温もりを感じられます。サービスの質からスタッフの対応まで、すべてが国際的な5つ星の基準を満たしています。
+                    シンプルさとラグジュアリーなアメニティが融合し、心地よいおもてなしを感じられます。
                 </div>
             </div>
             <div class="mg02"style="">
@@ -227,18 +227,18 @@
                 <div class="d-block d-md-none mulish-extrabold text-uppercase mb-3" style="font-size: 13px; color: white; padding-top: 0.5%">Energize Your Life with a Modern Gym </div>
                 <img src="{{asset('images/utility/doc6.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block pb-5">
                 <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px">
-                    ジムには、最新のトレンドに対応した一流のエクササイズ器具が充実しており、居住者の皆様に完璧な運動の機会を提供します。ジムの開放的なデザインからは、自然豊かな景観を見渡すことができ、運動不足の解消やリラクゼーションのひとときに最適です。居住者の皆様にとって、一日の疲れを癒し、ストレスを解消し、活力を高める理想的な空間となっています。
+                    最新のトレンドに対応したエクササイズ器具が充実しています。居住者の皆さまが、一日の疲れを癒し、ストレスを解消し、活力を高める理想的な空間となっています。
                 </div>
             </div>
             <div class="mg02"style="">
                 <img src="{{asset('images/utility/Mask group.png')}}" alt="" class="img-fluid">
-                <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> CAFE ROOFTOP</div>
-                <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 6%"> CAFE ROOFTOP</div>
+                <div class="icielbegum d-none d-md-block" style="font-size: 3rem; color: #EFD483; padding-top: 1%"> ROOFTOP GARDEN</div>
+                <div class="icielbegum d-block d-md-none" style="font-size: 1.563rem; color: #EFD483; padding-top: 6%"> ROOFTOP GARDEN</div>
                 <div class="d-none d-md-block mulish-extrabold text-uppercase mb-5" style="font-size: 1.25rem; color: white; padding-top: 0.5%">Rooftop Cafe with a Panoramic View of Hai Phong City and Lach Tray River</div>
                 <div class="d-block d-md-none mulish-extrabold text-uppercase mb-3" style="font-size: 13px; color: white; padding-top: 0.5%">Rooftop Cafe with a Panoramic View of Hai Phong City and Lach Tray River</div>
                 <img src="{{asset('images/utility/doc7.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block pb-5">
                 <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px">
-                    ゆったりとした時間をお過ごしいただくために、屋上には開放感あふれる眺望をお楽しみいただけるルーフトップカフェをご用意しております。
+                    ゆったりとした時間をお過ごしいただくために、屋上の解放感あふれる眺望をお楽しみいただけるルーフトップガーデンを開放しています。
                 </div>
             </div>
             <div class="mg02"style="">
@@ -249,7 +249,7 @@
                 <div class="d-block d-md-none mulish-extrabold text-uppercase mb-3" style="font-size: 13px; color: white; padding-top: 0.5%">Immerse Yourself in Cool, Refreshing Water</div>
                 <img src="{{asset('images/utility/doc8.png')}}" alt="" style="margin-left: 0.2%" class="img-fluid d-none d-md-block pb-5">
                 <div class="d-block d-md-none d-block d-md-none cabin-medium text-white " style="text-align: justify; font-size: 13px; ">
-                    この開放感に浸りながら、心身ともにゆったりとくつろぐことができます。居住者の皆様が毎日心地よい寛ぎを享受できるよう、上質で万全の体制を整えています。
+                    居住者の皆さまはプールをご利用いただけます。開放感あふれるプールで、寛ぎとやすらぎの空間を提供します。
                 </div>
             </div>
         </div>

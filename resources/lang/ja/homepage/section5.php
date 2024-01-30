@@ -7,10 +7,10 @@ return [
     utilities. The Minato Residence brings a modern and luxurious green city where residents can fully
     experience Japanese-standard utilities and a friendly environment.",
 
-    "subTitleSlide1" => "SAKURA PARK",
+    "subTitleSlide1" => "さくらパーク",
     "subDocumentSlide1" => "",
 
-    "subTitleSlide2" => "CHILDREN'S PLAYGROUND",
+    "subTitleSlide2" => "キッズグラウンド",
     "subDocumentSlide2" => "",
 
     "subTitleSlide3" => "屋外スイミングプール",
