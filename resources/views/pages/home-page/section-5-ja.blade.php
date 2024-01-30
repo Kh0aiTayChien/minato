@@ -4,8 +4,8 @@
             <div class="col-xs-12 col-md-7 ">
                 <div class="NotoSerifJP   text-white mb-5 d-none d-md-block" style="font-size: 21px; letter-spacing: 0.35rem; line-height: 0.55"> 公共施設</div>
                 <div class="NotoSerifJP   text-white mb-1 d-md-none text-center" style="font-size: 15px; letter-spacing: 0.35rem;"> 公共施設</div>
-                <div class="NotoSerifJP   yellow-light-color d-none d-md-block" style="font-size: 2.66vw; line-height: 0.55"> 自然を享受する暮らし</div>
-                <div class="NotoSerifJP   yellow-light-color d-md-none text-center mt-3 mb-3" style="font-size: 29px; line-height: 0.55">自然を享受する暮らし</div>
+                <div class="NotoSerifJP   yellow-light-color d-none d-md-block" style="font-size: 2.66vw; line-height: 0.55"> 自然と調和した豊かなライフスタイルへ</div>
+                <div class="NotoSerifJP   yellow-light-color d-md-none text-center mt-3 mb-3" style="font-size: 29px; line-height: 0.55">自然と調和した豊かなライフスタイルへ</div>
             </div>
             <div class="col-xs-12 col-md-5 text-white">
                 <div class=" d-md-flex align-content-start justify-content-end d-none d-md-block" style="width: 100%; text-align: justify; letter-spacing: 1px">
