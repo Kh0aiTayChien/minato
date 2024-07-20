@@ -11,6 +11,8 @@
                         aria-label="Slide 3" aria-current="true"></button>
                 <button type="button" data-bs-target="#section-1-carousel" data-bs-slide-to="3" class=""
                         aria-label="Slide 4" aria-current="true"></button>
+                <button type="button" data-bs-target="#section-1-carousel" data-bs-slide-to="4" class=""
+                        aria-label="Slide 5" aria-current="true"></button>
             </div>
             <div class="carousel-inner">
                 @foreach($images_vietnamese_pc as $key => $image)
@@ -37,10 +39,21 @@
                 {{--                         alt="img-slide"></a>--}}
                 {{--                </div>--}}
                 <div class="carousel-item">
-                    <video class="embed-responsive-item img-fluid w-100" style="" autoplay muted loop>
-                        <source src="{{asset('images/homepage/section-1/video.mp4')}}" type="video/mp4">
-                        Your browser does not support the video tag.
-                    </video>
+                    <div class="plyr__video-embed js-player ">
+                        <video controls  autoplay muted  class="embed-responsive-item img-fluid w-100">
+                            <source src="{{ asset('images/homepage/section-1/video.mp4') }}" type="video/mp4" class="">
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="plyr__video-embed" id="player">
+                        <iframe
+                            src="https://www.youtube.com/embed/q9jUHH95nds?si=hzfpUjUtechRnZDT"
+                            allowfullscreen
+                            allow="autoplay"
+                        ></iframe>
+                    </div>
                 </div>
             </div>
         </div>

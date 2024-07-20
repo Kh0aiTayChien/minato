@@ -9,7 +9,7 @@
         <input class="col-md-3 col-xs-12 input-tien-do shadow-effect border-0 mulish-extrabold px-3" style="height: 3rem; font-size: 15px"
                placeholder="OTP CODE" type="number" id="fullnamem" name="OTP" required ><br>
         <div class="btn btn-outline-info p-1 border-3 ms-3" style="border-color: #133351">
-            <div class="btn text-white mulish-extrabold px-4" style="background-color: #133351; font-size: 15px">
+            <div class="btn mulish-extrabold px-4" style="background-color: #133351; font-size: 15px; color: #133351">
                 OK</div>
         </div>
     </form>

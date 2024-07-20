@@ -321,13 +321,16 @@
 
         <div class="row tab tab2 flag-video mt-5 gy-4 gx-0 " style="">
             <div class="row">
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-4 col-xs-12">
                     <a href="https://www.youtube.com/watch?v=upz0p-KoE8U" target="_blank">
                         <img src="{{asset('images/thuvien/video/video1.png')}}" alt="" class="img-fluid">
                     </a>
 
                 </div>
-                <div class="col-md-6 col-xs-12">
+                <div class="col-md-4 col-xs-12">
+                    <a href="https://www.youtube.com/watch?v=q9jUHH95nds&t=1s" target="_blank">
+                        <img src="{{asset('images/thuvien/video/video1.png')}}" alt="" class="img-fluid">
+                    </a>
                 </div>
             </div>
         </div>

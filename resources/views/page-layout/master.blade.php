@@ -56,11 +56,24 @@
     <link href="{{asset('/css/product-v/sec3.css')}}" rel="stylesheet">
     <link href="{{asset('/css/contact-v/sec2.css')}}" rel="stylesheet">
     <link href="{{asset('/css/tien-do/sec2.css')}}" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.plyr.io/3.6.8/plyr.css" />
+    <script src="https://cdn.plyr.io/3.6.8/plyr.js"></script>
     {!! SEO::generate() !!}
     <style>
         body {
             overflow-x: hidden;
             touch-action: pan-y;
+        }
+    </style>
+    <style>
+        .my-video {
+            height: 500px; /* Thiết lập chiều cao cho video */
+        }
+
+        .my-video video {
+            height: 100%; /* Đảm bảo video chiếm toàn bộ chiều cao của container */
+            width: 100%; /* Đảm bảo video chiếm toàn bộ chiều rộng của container */
+            object-fit: cover; /* Đảm bảo video giữ tỷ lệ và cắt để vừa với container nếu cần */
         }
     </style>
 </head>
@@ -85,6 +98,9 @@
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
     AOS.init();
+</script>
+<script>
+    const player = new Plyr('#player');
 </script>
 </body>
 </html>
