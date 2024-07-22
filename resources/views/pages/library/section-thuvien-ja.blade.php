@@ -329,7 +329,7 @@
                 </div>
                 <div class="col-md-4 col-xs-12">
                     <a href="https://www.youtube.com/watch?v=q9jUHH95nds&t=1s" target="_blank">
-                        <img src="{{asset('images/thuvien/video/video1.png')}}" alt="" class="img-fluid">
+                        <img src="{{asset('images/thuvien/video/video2.png')}}" alt="" class="img-fluid">
                     </a>
                 </div>
             </div>
