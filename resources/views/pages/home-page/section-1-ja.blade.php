@@ -116,8 +116,6 @@
                         aria-label="Slide 5" aria-current="true"></button>
                 <button type="button" data-bs-target="#section-m1-carousel" data-bs-slide-to="5" class=""
                         aria-label="Slide 6" aria-current="true"></button>
-                <button type="button" data-bs-target="#section-m1-carousel" data-bs-slide-to="6" class=""
-                        aria-label="Slide 7" aria-current="true"></button>
             </div>
             <div class="carousel-inner">
                 @foreach($images_japanese_mobile as $key => $image)
@@ -125,40 +123,28 @@
                         <img src="{{$image->image_url}}" class="img-slide" alt="img-slide" data-url="{{$image->url}}" style="height: 092vh">
                     </div>
                 @endforeach
+{{--                    <div class="carousel-item">--}}
+{{--                        <div class="plyr__video-embed js-player ">--}}
+{{--                            <video controls  autoplay muted  class="embed-responsive-item img-fluid w-100">--}}
+{{--                                <source src="{{ asset('images/homepage/section-1/video.mp4') }}" type="video/mp4" class="">--}}
+{{--                                Your browser does not support the video tag.--}}
+{{--                            </video>--}}
+{{--                        </div>--}}
+{{--                    </div>--}}
                     <div class="carousel-item">
-                        <div class="plyr__video-embed js-player ">
-                            <video controls  autoplay muted  class="embed-responsive-item img-fluid w-100">
-                                <source src="{{ asset('images/homepage/section-1/video.mp4') }}" type="video/mp4" class="">
-                                Your browser does not support the video tag.
-                            </video>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=q9jUHH95nds&t=1s" target="_blank">
+                            <img src="{{asset('images/thuvien/video/1mobile.png')}}" alt="" class="" style="height: 100vh;  object-fit: cover; transform: translateX(-10%);">
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <div class="plyr__video-embed" id="player">
-                            <iframe
-                                src="https://www.youtube.com/embed/q9jUHH95nds?si=hzfpUjUtechRnZDT"
-                                allowfullscreen
-                                allow="autoplay"
-                            ></iframe>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=Zvv4zz-aAVs" target="_blank">
+                            <img src="{{asset('images/thuvien/video/2mobile.png')}}" alt="" class="" style="height: 100vh; object-fit: cover; transform: translateX(-10%)" >
+                        </a>
                     </div>
                     <div class="carousel-item">
-                        <div class="plyr__video-embed" id="player">
-                            <iframe
-                                src="https://www.youtube.com/embed/Zvv4zz-aAVs?si=2DNR3M0lreVwP2FR"
-                                allowfullscreen
-                                allow="autoplay"
-                            ></iframe>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="plyr__video-embed" id="player">
-                            <iframe
-                                src="https://www.youtube.com/embed/AXrDENRvRwM?si=0Rw1PRR7Qc_-E74D"
-                                allowfullscreen
-                                allow="autoplay"
-                            ></iframe>
-                        </div>
+                        <a href="https://www.youtube.com/watch?v=AXrDENRvRwM" target="_blank">
+                            <img src="{{asset('images/thuvien/video/3mobile.png')}}" alt="" class="" style="height: 100vh; object-fit: cover; transform: translateX(-10%)">
+                        </a>
                     </div>
             </div>
 

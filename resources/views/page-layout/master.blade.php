@@ -100,7 +100,12 @@
     AOS.init();
 </script>
 <script>
-    const player = new Plyr('#player');
+
 </script>
 </body>
+<style>
+    .plyr__controls {
+        display: none; /* Ẩn toàn bộ điều khiển của Plyr */
+    }
+</style>
 </html>
